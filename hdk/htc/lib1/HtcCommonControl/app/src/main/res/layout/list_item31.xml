@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItem
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.widget.AutoCompleteTextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:autoText="false"
+            style="@style/list_primary_m"
+            android:id="@+id/autotext">
+        </android.widget.AutoCompleteTextView>
+</com.htc.lib1.cc.widget.HtcListItem>

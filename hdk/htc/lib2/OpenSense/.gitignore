@@ -1,0 +1,17 @@
+bin
+gen
+.classpath
+.project
+.settings
+.externalToolBuilders
+ant.properties
+local.properties
+.ars
+result.log
+.gradle
+build
+out
+*.iml
+.idea/
+*.apk
+proguard-allmodules.txt

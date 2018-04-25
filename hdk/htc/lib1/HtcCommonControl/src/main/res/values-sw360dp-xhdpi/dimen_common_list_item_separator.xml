@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Sense 5.0 start -->
+    <dimen name="htc_list_item_separator_with_text_height">60px</dimen>
+    <dimen name="htc_list_item_separator_automotive_dark_height">60px</dimen>
+    <!-- Sense 5.0 end -->
+    <!-- not used in Sense 5.0 -->
+    <dimen name="htc_list_item_separator_with_actionbutton_height">60px</dimen>
+</resources>

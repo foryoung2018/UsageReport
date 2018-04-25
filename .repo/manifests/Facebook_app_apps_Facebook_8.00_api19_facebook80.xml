@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Facebook/8.00/api19/facebook80" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Facebook" path="app/packages/apps/Facebook" revision="app/apps/Facebook/8.00/api19/facebook80"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/Social_Library" path="app/hms_libs/Social_Library" revision="41aa20d00808df49a4541d23aa876df6afe00edf"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="c77977a76efe5c322d1f5721b6d371ac4d64cf8b"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="509b39879a6823f768d647c4e9a2581f6f9de8ed"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="d56f982b4c7e51380da3669946117ed192a617ef"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="5d8c81026736b8c470cf44eea978ff4353b362b0"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="1eaf3d6b11b1d595b6d189ee0094564cdaf0650e"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="e680647b71eaaaa9546a17fe5f6a20ad0e12b350"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="f056c7e8ffda57bf0f3dde018de1ade08c1a2786"/>
+</manifest>

@@ -1,0 +1,12 @@
+###############################################################################
+# PhotoPlatformCacheManager 
+###############################################################################
+
+# Keep objects
+-keep class com.htc.lib2.photoplatformcachemanager.** {*;}
+-keep class com.squareup.** {*;}
+
+# Ignore imgfeature and studio references
+-dontwarn okio.**
+-dontwarn imgfeature.**
+-dontwarn com.htc.studio.image.features.**

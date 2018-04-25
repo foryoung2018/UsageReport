@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2" >
+<!--
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_xl"
+        android:text="list_body_xl" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_l"
+        android:text="list_body_l" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_m"
+        android:text="list_body_m" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_s"
+        android:text="list_body_s" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_xs"
+        android:text="list_body_xs" />
+ -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_primary_xl"
+        android:text="list_body_primary_xl" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_primary_l"
+        android:text="list_body_primary_l" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_primary_m"
+        android:text="list_body_primary_m" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_primary_s"
+        android:text="list_body_primary_s" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_primary_xs"
+        android:text="list_body_primary_xs" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_secondary_xl"
+        android:text="list_body_secondary_xl" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_secondary_l"
+        android:text="list_body_secondary_l" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_secondary_m"
+        android:text="list_body_secondary_m" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_secondary_s"
+        android:text="list_body_secondary_s" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_body_secondary_xs"
+        android:text="list_body_secondary_xs" />
+
+</LinearLayout>
+</ScrollView>

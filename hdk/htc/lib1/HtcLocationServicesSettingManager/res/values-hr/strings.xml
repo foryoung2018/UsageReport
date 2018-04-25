@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC usluge lokacije</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC usluge lokacije</string><!--HTC Location Services-->
+    <string name="home_label">Kuća</string><!--Home-->
+    <string name="work_label">Posao</string><!--Work-->
+    <string name="location_picker">birač lokacije</string><!--location picker-->
+    <string name="clear_label">Očisti</string><!--Clear-->
+    <string name="description_label">Ručnim povezivanjem adrese ili Wi-Fi mreže s vašom lokacijom kod kuće ili na poslu suglasni ste dijeliti svoje %1$s i %2$s sa HTC Sense Home.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">precizna lokacija</string><!--precise location-->
+    <string name="precise_location_upper">Precizna lokacija</string><!--Precise location-->
+    <string name="personal_usage_data">osobni podaci o korištenju</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Osobni podaci o korištenju</string><!--Personal usage data-->
+    <string name="precise_location_description">Podijelite svoju %s radi dobivanja preporuka za najbliže restorane i druga mjesta.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Podijelite svoje %s poput aplikacija koje koristite, web stranica koje posjećujete i medijskih sadržaja koje gledate ili slušate radi dobivanja preporuka za aplikacije, vijesti i sadržaje.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Poveži adrese ili Wi-Fi mreže</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Poveži adrese ili Wi-Fi mreže</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">dodaj</string><!--add-->
+    <string name="no_content">Dodirnite &quot;+&quot; za dodavanje adreses ili Wi-Fi mreže</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi MREŽE</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESE</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi mreža</string><!--Wi-/Fi network-->
+    <string name="address_label">Adresa</string><!--Address-->
+    <string name="select_wifi_title">Odaberite jednu ili više mreža</string><!--Select one or more networks-->
+    <string name="remove_label">Ukloni</string><!--Remove-->
+    <string name="edit_label">Uredi</string><!--Edit-->
+    <string name="alert_dialog_ok">U redu</string><!--OK-->
+    <string name="alert_dialog_cancel">ODUSTANI</string><!--CANCEL-->
+    <string name="lib_app_name">HTC usluge lokacije</string><!--HTC location services-->
+    <string name="switch_mode_title">Promjena adrese lokacije</string><!--Address location change-->
+    <string name="switch_mode_home">Prethodno ste dodali ovu adresu kao lokaciju vašeg posla. Adresa može biti dodana samo jednoj lokaciji. Želite li je sada pretvoriti u lokaciju kuće?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Prethodno ste dodali ovu adresu kao lokaciju vaše kuće. Adresa može biti dodana samo jednoj lokaciji. Želite li je sada pretvoriti u lokaciju vašeg posla?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi je isključen</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Za povezivanje Wi-Fi mreže s ovom lokacijom najprije treba uključiti Wi-Fi u postavkama.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">POSTAVKE</string><!--SETTINGS-->
+    <string name="duplicate_address">Ova je adresa već dodana.</string><!--This address has already been added.-->
+    <string name="unknown_address">nepoznata adresa</string><!--unknown address-->
+    <string name="too_much_item">Dodali ste najveći broj lokacija.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Povezano</string><!--Connected-->
+    <string name="saved_label">Spremljeno</string><!--Saved-->
+    <string name="secured_label">Zaštićeno s %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Za pravilan rad ova aplikacija treba pristup lokaciji ovog uređaja. Nakon upita dajte dozvolu.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Za pravilan rad ova aplikacija treba pristup vašoj lokaciji. U postavkama možete upravljati dozvolama za %s.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ZATVORI</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">POSTAVKE</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC paket usluga</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Lokacijski izvori su onemogućeni</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Za ispravno funkcioniranje, ova aplikacija treba znati vašu lokaciju. Uključite lokacijski izvor u postavkama.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">POSTAVKA</string><!--SETTING-->
+    <string name="no_wifi_available">Nema dostupnih Wi-Fi mreža</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

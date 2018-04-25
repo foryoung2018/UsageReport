@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/DemoFLO/7.10/api21/develop" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/DemoFLO" path="app/packages/apps/DemoFLO" revision="app/apps/DemoFLO/7.10/api21/develop"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/DemoFLO" path="app/customization/packages/apps/DemoFLO" revision="app/apps/DemoFLO/master"/>
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Weather/6.1/api19" sync-j="4" HDKLib3Name="HDK_Lib3_API19_1_Stable" HDKLib3Ver="19.1"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Weather" path="app/packages/apps/Weather" revision="app/apps/Weather/6.1/api19"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="07b3d4c1ae03b5d33cc6aa5b9be22ee2bd7d9ce3"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="83f086c024223784b41807049051a21cffd2cac7"/>
+  <project name="app/hdk/htc/lib1/weatherlib1" path="hdk/htc/lib1/WeatherLib1" revision="128e62d29b884f232e42f07561b31fe20fe07a0d"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="bf96b3472a73f1dc142e7cd332844c185bcace7f"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="24c92896a181e7a40ff91c959f1188563cbb0881"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidprovidersettings" path="hdk/htc/lib3/HtcWrapandroidprovidersettings" revision="56ec1f527576db84cee8f774c4fa1f4f4375f585"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="9469f560575ace6c73782bd894b673a05ba89943"/>
+</manifest>

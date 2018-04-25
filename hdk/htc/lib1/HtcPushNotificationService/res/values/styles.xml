@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Using device default theme as app theme. -->
+    <style name="HTCPushTheme" parent="android:Theme.Holo.Light.NoActionBar" />
+
+    <!--
+    Theme with transparent background. 
+    The reason that we don't use android "Theme.Translucent.NoTitleBar" or "Theme.NoDisplay"
+    is becasue somehow they both apply Android 2.3 styles.
+    -->
+    <style name="HTCPushTranslucentTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

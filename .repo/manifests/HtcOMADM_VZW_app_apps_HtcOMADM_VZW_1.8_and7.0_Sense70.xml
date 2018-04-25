@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcOMADM_VZW/1.8/and7.0/Sense70" sync-j="4" HDKLib3Name="HDK_Lib3_API19_2_Stable" HDKLib3Ver="19.2"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcOMADM_VZW" path="app/packages/apps/HtcOMADM_VZW" revision="app/apps/HtcOMADM_VZW/1.8/and7.0/Sense70"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8005bc17a611496a17615a08b837e643f080489d"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="952ee4267e1eea6ed72aeaa883b9bef63a706869"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="0e1f1f27cff79806e19c27c44da08838d99df7eb"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="370964f80bd4753be1cff5b3822c2b1c3d1bdb3b"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="5a56dfe33a225c8f6a6cd53fde000d942919ba2d"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="f056c7e8ffda57bf0f3dde018de1ade08c1a2786"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="814b40253dfff3b8417482ef17bf307da583cfe0"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidappadmin" path="hdk/htc/lib3/HtcWrapandroidappadmin" revision="5f17c73992861cf052ee5a055591d40c1e33f542"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="e7a0d817c468af35385abbe04abf713fab46e705"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="259935b27cf11bd39b753d084befcd13d1a10bf3"/>
+  <project name="app/hdk/htc/lib3/htcintentlib3" path="hdk/htc/lib3/HtcIntentLib3" revision="525018b62663a90f224f180dab316fda1b0bac03"/>
+</manifest>

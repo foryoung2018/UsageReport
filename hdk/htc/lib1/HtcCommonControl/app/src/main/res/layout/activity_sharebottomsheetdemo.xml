@@ -1,0 +1,212 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/horizontal_divider_black"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="HtcShareActivity Demo: colorful header + white background + default title"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <EditText
+                android:id="@+id/planText"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="HtcShareActivity Demo: Share plain text..."
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/sharePlanText"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share plain text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/monkey_selfie_contentfullwidth" />
+
+            <Button
+                android:id="@+id/shareJpgImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share jpg image" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/binary_data" />
+
+            <Button
+                android:id="@+id/shareBinary"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share binary file" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <EditText
+                android:id="@+id/allowedPackages"
+                android:hint="input package names separated by semicolons (;)"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/shareToAllowedPackages"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share to Allowed Packages" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <EditText
+                android:id="@+id/blockedPackages"
+                android:hint="input package names separated by semicolons (;)"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/shareWithoutBlockedPackages"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share without blocked packages" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/giraffe" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/lion" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/goat" />
+
+            <Button
+                android:id="@+id/shareMultiImages"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share multiple images" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/monkey" />
+
+            <EditText
+                android:id="@+id/planTextMultiIntents"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="HtcShareActivity Demo: share data by different intents..."
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/shareMultiIntents"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share contents by multiple intents" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/location_on_map" />
+
+            <Button
+                android:id="@+id/shareLocation"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Share location" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

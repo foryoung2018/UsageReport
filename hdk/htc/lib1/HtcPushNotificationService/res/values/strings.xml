@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- Push client app label. -->
+    <string name="label_push_client">Push Client</string>
+
+</resources>

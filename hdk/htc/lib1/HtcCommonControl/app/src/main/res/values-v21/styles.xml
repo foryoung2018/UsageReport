@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="HtcPreference" parent="@style/HtcDeviceDefault">
+        <item name="android:textAppearanceListItem">@style/list_primary_m</item>
+        <item name="android:textAppearanceListItemSecondary">@style/list_secondary_m</item>
+        <item name="android:textColorSecondary">@color/light_primaryfont</item>
+        <item name="android:textColorPrimary">@color/light_primaryfont</item>
+        <item name="*android:textColorPrimaryActivated">@color/light_primaryfont</item>
+        <item name="*android:textColorSecondaryActivated">@color/light_primaryfont</item>
+    </style>
+</resources>

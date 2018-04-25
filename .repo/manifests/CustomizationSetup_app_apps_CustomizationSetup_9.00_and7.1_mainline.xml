@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/CustomizationSetup/9.00/and7.1/mainline" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/CustomizationSetup" path="app/packages/apps/CustomizationSetup" revision="app/apps/CustomizationSetup/9.00/and7.1/mainline"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/SetupWizardLib" path="app/hms_libs/SetupWizardLib" revision="fa3e4d0518664a3a58d28c7df2954dec9a4155b3"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ecb282271d8749fe52366823d2e247736cb2f59f"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="6d3b98ad21443ecb7ccbef641c2083abf9b66a77"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="cc16fcb9545ce887ea8c3c56cbc76ca86d2d1bdf"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="fbec3222ce28e2bc33ee1d25348a1bea4d7cdc2c"/>
+  <project name="app/hdk/htc/lib3/htctelephonycarriers" path="hdk/htc/lib3/HtcTelephonyCarriers" revision="efbbfe07dfa852830d28a74984bf17b6aa9edbc6"/>
+</manifest>

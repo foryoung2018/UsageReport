@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/SenseHome/1.00/api19/master" sync-j="4" HDKLib3Name="HDK_Lib3_API19_2_Stable" HDKLib3Ver="19.2"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/SenseHome" path="app/packages/apps/SenseHome" revision="app/apps/SenseHome/1.00/api19/master"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/NewsPlugin" path="app/packages/apps/NewsPlugin" revision="1f3a02ffb7827c3eb8743cb0abd881f40611d4ba"/>
+  <project name="app/packages/apps/LocationAware_Plugin" path="app/packages/apps/LocationAware_Plugin" revision="a540eb049bced3a2c2777502753ba5fc3bb5e9d1"/>
+  <project name="app/packages/apps/ThemeSelector" path="app/packages/apps/ThemeSelector" revision="9e262d5d4fb4a9aedd8ceee1e449851f06d6c439"/>
+  <project name="app/packages/apps/MorningBundlePlugin" path="app/packages/apps/MorningBundlePlugin" revision="f7a1a3eb493c7ba4dbf11610730fb98c0a2a3527"/>
+  <project name="app/packages/apps/BlinkFeed" path="app/packages/apps/BlinkFeed" revision="6d859541d4904f1205ce45b7b58269da395adcae"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/Corridor" path="app/hms_libs/Corridor" revision="99a2af375ef5d5adc3a8f52eaa877c556c41392f"/>
+  <project name="app/hms_libs/CSBiLogClient" path="app/hms_libs/CSBiLogClient" revision="6f8116e99e28e459c89cb7757f8098e75d030497"/>
+  <project name="app/hms_libs/FeedFramework" path="app/hms_libs/FeedFramework" revision="ba119f02dafafa7778020f6379161d1a6a0c5d1f"/>
+  <project name="app/hms_libs/HomeUtil" path="app/hms_libs/HomeUtil" revision="a5607da4ef647c9419cc1aa5971217a55cad6187"/>
+  <project name="app/hms_libs/HMS_PhotoEnhancer_Libs" path="app/hms_libs/HMS_PhotoEnhancer_Libs" revision="5b845af40f8383d2ac16d600b3609c1052bfc1c8"/>
+  <project name="app/hms_libs/HTCImageCodec_Lib" path="app/hms_libs/HTCImageCodec_Lib" revision="dbab2606084195af1b389ce773be48ac7436065d"/>
+  <project name="app/hms_libs/MobilesRepublicSDK" path="app/hms_libs/MobilesRepublicSDK" revision="13fd7251ab8cb26af7bb3a58acb1082802b793ae"/>
+  <project name="app/hms_libs/MoPubSDK" path="app/hms_libs/MoPubSDK" revision="8d309f4665e6f033b5686afbbe768d1b5297457a"/>
+  <project name="app/hms_libs/MosaicView" path="app/hms_libs/MosaicView" revision="9fd78c16735f8af4546ee87d28955532b280d3be"/>
+  <project name="app/hms_libs/Photo_Library" path="app/hms_libs/Photo_Library" revision="69b83580067444fb2aa5beac6bad8ebf07f57b86"/>
+  <project name="app/hms_libs/Social_Library" path="app/hms_libs/Social_Library" revision="ac7af10fc9f110743af2980c7184d95ecbc4447e"/>
+  <project name="app/hms_libs/ThemeLibrary" path="app/hms_libs/ThemeLibrary" revision="b9e61b176a83a7e0340519106826c8c4a8bce54a"/>
+  <project name="app/hms_libs/YahooFlurrySDK" path="app/hms_libs/YahooFlurrySDK" revision="05dacd11dc3c0a8b9e10b30891204eac09628580"/>
+  <project name="app/hms_libs/ThemeLiveWallpaper" path="app/hms_libs/ThemeLiveWallpaper" revision="8669758286fc2af411df9b3d00ab8163083c9d00"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="d9e1d4adc85477c4c68475c28bbfc5b71fa2b090"/>
+  <project name="app/hdk/htc/lib1/feedservice" path="hdk/htc/lib1/FeedService" revision="ee2a8a04ce1402ce827ed168b0b3da9430dcb1bd"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="8478d49cdaec526eab6e7076cec140678d62f2e7"/>
+  <project name="app/hdk/htc/lib1/home" path="hdk/htc/lib1/Home" revision="f5db43bfee50381748bfbd4b267343a818a03eb9"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="74061fdb5c6847ca29df4223548bda49deeca180"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="f6a6a91c1e18121a6914f9e3a33976fc7a9b89b5"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="b67561a313a06873d6a04dbd71a4c39d768fbb8e"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="5a75455fa328568a2a0b782b2c67dc1055314642"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="8d01e74650ea5722260b3fb4ed10cbacecfe656e"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="7e88a2d8f0774cc760075c628f34d22955225ff6"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="5573eca7091d1e56cbc357790057599aae0b438d"/>
+  <project name="app/hdk/htc/lib1/weatherlib1" path="hdk/htc/lib1/WeatherLib1" revision="b2095f89aa1193a660d40e1ddba25b7f7e14c771"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="0d377e6bbf2df9a4b838bc78a8aac1858a39c077"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="d56f982b4c7e51380da3669946117ed192a617ef"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="5a56dfe33a225c8f6a6cd53fde000d942919ba2d"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="84d8846e68b5f10d68184b1241a91cab9eb33836"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="9278dc274a03c118001866df2ddf50848556c764"/>
+  <project name="app/hdk/htc/lib2/htclocationservicessettingmodule" path="hdk/htc/lib2/HtcLocationServicesSettingModule" revision="2642473c1386d715f795648b5f9ee8a69ce6a862"/>
+  <project name="app/hdk/htc/lib1/htclocationservicessettingmanager" path="hdk/htc/lib1/HtcLocationServicesSettingManager" revision="89d9cb4cd0118bea1eb2f6c3188133c2c05b8399"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="3181f5af6c08a67515c919ecfc17a390c8dae159"/>
+  <project name="app/hdk/htc/lib1/masthead" path="hdk/htc/lib1/MastHead" revision="6cd8c1b598059e31f440f0a4e4191f801fa93f04"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="e7a0d817c468af35385abbe04abf713fab46e705"/>
+  <project name="app/hdk/htc/lib3/htcwrapdalviksystem" path="hdk/htc/lib3/HtcWrapdalviksystem" revision="13e1d2699ac74cd611e442748cfc1db1329b3cc2"/>
+  <project name="app/hdk/htc/lib3/medialinksharedmodule" path="hdk/htc/lib3/MediaLinkSharedModule" revision="c8ab2b4f43fbae9b786c921899aae79d67916d86"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="fbec3222ce28e2bc33ee1d25348a1bea4d7cdc2c"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="c8cefba8fed163b40c4288f7c545349cc1c7a00b"/>
+  <project name="app/hdk/htc/lib1/gifmodule" path="hdk/htc/lib1/GIFModule" revision="8823a790b2373eba4e51ca746616b9020e554e01"/>
+</manifest>

@@ -1,0 +1,9 @@
+ext {
+    extraLibrary = [
+        "com.google.code.gson:gson:2.2.4@jar",
+        "org.slf4j:slf4j-api:1.7.7@jar",
+        "com.google.code.findbugs:jsr305:3.0.0@jar",
+        "com.google.http-client:google-http-client-gson:1.19.0@jar",
+        "com.google.http-client:google-http-client:1.19.0@jar"
+    ]
+}

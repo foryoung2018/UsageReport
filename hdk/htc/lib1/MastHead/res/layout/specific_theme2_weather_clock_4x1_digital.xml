@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.masthead.view.DigitalClock xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/theme0_sun_and_digit_gap">
+    <include
+        layout="@layout/specific_theme2_weather_clock_4x1_digital_body"/>
+</com.htc.lib1.masthead.view.DigitalClock>

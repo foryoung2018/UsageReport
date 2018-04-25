@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="trim_seek_bar_popup_offset">15dp</dimen>
+    <dimen name="popup_view_width">30dp</dimen>
+
+</resources>

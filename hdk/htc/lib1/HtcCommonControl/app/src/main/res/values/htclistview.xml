@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="listview_title">HtcListView Demo</string>
+    <string name="reorderlistview_title">HtcReorderListView Demo</string>
+    <string name="listview_disable_bouncing">Disable Bouncing</string>
+    <string name="listview_enable_bouncing">Enable Bouncing</string>
+
+</resources>

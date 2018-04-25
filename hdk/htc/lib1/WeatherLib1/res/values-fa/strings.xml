@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>آفتابی</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>بیشتر آفتابی</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>تا قسمتی آفتابی</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>ابرهای پراکنده</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>آفتاب مه‌آلود</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>بيشتر ابری</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>ابري</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>دلگیر</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>مه</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>رگبار</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>بیشتر ابری همراه با رگبار</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>تا قسمتی آفتابی همراه با رگبار</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>طوفان همراه با صاعقه</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>بیشتر ابری همراه با رگبار و رعدوبرق</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>تا قسمتی آفتابی همراه با رگبار و رعدوبرق</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>باران</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>بارش ناگهانی</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>بیشتر ابری همراه با بارش ناگهانی</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>تا قسمتی آفتابی همراه با بارش ناگهانی</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>برف</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>بیشتر ابری همراه با برف</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>یخ</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>بوران</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>تگرگ</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>ترکیب برف و باران</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>گرم</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>سرد</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>بادخیز</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>پاك كردن</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>بيشتر صاف</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>تا قسمتی ابري</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>ابرهای پراکنده</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>مه آلود</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>بيشتر ابری</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>تا قسمتی ابری همراه با رگبار</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>بیشتر ابری همراه با رگبار</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>تا قسمتی ابری همراه با رگبار و رعدوبرق</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>بیشتر ابری همراه با رگبار و رعدوبرق</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>تا قسمتی ابری همراه با بارش ناگهانی</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>بیشتر ابری همراه با بارش ناگهانی</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>طوفان همراه با صاعقه و بوران</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>شن</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>غبار</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>گردباد</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

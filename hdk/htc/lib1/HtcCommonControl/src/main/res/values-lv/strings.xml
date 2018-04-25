@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Gatavs</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Koplietot caur</string><!--Share via-->
+    <string name="carousel_title">Nospiediet un paturiet ikonas, lai pārkārtotu</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Nevar noņemt šo cilni</string><!--Unable to remove this tab-->
+    <string name="yes">Jā</string><!--Yes-->
+    <string name="no">Nē</string><!--No-->
+    <string name="menu_view_full">Skatīt</string><!--View-->
+    <string name="menu_view_video">Atskaņot</string><!--Play-->
+    <string name="menu_slideshow">Slīdrāde</string><!--Slideshow-->
+    <string name="menu_share">Koplietot</string><!--Share-->
+    <string name="menu_set_as">Iestatīt kā</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Iestatīt kā izlasi</string><!--Set as favorite-->
+    <string name="menu_protect_info">Aizsardzības informācija</string><!--Protection info-->
+    <string name="meun_rotate">Pagriezt</string><!--Rotate-->
+    <string name="menu_delete">Dzēst</string><!--Delete-->
+    <string name="menu_crop">Apgriezt</string><!--Crop-->
+    <string name="menu_properties">Informācija</string><!--Details-->
+    <string name="menu_show_on_map">Rādīt kartē</string><!--Show on map-->
+    <string name="menu_settings">Iestatījumi</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Koplietot fotoattēla saiti</string><!--Share photo link-->
+    <string name="refresh">Atsvaidzināt</string><!--Refresh-->
+    <string name="add_comments">Pievienot komentāru</string><!--Add comment-->
+    <string name="button_show_caption">Rādīt uzrakstu</string><!--Show caption-->
+    <string name="button_hide_caption">Slēpt uzrakstu</string><!--Hide caption-->
+    <string name="button_show_description">Rādīt aprakstu</string><!--Show description-->
+    <string name="button_hide_description">Slēpt aprakstu</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Mazs</item><!--Small-->
+        <item>Vidēji</item><!--Medium-->
+        <item>Liels</item><!--Large-->
+        <item>Īpaši liels</item><!--Extra large-->
+        <item>Milzīgs</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dubults piesitiens, lai darbotos</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Pavilkt ikonu augšup</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Pavelciet augšup, lai atbloķētu</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Sv</item><!--SU-->
+        <item>Pi</item><!--M-->
+        <item>Ot</item><!--TU-->
+        <item>Tr</item><!--W-->
+        <item>Ce</item><!--TH-->
+        <item>Pk</item><!--F-->
+        <item>Se</item><!--SA-->
+    </string-array>
+</resources>

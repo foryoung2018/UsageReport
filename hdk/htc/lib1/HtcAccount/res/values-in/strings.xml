@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">Akun HTC</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">Tidak dapat terhubung</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">Anda membutuhkan koneksi jaringan untuk menggunakan aplikasi ini. Sambungkan ke data seluler atau Wi-Fi.</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">Harap tunggu...</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">Kami tidak dapat terhubung ke server HTC. Harap coba lagi nanti.</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">Anda membutuhkan koneksi jaringan untuk menggunakan aplikasi ini.</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">Buat Akun Google yang akan digunakan untuk masuk.</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">Tidak dapat terhubung. Harap coba lagi.</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">Kami tidak dapat mengakses Akun Google Anda. Harap pastikan akun tersebut aktif.</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">Memerlukan izin</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">Untuk masuk dengan Akun Google, apl ini perlu mengakses akun Anda. Beri izin apabila diminta.</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">&quot;Agar berfungsi dengan benar, aplikasi ini perlu mengakses akun Anda. Anda dapat mengelola izin %1$s dalam Setelan.&quot;</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">Buat Akun HTC</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">Alamat email</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">Akun HTC dengan alamat email Anda telah dibuat. Ketuk akun untuk masuk, atau buat akun baru.</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">Kirimi saya penawaran, informasi produk dan buletin, dari HTC.</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">Menggunakan email dari akun %s:</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">Buat akun</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">Buat akun baru</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">Dengan membuat akun, Anda setuju dengan %1$s Akun HTC dan mengakui %2$s. Untuk mendaftar, Anda harus berumur minimal 14 tahun.</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">Persyaratan dan Ketentuan</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">Kebijakan Privasi</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">Kebijakan privasi</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">Persyaratan dan ketentuan</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">Verifikasi akun Anda</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">Buka email</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">Tidak sekarang</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">Untuk masuk ke Akun HTC, Anda harus memverifikasi alamat email Anda menggunakan tautan yang dikirim ke %1$s.\n\nJika Anda tidak menerima email itu, periksa map spam Anda atau %2$s sekarang.</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">kirim ulang</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">Alamat email wajib diisi.</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">Masukkan alamat email yang valid.</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">Email dikirim ke: %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">"Setelan"</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">Tutup</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">Kembali</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">Batal</string><!--Cancel-->
+
+</resources>

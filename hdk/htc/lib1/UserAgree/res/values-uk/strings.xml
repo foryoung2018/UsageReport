@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Ця програма використовує мобільне передавання даних або Wi-Fi. Дізнайтеся у вашого місцевого оператора точні ціни на використання даних.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Більше не запитувати</string><!--Don\'t ask me again-->
+
+</resources>

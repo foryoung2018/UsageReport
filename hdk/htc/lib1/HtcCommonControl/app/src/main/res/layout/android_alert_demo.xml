@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1302 (Restart phone?)"
+        android:id="@+id/button1302" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1502 (Take bug report)"
+        android:id="@+id/button1502" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1112 (存取要求)"
+        android:id="@+id/button1112" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1000 (Phone options)"
+        android:id="@+id/button1000" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 (Progress Dialog)\nsetup by Java code"
+        android:id="@+id/button3" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 (Progress Dialog)\npure Android style)"
+        android:id="@+id/button4" />
+
+</LinearLayout>

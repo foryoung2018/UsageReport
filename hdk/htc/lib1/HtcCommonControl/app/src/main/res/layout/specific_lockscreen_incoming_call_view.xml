@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tile_min_height_dualcall"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/photo_view_root"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/incoming_call_call_id_height" >
+
+        <!-- slot name title bar -->
+        <TextView
+            android:id="@+id/slot_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/incoming_call_slot_name_title_layout_height"
+            android:background="@drawable/lockscreen_panel_incall"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingLeft="@dimen/incoming_call_slot_name_padding_left"
+            android:paddingRight="@dimen/incoming_call_slot_name_padding_right"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_incoming_call_slot_name"
+            android:visibility="visible" />
+
+        <!-- incoming call photo image -->
+        <ImageView
+            android:id="@+id/call_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/slot_name"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+    <!-- incoming call contact panel -->
+    <include
+        android:id="@+id/contactpanel"
+        layout="@layout/specific_lockscreen_3_lines_with_action" />
+
+</LinearLayout>

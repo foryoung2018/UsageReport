@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="attr" name="text_selection_opacity_color" id="0x7f010000" />
+    <public type="attr" name="text_selection_color" id="0x7f010001" />
+    <public type="attr" name="progress_track_start_color" id="0x7f010002" />
+    <public type="attr" name="progress_track_center_color" id="0x7f010003" />
+    <public type="attr" name="progress_track_end_color" id="0x7f010004" />
+    <public type="attr" name="light_category_color" id="0x7f010005" />
+    <public type="attr" name="category_color" id="0x7f010006" />
+    <public type="attr" name="dark_category_color" id="0x7f010007" />
+    <public type="attr" name="multiply_color" id="0x7f010008" />
+    <public type="attr" name="all_hyperlink_color" id="0x7f010009" />
+    <public type="attr" name="overlay_color" id="0x7f01000a" />
+    <public type="attr" name="light_primaryfont_color" id="0x7f01000b" />
+    <public type="attr" name="light_primaryfont_disable_color" id="0x7f01000c" />
+    <public type="attr" name="light_secondaryfont_color" id="0x7f01000d" />
+    <public type="attr" name="dark_primaryfont_color" id="0x7f01000e" />
+    <public type="attr" name="dark_primaryfont_disable_color" id="0x7f01000f" />
+    <public type="attr" name="dark_secondaryfont_color" id="0x7f010010" />
+    <public type="attr" name="tabfont_color" id="0x7f010011" />
+    <public type="attr" name="light_separatorfont_color" id="0x7f010012" />
+    <public type="attr" name="list_item_bg_center_color" id="0x7f010013" />
+    <public type="attr" name="list_item_bg_top_color" id="0x7f010014" />
+    <public type="attr" name="list_item_bg_bottom_color" id="0x7f010015" />
+    <public type="attr" name="highlight_color" id="0x7f010016" />
+    <public type="attr" name="ap_background_color" id="0x7f010017" />
+    <public type="attr" name="dark_ap_background_color" id="0x7f010018" />
+    <public type="attr" name="focused_color" id="0x7f010019" />
+    <public type="attr" name="standard_color" id="0x7f01001a" />
+    <public type="attr" name="active_color" id="0x7f01001b" />
+    <public type="attr" name="themeTexture" id="0x7f01001c" />
+
+    <public type="style" name="HtcDeviceDefault" id="0x7f030000" />
+</resources>

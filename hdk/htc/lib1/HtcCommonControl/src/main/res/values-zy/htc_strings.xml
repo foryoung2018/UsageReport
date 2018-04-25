@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">လူရွာ</string><!--Search People-->
+    <string name="common_string_share_title">မွတဆင့္မွ်ေဝ</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">ရွိၿပီးသားအမည္စာရင္းသို႔သိမ္း</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">လူပုဂၢိဳလ္သို႔သိမ္း</string><!--Save to People-->
+    <string name="label_year">ႏွစ္</string><!--Year-->
+    <string name="label_month">လ</string><!--Month-->
+    <string name="label_day">ရက္</string><!--Day-->
+    <string name="label_hour">နာရီ</string><!--Hour-->
+    <string name="label_minute">မိနစ္</string><!--Minute-->
+    <string name="label_second">စကၠန္႔</string><!--Second-->
+    <string name="common_string_open_contact">အမည္စာရင္းဖြင့္</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">က႑တစ္ခုက်န္ေနသည္။ ဤအက္ပ္အတြက္ က႑မ်ားပို၍ ထည့္ေပါင္းပါ၊ ေမႏူးေပၚတြင္ ေဘာင္ကြက္မ်ားတည္းျဖတ္ပါ/စစ္ထုတ္ပါကို ေရြးခ်ယ္ပါ။</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">႐ုပ္သိမ္း</string><!--Cancel-->
+    <string name="va_ok">အိုေက</string><!--OK-->
+    <string name="va_next">ေရွ႕ဆက္</string><!--Next-->
+    <string name="va_back">ေနာက္ျပန္</string><!--Back-->
+    <string name="va_call">ဖုန္း</string><!--Call-->
+    <string name="st_loading">လုပ္ေဆာင္ေနစဥ္</string><!--Loading...-->
+    <string name="va_close">ပိတ္</string><!--Close-->
+    <string name="va_open">ဖြင့္</string><!--Open-->
+    <string name="va_clear">ရွင္းလင္း</string><!--Clear-->
+    <string name="va_send_mail">ေမးလ္ပို႔</string><!--Send mail-->
+    <string name="va_send_message">မက္ေဆ့ခ်္ပို႔</string><!--Send message-->
+    <string name="va_download">ေဒါင္းလုတ္</string><!--Download-->
+    <string name="st_more">ပို၍</string><!--More-->
+    <string name="nn_unknown_error">မသိေသာ မွားယြင္းမႈ</string><!--Unknown error-->
+    <string name="va_downloading">ေဒါင္းလုတ္ဆြဲေနစဥ္</string><!--Downloading-->
+    <string name="va_finish">ၿပီးဆံုး</string><!--Finish-->
+    <string name="va_reset">အသစ္ျပန္စ</string><!--Reset-->
+    <string name="va_hide">ေဖ်ာက္ထား</string><!--Hide-->
+    <string name="ls_tablet_storage_error">သင့္၏ဖုန္းမွတ္ဉာဏ္မွားယြင္းေန၊ဖုန္းစက္ျပန္ဖြင့္ၿပီးမွတ္ဉာဏ္ပံုစံသြင္းပါ</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">အသစ္တင္ရန္ လြတ္ေပးျခင္း</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">အသစ္ျပင္ဆင္တင္ျပျခင္း...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">ႏွစ္ခါႏွိပ္ၿပီးခ်ိန္ညွိရန္ဆြဲပါ</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">ဆြဲယူႏိုင္သည့္ အရာ</string><!--Draggable item-->
+    <string name="va_move_above">အေပၚသို႔ေရႊ႕</string><!--Move above-->
+    <string name="va_move_below">ေအာက္သို႔ေရႊ႕</string><!--Move below-->
+    <string name="st_pull_down_refresh">အသစ္တင္ရန္ ဆြဲခ်</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">မေခၚဆိုမီ နံပါတ္ကို တည္းျဖတ္</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">ေျမပံုတြင္ဖြင့္</string><!--Open in map-->
+    <string name="va_copy">ကူးယူ</string><!--Copy-->
+    <string name="va_show_all">အကုန္လံုးျပ</string><!--Show all-->
+</resources>

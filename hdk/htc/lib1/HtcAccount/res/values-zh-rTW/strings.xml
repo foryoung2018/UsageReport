@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">HTC 帳號</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">無法連線</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">您必須要有網路連線，才能使用本應用程式。請連線至行動數據或 Wi-Fi。</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">請稍候…</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">我們無法連線到 HTC 伺服器。請稍後再試一次。</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">您必須要有網路連線，才能使用本應用程式。</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">請先建立 Google 帳號，再進行登入。</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">無法連線。請再試一次。</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">我們無法存取您的 Google 帳號。請確定此帳號可以使用。</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">需要權限</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">若要登入 Google 帳號，此應用程式需要存取您的帳號。請在應用程式詢問時允許權限。</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">\&quot;為了能正常運作，此應用程式需要存取您的帳號。您可以於「設定」中管理 %1$s 的權限。\&quot;</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">建立 HTC 帳號</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">電子郵件地址</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">您的電子郵件地址已建立過 HTC 帳號。點選要登入的帳號，或建立新帳號。</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">請透過電子郵件將 HTC 優惠活動、產品資訊和電子報寄給我。</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">使用 %s 帳號的電子郵件：</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">建立帳號</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">建立新帳號</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">建立帳號即表示您同意 HTC 帳號的 %1$s 且知悉 %2$s。必須年滿 14 歲以上才能註冊。</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">服務條款</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">隱私權政策</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">隱私權政策</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">服務條款</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">驗證您的帳號</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">開啟郵件</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">現在不要</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">若要登入至 HTC 帳號，您需要使用傳送到 %1$s 的連結來驗證電子郵件地址。\n\n如果未收到該電子郵件，請檢查垃圾郵件匣或立即 %2$s。</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">重新發送</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">需提供電子郵件位址。</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">請輸入有效的電子郵件地址。</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">電子郵件已傳送至：%s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">設定</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">關閉</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">返回</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">取消</string><!--Cancel-->
+
+</resources>

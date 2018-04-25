@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="fixed_lockscreen_09">
+        <item name="android:textSize">@dimen/fixed_lockscreen_09</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#FF00ff00</item>
+        <item name="android:textColor">#FF00ffff</item>
+    </style>
+    <style name="fixed_lockscreen_10">
+        <item name="android:textSize">@dimen/fixed_lockscreen_10</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFff00ff</item>
+    </style>
+    <style name="fixed_lockscreen_11">
+        <item name="android:textSize">@dimen/fixed_lockscreen_11</item>
+       <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFffff00</item>
+    </style>
+</resources>

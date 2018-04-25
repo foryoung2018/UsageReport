@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Self_Registration_CT/1.1/and5.1/Sense70" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Self_Registration_CT" path="app/packages/apps/Self_Registration_CT" revision="app/apps/Self_Registration_CT/1.1/and5.1/Sense70"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Self_Registration_CT" path="app/customization/packages/apps/Self_Registration_CT" revision="app/apps/Self_Registration_CT/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="93066b1b5cf0617c28312ff48521c3492a86f446"/>
+</manifest>

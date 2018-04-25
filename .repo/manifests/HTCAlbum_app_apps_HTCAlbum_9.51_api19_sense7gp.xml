@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCAlbum/9.51/api19/sense7gp" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCAlbum" path="app/packages/apps/HTCAlbum" revision="app/apps/HTCAlbum/9.51/api19/sense7gp"/>
+</manifest>

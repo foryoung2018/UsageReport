@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="simple_launcher_01">23sp</dimen>
+    <dimen name="simple_launcher_02">20sp</dimen>
+    <dimen name="simple_launcher_03">24sp</dimen>
+    <dimen name="simple_launcher_04">14sp</dimen>
+    <dimen name="simple_launcher_05">13sp</dimen>
+</resources>

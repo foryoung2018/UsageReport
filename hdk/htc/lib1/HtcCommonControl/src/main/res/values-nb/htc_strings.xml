@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Søk i Personer</string><!--Search People-->
+    <string name="common_string_share_title">Del via</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Lagre i eksisterende kontakt</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Lagre i Personer</string><!--Save to People-->
+    <string name="label_year">År</string><!--Year-->
+    <string name="label_month">Måned</string><!--Month-->
+    <string name="label_day">Dag</string><!--Day-->
+    <string name="label_hour">Time</string><!--Hour-->
+    <string name="label_minute">Minutt</string><!--Minute-->
+    <string name="label_second">Sekund</string><!--Second-->
+    <string name="common_string_open_contact">Åpne kontakt</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Du har én kategori igjen. Hvis du vil legge flere kategorier til denne appen, velger du Rediger kategorier/Filtere i menyen.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Avbryt</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Neste</string><!--Next-->
+    <string name="va_back">Tilbake</string><!--Back-->
+    <string name="va_call">Ring</string><!--Call-->
+    <string name="st_loading">Laster...</string><!--Loading...-->
+    <string name="va_close">Lukk</string><!--Close-->
+    <string name="va_open">Åpne</string><!--Open-->
+    <string name="va_clear">"Nullstill"</string><!--Clear-->
+    <string name="va_send_mail">Send e-post</string><!--Send mail-->
+    <string name="va_send_message">Send melding</string><!--Send message-->
+    <string name="va_download">Last ned</string><!--Download-->
+    <string name="st_more">Mer</string><!--More-->
+    <string name="nn_unknown_error">"Ukjent feil"</string><!--Unknown error-->
+    <string name="va_downloading">Laster ned</string><!--Downloading-->
+    <string name="va_finish">Fullfør</string><!--Finish-->
+    <string name="va_reset">Tilbakestill</string><!--Reset-->
+    <string name="va_hide">"Skjul"</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Det oppstod en feil med lagringsstedet for nettbrettet. Start enheten på nytt eller formater lagringsstedet.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Slipp for å oppdatere</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Oppdaterer …</string><!--Updating...-->
+    <string name="ls_doubletap_drag">dobbeltklikk og dra for å justere</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Flyttbart element</string><!--Draggable item-->
+    <string name="va_move_above">Flytt over</string><!--Move above-->
+    <string name="va_move_below">Flytt under</string><!--Move below-->
+    <string name="st_pull_down_refresh">Trekk ned for å oppdatere</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Rediger nummer før du ringer</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Åpne i kart</string><!--Open in map-->
+    <string name="va_copy">Kopier</string><!--Copy-->
+    <string name="va_show_all">Vis alle</string><!--Show all-->
+</resources>

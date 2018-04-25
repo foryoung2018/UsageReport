@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res/com.htc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listitem"
+    >
+
+    <com.htc.lib1.cc.widget.HtcListItem2LineTextProgressBar
+        android:id="@+id/progress" />
+
+</com.htc.lib1.cc.widget.HtcListItem>

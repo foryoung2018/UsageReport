@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CommonControlTestLibrary</string>
+    <string name="emailString">abcd@google.com</string>
+    <string name="hintString">Hint</string>
+    <string name="englishString">OK</string>
+    <string name="simplifiedChineseString">确定</string>
+    <string name="traditionalChineseString">確定</string>
+    <string name="arabicString">موافق</string>
+    <string name="israelString">אישור</string>
+    <string name="numberString">1234</string>
+    <string name="string_name">HtcEmptyView Demo SetText</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="listview_title">HtcListView Demo</string>
+    <string name="reorderlistview_title">HtcReorderListView Demo</string>
+    <string name="listview_disable_bouncing">Disable Bouncing</string>
+    <string name="listview_enable_bouncing">Enable Bouncing</string>
+
+    <string name="button_demo_string_1">@string/ls_tablet_storage_error</string>
+    <string name="button_demo_string_2">@string/nn_unknown_error</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="footerbutton_longstring">btnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtn</string>
+    <string name="footerbutton_shortstring">btn</string>
+    <string name="footerbutton_longstring_space">"D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D "</string>
+    <string name="footerbutton_shortstring_space">b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n </string>
+    <string name="footerbutton_multiple_line">CANCEL\n(11/19)</string>
+    <string name="double_line">Double/nLines</string>
+    <string name="single_line">Single Lines</string>
+
+    <string name="hello">Hello World, CommonControlDemoActivity!</string>
+    <string name="preferences_from_xml">Preference/1. Preferences from XML</string>
+    <string name="launching_preferences">Preference/2. Launching preferences</string>
+    <string name="preference_dependencies">Preference/3. Preference dependencies</string>
+    <string name="default_values">Preference/4. Default values</string>
+    <string name="preferences_from_code">Preference/5. Preferences from code</string>
+    <string name="advanced_preferences">Preference/6. Advanced preferences</string>
+    <string name="fragment_preferences">Preference/7. Fragment</string>
+    <string name="preference_with_headers">Preference/8. Headers</string>
+    <string name="launch_preference_activity">Launch PreferenceActivity</string>
+    <string name="counter_value_is">The counter value is</string>
+    <string name="inline_preferences">In-line preferences</string>
+    <string name="dialog_based_preferences">Dialog-based preferences</string>
+    <string name="launch_preferences">Launch preferences</string>
+    <string name="preference_attributes">Preference attributes</string>
+    <string name="title_toggle_preference">Toggle preference</string>
+    <string name="summary_toggle_preference">This is a toggle button</string>
+    <string name="title_checkbox_preference">Checkbox preference</string>
+    <string name="summary_checkbox_preference">This is a checkbox</string>
+    <string name="title_switch_preference">Switch preference</string>
+    <string name="summary_switch_preference">This is a switch</string>
+    <string name="summary_switch_preference_yes_no">This is a switch with custom text</string>
+    <string name="title_yesno_preference">Yes or no preference</string>
+    <string name="summary_yesno_preference">An example that uses a yes/no dialog</string>
+    <string name="dialog_title_yesno_preference">Do you like bananas?</string>
+    <string name="title_edittext_preference">Edit text preference</string>
+    <string name="summary_edittext_preference">An example that uses an edit text dialog</string>
+    <string name="dialog_title_edittext_preference">Enter your favorite animal</string>
+    <string name="title_list_preference">Single Choice List Preference</string>
+    <string name="summary_list_preference">An example that uses a list dialog</string>
+    <string name="dialog_title_list_preference">Choose one</string>
+    <string name="title_screen_preference">Screen preference</string>
+    <string name="summary_screen_preference">Shows another screen of preferences</string>
+    <string name="title_fragment_preference">Fragment preference</string>
+    <string name="summary_fragment_preference">Shows another fragment of preferences</string>
+    <string name="title_next_screen_toggle_preference">Toggle preference</string>
+    <string name="summary_next_screen_toggle_preference">Preference that is on the next screen but same hierarchy</string>
+    <string name="title_intent_preference">Intent preference</string>
+    <string name="summary_intent_preference">Launches an Activity from an Intent</string>
+    <string name="title_my_preference">My preference</string>
+    <string name="summary_my_preference">This is a custom counter preference</string>
+    <string name="title_advanced_toggle_preference">Haunted preference</string>
+    <string name="summary_on_advanced_toggle_preference">I\'m on! :)</string>
+    <string name="summary_off_advanced_toggle_preference">I\'m off! :(</string>
+    <string name="title_parent_preference">Parent toggle</string>
+    <string name="summary_parent_preference">This is visually a parent</string>
+    <string name="title_child_preference">Child toggle</string>
+    <string name="summary_child_preference">This is visually a child</string>
+    <string name="example_preference_dependency">Example preference dependency</string>
+    <string name="title_wifi">WiFi</string>
+    <string name="title_wifi_settings">WiFi settings</string>
+    <string name="default_value_list_preference">beta</string>
+    <string name="default_value_edittext_preference">Default value</string>
+    <string name="preference_on">on</string>
+    <string name="preference_off">off</string>
+
+    <string name="label_text">Label:</string>
+    <string name="description_text">Description:</string>
+    <string name="label_button">Button</string>
+    <string name="title_activity_common_font_style">CommonFontStyle</string>
+
+    <string name="menu_message">Message style</string>
+    <string name="menu_task">Task style</string>
+    <string name="menu_remove_all">Remove all Buttons</string>
+    <!-- Used for ScreenInfo Start -->
+    <string name="screen_info_label">Screen Density Info</string>
+    <string name="about_menu">About</string>
+    <string name="share_menu">Share</string>
+    <string name="screen_info_about_title">ScreenInfo</string>
+    <string name="version">Version</string>
+    <string name="share_summary_subject">Display report from ScreenInfo</string>
+    <string name="share_title">Share Report To</string>
+    <string name="screen_info_about">Displays the screen configuration parameters for an Android device.</string>
+    <string name="screen_info_email">Email: info@jotabout.com</string>
+    <string name="screen_info_blog">Blog: digitaldumptruck.jotabout.com</string>
+    <string name="about_dismiss">That\'s nice</string>
+    <string name="screen_info_play_store_link">Report prepared by ScreenInfo. Get yourself a copy: https://play.google.com/store/apps/details?id=com.jotabout.screeninfo</string>
+    <string name="device_label">Device Name:</string>
+    <string name="os_version_label">Android Version:</string>
+    <string name="resource_selection_label">Framework resource \nselection</string>
+    <string name="customize_resource_selection_label">Customize resource \nselection</string>
+    <string name="screen_class_label">Screen class:</string>
+    <string name="density_class_label">Density class:</string>
+    <string name="local_density_class_label">Local Density class:</string>
+    <string name="width_pixels_label">App-usable Width (px):</string>
+    <string name="height_pixels_label">App-usable Height (px):</string>
+    <string name="width_dp_label">Width (dp):</string>
+    <string name="height_dp_label">Height (dp):</string>
+    <string name="smallest_dp_label">Smallest DP:</string>
+    <string name="screen_dpi_label">Screen DPI:</string>
+    <string name="actual_xdpi_label">X DPI:</string>
+    <string name="actual_ydpi_label">Y DPI:</string>
+    <string name="logical_density_label">Logical Density:</string>
+    <string name="font_scale_density_label">Font Scale Density:</string>
+    <string name="computed_diagonal_size_inches_label">Calculated Diagonal (inches):</string>
+    <string name="computed_diagonal_size_mm_label">Calculated Diagonal (mm):</string>
+    <string name="touchscreen_label">Touchscreen:</string>
+    <string name="touchscreen_none">None</string>
+    <string name="touchscreen_finger">Finger</string>
+    <string name="touchscreen_stylus">Stylus</string>
+    <string name="natural_orientation_label">Natural Orientation:</string>
+    <string name="current_orientation_label">Current Orientation:</string>
+    <string name="orientation_square">Square</string>
+    <string name="orientation_landscape">Landscape</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="long_wide_label">Long or Wide:</string>
+    <string name="pixel_format_label">Pixel Format:</string>
+    <string name="refresh_rate_label">Refresh Rate (fps):</string>
+    <string name="total_width_pixels_label">Total Width (px):</string>
+    <string name="total_height_pixels_label">Total Height (px):</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="undefined">Undefined</string>
+    <string name="unknown">Unknown</string>
+    <string name="unsupported">Not Available</string>
+    <!-- Used for ScreenInfo End -->
+
+    <string name="str_expandItemText">AAAAAAAAAAAAAAAAA</string>
+    <string name="str_long">this is a long test String AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</string>
+    <string name="str_space"> </string>
+
+    <string name="screen_preference">screen preference</string>
+    <string name="title_dialog_preference">DialogPreference</string>
+    <string name="dialog_preference_msg">This is a HtcDialogPreference</string>
+    <string name="summary_htcdialogpreference">An example that uses a htcdialogpreference</string>
+    <string name="title_seekbardialog_preference">SeekBar Dialog Preference</string>
+    <string name="summary_seekbardialog_preference">This is SeekBar Dialog Preference</string>
+    <string name="title_seekbar_preference">SeekBarPreference</string>
+    <string name="summary_seekbar_preference">This is SeekBar Preference</string>
+    <string name="title_multiselect_preference">MultiSelect ListPreference</string>
+    <string name="title_htcmultiselect_preference">HtcMultiSelect ListPreference</string>
+    <string name="title_htcswitch_preference">htcswitch_preference</string>
+    <string name="title_htcdialog_preference">HtcDialogPreference</string>
+    <string name="title_htcseekbar_preference">HtcSeekBar_DialogPreference</string>
+    <string name="title_htcswitchdialog_preference">HtcSwitch_DialogPreference</string>
+
+    <string name="text_long_string">1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n2\n3\n1\n2\n3\n1\n2\n3\n1\n2\n3\n1\n2\n3\n1\n2\n3\n3\n1\n2\n3\n1\n2\n3\n1\n2\n3\n1\n2\n3\n2\n3\n1\n2\n3\n3\n1\n2\n3\n1\n2\n3\n1\n2\n3\n1\n2\n3\n</string>
+    <string name="text_short_string">a</string>
+
+</resources>

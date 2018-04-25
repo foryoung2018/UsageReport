@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Reminder Button: Panel -->
+    <com.htc.lib1.cc.widget.reminder.ui.footer.ReminderPanel
+        android:id="@+id/reminder_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lockscreen_panel" />
+
+    <!-- Foreground Container -->
+    <com.htc.lib1.cc.widget.reminder.ui.ForegroundContainer
+        android:id="@+id/foreground_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/reminder_panel" >
+        <!-- Shadow -->
+        <ImageView
+            android:id="@+id/background_color_status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/background_color_status_bar_height"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/black"
+            android:alpha="0.3" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/background_color_widget_height"
+            android:layout_below="@id/background_color_status_bar"
+            android:background="@drawable/lockscreen_shadow" />
+        <!-- MastHead -->
+<!--         <com.htc.android.home.view.Masthead  -->
+<!--             android:id="@+id/masthead" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentTop="true" /> -->
+        <!-- Tile Container -->
+        <LinearLayout
+            android:id="@+id/tile_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="bottom" />
+        <!-- Hint -->
+        <com.htc.lib1.cc.widget.reminder.ui.HintView
+            android:id="@+id/hintview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hint_view_height"
+            android:layout_marginBottom="@dimen/hint_view_margin_bottom"
+            android:layout_marginLeft="@dimen/hint_view_margin_left"
+            android:layout_marginRight="@dimen/hint_view_margin_right"
+            android:layout_above="@id/tile_container">
+            <com.htc.lib1.cc.widget.reminder.ui.SWLayerTextView
+                android:id="@+id/hintlabel"
+                style="@style/fixed_lockscreen_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1" />
+        </com.htc.lib1.cc.widget.reminder.ui.HintView>
+        <!-- Divider #FFFFFF 20% -->
+        <RelativeLayout
+            android:id="@+id/two_tile_middle_gap"
+            android:layout_width="@dimen/two_tile_middle_gap_width"
+            android:layout_height="@dimen/two_tile_middle_gap_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="#FFFFFF"
+            android:alpha="0.2"
+            android:visibility="gone" />
+    </com.htc.lib1.cc.widget.reminder.ui.ForegroundContainer>
+</merge>

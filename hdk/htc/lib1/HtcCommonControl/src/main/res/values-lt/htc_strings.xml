@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Ieškoti Žmonėse</string><!--Search People-->
+    <string name="common_string_share_title">Dalintis per</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Įrašyti į esamą kontaktą</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Įrašyti į Žmones</string><!--Save to People-->
+    <string name="label_year">Metai</string><!--Year-->
+    <string name="label_month">Mėnuo</string><!--Month-->
+    <string name="label_day">Diena</string><!--Day-->
+    <string name="label_hour">Valanda</string><!--Hour-->
+    <string name="label_minute">Minutė</string><!--Minute-->
+    <string name="label_second">Sekundė</string><!--Second-->
+    <string name="common_string_open_contact">Atidaryti kontaktą</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Jums liko vienas skirtukas. Norėdami šiai programai įtraukti daugiau skirtukų, meniu pasirinkite Redaguoti skirtukus / filtrus.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Atšaukti</string><!--Cancel-->
+    <string name="va_ok">Gerai</string><!--OK-->
+    <string name="va_next">Kitas</string><!--Next-->
+    <string name="va_back">Atgal</string><!--Back-->
+    <string name="va_call">Skambinti</string><!--Call-->
+    <string name="st_loading">Įkeliama...</string><!--Loading...-->
+    <string name="va_close">Uždaryti</string><!--Close-->
+    <string name="va_open">Atidaryti</string><!--Open-->
+    <string name="va_clear">Išvalyti</string><!--Clear-->
+    <string name="va_send_mail">Siųsti laišką</string><!--Send mail-->
+    <string name="va_send_message">Siųsti pranešimą</string><!--Send message-->
+    <string name="va_download">Atsisiųsti</string><!--Download-->
+    <string name="st_more">Daugiau</string><!--More-->
+    <string name="nn_unknown_error">Nežinoma klaida</string><!--Unknown error-->
+    <string name="va_downloading">Atsisiunčiama</string><!--Downloading-->
+    <string name="va_finish">Baigti</string><!--Finish-->
+    <string name="va_reset">Nustatyti iš naujo</string><!--Reset-->
+    <string name="va_hide">Slėpti</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Įvyko klaida jūsų planšetinio kompiuterio atmintinėje. Paleiskite savo įrenginį iš naujo arba suformatuokite atmintinę.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Atleiskite, kad atnaujintumėte</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Naujinama...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">dukart bakstelėkite ir nuvilkite, kad nustatytumėte</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Vilktinas elementas</string><!--Draggable item-->
+    <string name="va_move_above">Perkelti į viršų</string><!--Move above-->
+    <string name="va_move_below">Perkelti į apačią</string><!--Move below-->
+    <string name="st_pull_down_refresh">Patraukite žemyn, kad atnaujintumėte</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Redaguoti numerį prieš skambinant</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Atidaryti žemėlapyje</string><!--Open in map-->
+    <string name="va_copy">Kopijuoti</string><!--Copy-->
+    <string name="va_show_all">Rodyti visus</string><!--Show all-->
+</resources>

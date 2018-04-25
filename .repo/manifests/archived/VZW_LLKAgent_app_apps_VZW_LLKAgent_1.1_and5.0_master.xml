@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/VZW_LLKAgent/1.1/and5.0/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/VZW_LLKAgent" path="app/packages/apps/VZW_LLKAgent" revision="app/apps/VZW_LLKAgent/1.1/and5.0/master"/>
+</manifest>

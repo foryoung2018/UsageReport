@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Cari Orang</string><!--Search People-->
+    <string name="common_string_share_title">Kongsi melalui</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Simpan pada kenalan sedia ada</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Simpan pada Orang</string><!--Save to People-->
+    <string name="label_year">Tahun</string><!--Year-->
+    <string name="label_month">Bulan</string><!--Month-->
+    <string name="label_day">Hari</string><!--Day-->
+    <string name="label_hour">Jam</string><!--Hour-->
+    <string name="label_minute">Minit</string><!--Minute-->
+    <string name="label_second">Saat</string><!--Second-->
+    <string name="common_string_open_contact">Buka kenalan</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Anda mempunyai baki satu tab. Untuk menambahkan lagi tab untuk apl ini, pilih Edit tab/Penapis pada menu.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Batalkan</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Seterusnya</string><!--Next-->
+    <string name="va_back">Undur</string><!--Back-->
+    <string name="va_call">Panggil</string><!--Call-->
+    <string name="st_loading">Memuatkan…</string><!--Loading...-->
+    <string name="va_close">Tutup</string><!--Close-->
+    <string name="va_open">Buka</string><!--Open-->
+    <string name="va_clear">Kosongkan</string><!--Clear-->
+    <string name="va_send_mail">Hantar mel</string><!--Send mail-->
+    <string name="va_send_message">Hantar mesej</string><!--Send message-->
+    <string name="va_download">Muat turun</string><!--Download-->
+    <string name="st_more">Lagi</string><!--More-->
+    <string name="nn_unknown_error">Ralat tidak diketahui</string><!--Unknown error-->
+    <string name="va_downloading">Memuat turun</string><!--Downloading-->
+    <string name="va_finish">Selesai</string><!--Finish-->
+    <string name="va_reset">Tetapkan semula</string><!--Reset-->
+    <string name="va_hide">Sembunyi</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Berlaku ralat pada storan tablet anda. Sila but semula peranti anda atau format storan.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Lepaskan untuk memuat semula</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Mengemas kini...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">ketik dua kali dan seret untuk melaras</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Item boleh leret</string><!--Draggable item-->
+    <string name="va_move_above">Alih ke atas</string><!--Move above-->
+    <string name="va_move_below">Alih ke bawah</string><!--Move below-->
+    <string name="st_pull_down_refresh">Tarik ke bawah untuk memuat semula</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Edit nombor sebelum memanggil</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Buka dalam peta</string><!--Open in map-->
+    <string name="va_copy">Salin</string><!--Copy-->
+    <string name="va_show_all">Tunjukkan semua</string><!--Show all-->
+</resources>

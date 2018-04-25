@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.htc.lib1.cc.widget.HtcListItem
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/background">
+        <com.htc.lib1.cc.widget.HtcListItemTileImage
+            android:id="@+id/photo_public_font_style"
+            android:background="@drawable/font_public_logo"
+        />
+        <com.htc.lib1.cc.widget.HtcListItem2LineText
+            android:id="@+id/text1_public_font_style"
+        />
+    </com.htc.lib1.cc.widget.HtcListItem>
+
+    <com.htc.lib1.cc.widget.HtcListItem
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/background">
+        <com.htc.lib1.cc.widget.HtcListItemTileImage
+            android:id="@+id/photo_common_font_style"
+            android:background="@drawable/common_font_style"
+        />
+        <com.htc.lib1.cc.widget.HtcListItem2LineText
+            android:id="@+id/text1_common_font_style"
+        />
+    </com.htc.lib1.cc.widget.HtcListItem>
+
+    <android.widget.ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+
+        android:cacheColorHint="#FF00FF00"
+        android:divider="@drawable/htclistview_demo_common_divider_items" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/search_keyword"
+        style="@style/input_default_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

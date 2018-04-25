@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  
+  <default remote="origin" revision="hdk/api19_sense6.0" sync-j="4"/>
+  
+  <project name="app/hdk/htc/lib1/feedservice" path="hdk/htc/lib1/FeedService" revision="72c143db076506529ed46a8bb0e1b5b97f82d32d"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="f3c0e1230baa1c6cb3d27e8af215247659482364"/>
+  <project name="app/hdk/htc/lib1/gifmodule" path="hdk/htc/lib1/GIFModule" revision="11554edab3bf05da9f60bb8f21870520d0d4a0cb"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="d170fa731cf324dcf762365bcc3f2ef732a3e8ef"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="94ce68b66d20b326ef26c9bea35cc02e6c1f783f"/>
+  <project name="app/hdk/htc/lib1/htclib1" path="hdk/htc/lib1/HtcLib1" revision="b0e52f978290e5780eea7e05eab15149f144e8b5"/>
+  <project name="app/hdk/htc/lib1/htcmp4parser" path="hdk/htc/lib1/HtcMp4Parser" revision="4af59b416a093a719c36cf61176dd916c72a5766"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="4d97ebd38fe1b0d182f870e157b784dd46e7c166"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="445e4ea2dbe0dc9459eadeb611e381db5f91abb4"/>
+  <project name="app/hdk/htc/lib1/masthead" path="hdk/htc/lib1/MastHead" revision="bd5bbe5ab4a4c6f7ef973e9d4146e5ca2761575f"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="4e4683752fdb8be990e6c7a3f1fedc34099d050c"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="e732a4cc6fdba4c4ed80991810e871f7ef521cb6"/>
+  <project name="app/hdk/htc/lib1/panoviewer" path="hdk/htc/lib1/PanoViewer" revision="1d6e24dea744c232d94ee0775332e8c8f36a0cdb"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="0684d0f06b50df8eb9d6226bea3b16ced18efc98"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="4c4e00d0874a7dc09f0006c49b0cc338e3f4dba9"/>
+  <project name="app/hdk/htc/lib1/weather" path="hdk/htc/lib1/WeatherLib1" revision="c4f8d0aba2ee0c64148dfb08264433b9b26ba1de"/>
+  <project name="app/hdk/htc/lib2/htcactiveservice" path="hdk/htc/lib2/HtcActiveService" revision="97cb6229dea3740245c5b4d578ab414d74d57861"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="5341ce8e6ded7217e920c86e7d79399c1429ae32"/>
+  <project name="app/hdk/htc/lib2/htclib2" path="hdk/htc/lib2/HtcLib2" revision="7f2bce5020fa680ac18a80cd3067c8699fc71d7e"/>
+  <project name="app/hdk/htc/lib2/lockscreenwallpaper" path="hdk/htc/lib2/LockScreenWallpaper" revision="c69dad7ab61b2a9d9559f678e705802fa027ad0a"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="602048a8519173c2abb277ac5e69dc5353e1e1f1"/>
+  <project name="app/hdk/htc/lib2/weather" path="hdk/htc/lib2/WeatherLib2" revision="8f7140a67457bf70ab2a371d14570e5ec9e0b830"/>
+</manifest>

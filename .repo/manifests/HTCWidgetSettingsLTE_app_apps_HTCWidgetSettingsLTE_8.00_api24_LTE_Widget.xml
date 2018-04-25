@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCWidgetSettingsLTE/8.00/api24/LTE_Widget" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCWidgetSettingsLTE" path="app/packages/apps/HTCWidgetSettingsLTE" revision="app/apps/HTCWidgetSettingsLTE/8.00/api24/LTE_Widget"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcSettingWidgetsUIModule" path="app/packages/apps/HtcSettingWidgetsUIModule" revision="63d7f7600b26cc9ac1c412c0e734096adecc1bec"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="2a93b18292432597e1dd33d632355b0ca91438dc"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="259935b27cf11bd39b753d084befcd13d1a10bf3"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="0d377e6bbf2df9a4b838bc78a8aac1858a39c077"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="7e88a2d8f0774cc760075c628f34d22955225ff6"/>
+</manifest>

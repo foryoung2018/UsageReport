@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >op elke eerste zondag</item><!--on every first Sunday-->
+        <item >op elke tweede zondag</item><!--on every second Sunday-->
+        <item >op elke derde zondag</item><!--on every third Sunday-->
+        <item >op elke vierde zondag</item><!--on every fourth Sunday-->
+        <item >op elke laatste zondag</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >op elke eerste maandag</item><!--on every first Monday-->
+        <item >op elke tweede maandag</item><!--on every second Monday-->
+        <item >op elke derde maandag</item><!--on every third Monday-->
+        <item >op elke vierde maandag</item><!--on every fourth Monday-->
+        <item >op elke laatste maandag</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >op elke eerste dinsdag</item><!--on every first Tuesday-->
+        <item >op elke tweede dinsdag</item><!--on every second Tuesday-->
+        <item >op elke derde dinsdag</item><!--on every third Tuesday-->
+        <item >op elke vierde dinsdag</item><!--on every fourth Tuesday-->
+        <item >op elke laatste dinsdag</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >op elke eerste woensdag</item><!--on every first Wednesday-->
+        <item >op elke tweede woensdag</item><!--on every second Wednesday-->
+        <item >op elke derde woensdag</item><!--on every third Wednesday-->
+        <item >op elke vierde woensdag</item><!--on every fourth Wednesday-->
+        <item >op elke laatste woensdag</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >op elke eerste donderdag</item><!--on every first Thursday-->
+        <item >op elke tweede donderdag</item><!--on every second Thursday-->
+        <item >op elke derde donderdag</item><!--on every third Thursday-->
+        <item >op elke vierde donderdag</item><!--on every fourth Thursday-->
+        <item >op elke laatste donderdag</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >op elke eerste vrijdag</item><!--on every first Friday-->
+        <item >op elke tweede vrijdag</item><!--on every second Friday-->
+        <item >op elke derde vrijdag</item><!--on every third Friday-->
+        <item >op elke vierde vrijdag</item><!--on every fourth Friday-->
+        <item >op elke laatste vrijdag</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >op elke eerste zaterdag</item><!--on every first Saturday-->
+        <item >op elke tweede zaterdag</item><!--on every second Saturday-->
+        <item >op elke derde zaterdag</item><!--on every third Saturday-->
+        <item >op elke vierde zaterdag</item><!--on every fourth Saturday-->
+        <item >op elke laatste zaterdag</item><!--on every last Saturday-->
+    </string-array>
+</resources>

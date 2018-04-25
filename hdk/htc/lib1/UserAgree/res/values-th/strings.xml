@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">แอพพลิเคชันนี้ใช้ข้อมูลโมบายล์หรือ Wi-Fi โปรดตรวจสอบอัตราค่าใช้บริการการใช้ข้อมูลกับผู้ให้บริการในพื้นที่ของคุณ</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">ไม่ต้องถามฉันอีกครั้ง</string><!--Don\'t ask me again-->
+
+</resources>

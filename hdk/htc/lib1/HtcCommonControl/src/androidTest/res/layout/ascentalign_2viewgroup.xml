@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.AscentAlignLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewgroup_viewgroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_s"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:layout_marginRight="@dimen/margin_m"
+        android:layout_marginTop="@dimen/margin_s"
+        htc:layout_alignType="basic"
+        htc:layout_alignView="@+id/text1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/fixed_list_primary_xs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6:00PM-" />
+
+        <TextView
+            style="@style/fixed_list_primary_xs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11:00PM" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:layout_marginRight="@dimen/margin_m"
+        android:layout_marginTop="@dimen/margin_s"
+        htc:layout_alignType="align_basic"
+        htc:layout_alignView="@+id/text2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text2"
+            style="@style/fixed_list_primary_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:1 Metting" />
+
+        <TextView
+            style="@style/fixed_list_secondary_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Studio - Room 2019" />
+
+        <TextView
+            style="@style/fixed_list_secondary_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Charles Collins" />
+    </LinearLayout>
+
+</com.htc.lib1.cc.widget.AscentAlignLayout>

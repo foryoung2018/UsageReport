@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/WeatherSyncProvider/6.0/api19/crc_L2" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/WeatherSyncProvider" path="app/packages/apps/WeatherSyncProvider" revision="app/apps/WeatherSyncProvider/6.0/api19/crc_L2"/>
+</manifest>

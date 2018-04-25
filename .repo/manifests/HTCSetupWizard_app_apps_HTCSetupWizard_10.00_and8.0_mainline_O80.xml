@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCSetupWizard/10.00/and8.0/mainline_O80" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCSetupWizard" path="app/packages/apps/HTCSetupWizard" revision="app/apps/HTCSetupWizard/10.00/and8.0/mainline_O80"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/SetupWizardLib" path="app/hms_libs/SetupWizardLib" revision="3f0b6ccb097f4d831a520ca64f90840eb176d2e3"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="cc16fcb9545ce887ea8c3c56cbc76ca86d2d1bdf"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidappadmin" path="hdk/htc/lib3/HtcWrapandroidappadmin" revision="5f17c73992861cf052ee5a055591d40c1e33f542"/>
+  <project name="app/hdk/htc/lib3/htctelephonycarriers" path="hdk/htc/lib3/HtcTelephonyCarriers" revision="efbbfe07dfa852830d28a74984bf17b6aa9edbc6"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="259935b27cf11bd39b753d084befcd13d1a10bf3"/>
+  <project name="app/hdk/htc/lib3/htcfingerprint" path="hdk/htc/lib3/HtcFingerprint" revision="c092938758816080b407b731aca9e1d3b3286c8d"/>
+  <project name="app/hdk/htc/lib3/wificalling" path="hdk/htc/lib3/WifiCalling" revision="843cb6c6f8e7181b354eb8bb56c56fd464454b69"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="242e618969763f99c5912f9927e7681cffec5c94"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="f9b536a9526c3cd0fdbdf5850321315e48f1fac3"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="6db2457bf8d36ca0c46a7f302c8d6046dcd753b7"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="e7a0d817c468af35385abbe04abf713fab46e705"/>
+</manifest>

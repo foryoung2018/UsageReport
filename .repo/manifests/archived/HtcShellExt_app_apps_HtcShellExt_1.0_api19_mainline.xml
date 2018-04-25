@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcShellExt/1.0/api19/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcShellExt" path="app/packages/apps/HtcShellExt" revision="app/apps/HtcShellExt/1.0/api19/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="9469f560575ace6c73782bd894b673a05ba89943"/>
+</manifest>

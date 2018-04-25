@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">연락처 검색</string><!--Search People-->
+    <string name="common_string_share_title">공유 경로</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">기존 연락처에 저장</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">연락처에 저장</string><!--Save to People-->
+    <string name="label_year">년</string><!--Year-->
+    <string name="label_month">월</string><!--Month-->
+    <string name="label_day">일</string><!--Day-->
+    <string name="label_hour">시간</string><!--Hour-->
+    <string name="label_minute">분</string><!--Minute-->
+    <string name="label_second">초</string><!--Second-->
+    <string name="common_string_open_contact">연락처 열기</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">탭이 한 개 남았습니다. 이 응용 프로그램에 다른 탭을 추가하려면 메뉴에서 탭/필터 편집를 선택하십시오.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">취소</string><!--Cancel-->
+    <string name="va_ok">확인</string><!--OK-->
+    <string name="va_next">다음</string><!--Next-->
+    <string name="va_back">뒤로</string><!--Back-->
+    <string name="va_call">통화</string><!--Call-->
+    <string name="st_loading">로드 중...</string><!--Loading...-->
+    <string name="va_close">닫기</string><!--Close-->
+    <string name="va_open">열기</string><!--Open-->
+    <string name="va_clear">"지우기"</string><!--Clear-->
+    <string name="va_send_mail">메일 보내기</string><!--Send mail-->
+    <string name="va_send_message">메시지 보내기</string><!--Send message-->
+    <string name="va_download">다운로드</string><!--Download-->
+    <string name="st_more">더 보기</string><!--More-->
+    <string name="nn_unknown_error">"알 수 없는 오류"</string><!--Unknown error-->
+    <string name="va_downloading">다운로드 중</string><!--Downloading-->
+    <string name="va_finish">마침</string><!--Finish-->
+    <string name="va_reset">초기화</string><!--Reset-->
+    <string name="va_hide">"숨기기"</string><!--Hide-->
+    <string name="ls_tablet_storage_error">태블릿 저장소에서 오류가 발생했습니다. 장치를 재부팅하거나 저장소를 포맷하십시오.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">릴리스로 새로 고침</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">업데이트 중...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">두번 누르고 끌어 조정</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">끌 수 있는 항목</string><!--Draggable item-->
+    <string name="va_move_above">위로 이동</string><!--Move above-->
+    <string name="va_move_below">아래로 이동</string><!--Move below-->
+    <string name="st_pull_down_refresh">아래로 당겨서 새로 고침</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">전화 걸기 전에 번호 편집</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">지도에서 열기</string><!--Open in map-->
+    <string name="va_copy">복사</string><!--Copy-->
+    <string name="va_show_all">모두 표시</string><!--Show all-->
+</resources>

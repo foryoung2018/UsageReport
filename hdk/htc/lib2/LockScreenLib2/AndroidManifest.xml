@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib2.lockscreen" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <application>
+        <meta-data
+            android:name="hdkapi_lockscreen"
+            android:value="1.1.1" />
+    </application>
+
+</manifest>

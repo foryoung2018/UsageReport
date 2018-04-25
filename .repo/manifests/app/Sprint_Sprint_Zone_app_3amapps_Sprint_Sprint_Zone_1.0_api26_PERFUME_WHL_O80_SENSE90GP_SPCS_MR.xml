@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/Sprint_Sprint_Zone/1.0/api26/PERFUME_WHL_O80_SENSE90GP_SPCS_MR" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/Sprint_Sprint_Zone" path="app/packages/3amapps/Sprint_Sprint_Zone" revision="app/3amapps/Sprint_Sprint_Zone/1.0/api26/PERFUME_WHL_O80_SENSE90GP_SPCS_MR"/>
+</manifest>

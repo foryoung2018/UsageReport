@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/TabletServicePackage_Vzjw/1.00/api21/ForDemo" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/TabletServicePackage_Vzjw" path="app/packages/apps/TabletServicePackage_Vzjw" revision="app/apps/TabletServicePackage_Vzjw/1.00/api21/ForDemo"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="0fb73d8cf76fc5e8f39eeb1a8dea18549ff8acfe"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="180cbcb0bee59643f403be776ab31ebdc950d319"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="207f5a3e2bac78fea3579ff5bf6c52e10fc3185d"/>
+</manifest>

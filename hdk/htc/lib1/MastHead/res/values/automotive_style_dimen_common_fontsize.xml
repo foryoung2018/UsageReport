@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="automotive_01">12sp</dimen>
+    <dimen name="automotive_02">35sp</dimen>
+    <dimen name="automotive_03">24sp</dimen>
+    <dimen name="automotive_07">40sp</dimen>
+    <dimen name="automotive_08">40sp</dimen>
+    <dimen name="automotive_11">16sp</dimen>
+    <dimen name="automotive_13">19sp</dimen>
+    <dimen name="automotive_14">20sp</dimen>
+    <dimen name="automotive_15">13sp</dimen>
+    <dimen name="automotive_16">13sp</dimen>
+</resources>

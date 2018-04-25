@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="HtcDeviceDefault.DevelopDontUse" parent="@style/HtcDeviceDefault">
+        <item name="android:alertDialogTheme">@style/PreferenceDialogThemeDevelopDontUse</item>
+        <item name="android:preferenceStyle">@style/Preference.DevelopDontUse</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.DevelopDontUse.Information</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.DevelopDontUse.Category</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.DevelopDontUse.CheckBoxPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.DevelopDontUse.DialogPreference.YesNoPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.DevelopDontUse.DialogPreference.EditTextPreference</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.DevelopDontUse.PreferenceScreen</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.DevelopDontUse.DialogPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.DevelopDontUse.RingtonePreference</item>
+        <item name="android:switchPreferenceStyle">@style/Preference.DevelopDontUse.SwitchPreference</item>
+        <item name="android:preferenceLayoutChild">@layout/dontuse_preference_child</item>
+    </style>
+
+    <style name="PreferenceDialogThemeDevelopDontUse" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:alertDialogStyle">@style/AlertDialog.DevelopDontUse</item>
+        <item name="android:windowTitleStyle">@style/DialogTitle</item>
+        <item name="android:editTextStyle">@style/htcEditTextStyleDefault</item>
+        <item name="android:seekBarStyle">@style/HTCSeekBarStyle.DevelopDontUse</item>
+        <item name="android:textViewStyle">@style/HtcWidget.TextView.DevelopDontUse</item>
+        <item name="android:buttonBarStyle">@style/HtcWidget.ButtonBar.DevelopDontUse</item>
+        <item name="android:buttonBarButtonStyle">@style/HtcWidget.Button.DevelopDontUse</item>
+        <item name="android:progressBarStyleLarge">@style/HTCProgressBarStyle.Indeterminate</item>
+        <item name="android:progressBarStyleHorizontal">@style/HTCProgressBarStyle</item>
+        <item name="android:listDividerAlertDialog">@drawable/inset_list_divider</item>
+        <item name="android:textAppearanceListItemSmall">@style/list_primary_m</item>
+        <item name="android:textAppearanceMedium">@style/list_primary_m</item>
+        <item name="android:textColorAlertDialogListItem">@color/light_primaryfont</item>
+        <item name="android:listViewStyle">@style/HtcWidget.ListView</item>
+        <item name="android:dividerHorizontal">@drawable/common_div</item>
+        <item name="android:dividerVertical">@drawable/common_b_div</item>
+        <item name="android:textColorHighlight">@color/text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/text_selection_color</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+        <style name="Preference.DevelopDontUse">
+        <item name="android:layout">@layout/dontuse_preference</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.Information">
+        <item name="android:layout">@layout/dontuse_preference_information</item>
+        <item name="android:enabled">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.Category">
+        <item name="android:layout">@layout/dontuse_preference_category</item>
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/dontuse_preference_widget_checkbox</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.SwitchPreference">
+        <item name="android:widgetLayout">@layout/dontuse_preference_widget_switch</item>
+        <item name="android:switchTextOn">@string/switch_on</item>
+        <item name="android:switchTextOff">@string/switch_off</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.PreferenceScreen"></style>
+
+    <style name="Preference.DevelopDontUse.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.DialogPreference.YesNoPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@layout/dontuse_preference_dialog_edittext</item>
+    </style>
+
+    <style name="Preference.DevelopDontUse.RingtonePreference">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showSilent">true</item>
+        <item name="android:showDefault">true</item>
+    </style>
+
+    <!-- No margins or background by default. Could be different for x-large screens -->
+    <style name="DevelopDontUsePreferencePanel"></style>
+
+    <style name="DevelopDontUsePreferencePanel.Dialog">
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_marginRight">0dip</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">0dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="HtcWidget.Button.DevelopDontUse" parent="@android:style/Widget.Material.Button.Borderless.Small">
+        <item name="android:textAppearance">@style/fixed_separator_secondary_m</item>
+        <item name="android:paddingStart">@dimen/margin_s</item>
+        <item name="android:paddingEnd">@dimen/margin_s</item>
+        <item name="android:paddingTop">@dimen/margin_m</item>
+        <item name="android:paddingBottom">@dimen/margin_m</item>
+    </style>
+
+    <style name="HtcWidget.ButtonBar.DevelopDontUse" parent="@android:style/Widget.Material.ButtonBar">
+        <item name="android:background">@drawable/list_selector_light</item>
+        <item name="android:divider">@drawable/common_div</item>
+    </style>
+
+    <style name="HtcWidget.TextView.DevelopDontUse" parent="@android:style/Widget.Material.TextView">
+        <item name="android:textAppearance">@style/list_secondary_m</item>
+    </style>
+</resources>

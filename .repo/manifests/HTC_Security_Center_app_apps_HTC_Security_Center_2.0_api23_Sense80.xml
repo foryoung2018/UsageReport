@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTC_Security_Center/2.0/api23/Sense80" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTC_Security_Center" path="app/packages/apps/HTC_Security_Center" revision="app/apps/HTC_Security_Center/2.0/api23/Sense80"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="5a56dfe33a225c8f6a6cd53fde000d942919ba2d"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="88be2b20c0482c1ad536f8a811ce5953ef38f5ee"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="7e88a2d8f0774cc760075c628f34d22955225ff6"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="0d377e6bbf2df9a4b838bc78a8aac1858a39c077"/>
+</manifest>

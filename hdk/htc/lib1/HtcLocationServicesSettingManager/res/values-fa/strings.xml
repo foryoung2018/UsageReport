@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">سرویس های مکان HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">سرویس های مکان HTC</string><!--HTC Location Services-->
+    <string name="home_label">منزل</string><!--Home-->
+    <string name="work_label">محل كار</string><!--Work-->
+    <string name="location_picker">انتخاب كننده مكان</string><!--location picker-->
+    <string name="clear_label">پاك كردن</string><!--Clear-->
+    <string name="description_label">با پیوند دادن دستی آدرس یا شبکه Wi-Fi به خانه یا محل کارتان، موافقت می کنید که %1$s و %2$s خودتان را با صفحه اصلی HTC Sense به اشتراک بگذارید.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">مکان دقیق</string><!--precise location-->
+    <string name="precise_location_upper">مکان دقیق</string><!--Precise location-->
+    <string name="personal_usage_data">داده های مصرف شخصی</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">داده های مصرف شخصی</string><!--Personal usage data-->
+    <string name="precise_location_description">%s خودتان را به اشتراک بگذارید تا پیشنهادهای را برای رستوران هایی که در نزدیکیتان هستند و سایر مکان ها دریافت کنید.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">%s خودتان را به اشتراک بگذارید، مانند برنامه هایی که استفاده می کنید، وب سایت های مورد بازدید و رسانه ای که به آن گوش می دهید آن را تماشا می کنید. در نتیجه پیشنهادهایی را برای برنامه ها، اخبار و محتواها دریافت خواهید کرد.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">آدرس های پیوند یا شبکه های Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">آدرس های پیوند یا شبکه های Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">افزودن</string><!--add-->
+    <string name="no_content">برای افزودن آدرس یا شبکه Wi-Fi، روی \"+\" ضربه بزنید</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">شبکه‌ Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">آدرس ها</string><!--ADDRESSES-->
+    <string name="wifi_label">شبکه‌ Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">آدرس</string><!--Address-->
+    <string name="select_wifi_title">یک یا چند شبکه بیشتر</string><!--Select one or more networks-->
+    <string name="remove_label">حذف</string><!--Remove-->
+    <string name="edit_label">ویرایش</string><!--Edit-->
+    <string name="alert_dialog_ok">تأیید</string><!--OK-->
+    <string name="alert_dialog_cancel">لغو</string><!--CANCEL-->
+    <string name="lib_app_name">سرویس های مکان HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">تغییر آدرس</string><!--Address location change-->
+    <string name="switch_mode_home">شما قبلاً این آدرس را به عنوان محل کار اضافه کردید. هر آدرس فقط برای یک محل اضافه می شود. می خواهید اکنون آن را به عنوان محل خانه اضافه کنید؟</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">شما قبلاً این آدرس را به عنوان محل خانه تان اضافه کردید. هر آدرس فقط برای یک محل اضافه می شود. می خواهید اکنون آن را به عنوان محل کارتان اضافه کنید؟</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi خاموش است</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">برای پیوند دادن یک شبکه Wi-Fi به این مکان، لازم است Wi-Fi را در تنظیمات روشن کنید.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">تنظیمات</string><!--SETTINGS-->
+    <string name="duplicate_address">این آدرس قبلاً اضافه شده است.</string><!--This address has already been added.-->
+    <string name="unknown_address">آدرس ناشناس</string><!--unknown address-->
+    <string name="too_much_item">حداکثر تعداد مکان ها را اضافه کردید.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">متصل شد</string><!--Connected-->
+    <string name="saved_label">ذخيره شد</string><!--Saved-->
+    <string name="secured_label">ايمن شده با %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">برای اینکه این برنامه به درستی کار کند، لازم است به مکان دستگاهتان دسترسی داشته باشد. اگر از شما خواسته شد، اجازه بدهید.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">برای اینکه این برنامه به درستی کار کند، لازم است به مکانتان دسترسی داشته باشد. در قسمت تنظیمات می توانید مجوزهای %s را مدیریت کنید.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">بستن</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">تنظیمات</string><!--SETTINGS-->
+    <string name="hsp_app_name">بسته سرویس Htc</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">منابع مكان غيرفعال شدند</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">جهت كاركرد درست اين برنامه كاربردي بايد مكان شما معلوم باشد. لطفاً منبع مکان را در «تنظيمات» روشن كنيد.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">تنظيم</string><!--SETTING-->
+    <string name="no_wifi_available">شبكه Wi-Fi موجود نيست</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

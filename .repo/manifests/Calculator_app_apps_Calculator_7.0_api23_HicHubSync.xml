@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Calculator/7.0/api23/HicHubSync" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Calculator" path="app/packages/apps/Calculator" revision="app/apps/Calculator/7.0/api23/HicHubSync"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Calculator" path="app/customization/packages/apps/Calculator" revision="app/apps/Calculator/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+</manifest>

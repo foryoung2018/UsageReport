@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Servicii de localizare HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">Servicii de localizare HTC</string><!--HTC Location Services-->
+    <string name="home_label">Acasă</string><!--Home-->
+    <string name="work_label">Serviciu</string><!--Work-->
+    <string name="location_picker">alegere locaţie</string><!--location picker-->
+    <string name="clear_label">Golire</string><!--Clear-->
+    <string name="description_label">Legând manual o adresă sau o reţea Wi-Fi cu locaţia dvs. de acasă sau de la birou, sunteţi de acord să partajaţi %1$s şi %2$s cu HTC Sense Start.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">locaţie exactă</string><!--precise location-->
+    <string name="precise_location_upper">Locaţie exactă</string><!--Precise location-->
+    <string name="personal_usage_data">date personale despre utilizare</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Date personale despre utilizare</string><!--Personal usage data-->
+    <string name="precise_location_description">Distribuiţi %s pentru a primi sugestii de restaurante din apropiere şi alte locaţii.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Distribuiţi %s cum sunt aplicaţiile pe care le folosesc, site-urile web pe care le vizitez şi conţinutul media pe care îl vizionez sau îl ascult, pentru a primi sugestii de aplicaţii, ştiri şi conţinut.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Legaţi adrese sau reţele Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Legaţi adrese sau reţele Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">adăugare</string><!--add-->
+    <string name="no_content">Apăsaţi &quot;+&quot; pentru a adăuga o adresă sau o reţea Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">REŢELE Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESE</string><!--ADDRESSES-->
+    <string name="wifi_label">Reţea Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">Adresă</string><!--Address-->
+    <string name="select_wifi_title">Selectaţi una sau mai multe reţele</string><!--Select one or more networks-->
+    <string name="remove_label">Eliminare</string><!--Remove-->
+    <string name="edit_label">Editare</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">ANULARE</string><!--CANCEL-->
+    <string name="lib_app_name">Servicii de localizare HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">Schimbare locaţie adresă</string><!--Address location change-->
+    <string name="switch_mode_home">Aţi adăugat anterior această adresă ca locaţie de serviciu. O adresă poate fi adăugată numai la o singură locaţie. Doriţi să o transformaţi acum în locaţie de acasă?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Aţi adăugat anterior această adresă ca locaţie de acasă. O adresă poate fi adăugată numai la o singură locaţie. Doriţi să o transformaţi acum în locaţie de serviciu?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi este oprit</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Pentru a lega o reţea Wi-Fi cu această locaţie, trebuie să porniţi Wi-Fi din Setări.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">SETĂRI</string><!--SETTINGS-->
+    <string name="duplicate_address">Această adresă a fost deja adăugată.</string><!--This address has already been added.-->
+    <string name="unknown_address">adresă necunoscută</string><!--unknown address-->
+    <string name="too_much_item">Aţi adăugat numărul maxim de locaţii.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Conectat</string><!--Connected-->
+    <string name="saved_label">Salvată</string><!--Saved-->
+    <string name="secured_label">Securizată cu %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Pentru a funcţiona corespunzător, această aplicaţie are nevoie de acces la locaţia acestui dispozitiv. Acordaţi permisiunea când vă este solicitată.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Pentru a funcţiona corespunzător, această aplicaţie are nevoie de acces la locaţia dvs. Puteţi gestiona permisiunile %s din Setări.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ÎNCHIDERE</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">SETĂRI</string><!--SETTINGS-->
+    <string name="hsp_app_name">Pachet de servicii HTC</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Surse de localizare dezactivate</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Pentru a funcţiona corespunzător, aplicaţia trebuie să vă cunoască locaţia. Porniţi o sursă de localizare din Setări.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">SETARE</string><!--SETTING-->
+    <string name="no_wifi_available">Nu există reţele Wi-Fi disponibile</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

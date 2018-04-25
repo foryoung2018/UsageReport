@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- ======================== for every dpi ======================== -->
+    <!-- Divider -->
+    <dimen name="divider_bold_height">2dp</dimen> <!-- OK -->
+
+    <!-- Month View -->
+    <dimen name="month_event_top_margin">@dimen/common_M3</dimen> <!-- OK -->
+    <dimen name="month_event_bottom_margin">@dimen/common_M3</dimen> <!-- OK -->
+    <dimen name="month_text_right_margin">@dimen/common_M4</dimen> <!-- OK -->
+    <dimen name="month_week_bar_height">@dimen/common_separator_height</dimen> <!-- OK -->
+    <dimen name="month_allday_event_width">2dp</dimen> <!-- OK -->
+    <dimen name="month_normal_event_left_margin">1.67dp</dimen> <!-- OK -->
+    <dimen name="month_normal_event_width">5dp</dimen> <!-- OK -->
+    <dimen name="month_event_min_height">1.34dp</dimen> <!-- OK -->
+    <dimen name="month_box_frame_width">2dp</dimen> <!-- OK -->
+    <dimen name="month_time_bar_width">16.67dp</dimen> <!-- OK -->
+
+    <!-- CalendarView -->
+    <dimen name="calendar_offset_y">6.67dp</dimen> <!-- OK -->
+    <dimen name="calendar_min_cell_height">38dp</dimen> <!-- OK -->
+
+    <!-- Week View -->
+    <dimen name="week_week_bar_height">41dp</dimen> <!-- OK -->
+    <dimen name="week_allday_event_height">29dp</dimen> <!-- OK -->
+    <dimen name="week_bar_2line_offset">2.34dp</dimen> <!-- OK -->
+
+    <!-- Day View -->
+    <dimen name="day_timezone_bar_height">40dp</dimen> <!-- OK -->
+
+    <!-- Preview View -->
+    <dimen name="preview_extra_rect_width">2dp</dimen> <!-- OK -->
+
+    <!-- Weather -->
+    <dimen name="weather_bar_height">@dimen/common_listitem_height</dimen> <!-- Fong, same as list item, use HtcAssetUtils.getHtcListItemHeight() -->
+
+
+    <!-- EditEvent -->
+    <dimen name="location_margin_top">0px</dimen>
+
+    <!-- Event Detailed webview font size -->
+    <dimen name="webview_target_fontsize">16px</dimen>
+
+    <!-- Popup event -->
+    <dimen name="popup_arrow_margin">0px</dimen> <!-- OK -->
+
+    <!-- Tap range -->
+    <dimen name="tap_range">44dp</dimen> <!-- OK --> <!-- defined on user-experience web -->
+    <dimen name="page_change_threshold">40dp</dimen> <!-- OK -->
+    <dimen name="auto_vscroll_offset">12dp</dimen> <!-- OK -->
+
+    <!-- Lockscreen -->
+    <dimen name="lockscreen_line1_top_margin">12.34dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line2_top_margin">1.34dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line3_top_margin">2.67dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line3_height">100dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line3_toast_margin_top">6dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line3_toast_margin_left">12.67dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line3_toast_margin_right">12.67dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line3_toast_margin_bottom">8dp</dimen> <!-- OK -->
+    <dimen name="lockscreen_line3_toast_margin">85dp</dimen> <!-- OK -->
+
+    <!-- Month/ Agenda three lines item -->
+    <dimen name="agenda_more_padding_bottom">6.67dp</dimen> <!-- OK -->
+    <dimen name="agenda_timer_width">72dp</dimen> <!-- OK -->
+
+    <!-- Agenad View -->
+    <dimen name="agenda_start_time_width">90.67dp</dimen> <!-- OK --> <!-- Sense 6 default 272px, CC Chang -->
+
+    <!-- Common Control -->
+    <!--
+	     M1: com.htc.margin_l	- Header's pulldown btn right_margin
+		 M2: com.htc.margin_m	- Standard margin
+		 M3: com.htc.margin_s	- Inputs' bottom-margin
+		 M4: com.htc.margin_xs	- Label's top margin
+		 M5: com.htc.spacing	- Paragraph spacing
+		 M6: com.htc.leading	- Textlne leading 
+		 
+		 Above items are basic margins used on sense4.0. For double or triple case,
+		 you can follow below rule for coding.
+		 
+		 Example: 2 x M2 = margin_m_2,
+		          3 x M3 = margin_m_3.
+		 ==========================================================================  		 							
+		 							px>dp	dpi		flag	land-flag	 		
+		 default:	FHD						xxhdpi	0		10																		
+		 FHD:	1920 x 1080	1x		3x		xxhdpi	1		11
+		 HD:	1280 x 720	0.67x	2x		xhdpi	2		12
+		 QHD:	960 x 540	0.5025x	1.5x	hdpi	3		13
+		 WVGA:	800 x 480	0.4489			hdpi	4		14
+		 HVGA:  480 x 320 	0.34x	1x		mdpi
+		 
+		 400dpi: 1920 x1080	1.258?	2.5x	400dpi	21		31			( >5.5" )
+		 
+		 WVGA_L	800 x 480	0.67x			hdpi	22		32			( >4.3" )
+		 FWVGA	854*480						hdpi	23		33
+		 ==========================================================================		 
+    -->
+
+
+    <!-- common margin -->
+    <dimen name="common_M1">@dimen/margin_l</dimen> <!-- M1 -->
+    <dimen name="common_M2">@dimen/margin_m</dimen> <!-- M2 -->
+    <dimen name="common_M3">@dimen/margin_s</dimen> <!-- M3 -->
+    <dimen name="common_M4">@dimen/margin_xs</dimen> <!-- M4 -->
+    <dimen name="common_M1x2">@dimen/margin_l_2</dimen> <!-- M1x2 -->
+    <dimen name="common_M2x2">@dimen/margin_m_2</dimen> <!-- M2x2 -->
+    <dimen name="common_M3x2">@dimen/margin_s_2</dimen> <!-- M3x2 -->
+    <dimen name="common_M4x2">@dimen/margin_xs_2</dimen> <!-- M4x2 -->
+    <dimen name="common_M1x3">@dimen/margin_l_3</dimen> <!-- M1x3 -->
+    <dimen name="common_M2x3">@dimen/margin_m_3</dimen> <!-- M2x3 -->
+    <dimen name="common_M3x3">@dimen/margin_s_3</dimen> <!-- M3x3 -->
+    <dimen name="common_M4x3">@dimen/margin_xs_3</dimen> <!-- M4x3 -->
+    <dimen name="common_M5">@dimen/spacing</dimen> <!-- M5 -->
+    <dimen name="common_M6">@dimen/leading</dimen> <!-- M6 -->
+    <dimen name="common_M5x2">@dimen/spacing_2</dimen> <!-- M5x2 -->
+    <dimen name="common_M6x2">@dimen/leading_2</dimen> <!-- M6x2 -->
+    <dimen name="common_M5x3">@dimen/spacing_3</dimen> <!-- M5x3 -->
+    <dimen name="common_M6x3">@dimen/leading_3</dimen> <!-- M6x3 -->
+
+    <!-- ========= need to define pre-dpi (default:FHD ) ======== -->
+    <!-- Resolution -->
+    <dimen name="resolution_flag">0px</dimen>
+
+    <!-- UI guideline -->
+    <dimen name="common_separator_height">30dp</dimen>
+    <dimen name="common_footer_height">60dp</dimen>
+    <dimen name="common_tabbar_height">33.34dp</dimen> <!-- when common control ready, it can removed. -->
+    <dimen name="icon_launcher_width">43.34dp</dimen> <!-- icon_launcher size in list item -->    
+    <dimen name="h_divider_height">1px</dimen> <!-- Fong , need defined -->
+    <dimen name="v_divider_width">1px</dimen> <!-- Fong , need defined -->
+
+    <!-- Common control -->
+    <dimen name="common_listitem_height">190px</dimen> <!-- Fong, same as list item, use HtcAssetUtils.getHtcListItemHeight() -->
+
+    <!-- CalenadrActiviyMain -->
+    <dimen name="icon_date_baseline">37px</dimen> <!-- Fong , need defined -->
+
+    <!-- Month view :: lunar text -->
+    <dimen name="japan_landscape_bottom_margin">2.34dp</dimen> <!-- Fong, need defined -->
+    <dimen name="japan_landscape_two_line_offset">-2.67dp</dimen> <!-- Fong, need defined -->
+
+    <!-- Preview view -->
+    <dimen name="preview_combined_header_height">38px</dimen> <!-- 50 done -->
+    <dimen name="preview_header_left_padding">23.34dp</dimen> <!-- 50 done,asset width +M3 -->
+
+    <!-- Month/ Agenda three lines margin top -->
+    <dimen name="agenda_minutes_padding_top">-7px</dimen> <!-- FHD 6px, should add -1 from measurement (Hierachy view check) -->
+    <dimen name="margin_top_multiline_line2">-6px</dimen> <!-- FHD 5px, should add -1 from measurement (Hierachy view check) -->
+    <dimen name="margin_top_multiline_line3">-9px</dimen> <!-- FHD 8px, should add -1 from measurement (Hierachy view check) -->
+
+    <!-- Event info details -->
+    <dimen name="margin_top_calendar">-7px</dimen> <!-- Fong, overlap margin, sync to remove? FHD Default 7px -->
+    <dimen name="margin_top_when_line1">-6px</dimen> <!-- Fong, overlap margin, sync to remove? FHD Default 6px -->
+    <dimen name="margin_top_when_line2">-12px</dimen> <!-- Fong, overlap margin, sync to remove? FHD Default 12px -->
+
+    <!-- Popup Event -->
+    <dimen name="popup_event_cross_day_month_top_margin">6dp</dimen> <!-- top & bottom sholud align date number -->
+    <dimen name="popup_event_cross_day_time_top_margin">-9px</dimen> <!-- should add -1 from measurement (Hierachy view check) -->
+    <dimen name="popup_title_top_margin">2.34dp</dimen> <!-- Fong, change to dp in sense65 -->
+    <dimen name="popup_location_top_margin">-6px</dimen> 
+    <dimen name="popup_attendee_top_margin">-13px</dimen> <!-- should add -1 from measurement (Hierachy view check) -->
+    
+</resources>

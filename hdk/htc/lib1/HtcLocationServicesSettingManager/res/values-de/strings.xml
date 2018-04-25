@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC Standortdienste</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC Standortdienste</string><!--HTC Location Services-->
+    <string name="home_label">Zuhause</string><!--Home-->
+    <string name="work_label">Büro</string><!--Work-->
+    <string name="location_picker">Standortwähler</string><!--location picker-->
+    <string name="clear_label">Löschen</string><!--Clear-->
+    <string name="description_label">Durch die manuelle Verknüpfung einer Adresse oder eines WLAN-Netzwerks mit dem Privat- oder Arbeitsstandort, stimmen Sie zu, dass Ihr %1$s, sowie %2$s mit HTC Sense Startseite geteilt werden.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">genauer Standort</string><!--precise location-->
+    <string name="precise_location_upper">Genauer Standort</string><!--Precise location-->
+    <string name="personal_usage_data">persönliche Nutzungsdaten</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Persönliche Nutzungsdaten</string><!--Personal usage data-->
+    <string name="precise_location_description">Teilen Sie Ihren %s, um Vorschläge für Restaurants und andere Orte in der Nähe zu erhalten.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Teilen Sie Ihre %s wie z.B. von mir verwendete Apps, von mir besuchte Webseiten und von mir gehörte und angesehene Medien, um Vorschläge für Apps, Nachrichten und Inhalte zu erhalten.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Adressen oder WLAN-Netzwerke verknüpfen</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Adressen oder WLAN-Netzwerke verknüpfen</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">hinzufügen</string><!--add-->
+    <string name="no_content">Tippen Sie auf &quot;+&quot;, um eine Adresse oder WLAN-Netzwerk hinzuzufügen</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">WLAN-NETZWERKE</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESSEN</string><!--ADDRESSES-->
+    <string name="wifi_label">WLAN-Netzwerk</string><!--Wi-/Fi network-->
+    <string name="address_label">Adresse</string><!--Address-->
+    <string name="select_wifi_title">Ein oder mehrere Netzwerke auswählen</string><!--Select one or more networks-->
+    <string name="remove_label">Entfernen</string><!--Remove-->
+    <string name="edit_label">Bearbeiten</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">ABBRECHEN</string><!--CANCEL-->
+    <string name="lib_app_name">HTC Standortdienste</string><!--HTC location services-->
+    <string name="switch_mode_title">Adressstandort ändern</string><!--Address location change-->
+    <string name="switch_mode_home">Sie haben diese Adresse zuvor als einen Arbeitsstandort hinzugefügt. Eine Adresse kann nur zu einem Standort hinzugefügt werden. Möchten Sie sie jetzt in einen Heimstandort ändern?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Sie haben diese Adresse zuvor als einen Heimstandort hinzugefügt. Eine Adresse kann nur zu einem Standort hinzugefügt werden. Möchten Sie sie jetzt in einen Arbeitsstandort ändern?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">WLAN ist aus</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Um ein WLAN-Netzwerk mit diesem Standort zu verknüpfen, müssen Sie WLAN in den Einstellungen aktivieren.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">EINSTELLUNGEN</string><!--SETTINGS-->
+    <string name="duplicate_address">Diese Adresse wurde bereits hinzugefügt.</string><!--This address has already been added.-->
+    <string name="unknown_address">unbekannte Adresse</string><!--unknown address-->
+    <string name="too_much_item">Sie haben die maximale Anzahl an Orten hinzugefügt.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Verbunden</string><!--Connected-->
+    <string name="saved_label">Gespeichert</string><!--Saved-->
+    <string name="secured_label">Gesichert mit %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Damit diese App richtig funktionieren kann, muss sie auf den Standort dieses Gerätes zugreifen. Bitte Berechtigung bei Aufforderung erlauben.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Damit diese App richtig funktionieren kann, muss sie auf Ihren Standort zugreifen. Sie könnnen die Berechtigungen von %s unter Einstellungen verwalten.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">SCHLIESSEN</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">EINSTELLUNGEN</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC Service Pack</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Standortquellen deaktiviert</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Damit diese Applikation richtig funktionieren kann, muss sie Ihren Standort kennen. Aktivieren Sie eine Standortquelle unter Einstellungen.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">EINSTELLUNG</string><!--SETTING-->
+    <string name="no_wifi_available">Keine WLAN-Netze verfügbar</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

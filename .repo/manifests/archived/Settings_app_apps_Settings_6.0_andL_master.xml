@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Settings/6.0/andL/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Settings" path="app/packages/apps/Settings" revision="app/apps/Settings/6.0/andL/master"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Settings" path="app/customization/packages/apps/Settings" revision="app/apps/Settings/master"/>
+</manifest>

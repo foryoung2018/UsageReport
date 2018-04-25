@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Това приложение използва връзка за мобилни данни или Wi-Fi. Свържете се с местния оператор, за да разберете точните тарифи на използването на данни.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Не ме питай повече</string><!--Don\'t ask me again-->
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item name="simple_launcher_02_shadowSize" type="dimen">1.7</item>
+    <item name="simple_launcher_02_shadowDy" type="dimen">1.7</item>
+    <item name="simple_launcher_03_shadowSize" type="dimen">1.7</item>
+    <item name="simple_launcher_03_shadowDy" type="dimen">1.7</item>
+    <item name="simple_launcher_04_shadowSize" type="dimen">1.7</item>
+    <item name="simple_launcher_04_shadowDy" type="dimen">1.7</item>
+    <item name="simple_launcher_05_shadowSize" type="dimen">1.7</item>
+    <item name="simple_launcher_05_shadowDy" type="dimen">1.7</item>
+</resources>

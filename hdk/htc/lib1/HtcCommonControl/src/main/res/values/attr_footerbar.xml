@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HtcFooter and HtcFooterButton Start -->
+    <declare-styleable name="HtcFooter">
+        <attr name="def_child_weight" format="float" />
+        <attr name="footer_display_mode">
+            <enum name="mode_default" value="0x00" />
+            <enum name="mode_alwaysright" value="0x01" />
+            <enum name="mode_alwaysbottom" value="0x02" />
+        </attr>
+        <attr name="backgroundMode" />
+        <attr name="android:background" />
+        <!-- add for sense60 start -->
+        <attr name="android:src" />
+        <attr name="android:divider" />
+        <!-- add for sense60 end -->
+    </declare-styleable>
+    <declare-styleable name="HtcFooterButton">
+        <attr name="android:src"/>
+        <attr name="backgroundMode" />
+        <attr name="android:singleLine" />
+    </declare-styleable>
+    <!-- HtcFooter and HtcFooterButton End -->
+</resources>

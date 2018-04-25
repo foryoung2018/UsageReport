@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--for sw432dp: ration = (* 3 => round to integer => /2.5) 
+    of values folder (We use 1920*1080 sw360dp-xxhdpi as standard measurement) -->
+<resources> <!-- included the dimen of theme and the dimen from WeatherClock4x1  -->
+<!-- large2line -->
+	<!-- begin - multiply the scale ratioReverse to prevent from scaling down -->
+	<dimen name="large2line_theme0_background_block_margin_top">8dp</dimen>
+	<dimen name="large2line_theme0_sun_margin_left">@dimen/margin_m</dimen>
+	<dimen name="large2line_theme0_info_temp_area_margin_top">-2.4dp</dimen>
+	<dimen name="large2line_theme0_info_temp_area_margin_left">@dimen/margin_l</dimen>
+	<!-- end - multiply the scale ratio  to prevent from scaling down-->
+	
+	<dimen name="large2line_theme0_info_temp_area_degree_symbol_margin_top">0dp</dimen>
+	<dimen name="large2line_theme0_info_temp_area_degree_margin_top">2.4dp</dimen>
+<!-- large -->
+	<dimen name="large_theme0_sun_margin_left">28.4dp</dimen>
+	
+	<dimen name="large_theme0_background_block_margin_top">18.4dp</dimen>
+	<dimen name="large_theme0_digit_margin_top">7.2dp</dimen>
+	<dimen name="large_theme0_am_pm_margin_bottom">3.2dp</dimen>
+	
+	<dimen name="large_theme0_info_temp_area_margin_top">10.4dp</dimen>	
+	<dimen name="large_theme0_info_temp_area_degree_symbol_margin_top">9.6dp</dimen>
+	<dimen name="large_theme0_info_temp_area_degree_margin_top">12.4dp</dimen>
+<!-- simple -->
+	<dimen name="simple_theme0_info_temp_area_margin_top">@dimen/margin_s</dimen>	
+	    
+	<dimen name="simple_theme0_am_pm_margin_bottom">3.6dp</dimen>
+	<dimen name="simple_theme0_info_temp_area_degree_symbol_margin_top">6.8dp</dimen>
+	<dimen name="simple_theme0_info_temp_area_degree_margin_top">11.2dp</dimen>
+	
+	<dimen name="simple_theme0_sun_margin_top">20dp</dimen>
+	<dimen name="simple_theme0_digital_margin_top">28.8dp</dimen>
+	<dimen name="simple_theme0_background_block_margin_left">32.4dp</dimen>
+	    
+<!-- common  -->
+    <dimen name="theme_widget_margin_left_right">46.8dp</dimen>
+    <dimen name="theme_clock_4x1_img_width">56dp</dimen>
+    <dimen name="theme_clock_4x1_img_height">87.2dp</dimen>
+    <dimen name="theme_clock_4x1_img_half_height">43.61dp</dimen>
+	
+    <dimen name="temp_degree_margin_right">0dp</dimen>
+        
+    <dimen name="theme_temp_area_height">22.4dp</dimen>
+<!-- for com.htc.lib1.masthead.view.ItalicTextView      
+    <dimen name="theme_italic_text_extra_right_space">-1.3dp</dimen>
+	<dimen name="theme_italic_padding">2dp</dimen>
+	<dimen name="theme_italic_padding_shift">-2dp</dimen>
+-->	    
+    
+<!-- theme0 -->
+	<dimen name="theme0_weather_display_width">116.8dp</dimen>
+	<dimen name="theme0_weather_display_height">112dp</dimen>        
+    <dimen name="theme0_sun_small_width">105.6dp</dimen>
+    <dimen name="theme0_sun_small_height">105.6dp</dimen>
+    <dimen name="theme0_sun_small_margin_top">22.8dp</dimen>
+    
+    <dimen name="theme0_sun_and_digit_gap">@dimen/margin_l</dimen>
+
+    <dimen name="theme0_clock_point_4x1_width">12dp</dimen>    
+    <dimen name="theme0_temp_degree_margin_top">-3.2dp</dimen>
+
+    <dimen name="theme0_info_temp_area_margin_top">4.4dp</dimen>	
+	<dimen name="theme0_info_temp_area_degree_symbol_margin_top">4.4dp</dimen>
+	<dimen name="theme0_info_temp_area_degree_margin_top">6.8dp</dimen>
+	
+    <dimen name="theme0_am_pm_margin_bottom">4.4dp</dimen>
+    
+    <dimen name="theme0_sun_and_digit_margin_top">6dp</dimen>
+    <dimen name="theme0_background_block_margin_top">9.6dp</dimen>
+    <dimen name="theme0_background_block_margin_left">@dimen/leading</dimen>
+    <dimen name="theme0_background_block_margin_right">@dimen/leading</dimen>
+        
+<!-- theme1 -->    
+    <dimen name="theme1_sun_small_width">26.4dp</dimen> <!-- 0.25 scale ratio of asset -->
+    <dimen name="theme1_sun_small_height">26.4dp</dimen>
+
+    <dimen name="theme1_clock_point_4x1_width">12dp</dimen>    
+	<dimen name="theme1_am_pm_margin_bottom">4.4dp</dimen>
+	      
+	<dimen name="theme1_info_temp_area_margin_top">@dimen/margin_xs</dimen>
+	<dimen name="theme1_info_temp_area_info_block_text_align_margin_top">1.2dp</dimen>
+	<dimen name="theme1_info_temp_area_temp_block_text_align_margin_top">@dimen/theme1_info_temp_area_info_block_text_align_margin_top</dimen>	<!--fixed info_block_height and center_vertical. we need to self estimate, to sync the text top with info block-->
+	<dimen name="theme1_info_temp_area_degree_symbol_margin_top">6dp</dimen>
+	<dimen name="theme1_info_temp_area_degree_margin_top">8.4dp</dimen>	
+	<dimen name="theme1_info_temp_area_width">320dp</dimen>
+	<dimen name="theme1_info_temp_area_height">29.2dp</dimen>	
+	<dimen name="theme1_info_temp_area_info_block_height">18.8dp</dimen>		
+	<dimen name="theme1_background_block_margin_top">15.6dp</dimen>
+	
+	<dimen name="theme1_separatrix_width">0.8dp</dimen>
+	<dimen name="theme1_separatrix_height">12dp</dimen>
+    <dimen name="theme1_background_block_margin_left_right">56dp</dimen>		
+<!-- theme2 -->
+
+    <dimen name="theme2_slash_img_width">112dp</dimen>
+    <dimen name="theme2_slash_img_height">99.2dp</dimen>
+
+    <dimen name="theme2_info_temp_area_margin_top">-2dp</dimen>	
+	<dimen name="theme2_info_temp_area_degree_symbol_margin_top">-2dp</dimen>
+	<dimen name="theme2_info_temp_area_degree_margin_top">0.8dp</dimen>
+</resources>

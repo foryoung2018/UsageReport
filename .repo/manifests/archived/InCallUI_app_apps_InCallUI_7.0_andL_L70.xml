@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/InCallUI/7.0/andL/L70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/InCallUI" path="app/packages/apps/InCallUI" revision="app/apps/InCallUI/7.0/andL/L70"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/InCallUI" path="app/customization/packages/apps/InCallUI" revision="app/apps/InCallUI/master"/>
+</manifest>

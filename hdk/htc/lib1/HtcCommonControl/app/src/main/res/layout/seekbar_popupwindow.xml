@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cmd_bar_11"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/player_foot_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:visibility="visible" >
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/seekbar_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            displayMode="mode_dark"
+            android:paddingLeft="0px"
+            android:paddingRight="0px" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/player_foot_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_panel"
+        android:layout_below="@id/player_foot_bar"
+        android:layout_gravity="top"
+        android:background="@android:color/white"
+        android:visibility="visible" >
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/seekbar_middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            displayMode="mode_light" />
+    </LinearLayout>
+    <!-- Control Bar Portrait Layout -->
+    <LinearLayout
+        android:id="@+id/bottom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/cmd_bar_imgbtn_3_port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change" />
+            <Button
+                android:id="@+id/cmd_bar_imgbtn_4_port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thumb" />
+            <Button
+                android:id="@+id/cmd_bar_imgbtn_2_port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size" />
+        </LinearLayout>
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/seekbar_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            displayMode="mode_dark"
+            android:paddingLeft="@dimen/margin_m"
+            android:paddingRight="@dimen/margin_m" />
+    </LinearLayout>
+</RelativeLayout>

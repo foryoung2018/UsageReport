@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Udført</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Del via</string><!--Share via-->
+    <string name="carousel_title">Tryk og hold på ikoner for at omarrangere</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Kunne ikke fjerne denne </string><!--Unable to remove this tab-->
+    <string name="yes">Ja</string><!--Yes-->
+    <string name="no">Nej</string><!--No-->
+    <string name="menu_view_full">Vis</string><!--View-->
+    <string name="menu_view_video">Afspil</string><!--Play-->
+    <string name="menu_slideshow">Diasshow</string><!--Slideshow-->
+    <string name="menu_share">Del</string><!--Share-->
+    <string name="menu_set_as">Indstil som</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Gem som favorit</string><!--Set as favorite-->
+    <string name="menu_protect_info">Beskyttelsesinfo</string><!--Protection info-->
+    <string name="meun_rotate">Rotér</string><!--Rotate-->
+    <string name="menu_delete">Slet</string><!--Delete-->
+    <string name="menu_crop">Beskær</string><!--Crop-->
+    <string name="menu_properties">Detaljer</string><!--Details-->
+    <string name="menu_show_on_map">Vis på kort</string><!--Show on map-->
+    <string name="menu_settings">Indstillinger</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Del billedlink</string><!--Share photo link-->
+    <string name="refresh">Opdater</string><!--Refresh-->
+    <string name="add_comments">Tilføj kommentar</string><!--Add comment-->
+    <string name="button_show_caption">Vis billedtekst</string><!--Show caption-->
+    <string name="button_hide_caption">Skjul billedtekst</string><!--Hide caption-->
+    <string name="button_show_description">Vis beskrivelse</string><!--Show description-->
+    <string name="button_hide_description">Skjul beskrivelse</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Lille</item><!--Small-->
+        <item>Medium</item><!--Medium-->
+        <item>Stor</item><!--Large-->
+        <item>Ekstra stor</item><!--Extra large-->
+        <item>Kæmpestor</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dobbelttryk for handling</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Træk ikonet op</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Træk op for at låse op</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Sø</item><!--SU-->
+        <item>M</item><!--M-->
+        <item>Ti</item><!--TU-->
+        <item>O</item><!--W-->
+        <item>To</item><!--TH-->
+        <item>F</item><!--F-->
+        <item>Lø</item><!--SA-->
+    </string-array>
+</resources>

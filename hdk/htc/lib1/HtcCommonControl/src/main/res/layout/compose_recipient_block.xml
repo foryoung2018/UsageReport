@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/compose_recipient_block"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/section_divider_top">
+    <TextView
+        android:id="@+id/label"
+        style="@style/separator_primary_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:layout_marginRight="@dimen/margin_l"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@+id/input_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+        <com.htc.lib1.cc.widget.HtcAutoCompleteTextView
+            android:id="@+id/receiverList_inputfield_to"
+            style="@style/input_default_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_l"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textCursorDrawable="@null" />
+        <!--  set up programmatically to handle visibility change
+        <com.htc.lib1.cc.widget.HtcImageButton
+            android:id="@+id/receiverList_img_to"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:padding="0px"
+            android:scaleType="center" />
+        -->
+    </LinearLayout>
+    <com.htc.lib1.cc.widget.recipientblock.ComposeRecipientArea
+        android:id="@+id/recipient_container_to"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_l"
+        android:orientation="vertical"
+        android:visibility="gone" />
+</LinearLayout>

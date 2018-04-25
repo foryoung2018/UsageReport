@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Gereed</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Delen via</string><!--Share via-->
+    <string name="carousel_title">Houdt pictogram vast om te herordenen</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Kan dit tabblad niet verwijderen</string><!--Unable to remove this tab-->
+    <string name="yes">Ja</string><!--Yes-->
+    <string name="no">Nee</string><!--No-->
+    <string name="menu_view_full">Weergeven</string><!--View-->
+    <string name="menu_view_video">Afspelen</string><!--Play-->
+    <string name="menu_slideshow">Diashow</string><!--Slideshow-->
+    <string name="menu_share">Delen</string><!--Share-->
+    <string name="menu_set_as">Instellen als</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Instellen als favoriet</string><!--Set as favorite-->
+    <string name="menu_protect_info">Beveiligingsinfo</string><!--Protection info-->
+    <string name="meun_rotate">Draaien</string><!--Rotate-->
+    <string name="menu_delete">Verwijderen</string><!--Delete-->
+    <string name="menu_crop">Bijsnijden</string><!--Crop-->
+    <string name="menu_properties">Details</string><!--Details-->
+    <string name="menu_show_on_map">Weergeven op kaart</string><!--Show on map-->
+    <string name="menu_settings">Instellingen</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Fotokoppeling delen</string><!--Share photo link-->
+    <string name="refresh">Vernieuwen</string><!--Refresh-->
+    <string name="add_comments">Opmerking toevoegen</string><!--Add comment-->
+    <string name="button_show_caption">Bijschrift weergeven</string><!--Show caption-->
+    <string name="button_hide_caption">Bijschrift verbergen</string><!--Hide caption-->
+    <string name="button_show_description">Beschrijving weergeven</string><!--Show description-->
+    <string name="button_hide_description">Beschrijving verbergen</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Klein</item><!--Small-->
+        <item>Gemiddeld</item><!--Medium-->
+        <item>Groot</item><!--Large-->
+        <item>Extra groot</item><!--Extra large-->
+        <item>Enorm</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dubbeltik voor actie</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Pictogram naar boven trekken</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Trek omhoog om te ontgrendelen</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Zo</item><!--SU-->
+        <item>Ma</item><!--M-->
+        <item>Di</item><!--TU-->
+        <item>Wo</item><!--W-->
+        <item>Do</item><!--TH-->
+        <item>Vr</item><!--F-->
+        <item>Za</item><!--SA-->
+    </string-array>
+</resources>

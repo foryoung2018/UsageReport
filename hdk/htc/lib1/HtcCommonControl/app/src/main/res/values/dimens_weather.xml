@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="weather_01">27sp</dimen>
+    <dimen name="weather_02">16sp</dimen>
+    <dimen name="weather_03">27sp</dimen>
+    <dimen name="weather_04">15sp</dimen>
+    <dimen name="weather_05">20sp</dimen>
+    <dimen name="weather_06">10sp</dimen>
+    <dimen name="weather_07">20sp</dimen>
+    <dimen name="weather_08">10sp</dimen>
+    <dimen name="weather_09">30sp</dimen>
+
+</resources>

@@ -1,0 +1,11 @@
+ext {
+    sdkVersion = "android-26"
+    toolVersion = "26.0.0"
+
+    Properties androidProperties = new Properties()
+    androidProperties.load(new FileInputStream("${project.rootDir}/local.properties"))
+    keyAlias = androidProperties.get('key.keyAlias')
+    keyPassword = androidProperties.get('key.keyPassword')
+    storeFile = androidProperties.get('key.storeFile')
+    storePassword = androidProperties.get('key.storePassword')
+}

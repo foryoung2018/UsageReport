@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/DialerService/8.00/and6.0/master" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/DialerService" path="app/packages/apps/DialerService" revision="app/apps/DialerService/8.00/and6.0/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="d1c4f578902533f221a82037e02973dbd8e7dc79"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="ae785904f3897f07efdb46d5d924bedfd83e64b4"/>
+</manifest>

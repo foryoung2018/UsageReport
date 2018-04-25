@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_margin_left"
+        android:paddingRight="@dimen/content_margin_right">
+
+        <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/btn_activity1"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:text="@string/title_demo_activity1"
+            style="@style/normal_button" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:background="@drawable/common_list_divider"/>
+
+        <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/btn_radio_list_activity"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:text="@string/title_demo_radiolist_activity"
+            style="@style/normal_button" />
+
+        <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/btn_preference_activity"
+            style="@style/normal_button"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:text="@string/title_demo_preference_activity" />
+
+        <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/btn_button_activity"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:text="@string/title_demo_button_activity"
+            style="@style/normal_button" />
+
+        <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/btn_special_case"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:text="@string/title_demo_special_activity"
+            style="@style/normal_button" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:background="@drawable/common_list_divider"/>
+
+        <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/btn_multi_page"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:text="@string/title_demo_multi_page"
+            style="@style/normal_button" />
+
+    </LinearLayout>
+
+</ScrollView>

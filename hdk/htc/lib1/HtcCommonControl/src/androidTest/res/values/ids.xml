@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="popup_view_start" type="id"/>
+    <item name="popup_view_end" type="id"/>
+
+    <item name="action_btn_left" type="id"/>
+    <item name="action_btn_center" type="id"/>
+    <item name="action_btn_right" type="id"/>
+
+</resources>

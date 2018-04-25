@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="HtcGridView" parent="android:Widget.Holo.GridView">
+        <item name="android:spacing">@dimen/gridview_gap</item>
+        <item name="android:listSelector"> @drawable/grid_selector_light </item>
+    </style>
+    <style name="HtcGridView.Dark">
+        <item name="android:listSelector"> @drawable/grid_selector_dark </item>
+    </style>
+</resources>

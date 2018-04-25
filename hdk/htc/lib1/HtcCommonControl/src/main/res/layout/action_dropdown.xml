@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.htc.lib1.cc.widget.ActionBarTextView
+        android:id="@+id/primary"
+        style="@style/fixed_title_primary_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ellipsize="marquee"
+        android:maxLines="1" />
+    <com.htc.lib1.cc.widget.ActionBarTextView
+        android:id="@+id/counter"
+        style="@style/fixed_darklist_primary_xxs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing"
+        android:layout_marginLeft="@dimen/spacing"
+        android:maxLines="1"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing"
+        android:layout_marginLeft="@dimen/spacing"
+        android:clickable="false"
+        android:scaleType="center"
+        android:src="@drawable/common_arrow_down"
+        android:visibility="gone" />
+    <com.htc.lib1.cc.widget.ActionBarTextView
+        android:id="@+id/secondary"
+        style="@style/fixed_title_secondary_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:visibility="gone" />
+</merge>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Hour -->
+    <com.htc.lib1.cc.widget.HtcNumberPicker
+        android:id="@+id/hour_table_view"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:selectable="false"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/hour_label"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:text="@string/label_hour"
+        style="@style/fixed_list_secondary"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/time_pick_title_margin"
+        android:layout_below="@+id/hour_table_view"
+        android:singleLine="true"
+        android:ellipsize="marquee" />
+    <!-- Minute -->
+    <com.htc.lib1.cc.widget.HtcNumberPicker
+        android:id="@+id/minute_table_view"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:selectable="false"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/minute_label"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:text="@string/label_minute"
+        style="@style/fixed_list_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/time_pick_title_margin"
+        android:layout_below="@+id/minute_table_view"
+        android:singleLine="true"
+        android:ellipsize="marquee" />
+    <!-- Second -->
+    <com.htc.lib1.cc.widget.HtcNumberPicker
+        android:id="@+id/second_table_view"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:selectable="false"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/second_label"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:text="@string/label_second"
+        style="@style/fixed_list_secondary"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/time_pick_title_margin"
+        android:layout_below="@+id/second_table_view"
+        android:singleLine="true"
+        android:ellipsize="marquee" />
+    <!-- AMPM -->
+    <com.htc.lib1.cc.widget.HtcNumberPicker
+        android:id="@+id/ampm_table_view"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:selectable="false"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/ampm_label"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="wrap_content"
+        android:text="@string/label_second"
+        style="@style/fixed_list_secondary"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/time_pick_title_margin"
+        android:layout_below="@+id/ampm_table_view"
+        android:singleLine="true"
+        android:ellipsize="marquee" />
+</merge>

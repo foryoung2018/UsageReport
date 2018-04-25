@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCWidgetSettingsLTE/7.30/api23/LTE_Widget" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCWidgetSettingsLTE" path="app/packages/apps/HTCWidgetSettingsLTE" revision="app/apps/HTCWidgetSettingsLTE/7.30/api23/LTE_Widget"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HTCWidgetSettingsLTE" path="app/customization/packages/apps/HTCWidgetSettingsLTE" revision="app/apps/HTCWidgetSettingsLTE/master"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcSettingWidgetsUIModule" path="app/packages/apps/HtcSettingWidgetsUIModule" revision="54936fc2f5f68f97a05db59b5dd854278c668052"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="daba73b4f7b010d88f2a19bdb4043fe1a70df04b"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="58cbb1adeca1a8bdd15971382ec3ea4d9f13913b"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="337cd7df64e6d77737b1f7e8bd08fa7fd06c06ad"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="fbec3222ce28e2bc33ee1d25348a1bea4d7cdc2c"/>
+</manifest>

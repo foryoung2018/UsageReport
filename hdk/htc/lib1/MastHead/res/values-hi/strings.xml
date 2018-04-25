@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HTC Corporation Proprietary Rights Acknowledgment  Copyright (C) 2009 HTC Corporation  All Rights Reserved.  The information contained in this work is the exclusive property of HTC Corporation ("HTC").  Only the user who is legally authorized by HTC ("Authorized User") has right to employ this work within the scope of this statement.  Nevertheless, the Authorized User shall not use this work for any purpose other than the purpose agreed by HTC.  Any and all addition or modification to this work shall be unconditionally granted back to HTC and such addition or modification shall be solely owned by HTC.  No right is granted under this statement, including but not limited to, distribution, reproduction, and transmission, except as otherwise provided in this statement.  Any other usage of this work shall be subject to the further written consent of HTC. -->
+<resources>
+<!-- If weather info is unavailable, to notice user to tap the area for launching weather app. -->
+
+	<string name="masthead_st_location_service_off">मौसम पाने के लिए स्थान सेवाएँ चालू करें</string><!--Turn on location services to get weather-->
+	<string name="masthead_st_auto_sync_off">स्वतः समन्वयन बंद है। मौसम देखने के लिए टैप करें।</string><!--Auto sync is off. Tap to see weather.-->
+			    	
+<!-- If weather info is available but fail to get current locatoin name, show this string -->
+	<string name="masthead_st_current_location">वर्तमान स्थान</string><!--Current location-->
+	
+<!-- If weather info is unavailable, and we cannot point out why, we show this as the default string-->
+	<string name="masthead_st_weather_unavailable">मौसम अनुपलब्ध</string><!--Weather unavailable-->
+	
+<!-- The time format of AM/PM-->
+	<string name="masthead_st_am">AM</string><!--AM-->
+	<string name="masthead_st_pm">PM</string><!--PM-->
+
+<!-- Do not translate. name of this package -->
+	<!--<string name="htc_private_app">HTC Masthead</string>-->
+    
+<!-- Do not translate. , -->
+	<!--<string name="comma">", "</string>-->
+    
+<!-- Do not translate. , -->
+	<!--<string name="dash">" -/ "</string>-->
+
+<!-- Do not translate. , -->
+	<!--<string name="temp_degree">\u00b0</string>-->
+    
+</resources>

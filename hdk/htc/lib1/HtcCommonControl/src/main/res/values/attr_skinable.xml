@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2006 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <declare-styleable name="HtcTheme">
+        <!-- HTC alert dialog style -->
+        <attr name="alertDialogStyle" format="reference" />
+        <!-- HtcButton/ImageButton/CompoundButton Series -->
+        <attr name="buttonStyle" format="reference" />
+        <!-- Htc Date/Time Picker -->
+        <attr name="dateTimePickerStyle" format="reference" />
+        <!-- Default PopupBubbleWindow style. -->
+        <attr name="popupBubbleWindowStyle" format="reference" />
+        <!-- Default ListPopupBubbleWindow style. -->
+        <attr name="listPopupBubbleWindowStyle" format="reference" />
+        <!-- Default ExpandableListView style for drop downs. -->
+        <attr name="dropDownExpandableListViewStyle" format="reference" />
+        <!-- Default ListView style for drop downs. -->
+        <attr name="dropDownListViewStyle" format="reference" />
+        <attr name="attr_progress_dialog_drawable" format="color|reference" />
+        <!-- commoncontrol font style of color skin change -->
+        <attr name="skin_b_button_primary" format="color|reference" />
+        <!-- Default ListItem style -->
+        <attr name="htcListItemStyle" format="reference" />
+        <!-- HtcSpinner -->
+        <attr name="spinnerStyle" format="reference" />
+
+        <!-- TabBar -->
+        <attr name="tabbarStyle" format="reference" />
+
+        <!-- Common color for skin change -->
+        <attr name="skin_color" format="reference" />
+        <!-- HtcReorderListView -->
+        <attr name="htcReorderListViewStyle" format="reference" />
+        <!-- QuickContactBadge -->
+        <attr name="quickContactBadgeStyle" format="reference" />
+        <!-- HtcListItemSeparator -->
+        <attr name="htcListItemSeparatorStyle" format="reference" />
+        <!-- HtcListView -->
+        <attr name="htcListViewStyle" format="reference" />
+        <!-- HtcAutoCompleteText -->
+        <attr name="htcAutoCompleteTextViewStyle" format="reference" />
+        <!-- HtcEditText -->
+        <attr name="htcEditTextStyle" format="reference" />
+        <!-- Footer -->
+        <attr name="footerStyle" format="reference" />
+        <attr name="footerButtonStyle" format="reference" />
+        <!-- HtcPreferenceSeekBar -->
+        <attr name="HtcPreferenceSeekBarAttr" format="reference" />
+        <!-- HtcProgressBar -->
+        <attr name="htcProgressBarStyle" format="reference" />
+        <attr name="htcProgressBarStyleIndeterminate" format="reference" />
+        <attr name="htcProgressBarStyleIndeterminateSmall" format="reference" />
+        <attr name="htcProgressBarStyleHorizontalFull" format="reference" />
+        <!-- HtcSeekBar -->
+        <attr name="htcSeekBarStyle" format="reference" />
+        <!-- HtcPopupContainer -->
+        <attr name="htcPopupContainerStyle" format="reference" />
+        <!-- add for sense60 start -->
+        <attr name="actionBarStyle" format="reference" />
+        <attr name="actionBarBackupStyle" format="reference" />
+        <attr name="actionBarSearchStyle" format="reference" />
+        <attr name="actionBarRefreshStyle" format="reference" />
+        <attr name="actionBarDropDownStyle" format="reference" />
+        <attr name="htcListItemSerialNumberStyle" format="reference" />
+        <!-- add for sense60 end -->
+    </declare-styleable>
+</resources>

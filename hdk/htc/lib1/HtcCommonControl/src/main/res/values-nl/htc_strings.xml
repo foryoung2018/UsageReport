@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Contacten zoeken</string><!--Search People-->
+    <string name="common_string_share_title">Delen via</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Opslaan in bestaande contact</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Opslaan in Contacten</string><!--Save to People-->
+    <string name="label_year">Jaar</string><!--Year-->
+    <string name="label_month">Maand</string><!--Month-->
+    <string name="label_day">Dag</string><!--Day-->
+    <string name="label_hour">Uur</string><!--Hour-->
+    <string name="label_minute">Minuut</string><!--Minute-->
+    <string name="label_second">Seconde</string><!--Second-->
+    <string name="common_string_open_contact">Contact openen</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Je hebt nog maar één tab over. Als je meer tabs aan deze app wilt toevoegen, open je het tabblad Bewerken/Filters in het menu.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Annuleren</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Volgende</string><!--Next-->
+    <string name="va_back">Vorige</string><!--Back-->
+    <string name="va_call">Bellen</string><!--Call-->
+    <string name="st_loading">Laden...</string><!--Loading...-->
+    <string name="va_close">Sluiten</string><!--Close-->
+    <string name="va_open">Openen</string><!--Open-->
+    <string name="va_clear">"Wissen"</string><!--Clear-->
+    <string name="va_send_mail">Mail verzenden</string><!--Send mail-->
+    <string name="va_send_message">Bericht verzenden</string><!--Send message-->
+    <string name="va_download">Downloaden</string><!--Download-->
+    <string name="st_more">Meer</string><!--More-->
+    <string name="nn_unknown_error">Onbekende fout</string><!--Unknown error-->
+    <string name="va_downloading">Downloaden</string><!--Downloading-->
+    <string name="va_finish">Voltooien</string><!--Finish-->
+    <string name="va_reset">Opnieuw instellen</string><!--Reset-->
+    <string name="va_hide">"Verbergen"</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Er is een fout opgetreden in je tablet opslag. Start je tablet opnieuw op of formatteer de opslag.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Vrijgeven om te vernieuwen</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Bezig met bijwerken...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">dubbeltik en sleep om dit aan te passen</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Versleepbare item</string><!--Draggable item-->
+    <string name="va_move_above">Naar boven verplaatsen</string><!--Move above-->
+    <string name="va_move_below">Naar beneden verplaatsen</string><!--Move below-->
+    <string name="st_pull_down_refresh">Omlaag trekken voor vernieuwen</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Nummer bewerken v\'óór bellen</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">In kaart openen</string><!--Open in map-->
+    <string name="va_copy">Kopiëren</string><!--Copy-->
+    <string name="va_show_all">Alles weergeven</string><!--Show all-->
+</resources>

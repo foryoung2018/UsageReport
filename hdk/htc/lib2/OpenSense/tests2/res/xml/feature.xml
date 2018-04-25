@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="0" xmlns:opensense="http://www.htc.com/opensense"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.htc.com/opensense feature.xsd ">
+    <feature name="BlinkFeedStreamPlugin">
+        <type>com.htc.opensense.social.SocialPlugin</type>
+        <description>supports blinkfeed stream plugin</description>
+    </feature>
+    <feature name="TestDataPlugin1">
+        <type>com.htc.opensense.TestDataPlugin1</type>
+        <description>supports blinkfeed stream plugin</description>
+    </feature>
+    <feature name="TestDataPlugin2">
+        <type>com.htc.opensense.TestDataPlugin2</type>
+        <description>supports blinkfeed stream plugin</description>
+    </feature>
+</features>

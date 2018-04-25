@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcAllPlay_ShareModule/7.20/api23/Sense8GP" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcAllPlay_ShareModule" path="app/packages/apps/HtcAllPlay_ShareModule" revision="app/apps/HtcAllPlay_ShareModule/7.20/api23/Sense8GP"/>
+</manifest>

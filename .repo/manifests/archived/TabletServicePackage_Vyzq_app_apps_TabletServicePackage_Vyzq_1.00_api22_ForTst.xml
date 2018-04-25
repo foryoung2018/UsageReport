@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/TabletServicePackage_Vyzq/1.00/api22/ForTst" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/TabletServicePackage_Vyzq" path="app/packages/apps/TabletServicePackage_Vyzq" revision="app/apps/TabletServicePackage_Vyzq/1.00/api22/ForTst"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htclib0" path="hdk/htc/lib0/HtcLib0" revision="ea0d185ce6e8a62d5347733939e5b995cb07a52b"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="9469f560575ace6c73782bd894b673a05ba89943"/>
+</manifest>

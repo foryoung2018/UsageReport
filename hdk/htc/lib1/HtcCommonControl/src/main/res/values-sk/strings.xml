@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Hotovo</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Zdieľať cez</string><!--Share via-->
+    <string name="carousel_title">Stlačením a podržaním zmeňte usporiadanie</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Nie je možné odstrániť túto kartu</string><!--Unable to remove this tab-->
+    <string name="yes">Áno</string><!--Yes-->
+    <string name="no">Nie</string><!--No-->
+    <string name="menu_view_full">Zobraziť</string><!--View-->
+    <string name="menu_view_video">Prehrať</string><!--Play-->
+    <string name="menu_slideshow">Prezentácia</string><!--Slideshow-->
+    <string name="menu_share">Zdieľať</string><!--Share-->
+    <string name="menu_set_as">Nastaviť ako</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Nastaviť ako obľúbené</string><!--Set as favorite-->
+    <string name="menu_protect_info">Informácie o ochrane</string><!--Protection info-->
+    <string name="meun_rotate">Otočiť</string><!--Rotate-->
+    <string name="menu_delete">Odstrániť</string><!--Delete-->
+    <string name="menu_crop">Orezať</string><!--Crop-->
+    <string name="menu_properties">Podrobnosti</string><!--Details-->
+    <string name="menu_show_on_map">Ukázať na mape</string><!--Show on map-->
+    <string name="menu_settings">Nastavenie</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Zdieľať prepojenie na fotku</string><!--Share photo link-->
+    <string name="refresh">Obnoviť</string><!--Refresh-->
+    <string name="add_comments">Pridať komentár</string><!--Add comment-->
+    <string name="button_show_caption">Zobraziť titulok</string><!--Show caption-->
+    <string name="button_hide_caption">Skryť titulok</string><!--Hide caption-->
+    <string name="button_show_description">Zobraziť popis</string><!--Show description-->
+    <string name="button_hide_description">Skryť popis</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Malé</item><!--Small-->
+        <item>Stredné</item><!--Medium-->
+        <item>Veľké</item><!--Large-->
+        <item>Najväčšie</item><!--Extra large-->
+        <item>Veľmi veľké</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dvojitým klepnutím vykonajte úkon</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Potiahnite ikonu nahor</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Potiahnutím nahor odomknite</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Ne</item><!--SU-->
+        <item>Po</item><!--M-->
+        <item>Ut</item><!--TU-->
+        <item>St</item><!--W-->
+        <item>Št</item><!--TH-->
+        <item>Pi</item><!--F-->
+        <item>So</item><!--SA-->
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@android:id/primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/secondary1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@android:id/primary" />
+
+    <TextView
+        android:id="@+id/secondary2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/secondary1"
+        android:layout_toRightOf="@id/secondary1" />
+
+    <TextView
+        android:id="@+id/secondary3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/secondary1"
+        android:layout_toRightOf="@id/secondary2" />
+
+    <TextView
+        android:id="@+id/secondary4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/secondary1"
+        android:layout_toRightOf="@id/secondary3" />
+
+    <TextView
+        android:id="@+id/secondary5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/secondary1"
+        android:layout_toRightOf="@id/secondary4" />
+
+    <TextView
+        android:id="@+id/secondary6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/secondary1"
+        android:layout_toRightOf="@id/secondary5" />
+
+    <TextView
+        android:id="@+id/secondary7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/secondary1"
+        android:layout_toRightOf="@id/secondary6" />
+
+</merge>

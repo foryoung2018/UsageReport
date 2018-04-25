@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Fallback values of android theme attributes not available in earlier platforms. -->
+    <dimen name="listPreferredItemPaddingStart">6dp</dimen>
+    <dimen name="listPreferredItemPaddingEnd">6dp</dimen>
+
+</resources>

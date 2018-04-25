@@ -1,0 +1,176 @@
+HTC Account SDK 2.x Release Notes
+=================================
+v2.3.3
+------
+* Redesign application sign-in APIs.
+
+v2.3.2
+------
+* Support local Google authorization when signing-in with Google account via WebView.
+
+v2.3.1
+------
+* Update the action for notify integrated app to sign-out account.
+
+v2.3.0
+------
+* Add bind account related APIs.
+
+v2.2.7
+------
+* Implement SQLiteOpenHelper.onDowngrade to avoid htc lint check error.
+
+v2.2.6
+------
+* Security improvement.
+
+v2.2.5
+-------
+* Fix potential app crash when logging.
+
+v2.2.4
+-------
+* Support GA id in the HTTPS request header.
+
+v2.2.3
+-------
+* Fix false judgement when the integrated app declared with other account authenticators.
+* Gradle build is supported for local development.
+
+v2.2.2
+-------
+* Fix unable to launch Webview issue. ClassNotFoundException when unmarshalling customed Parcelable class in subprocess.
+
+v2.2.1
+-------
+* Update proguard to Keep all Parcelable classes for fixing ClassNotFound when built with SDK tools v24.4.
+* Change network connection timeout from 10 seconds to 30 seconds.
+
+v2.2.0
+-------
+* Change Android target sdk version to 23 in order to be compliant with company policy and update ProGuard script.
+
+v2.1.16
+-------
+* SDK users have a choice to determine include Google Play service library or not.
+
+v2.1.15
+-------
+* Remove org.apache.http.* to fix build break in Android M.
+
+v2.1.14
+-------
+* Remove unnecessary libsuperuser.
+* Fix account id cache mechanism. Cache invalid when token refreshed.
+* Fix scopes check.
+
+v2.1.13
+-------
+* Downgrade Android support v4 back to r20.
+* Support dynamic security provider and project dependent on google play service lib.
+* Modify User-Agent format.
+
+v2.1.12
+-------
+* Temporary version. Upgrade Android support v4 to r21.
+
+v2.1.11
+-------
+* Remove unused resources.
+* Remove Android system AIDLs.
+* Add workarounds for exceptions when calling package manager.
+
+v2.1.10
+-------
+* Automatically use verifyToken to append account id if not available on local system.
+* Remove unnecessary permissions.
+* Add TokenExpiredException.
+
+v2.1.9
+------
+* Fix triangle deadlock in HtcAccountManagerCreator.
+* Use account-id as the fallback name if neither display name nor contact email is available.
+
+v2.1.8
+------
+* Security enhancement for CVE-2014-1939 and CVE-2014-7224.
+
+v2.1.7
+------
+* Update log prefix pattern.
+* Add get regions support.
+* Support customizable server URI
+* Provide getting legal docs / privacy policy URL support.
+
+v2.1.6
+------
+* Add retrieve account profile and verify token API.
+
+v2.1.5
+------
+* Fix progress dialog issues.
+
+v2.1.4
+------
+* Remove common controls dependency.
+* Change default redirection_url to https://www.htcsense.com/$SS$/Services/OAuth/Approval
+* Support down to api-15 on both HTC / non-HTC devices.
+
+v2.1.3
+------
+* Adapt andlog.
+
+v2.1.2
+------
+* Import localization strings.
+
+v2.1.1
+------
+* Replace android-support-v13 with android-support-v4.
+
+v2.1.0
+------
+* Add HtcAccountManager.registerReceiver method.
+* Move all components to the package com.htc.lib1.cs in order to be compliant with company policy.
+
+v2.0.10
+-------
+* Fix race condition when service binding.
+* Add a workaround so that if AddAccountActivity is destroyed directly for any reason, response to the caller is set and not blocked.
+
+v2.0.9
+------
+* Fix the bug in sample code which clears activity stack unintentionally on launch.
+* Remove webview save / restore state feature as it doesn't work properly after process being killed.
+* Fix the bug in AddAccountAuthenticatorActivity which recreates login page unintentionally after process being killed.
+* Fix the bug that display name will include "null" if last name is not available.
+
+v2.0.8
+------
+* Fix a fragment issue when activity finishes without onSaveInstanceState being invoked.
+* Fix incorrect redirect uri parameter.
+
+v2.0.7
+------
+* Change the priority of candicates for account name.
+
+v2.0.6
+------
+* Change package name to com.htc.cs.auth
+* Fix build script.
+* Fix app crash caused by fragment operations after onSaveInstance.
+* Update sample code.
+
+v2.0.5
+------
+* Add multi-process support to HtcAccountManager.
+* Update sample code.
+* Update WebView sign-in implementation.
+
+v2.0.4
+------
+* Change minSdkVersion to api 15.
+
+v2.0.3
+------
+* First official OAuth 2.0 SDK with Single Sign On document.

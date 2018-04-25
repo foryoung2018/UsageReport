@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- adapter item used in HtcShareActivity -->
+<com.htc.lib1.cc.widget.HtcShareTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_shareGridItem"
+
+    android:paddingTop="@dimen/paddingTop_shareGridItem"
+    android:lines="2"
+    android:ellipsize="end"
+    android:gravity="center_horizontal|top"
+    android:drawablePadding="@dimen/drawablePadding_shareGridItem"
+    style="@style/list_body_primary_xs"
+    />

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >každú prvú nedeľu</item><!--on every first Sunday-->
+        <item >každú druhú nedeľu</item><!--on every second Sunday-->
+        <item >každú tretiu nedeľu</item><!--on every third Sunday-->
+        <item >každú štvrtú nedeľu</item><!--on every fourth Sunday-->
+        <item >každú poslednú nedeľu</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >každý prvý pondelok</item><!--on every first Monday-->
+        <item >každý druhý pondelok</item><!--on every second Monday-->
+        <item >každý tretí pondelok</item><!--on every third Monday-->
+        <item >každý štvrtý pondelok</item><!--on every fourth Monday-->
+        <item >každý posledný pondelok</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >každý prvý utorok</item><!--on every first Tuesday-->
+        <item >každý druhý utorok</item><!--on every second Tuesday-->
+        <item >každý tretí utorok</item><!--on every third Tuesday-->
+        <item >každý štvrtý utorok</item><!--on every fourth Tuesday-->
+        <item >každý posledný utorok</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >každú prvú stredu</item><!--on every first Wednesday-->
+        <item >každú druhú stredu</item><!--on every second Wednesday-->
+        <item >každú tretiu stredu</item><!--on every third Wednesday-->
+        <item >každú štvrtú stredu</item><!--on every fourth Wednesday-->
+        <item >každú poslednú stredu</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >každý prvý štvrtok</item><!--on every first Thursday-->
+        <item >každý druhý štvrtok</item><!--on every second Thursday-->
+        <item >každý tretí štvrtok</item><!--on every third Thursday-->
+        <item >každý štvrtý štvrtok</item><!--on every fourth Thursday-->
+        <item >každý posledný štvrtok</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >každý prvý piatok</item><!--on every first Friday-->
+        <item >každý druhý piatok</item><!--on every second Friday-->
+        <item >každý tretí piatok</item><!--on every third Friday-->
+        <item >každý štvrtý piatok</item><!--on every fourth Friday-->
+        <item >každý posledný piatok</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >každú prvú sobotu</item><!--on every first Saturday-->
+        <item >každú druhú sobotu</item><!--on every second Saturday-->
+        <item >každú tretiu sobotu</item><!--on every third Saturday-->
+        <item >každú štvrtú sobotu</item><!--on every fourth Saturday-->
+        <item >každú poslednú sobotu</item><!--on every last Saturday-->
+    </string-array>
+</resources>

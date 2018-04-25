@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Personu meklēšana</string><!--Search People-->
+    <string name="common_string_share_title">Koplietot caur</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Saglabāt pie esošā kontakta</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Saglabāt mapē Personas</string><!--Save to People-->
+    <string name="label_year">Gads</string><!--Year-->
+    <string name="label_month">Mēnesis</string><!--Month-->
+    <string name="label_day">Diena</string><!--Day-->
+    <string name="label_hour">Stunda</string><!--Hour-->
+    <string name="label_minute">Minūte</string><!--Minute-->
+    <string name="label_second">Sekunde</string><!--Second-->
+    <string name="common_string_open_contact">Atvērt kontaktu</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Jums ir palikusi viena cilne. Lai šai lietojumprogrammai pievienotu papildu cilnes, izvēlnē izvēlieties Rediģēt cilnes/Filtri.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Atcelt</string><!--Cancel-->
+    <string name="va_ok">Labi</string><!--OK-->
+    <string name="va_next">Tālāk</string><!--Next-->
+    <string name="va_back">Atpakaļ</string><!--Back-->
+    <string name="va_call">Zvans</string><!--Call-->
+    <string name="st_loading">Notiek ielāde...</string><!--Loading...-->
+    <string name="va_close">Aizvērt</string><!--Close-->
+    <string name="va_open">Atvērt</string><!--Open-->
+    <string name="va_clear">Notīrīt</string><!--Clear-->
+    <string name="va_send_mail">Sūtīt pastu</string><!--Send mail-->
+    <string name="va_send_message">Sūtīt ziņu</string><!--Send message-->
+    <string name="va_download">Lejupielādēt</string><!--Download-->
+    <string name="st_more">Vēl</string><!--More-->
+    <string name="nn_unknown_error">Nezināma kļūda</string><!--Unknown error-->
+    <string name="va_downloading">Lejupielādē</string><!--Downloading-->
+    <string name="va_finish">Beigt</string><!--Finish-->
+    <string name="va_reset">Atiestatīt</string><!--Reset-->
+    <string name="va_hide">Paslēpt</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Jūsu planšetdatora atmiņā radās kļūda. Lūdzu, atsāknējiet ierīci vai formatējiet atmiņu.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Atlaidiet, lai atsvaidzinātu</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Atjaunina...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">piesitiet divreiz un velciet, lai noregulētu</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Velkams vienums</string><!--Draggable item-->
+    <string name="va_move_above">Pārvietot uz augšu</string><!--Move above-->
+    <string name="va_move_below">Pārvietot uz leju</string><!--Move below-->
+    <string name="st_pull_down_refresh">Pavelciet uz leju, lai atsvaidzinātu</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Pirms zvana rediģēt numuru</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Atvērt kartē</string><!--Open in map-->
+    <string name="va_copy">Kopēt</string><!--Copy-->
+    <string name="va_show_all">Rādīt visu</string><!--Show all-->
+</resources>

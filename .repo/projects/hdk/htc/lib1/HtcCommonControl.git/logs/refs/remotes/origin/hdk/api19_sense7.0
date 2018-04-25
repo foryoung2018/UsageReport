@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 29e8cdbc8b35ecdae2218a0358032786c0ce0780 yang_hu <yang_hu@htc.com> 1511509702 +0800	fetch --progress origin --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/hdk/buildsdklatest_sense7.0:refs/remotes/origin/hdk/buildsdklatest_sense7.0: storing head

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="single_line">اللغة العربية(2)</string>
+    <string name="double_line">اللغة العربية\n(2)</string>
+
+</resources>

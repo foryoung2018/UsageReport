@@ -1,0 +1,5 @@
+ext {
+    extraLibrary = [
+        "com.htc:commons-codec:1.7@jar"
+    ]
+}

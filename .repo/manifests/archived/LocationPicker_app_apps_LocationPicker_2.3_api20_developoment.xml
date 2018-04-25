@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/LocationPicker/2.3/api20/developoment" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/LocationPicker" path="app/packages/apps/LocationPicker" revision="app/apps/LocationPicker/2.3/api20/developoment"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="07b3d4c1ae03b5d33cc6aa5b9be22ee2bd7d9ce3"/>
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="theme_widget_padding_top">@dimen/leading</dimen>
+    <dimen name="theme_location_padding_top">0dp</dimen>
+    <dimen name="theme_info_temp_area_margin_top">86.47dp</dimen> <!-- 115px  -->
+    <dimen name="theme_temp_block_margin_top">4.5dp</dimen> <!--  6px -->
+    <dimen name="theme_temp_block_margin_top_shift">-4.5dp</dimen> <!-- -6px -->
+    <dimen name="theme_italic_padding">2.26dp</dimen> <!-- 3px -->
+    <dimen name="theme_italic_padding_shift">-2.26dp</dimen> <!-- -3px -->
+    <dimen name="theme_temp_symbol_margin_bottom">-2.67dp</dimen> <!-- -4px -->
+    <dimen name="theme_am_pm_margin_bottom">4.5dp</dimen> <!-- 6px -->
+    <dimen name="theme_background_block_margin_top">12.78dp</dimen> <!-- 17px -->
+    <dimen name="theme_background_padding_bottom">0dp</dimen>
+    <dimen name="theme_error_text_width">139.1dp</dimen> <!-- 185px -->
+    <dimen name="theme_error_text_height">121.8dp</dimen> <!-- 162px -->
+    <dimen name="theme_digital_padding_left">@dimen/margin_m</dimen>
+    <dimen name="theme_sun_small_width">121.8dp</dimen> <!-- 162px -->
+    <dimen name="theme_sun_small_height">121.8dp</dimen> <!-- 162px -->
+</resources>

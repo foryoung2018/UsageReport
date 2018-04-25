@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myns="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_light_text_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/button_primary_l" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_light_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:textAppearance="@style/button_primary_l" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_light_text_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/button_primary_l" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_dark_text_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_dark"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/b_button_primary_l"
+                myns:backgroundMode="dark" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_dark_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_dark"
+                android:textAppearance="@style/b_button_primary_l"
+                myns:backgroundMode="dark" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_dark_text_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/b_button_primary_l"
+                myns:backgroundMode="dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_automotivelight_text_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/button_primary_l"
+                myns:backgroundMode="automotiveLight" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_automotivelight_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:textAppearance="@style/button_primary_l"
+                myns:backgroundMode="automotiveLight" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_automotivelight_text_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/button_primary_l"
+                myns:backgroundMode="automotiveLight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_automotivedark_text_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_dark"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/b_button_primary_l"
+                myns:backgroundMode="automotiveDark" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_automotivedark_image_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_dark"
+                android:textAppearance="@style/b_button_primary_l"
+                myns:backgroundMode="automotiveDark" />
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/icon_automotivedark_text_rim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                android:textAppearance="@style/b_button_primary_l"
+                myns:backgroundMode="automotiveDark" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

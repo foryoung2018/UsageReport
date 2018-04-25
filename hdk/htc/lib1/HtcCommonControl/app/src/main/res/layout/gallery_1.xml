@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.htc.lib1.cc.widget.DecorFlow
+        android:id="@+id/decorflow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <SeekBar
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/fading_label"
+        android:id="@+id/fading_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:layout_above="@id/fading_seekbar"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/scale_label"
+        android:id="@+id/scale_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:layout_above="@id/scale_seekbar"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/shift_label"
+        android:id="@+id/shift_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/seekbar_label"
+        android:id="@+id/fading_label"
+        android:layout_alignTop="@id/fading_seekbar"
+        android:text="fading" />
+
+    <TextView
+        style="@style/seekbar_label"
+        android:id="@+id/scale_label"
+        android:layout_alignTop="@id/scale_seekbar"
+        android:text="scale" />
+
+    <TextView
+        style="@style/seekbar_label"
+        android:id="@+id/shift_label"
+        android:layout_alignTop="@id/shift_seekbar"
+        android:text="shift" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shift_label"
+        android:textIsSelectable="true" />
+
+</RelativeLayout>

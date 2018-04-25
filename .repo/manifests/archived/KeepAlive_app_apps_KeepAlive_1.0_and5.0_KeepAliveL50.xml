@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/KeepAlive/1.0/and5.0/KeepAliveL50" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/KeepAlive" path="app/packages/apps/KeepAlive" revision="app/apps/KeepAlive/1.0/and5.0/KeepAliveL50"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/KeepAlive" path="app/customization/packages/apps/KeepAlive" revision="app/apps/KeepAlive/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+</manifest>

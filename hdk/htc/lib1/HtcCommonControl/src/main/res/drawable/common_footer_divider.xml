@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+        <!-- Index 0 Used for both Light mode Portrait & Landscape-->
+        <item android:drawable="@drawable/common_div_footer"/>
+        <!-- Index 1 Used for both Dark mode Portrait-->
+        <item android:drawable="@drawable/common_b_div_footer"/>
+        <!-- Index 2 Used for both Dark mode Landscape-->
+        <item android:drawable="@drawable/common_b_div_footer"/>
+</layer-list>

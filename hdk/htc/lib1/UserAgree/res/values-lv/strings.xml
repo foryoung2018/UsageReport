@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Šī lietojumprogramma izmanto mobilo datu vai Wi-Fi savienojumu. Pārbaudiet ar savu vietējo pakalpojumu sniedzēju, lai noskaidrotu precīzos datu lietošanas tarifus.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Nejautāt man vēlreiz</string><!--Don\'t ask me again-->
+
+</resources>

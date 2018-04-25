@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/MyHTC/8.50/api26/sense90GP" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/MyHTC" path="app/packages/apps/MyHTC" revision="app/apps/MyHTC/8.50/api26/sense90GP"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/SetupWizardLib" path="app/hms_libs/SetupWizardLib" revision="339c994228b6e4176b2621f0fc29236931d5eb6a"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a41003e430352d3937c9154d2f8856aac1d8abff"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="e78c8de25ce285be3db259c330b8b737ec37d6eb"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="c15f12b394c2a628c684c1d5e7dd715f3cfdc346"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ba10b72629760afc03c442156160fc86ae4d3c0e"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="09fc29a6601a67806642bc3613a34dca0d1043a9"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="1b80a3e71ffe8d93e75911dfd6c579926e955564"/>
+</manifest>

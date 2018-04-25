@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">جستجوي افراد</string><!--Search People-->
+    <string name="common_string_share_title">اشتراك گذاشتن از طريق</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">ذخيره روي مخاطب موجود</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">ذخيره روي افراد</string><!--Save to People-->
+    <string name="label_year">سال</string><!--Year-->
+    <string name="label_month">ماه</string><!--Month-->
+    <string name="label_day">روز</string><!--Day-->
+    <string name="label_hour">ساعت</string><!--Hour-->
+    <string name="label_minute">دقيقه</string><!--Minute-->
+    <string name="label_second">ثانيه</string><!--Second-->
+    <string name="common_string_open_contact">بازكردن اطلاعات مخاطب</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">تنها یک زبانه باقی مانده است. برای افزودن زبانه های دیگر برای این برنامه کاربردی، گزینه ویرایش زبانه ها/فیلترها در منو را انتخاب کنید.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">لغو</string><!--Cancel-->
+    <string name="va_ok">قبول</string><!--OK-->
+    <string name="va_next">بعدي</string><!--Next-->
+    <string name="va_back">برگشت</string><!--Back-->
+    <string name="va_call">تماس</string><!--Call-->
+    <string name="st_loading">در حال بارگذاري...</string><!--Loading...-->
+    <string name="va_close">بستن</string><!--Close-->
+    <string name="va_open">بازكردن</string><!--Open-->
+    <string name="va_clear">پاك كردن</string><!--Clear-->
+    <string name="va_send_mail">ارسال پست</string><!--Send mail-->
+    <string name="va_send_message">ارسال پيام</string><!--Send message-->
+    <string name="va_download">دریافت </string><!--Download-->
+    <string name="st_more">بيشتر</string><!--More-->
+    <string name="nn_unknown_error">خطاي نامعلوم</string><!--Unknown error-->
+    <string name="va_downloading">درحال دریافت </string><!--Downloading-->
+    <string name="va_finish">پايان</string><!--Finish-->
+    <string name="va_reset">تنظيم مجدد</string><!--Reset-->
+    <string name="va_hide">مخفي</string><!--Hide-->
+    <string name="ls_tablet_storage_error">خطايي در حافظه تبلت شما اتفاق افتاده است. لطفا وسيله خود را دوباره راه اندازي كنيد يا حافظه را فرمت نماييد.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">آزاد کنید تا بازآوری شود</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">درحال به روزرساني...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">دو ضربه و کشیدن برای تنظیم</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">شی کشیدنی</string><!--Draggable item-->
+    <string name="va_move_above">انتقال به بالا</string><!--Move above-->
+    <string name="va_move_below">انتقال به زیر</string><!--Move below-->
+    <string name="st_pull_down_refresh">برای بازآوری به پایین بکشید</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">ويرايش شماره قبل از برقراري تماس</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">باز کردن در نقشه</string><!--Open in map-->
+    <string name="va_copy">کپی</string><!--Copy-->
+    <string name="va_show_all">نمایش همه</string><!--Show all-->
+</resources>

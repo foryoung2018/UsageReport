@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/margin_m"
+    android:paddingBottom="@dimen/margin_m"
+    android:paddingLeft="@dimen/margin_l"
+    android:paddingRight="@dimen/margin_l"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="2:22 / 3:50"
+        style="@style/b_button_primary_m" />
+
+</LinearLayout>

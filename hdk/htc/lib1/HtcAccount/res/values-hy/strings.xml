@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">HTC-ի հաշիվ</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">Անհնար է կապակցվել</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">Այս գործադիրն օգտագործելու համար պահանջվում է ցանցային կապակցում: Կապակցվեք բջջային տվյալներին կամ Wi-Fi-ին:</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">Սպասեք...</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">Մենք չենք կարող կապակցվել HTC սպասարկիչներին: Ավելի ուշ կրկին փորձեք:</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">Այս գործադիրն օգտագործելու համար պահանջվում է ցանցային կապակցում:</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">Ստեղծեք Google Հաշիվ՝ մուտք գործելու համար:</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">Անհնար է կապակցվել: Կրկին փորձեք:</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">Մենք չենք կարող մատչել Google-ի ձեր հաշիվը: Համոզվեք, որ հաշիվը ակտիվ է:</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">Պահանջում է թույլտվություններ</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">Google Հաշվով մուտք գործելու համար այս գործադիրը պետք է մատչում ունենա ձեր հաշվին: Անհրաժեշտության դեպքում տրամադրեք թույլտվությունը:</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">&quot;Ճիշտ աշխատանքի համար այս գործադիրին պահանջվում է մատչում ձեր հաշիվներին: Կարող եք կառավարել %1$s-ի թույլտվությունները Կարգավորումներում:&quot;</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">Ստեղծել HTC-ի հաշիվ</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">Էլ. հասցե</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">Ձեր էլ. հասցեով HTC հաշիվ արդեն ստեղծվել է: Հպեք հաշվին՝ մուտք գործելու համար կամ ստեղծեք նոր հաշիվ:</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">Ուղարկել ինձ HTC-ի առաջարկներ, արտադրանքի տեղեկություններ և լրագրեր:</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">Էլ. փոստի օգտագործում %s հաշվից՝</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">Ստեղծել հաշիվ</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">Ստեղծել նոր հաշիվ</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">Մուտք գործելով՝ դուք համաձայնվում եք HTC Հաշվի %1$s-ի հետ և ընդունում եմ %2$s-ը: Գրանցվելու համար պետք է առնվազն 14 տարեկան լինեք:</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">Պայմաններ</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">Գաղտնիության քաղաքականություն</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">Գաղտնիության դրույթ</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">Պայմաններ և դրույթներ</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">Հաստատեք ձեր հաշիվը</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">Բացել փոստը</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">Ոչ հիմա</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">HTC հաշիվ մուտք գործելու համար պետք է հաստատեք ձեր հասցեն՝ օգտագործելով %1$s-ին ուղարկված հղումը:\n\nԵթե չեք ստացել էլ. նամակը, ստուգեք լցոնի պանակը կամ %2$s այն:</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">նորից ուղարկել</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">Պահանջվում է էլ. հասցե:</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">Մուտքագրեք վավեր էլ. հասցե:</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">Էլ. նամակն ուղարկվեց՝ %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">Կարգավորումներ</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">Փակել</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">Հետ</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">Չեղարկել</string><!--Cancel-->
+
+</resources>

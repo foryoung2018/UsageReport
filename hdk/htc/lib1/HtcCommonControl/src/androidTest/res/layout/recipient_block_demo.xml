@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- android:background="#000000" -->
+
+    <!-- [Start] for Message style -->
+    <com.htc.lib1.cc.widget.HtcAutoCompleteTextView
+        android:id="@+id/customizedInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="gone" >
+        <requestFocus />
+    </com.htc.lib1.cc.widget.HtcAutoCompleteTextView>
+    <!-- [Start] for Message style -->
+    
+    <!-- android:visibility="gone" -->
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <!-- [Start] for xml init demo -->
+        <com.htc.lib1.cc.widget.recipientblock.RecipientBlock
+            android:id="@+id/recipient_block"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+        <!-- [End] for xml init demo -->
+        
+    </ScrollView>
+
+</LinearLayout>

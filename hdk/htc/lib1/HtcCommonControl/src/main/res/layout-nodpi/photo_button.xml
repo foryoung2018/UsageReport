@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:clickable="true">
+    <!--android:background="?attr_common_b_button_small"-->
+        <RelativeLayout
+                android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:visibility="gone" >
+                <ImageView
+                    android:id="@+id/photo"/>
+        </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/left" >
+        <TextView
+            android:id="@+id/from"/>
+        </RelativeLayout>
+</RelativeLayout>
+
+

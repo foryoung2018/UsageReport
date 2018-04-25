@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="HTCProgressBarStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="displayMode">mode_light</item>
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress</item>
+        <!-- skinable attribute -->
+        <item name="android:entries">@array/skinProgressBarArray</item>
+        <item name="android:minHeight">@dimen/htc_progressbar_height</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryOne">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_one</item>
+        <item name="android:entries">@array/categoryOneProgressBarArray</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryTwo">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+        <item name="android:entries">@array/categoryTwoProgressBarArray</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryThree">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_three</item>
+        <item name="android:entries">@array/categoryThreeProgressBarArray</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryFour">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+        <item name="android:entries">@array/categoryFourProgressBarArray</item>
+    </style>
+    <!-- Indeterminate Medium Progress extend android:Widget.ProgressBar -->
+    <style name="HTCProgressBarStyle.Indeterminate" parent="android:style/Widget.ProgressBar">
+        <item name="android:minWidth">8dip</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="displayMode">mode_light</item>
+        <!-- skinable attribute -->
+        <item name="android:indeterminateDrawable">@drawable/htcprogress_medium</item>
+        <item name="android:indeterminateDuration">1500</item>
+    </style>
+    <style name="HTCProgressBarStyle.Indeterminate.Dark">
+        <item name="displayMode">mode_dark</item>
+    </style>
+    <!-- Indeterminate Small Progress extend android:Widget.ProgressBar -->
+    <style name="HTCProgressBarStyle.Indeterminate.Small">
+        <item name="displayMode">mode_light</item>
+        <!-- skinable attribute -->
+        <item name="android:indeterminateDrawable">@drawable/htcprogress_small</item>
+    </style>
+    <style name="HTCProgressBarStyle.Indeterminate.Small.Dark">
+        <item name="displayMode">mode_dark</item>
+    </style>
+    <style name="HTCProgressBarStyle.Dark">
+        <item name="displayMode">mode_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress_b</item>
+    </style>
+    <!-- Horizontal full style ProgressBar -->
+    <style name="HTCProgressBarStyle.Full" parent="android:style/Widget.ProgressBar.Horizontal">
+        <!-- skinable attribute -->
+        <item name="displayMode">mode_full</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_full</item>
+        <item name="android:minHeight">@dimen/htc_progressbar_height</item>
+        <item name="android:maxHeight">@dimen/htc_progressbar_height</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryOne">
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_one</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryTwo">
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_two</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryThree">
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_three</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryFour">
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_two</item>
+    </style>
+    <style name="HTCSeekBarStyle" parent="@android:style/Widget.Holo.SeekBar">
+        <item name="displayMode">mode_light</item>
+        <!-- skinable attribute -->
+        <item name="android:thumb">@drawable/htcthumb</item>
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress</item>
+        <!-- skinable attribute -->
+        <item name="android:entries">@array/skinProgressBarArray</item>
+        <item name="android:minHeight">@dimen/htc_thumb_size</item>
+        <item name="android:thumbOffset">@dimen/htc_thumbOffset</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryOne">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_one</item>
+        <item name="android:entries">@array/categoryOneProgressBarArray</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryTwo">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+        <item name="android:entries">@array/categoryTwoProgressBarArray</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryThree">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_three</item>
+        <item name="android:entries">@array/categoryThreeProgressBarArray</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryFour">
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+        <item name="android:entries">@array/categoryFourProgressBarArray</item>
+    </style>
+    <style name="HTCSeekBarStyle.Dark">
+        <item name="displayMode">mode_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:thumb">@drawable/htcthumb_b</item>
+        <!-- skinable attribute -->
+        <item name="android:progressDrawable">@drawable/htcprogress_b</item>
+    </style>
+    <style name="HTCPopupContainerStyle">
+        <!-- skinable attribute -->
+        <item name="android:background">@drawable/common_dialogbox_full_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:drawable">@drawable/popupwindow_drawable</item>
+        <!-- skinable attribute -->
+        <item name="android:thumb">@drawable/htcthumb</item>
+        <item name="android:minHeight">@dimen/htc_seekbar_min_height</item>
+        <item name="android:padding">@dimen/htcpopupwindow_shift</item>
+        <item name="android:layout_margin">@dimen/htcpopupwindow_margin</item>
+    </style>
+</resources>

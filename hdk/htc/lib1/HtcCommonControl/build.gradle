@@ -1,0 +1,143 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    def propAMTCIEnable = System.getProperty("AMT_CI_ENABLE", null);
+    def isAMTCI= ( null != propAMTCIEnable && propAMTCIEnable.toBoolean() == true );
+    repositories {
+        maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/HICRelease"}
+        if ( isAMTCI ) {
+            maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/HTC_AND_REPO"
+                def propUserName = System.getProperty("mavenUserName", null);
+                def propUserPassword = System.getProperty("mavenUserPassword", null);
+                if ( null != propUserName &&  null != propUserPassword ) {
+                    credentials {
+                        username propUserName
+                        password propUserPassword
+                    }
+                }
+            }
+        } else {
+            jcenter()
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.1'
+        classpath "com.htc.commoncontrol:gradleplugin:0.8.7"
+    }
+}
+
+allprojects {
+    repositories {
+        maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/HTC_AND_REPO"
+            def propUserName = System.getProperty("mavenUserName", null);
+            def propUserPassword = System.getProperty("mavenUserPassword", null);
+            if ( null != propUserName &&  null != propUserPassword ) {
+                credentials {
+                    username propUserName
+                    password propUserPassword
+                }
+            }
+        }
+        def mavenServer = [
+            "http://prebuild-repositories.htc.com.tw:8081/artifactory/HICSnapshot",
+            "http://prebuild-repositories.htc.com.tw:8081/artifactory/HICRelease"
+        ]
+        mavenServer.each{ urls-> maven{ url urls.value.toString() } }
+    }
+}
+
+
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 23
+        testInstrumentationRunner "com.htc.test.HtcTestRunner"
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+project.gradle.taskGraph.whenReady {
+    ['connectedDebugAndroidTest', 'connectedAndroidTestDebug'].each {
+        def t = project.tasks.findByPath(it);
+        if ( null != t ) {
+            t.ignoreFailures = true;
+        }
+    };
+}
+
+def HtcThemeVersion = "com.htc.lib1:HtcTheme:1.0.782298" ;
+def HtcConfigurationVersion = "com.htc.lib2:HtcConfiguration:1.0.723104" ;
+def propEnableCompileArtifact = System.getProperty("ENABLE_COMPILE_ARTIFACT", null);
+def isUseCompileArtifact = null != propEnableCompileArtifact && propEnableCompileArtifact.toBoolean() == true
+dependencies {
+    androidTestCompile "com.jayway.android.robotium:robotium-solo:5.5.4"
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    if ( isUseCompileArtifact ) {
+        compile HtcThemeVersion
+        compile HtcConfigurationVersion
+    }else {
+        def myDependProjects = project.rootProject.allprojects.grep( {
+            it.name =~ /(HtcConfiguration|HtcTheme|htcconfiguration|htctheme|customization)/ || it.path =~ /hdk:htc:lib0:Customization/
+        });
+
+        for (prj in myDependProjects) {
+            compile prj;
+        }
+    }
+
+   getRootProject().buildscript.configurations.classpath.allDependencies.findAll {
+       it.getGroup() == "com.android.tools.build" && it.getName() == "gradle"
+   }.each {
+       def m = it.getVersion() =~ /(\d+)\.(\d+).(\d+)/
+       if ( !m ) {
+           logger.info("Doesn't match the format <major>.<minor>.<third>");
+           return;
+       }
+
+       def major = m[0][1].isInteger() ? (m[0][1] as int) : 0;
+       def minor = m[0][2].isInteger() ? (m[0][2] as int) : 0;
+       def third = m[0][3].isInteger() ? (m[0][3] as int) : 0;
+       def sum = (major * 100000000 + minor * 10000 + third);
+
+       if ( sum >= 100030001 ) {
+           logger.info("sum is $sum and copy public.xml")
+           afterEvaluate {
+               android.libraryVariants.all { variant ->
+                   variant.outputs.each { output ->
+                       def ft = fileTree(dir: android.sourceSets.main.res.srcDirs[0], includes: ['**/public.xml'])
+
+                       project.tasks[variant.mergeResources.name].doLast {
+                           print "cp -pvf ${ft[0]} ${buildDir}/intermediates/res/merged/${variant.getFlavorName()}/$variant.buildType.name/values/".execute().text
+                           print "cp -pvf ${ft[0]} ${buildDir}/intermediates/bundles/${variant.getFlavorName()}/$variant.buildType.name/res/values/".execute().text
+                       }
+
+                       project.tasks["package${variant.name.capitalize()}Resources"].doLast {
+                           println "cp -pvf ${ft[0]} ${buildDir}/intermediates/bundles/${variant.getFlavorName()}/$variant.buildType.name/res/values/".execute().text
+                       }
+                   }
+               }
+           }
+       } else {
+           logger.info("sum is $sum and don't copy public.xml")
+       }
+   }
+}

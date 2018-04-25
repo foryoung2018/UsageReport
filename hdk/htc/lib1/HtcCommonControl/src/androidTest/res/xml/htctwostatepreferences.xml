@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/preference_attributes" >
+        <com.htc.lib1.cc.widget.preference.HtcCheckBoxPreference
+            android:key="htc_checkbox_preference"
+            android:summary="@string/summary_parent_preference"
+            android:title="@string/title_parent_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcSwitchPreference
+            android:key="@string/title_htcswitch_preference"
+            android:title="Switch preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+
+</PreferenceScreen>

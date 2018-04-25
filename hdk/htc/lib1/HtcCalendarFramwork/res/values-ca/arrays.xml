@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >cada primer diumenge</item><!--on every first Sunday-->
+        <item >cada segon diumenge</item><!--on every second Sunday-->
+        <item >cada tercer diumenge</item><!--on every third Sunday-->
+        <item >cada quart diumenge</item><!--on every fourth Sunday-->
+        <item >cada darrer diumenge</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >cada primer dilluns</item><!--on every first Monday-->
+        <item >cada segon dilluns</item><!--on every second Monday-->
+        <item >cada tercer dilluns</item><!--on every third Monday-->
+        <item >cada quart dilluns</item><!--on every fourth Monday-->
+        <item >cada darrer dilluns</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >cada primer dimarts</item><!--on every first Tuesday-->
+        <item >cada segon dimarts</item><!--on every second Tuesday-->
+        <item >cada tercer dimarts</item><!--on every third Tuesday-->
+        <item >cada quart dimarts</item><!--on every fourth Tuesday-->
+        <item >cada darrer dimarts</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >cada primer dimecres</item><!--on every first Wednesday-->
+        <item >cada segon dimecres</item><!--on every second Wednesday-->
+        <item >cada tercer dimecres</item><!--on every third Wednesday-->
+        <item >cada quart dimecres</item><!--on every fourth Wednesday-->
+        <item >cada darrer dimecres</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >cada primer dijous</item><!--on every first Thursday-->
+        <item >cada segon dijous</item><!--on every second Thursday-->
+        <item >cada tercer dijous</item><!--on every third Thursday-->
+        <item >cada quart dijous</item><!--on every fourth Thursday-->
+        <item >cada darrer dijous</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >cada primer divendres</item><!--on every first Friday-->
+        <item >cada segon divendres</item><!--on every second Friday-->
+        <item >cada tercer divendres</item><!--on every third Friday-->
+        <item >cada quart divendres</item><!--on every fourth Friday-->
+        <item >cada darrer divendres</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >cada primer dissabte</item><!--on every first Saturday-->
+        <item >cada segon dissabte</item><!--on every second Saturday-->
+        <item >cada tercer dissabte</item><!--on every third Saturday-->
+        <item >cada quart dissabte</item><!--on every fourth Saturday-->
+        <item >cada darrer dissabte</item><!--on every last Saturday-->
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/Telcel_Start/1.0/api24/V36BML_UHL_L51_DESIRE_SENSE70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/Telcel_Start" path="app/packages/3amapps/Telcel_Start" revision="app/3amapps/Telcel_Start/1.0/api24/V36BML_UHL_L51_DESIRE_SENSE70"/>
+</manifest>

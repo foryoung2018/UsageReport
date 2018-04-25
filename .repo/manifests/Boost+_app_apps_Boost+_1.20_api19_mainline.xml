@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Boost+/1.20/api19/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Boost+" path="app/packages/apps/Boost+" revision="app/apps/Boost+/1.20/api19/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="2ec378565ad7ec04c4bdbf565e0ed7d5a2f6237f"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="43ff19d124b6bb7e71a42601c2e1f86956acf68e"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="886301e49df3214fa6712da555a411bdf5254d24"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="d56f982b4c7e51380da3669946117ed192a617ef"/>
+  <project name="app/hdk/htc/lib2/pitroadhspenhancerlib" path="hdk/htc/lib2/PitroadHSPEnhancerLib" revision="766a782649824db561510b51fa0d1874dbc05690"/>
+</manifest>

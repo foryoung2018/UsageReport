@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="artists_title">Artists</string>
+    <string name="albums_title">Albums</string>
+    <string name="tracks_title">Songs</string>
+    <string name="playlists_title">Playlists</string>
+    <string name="composer_title">Composers</string>
+    <string name="genre_title">Genres</string>
+
+    <!-- ============================== -->
+
+    <string name="baseline_2_label">Label:</string>
+    <string name="popup_menu_button">Make a Popup!</string>
+
+</resources>

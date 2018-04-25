@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alarm24H">Alarm 24H</string>
+    <string name="alarm12H">Alarm 12H</string>
+    <string name="date">Date</string>
+    <string name="timer">Timer</string>
+    <string name="label_year">Year</string>
+    <string name="label_month">Month</string>
+    <string name="label_day">Day</string>
+    <string name="label_hour">Hour</string>
+    <string name="label_minute">Minute</string>
+    <string name="label_second">Second</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="showtime">Show Time Here</string>
+    <string name="timepickerdialog">Show Time Picker Dialog</string>
+    <string name="timepickerdemo">Time Picker Demo</string>
+
+</resources>

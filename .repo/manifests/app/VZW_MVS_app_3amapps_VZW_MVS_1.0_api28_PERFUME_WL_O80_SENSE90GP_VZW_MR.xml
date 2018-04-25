@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/VZW_MVS/1.0/api28/PERFUME_WL_O80_SENSE90GP_VZW_MR" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/VZW_MVS" path="app/packages/3amapps/VZW_MVS" revision="app/3amapps/VZW_MVS/1.0/api28/PERFUME_WL_O80_SENSE90GP_VZW_MR"/>
+</manifest>

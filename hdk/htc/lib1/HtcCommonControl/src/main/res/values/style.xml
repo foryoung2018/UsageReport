@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    /*
+    * Copyright (C) 2008 Google Inc.
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    */
+-->
+<resources>
+    <style name="AlertDialog">
+        <!-- skinable attribute -->
+        <item name="android:fullDark">@drawable/common_dialogbox_full_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:topDark">@drawable/common_dialogbox_top_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:centerDark">@drawable/common_dialogbox_center_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomDark">@drawable/common_dialogbox_bottom_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:fullBright">@drawable/common_dialogbox_full_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:topBright">@drawable/common_dialogbox_top_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:centerBright">@drawable/common_dialogbox_center_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomBright">@drawable/common_dialogbox_bottom_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomMedium">@drawable/common_dialogbox_bottom_medium</item>
+    </style>
+    <style name="DropDownList">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+    <style name="ReorderListViewDragWindow">
+        <item name="@android:windowEnterAnimation">@anim/fade_in</item>
+    </style>
+    <style name="HtcWidget">
+        <item name="android:textAppearance">@android:style/TextAppearance</item>
+    </style>
+    <style name="HtcWidget.PopupBubbleWindow">
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+        <item name="android:windowEnterAnimation">@anim/popup_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_fade_out</item>
+    </style>
+    <style name="HtcWidget.ListPopupBubbleWindow">
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+        <item name="android:dropDownVerticalOffset">-10dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="HtcWidget.AbsListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+    <style name="HtcWidget.ListView" parent="HtcWidget.AbsListView">
+        <item name="android:listSelector">?android:attr/selectableItemBackground</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">@drawable/inset_list_divider</item>
+        <item name="android:childDivider">@drawable/inset_list_divider</item>
+    </style>
+    <style name="HtcWidget.ExpandableListView.DropDown" parent="HtcListView.Dark">
+    </style>
+    <style name="HtcWidget.ListView.DropDown" parent="HtcListView.Dark">
+    </style>
+    <!-- Base style for animations. This style specifies no animations. -->
+    <style name="HtcAnimation" />
+    <!-- A special animation value used internally for popup windows. -->
+    <style name="HtcAnimation.PopupBubbleWindow" />
+    <style name="HtcWidget.SpinnerStyle" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner</item>
+    </style>
+    <style name="HtcSwitchPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+    </style>
+</resources>

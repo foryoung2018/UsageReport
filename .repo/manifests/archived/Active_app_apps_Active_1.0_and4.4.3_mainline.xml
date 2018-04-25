@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Active/1.0/and4.4.3/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Active" path="app/packages/apps/Active" revision="app/apps/Active/1.0/and4.4.3/mainline"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Active" path="app/customization/packages/apps/Active" revision="app/apps/Active/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="941ec63f448bf9d1888ff58c88672812f7535531"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="a78351835011711454a601c17e0788bb02da808f"/>
+  <project name="app/hdk/htc/lib0/htclib0" path="hdk/htc/lib0/HtcLib0" revision="accdac42bf3308240b231bcbc0eb0ebefaa8a777"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="9469f560575ace6c73782bd894b673a05ba89943"/>
+</manifest>

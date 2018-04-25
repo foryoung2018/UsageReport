@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="spinner_title">Your favorite game</string>
+    <string-array name="spinner_items">
+        <item>Agricola</item>
+        <item>Brass</item>
+        <item>Carcassonne</item>
+        <item>Dominion</item>
+        <item>Eclipse</item>
+        <item>Friday</item>
+        <item>Goa</item>
+        <item>Hive</item>
+    </string-array>
+
+    <string name="spinner_title2">The words of your house</string>
+    <string-array name="spinner_items2">
+        <item>Winter is coming</item>
+        <item>Family, Duty, Honour</item>
+        <item>Hear me Roar!</item>
+        <item>As High as Honour</item>
+        <item>Ours is the Fury</item>
+        <item>Growing Strong</item>
+        <item>Blood and Fire</item>
+        <item>Unbowed, unbent, Unbroken</item>
+        <item>We do not Sow</item>
+    </string-array>
+
+</resources>

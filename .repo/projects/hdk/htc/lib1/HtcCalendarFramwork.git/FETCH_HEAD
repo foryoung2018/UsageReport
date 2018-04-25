@@ -1,0 +1,6 @@
+e6feab55275a6678c96bbb63dcf61e40544fba53		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccalendarframwork
+35881321e491063ca80210b6c9044be2e0523a88		branch 'hdk/api19_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccalendarframwork
+07edc2d4a247753d7a1b17244c7d43dcd46727d4	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccalendarframwork
+fe2caecd8e41f82b4ff70eff7c7f64665dbe7eb3	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccalendarframwork
+a84b3f2e942ba81623897931a6b32de138968281	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccalendarframwork
+797997c38ba1c48c1cd1a9fadb0793bbef1f2ac9	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccalendarframwork

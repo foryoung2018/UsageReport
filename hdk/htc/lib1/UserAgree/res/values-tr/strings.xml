@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Bu uygulama mobil veri veya Wi-Fi kullanır. Veri kullanımına yönelik kesin ücretleri öğrenmek için yerel operatörünüzle iletişime geçin.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Bana tekrar sorma</string><!--Don\'t ask me again-->
+
+</resources>

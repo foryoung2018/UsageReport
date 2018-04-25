@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/HTCCN_QQLive/5.7.1/api21/HTCCN_QQLive" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/HTCCN_QQLive" path="app/packages/3amapps/HTCCN_QQLive" revision="app/3amapps/HTCCN_QQLive/5.7.1/api21/HTCCN_QQLive"/>
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+<!-- weather clock 4x1-->
+    <style name="weather_clock_4x1_digital_layout_params">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="weather_clock_4x1_sun_layout_params">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="weather_clock_4x1_temp_info_block_layout_params">
+        <item name="android:layout_toRightOf">@id/digital_clock</item>
+        <item name="android:minHeight">@dimen/theme_clock_4x1_img_height</item>
+        <item name="android:layout_marginLeft">@dimen/margin_l</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="weather_clock_4x1_date_layout_params">
+    </style>
+    <!-- common -->
+    <style name="weather_clock_4x1_comma_layout_params" parent="@style/weather_clock_week_date_city_temp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <!-- separatrix -->
+    <style name="weather_clock_4x1_separatrix_layout_params" parent="@style/weather_clock_week_date_city_temp">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="weather_clock_4x1_temp_layout_params">
+        <item name="android:layout_marginLeft">@dimen/theme_italic_padding_shift</item>
+    </style>
+</resources>

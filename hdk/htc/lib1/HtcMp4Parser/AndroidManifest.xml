@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib1.htcmp4parser"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <!-- This library doesn't use any android API function, just a pure java library. -->
+    <!-- But we need to assign the targetSdkVersion and a suitable minSdkVersion. -->
+    <!-- It may result the APP is implicit added "READ_PHONE_STATE" permission by Gradle build, -->
+    <!-- if module doesn't have targetSdkVersion or version is less than 4. -->
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true">
+    </application>
+
+</manifest>

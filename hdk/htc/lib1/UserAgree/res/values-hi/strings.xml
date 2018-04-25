@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">यह एप्लिकेशन मोबाइल डेटा या Wi-Fi का उपयोग करता है। डेटा उपयोग के बिल्कुल सही दर जानने के लिए अपने स्थानीय कैरियर से संपर्क करें।</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">मुझसे दोबारा न पूछें</string><!--Don\'t ask me again-->
+
+</resources>

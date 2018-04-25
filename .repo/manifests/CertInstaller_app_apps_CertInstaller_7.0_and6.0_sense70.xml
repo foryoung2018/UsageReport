@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/CertInstaller/7.0/and6.0/sense70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/CertInstaller" path="app/packages/apps/CertInstaller" revision="app/apps/CertInstaller/7.0/and6.0/sense70"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+</manifest>

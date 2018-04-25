@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcServicePack/1.04/api23/master" sync-j="4" HDKLib3Name="HDK_Lib3_API19_1_Stable" HDKLib3Ver="19.1"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcServicePack" path="app/packages/apps/HtcServicePack" revision="app/apps/HtcServicePack/1.04/api23/master"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/providers/HtcLockScreenSettingsProvider" path="app/packages/providers/HtcLockScreenSettingsProvider" revision="85ab783a6729a9f5d6be5a22242c6f2f940aa13d"/>
+  <project name="app/packages/apps/PitroadHSPEnhancer" path="app/packages/apps/PitroadHSPEnhancer" revision="5d3c334d798f2f61b765e41e595b87ca62940394"/>
+  <project name="app/packages/apps/HtcActiveService" path="app/packages/apps/HtcActiveService" revision="17a1476e2cdaef34f69295f95d784e37ccbdb9fa"/>
+  <project name="app/packages/apps/HtcUPService" path="app/packages/apps/HtcUPService" revision="f82149259056b965a863e647ccc6085605bc35eb"/>
+  <project name="app/packages/apps/WeatherSyncProvider" path="app/packages/apps/WeatherSyncProvider" revision="2606516e65267f62e09a61c19d41f6de634a291d"/>
+  <project name="app/packages/apps/BlinkFeedManager" path="app/packages/apps/BlinkFeedManager" revision="4c367f86fe47ea6d3661e64bbbbb0893c1404996"/>
+  <project name="app/packages/apps/HTC_LocationServicesSettingProvider" path="app/packages/apps/HTC_LocationServicesSettingProvider" revision="7538d476e55e290c404917092fe914a9d746e7ee"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/Social_Library" path="app/hms_libs/Social_Library" revision="e550b8226e5b4a1aea9c42e9c3fe4bc1f2d74c24"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib2/htcactiveservice" path="hdk/htc/lib2/HtcActiveService" revision="c8d0610e57e953198c91db3c75ff2133cf30512f"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="5a56dfe33a225c8f6a6cd53fde000d942919ba2d"/>
+  <project name="app/hdk/htc/lib2/lockscreenlib2" path="hdk/htc/lib2/LockScreenLib2" revision="7376e791979837ad85275158cde4ca3c7f93e981"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="9278dc274a03c118001866df2ddf50848556c764"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="4744a481f390b57269bc762db879b99966dbb849"/>
+  <project name="app/hdk/htc/lib2/htclocationservicessettingmodule" path="hdk/htc/lib2/HtcLocationServicesSettingModule" revision="2642473c1386d715f795648b5f9ee8a69ce6a862"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="1218cabd8d95361be6aadaf36f31d5ce76ac2ef2"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="fbec3222ce28e2bc33ee1d25348a1bea4d7cdc2c"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="daba73b4f7b010d88f2a19bdb4043fe1a70df04b"/>
+  <project name="app/hdk/htc/lib2/pitroadhspenhancerlib" path="hdk/htc/lib2/PitroadHSPEnhancerLib" revision="766a782649824db561510b51fa0d1874dbc05690"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="806cc091184d43f2f9144b26224d923bc81fa197"/>
+  <project name="app/hdk/htc/lib1/htclocationservicessettingmanager" path="hdk/htc/lib1/HtcLocationServicesSettingManager" revision="2244b8755bef534651aed4adccafc349d5796104"/>
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="margin_l">30px</dimen>
+    <dimen name="margin_m">20px</dimen>
+    <dimen name="margin_s">14px</dimen>
+    <dimen name="margin_xs">12px</dimen>
+    <dimen name="spacing">9px</dimen>
+    <dimen name="leading">6px</dimen>
+    <dimen name="margin_l_2">60px</dimen>
+    <dimen name="margin_m_2">40px</dimen>
+    <dimen name="margin_s_2">28px</dimen>
+    <dimen name="margin_xs_2">24px</dimen>
+    <dimen name="spacing_2">18px</dimen>
+    <dimen name="leading_2">12px</dimen>
+    <dimen name="margin_l_3">90px</dimen>
+    <dimen name="margin_m_3">60px</dimen>
+    <dimen name="margin_s_3">42px</dimen>
+    <dimen name="margin_xs_3">36px</dimen>
+    <dimen name="spacing_3">27px</dimen>
+    <dimen name="leading_3">18px</dimen>
+</resources>

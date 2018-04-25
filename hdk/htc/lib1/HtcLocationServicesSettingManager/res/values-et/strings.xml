@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC asukohateenused</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC asukohateenused</string><!--HTC Location Services-->
+    <string name="home_label">Kodu</string><!--Home-->
+    <string name="work_label">Töötamine</string><!--Work-->
+    <string name="location_picker">asukohavalija</string><!--location picker-->
+    <string name="clear_label">Selge</string><!--Clear-->
+    <string name="description_label">Aadressi või Wi-Fi-võrgu käsitsi linkimisel kodu või töö asukohaga nõustute HTC Sense\'i keskusega jagama järgmist: %1$s ja %2$s.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">täpne asukoht</string><!--precise location-->
+    <string name="precise_location_upper">Täpne asukoht</string><!--Precise location-->
+    <string name="personal_usage_data">personaalsed kasutusandmed</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Personaalsed kasutusandmed</string><!--Personal usage data-->
+    <string name="precise_location_description">Soovituste saamiseks läheduses asuvate restoranide ja muude paikade kohta jaga järgmist: %s.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Jaga teavet %s nagu rakendused, mida kasutan, veebisaidid, mida külastan, ja meediumid, mida kuulan või vaatan, et saada soovitusi rakenduste, uudiste ja sisu kohta.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Aadresside või Wi-Fi-võrkude linkimine</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Aadresside või Wi-Fi-võrkude linkimine</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">lisa</string><!--add-->
+    <string name="no_content">Toksake aadressi või Wi-Fi-võrgu lisamiseks nuppu &quot;+&quot;</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi-VÕRGUD</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">AADRESSID</string><!--ADDRESSES-->
+    <string name="wifi_label">WiFi-võrk</string><!--Wi-/Fi network-->
+    <string name="address_label">Aadress</string><!--Address-->
+    <string name="select_wifi_title">Valige üks või mitu võrku</string><!--Select one or more networks-->
+    <string name="remove_label">Eemalda</string><!--Remove-->
+    <string name="edit_label">Redigeeri</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">TÜHISTA</string><!--CANCEL-->
+    <string name="lib_app_name">HTC asukohateenused</string><!--HTC location services-->
+    <string name="switch_mode_title">Aadressi asukoha muutmine</string><!--Address location change-->
+    <string name="switch_mode_home">Lisasite selle aadressi varem töökoha asukohana. Aadressi saab lisada ainult ühele asukohale. Kas soovite selle kohe kodu asukohaks muuta?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Lisasite selle aadressi varem kodu asukohana. Aadressi saab lisada ainult ühele asukohale. Kas soovite selle kohe töökoha asukohaks muuta?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi on väljas</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Selle asukohaga Wi-Fi-võrgu sidumiseks peate Wi-Fi seadetes sisse lülitama.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">SEADED</string><!--SETTINGS-->
+    <string name="duplicate_address">See aadress on juba lisatud.</string><!--This address has already been added.-->
+    <string name="unknown_address">tundmatu aadress</string><!--unknown address-->
+    <string name="too_much_item">Olete lisanud maksimaalse arvu asukohti.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Ühendatud</string><!--Connected-->
+    <string name="saved_label">Salvestatud</string><!--Saved-->
+    <string name="secured_label">Kaitstud üksusega %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Õigesti töötamiseks vajab rakendus juurdepääsu selle seadme asukohale. Andke luba, kui seda küsitakse.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Õigesti töötamiseks vajab rakendus juurdepääsu teie asukohale. Saate hallata rakenduse %s lubasid seadetes.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">SULE</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">SEADED</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC hoolduspakett</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Asukohaallikad on inaktiveeritud</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Korralikult töötamiseks peab see rakendus teadma teie asukohta. Lülitage asukohaallikas seadete alt sisse.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">SEADISTUS</string><!--SETTING-->
+    <string name="no_wifi_available">Wi-Fi võrke pole saadaval</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

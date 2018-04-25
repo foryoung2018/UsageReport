@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/providers/HtcLockScreenSettingsProvider/6.0/api21/HtcLockScreenSettingProvider60" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/providers/HtcLockScreenSettingsProvider" path="app/packages/providers/HtcLockScreenSettingsProvider" revision="app/providers/HtcLockScreenSettingsProvider/6.0/api21/HtcLockScreenSettingProvider60"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib2/lockscreenlib2" path="hdk/htc/lib2/LockScreenLib2" revision="f27bedef305279b843b7d196b7a61ae3a9be129e"/>
+</manifest>

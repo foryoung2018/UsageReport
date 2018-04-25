@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">HTC 계정</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">연결할 수 없음</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">이 응용 프로그램을 사용하려면 네트워크 연결이 필요합니다. 모바일 데이터 또는 Wi-Fi 에 연결하십시오.</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">잠시 기다려 주십시오...</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">HTC 서버에 연결할 수 없습니다. 잠시 후에 다시 시도해 주세요.</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">이 응용 프로그램을 사용하려면 네트워크 연결이 필요합니다.</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">로그인에 사용하기 위해 Google 계정을 생성하십시오.</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">연결할 수 없습니다. 다시 시도하십시오.</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">Google 계정에 액세스할 수 없습니다. 계정이 활성 상태인지 확인하십시오.</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">권한 필요</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">Google 계정으로 로그인하기 위해, 이 앱이 귀하의 계정에 대한 액세스를 필요로 합니다. 요구가 표시되면 권한을 허용하십시오.</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">&quot;적절하게 작동하기 위해, 이 앱이 귀하의 계정에 대한 액세스를 필요로 합니다. 설정에서 %1$s의 권한을 관리할 수 있습니다.&quot;</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">HTC 계정 만들기</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">이메일 주소</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">해당 이메일 주소를 사용하는 HTC 계정이 이미 생성되었습니다. 계정을 눌러 로그인하거나, 새 계정을 만드십시오.</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">HTC로부터 제공 사항, 제품 정보 및 뉴스레터를 메일로 받습니다.</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">%s 계정의 이메일 사용:</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">계정 만들기</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">새 계정 만들기</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">계정을 생성함으로써 HTC 계정의 %1$s에 동의하고 %2$s을(를) 인정합니다. 등록하려면 최소한 14세 이상이어야 합니다.</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">약관</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">개인 정보 보호 정책</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">개인 정보 보호 정책</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">약관</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">계정 검증</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">메일 열기</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">나중에</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">HTC 계정에 로그인하려면, %1$s로 전송된 링크를 사용하여 이메일 주소를 검증해야 합니다.\n\n이메일을 받지 못한 경우 스팸 폴더를 확인하거나 지금 %2$s 하십시오.</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">재전송</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">이메일 주소가 필요합니다.</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">올바른 이메일 주소를 입력하십시오.</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">이메일 전송됨: %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">설정</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">닫기</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">뒤로</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">취소</string><!--Cancel-->
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Hledat v seznamu Lidé</string><!--Search People-->
+    <string name="common_string_share_title">Sdílet prostřednictvím</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Uložit do existujícího kontaktu</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Uložit na kartu Lidé</string><!--Save to People-->
+    <string name="label_year">Rok</string><!--Year-->
+    <string name="label_month">Měsíc</string><!--Month-->
+    <string name="label_day">Den</string><!--Day-->
+    <string name="label_hour">Hod</string><!--Hour-->
+    <string name="label_minute">Min.</string><!--Minute-->
+    <string name="label_second">Sekunda</string><!--Second-->
+    <string name="common_string_open_contact">Otevřít kontakt</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Zbývá vám pouze jedna kartu. Pro přidání více karet u této aplikace zvolte v nabídce možnost Upravit karty/Filtry.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Storno</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Další</string><!--Next-->
+    <string name="va_back">Zpět</string><!--Back-->
+    <string name="va_call">Volat</string><!--Call-->
+    <string name="st_loading">Načítání...</string><!--Loading...-->
+    <string name="va_close">Zavřít</string><!--Close-->
+    <string name="va_open">Otevřít</string><!--Open-->
+    <string name="va_clear">Vymazat</string><!--Clear-->
+    <string name="va_send_mail">Odeslat e-mail</string><!--Send mail-->
+    <string name="va_send_message">Odeslat zprávu</string><!--Send message-->
+    <string name="va_download">Stáhnout</string><!--Download-->
+    <string name="st_more">Další</string><!--More-->
+    <string name="nn_unknown_error">Neznámá chyba</string><!--Unknown error-->
+    <string name="va_downloading">Stahování</string><!--Downloading-->
+    <string name="va_finish">Dokončit</string><!--Finish-->
+    <string name="va_reset">Resetovat</string><!--Reset-->
+    <string name="va_hide">Skrýt</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Na úložišti tabletu došlo k chybě. Restartujte zařízení nebo zformátujte úložiště.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Uvolněte pro obnovení</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Aktualizace...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">poklepejte a přetáhněte pro upravení</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Přetáhnutelná položka</string><!--Draggable item-->
+    <string name="va_move_above">Přesunout nahoru</string><!--Move above-->
+    <string name="va_move_below">Přesunout dolů</string><!--Move below-->
+    <string name="st_pull_down_refresh">Stáhněte pro obnovení</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Upravit číslo před voláním</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Otevřít v mapě</string><!--Open in map-->
+    <string name="va_copy">Kopírovat</string><!--Copy-->
+    <string name="va_show_all">Zobrazit vše</string><!--Show all-->
+</resources>

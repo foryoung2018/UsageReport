@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/KDDI_Miracast_Controller/9.00/api21/Sense9" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/KDDI_Miracast_Controller" path="app/packages/apps/KDDI_Miracast_Controller" revision="app/apps/KDDI_Miracast_Controller/9.00/api21/Sense9"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+</manifest>

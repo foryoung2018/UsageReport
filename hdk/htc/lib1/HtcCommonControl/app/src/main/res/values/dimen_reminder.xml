@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimension in incoming_call_view.xml -->
+    <dimen name="tile_min_height">100dp</dimen>
+    <dimen name="tile_min_height_dualcall">310.33dip</dimen>
+    <dimen name="incoming_call_call_id_height">183.67dip</dimen>
+    <dimen name="incoming_call_slot_name_title_layout_height">21.67dip</dimen>
+    <dimen name="incoming_call_slot_name_padding_left">@dimen/margin_m</dimen>
+    <dimen name="incoming_call_slot_name_padding_right">@dimen/margin_m</dimen>
+    <dimen name="text_size_incoming_call_slot_name">16dip</dimen>
+    <dimen name="incoming_call_call_id_margin_top">53dip</dimen>
+
+    <!-- Dimension in incoming_call_view_dualsim.xml -->
+    <dimen name="dualsim_incoming_call_slot_name_height">36dip</dimen>
+    <dimen name="tile_line_1_margin_top">12.33dp</dimen> <!-- 37px -->
+    <dimen name="tile_line_2_margin_top">1.33dp</dimen> <!-- 4px -->
+    <dimen name="tile_line_3_margin_top">2.67dp</dimen> <!-- 8px -->
+
+</resources>

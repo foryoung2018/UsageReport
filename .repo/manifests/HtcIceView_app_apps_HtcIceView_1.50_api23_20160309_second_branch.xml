@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcIceView/1.50/api23/20160309_second_branch" sync-j="4" HDKLib3Name="HDK_Lib3_API19_3_Stable" HDKLib3Ver="19.3"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcIceView" path="app/packages/apps/HtcIceView" revision="app/apps/HtcIceView/1.50/api23/20160309_second_branch"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="2f9bd8f7f8cc0303db1448145c39e777d7955ae8"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="640c8faa97e22bd88775121eb53b9da391461eb3"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="267eee8d5f5c018611354f793d95a491cae4da46"/>
+  <project name="app/hdk/htc/lib3/medialinksharedmodule" path="hdk/htc/lib3/MediaLinkSharedModule" revision="dad18414a56f89af7435a5109af8d3eaf7d705db"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="dbba9496456e6e7e20b7659d5533dfc8a7ad6011"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="c77977a76efe5c322d1f5721b6d371ac4d64cf8b"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="509b39879a6823f768d647c4e9a2581f6f9de8ed"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="f6a6a91c1e18121a6914f9e3a33976fc7a9b89b5"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="5a56dfe33a225c8f6a6cd53fde000d942919ba2d"/>
+</manifest>

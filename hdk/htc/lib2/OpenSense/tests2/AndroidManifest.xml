@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- package name must be unique so suffix with "tests2" so package loader doesn't ignore us -->
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.htc.lib2.opensense.tests2"
+        android:versionCode="1"
+        android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.htc.sense.permission.APP_HSP" /> <!-- for Real HSP -->
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16"
+    />
+    <!-- We add an application tag here just so that we can indicate that
+         this package needs to link against the android.test library,
+         which is needed when building test cases. -->
+    <application>
+        <service android:name="com.htc.lib2.mock.opensense.pluginmanager.RegisterService" />
+        <provider
+                android:name="com.htc.lib2.mock.opensense.pluginmanager.PluginProvider"
+                android:authorities="com.htc.lib2.mock.opensense.plugin"
+                android:exported="true"
+        />
+        <provider
+                android:name="com.htc.lib2.mock.opensense.cachemanager.CacheProvider"
+                android:authorities="com.htc.lib2.mock.opensense.cachemanager"
+                android:exported="true"
+        />
+        <receiver android:name="com.htc.lib2.mock.opensense.pluginmanager.RegisterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_INSTALL" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+                android:name="opensense"
+                android:resource="@xml/htc_supports"
+        />
+        <meta-data
+                android:name="test_0_hdkapi_opensense"
+                android:value="1.1.1"
+        />
+        <meta-data
+                android:name="test_1_hdkapi_opensense"
+                android:value="1.1.2"
+        />
+        <meta-data
+                android:name="test_2_hdkapi_opensense"
+                android:value="1.2.0"
+        />
+        <meta-data
+                android:name="test_3_hdkapi_opensense"
+                android:value="1.0.0"
+        />
+        <meta-data
+                android:name="test_4_hdkapi_opensense"
+                android:value="2.0.0"
+        />
+        <meta-data
+                android:name="test_5_hdkapi_opensense"
+                android:value="2.1.0"
+        />
+        <meta-data
+                android:name="test_6_hdkapi_opensense"
+                android:value="2.0.1"
+        />
+        <meta-data
+                android:name="test_7_hdkapi_opensense"
+                android:value="1.0"
+        />
+        <meta-data
+                android:name="test_8_hdkapi_opensense"
+                android:value="1"
+        />
+        <meta-data
+                android:name="test_9_hdkapi_opensense"
+                android:value="asdf"
+        />
+        <uses-library android:name="android.test.runner" />
+    </application>
+    <!--
+    This declares that this application uses the instrumentation test runner targeting
+    the package of com.htc.lib2.opensense.  To run the tests use the command:
+    "adb shell am instrument -w com.htc.lib2.opensense.tests2/android.test.InstrumentationTestRunner"
+    -->
+    <instrumentation
+            android:name="android.test.InstrumentationTestRunner"
+            android:targetPackage="com.htc.lib2.opensense.tests2"
+            android:label="Tests for com.htc.lib2.opensense"
+    />
+</manifest>

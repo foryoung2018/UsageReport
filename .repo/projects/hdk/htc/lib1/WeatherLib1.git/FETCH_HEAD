@@ -1,0 +1,7 @@
+128e62d29b884f232e42f07561b31fe20fe07a0d		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/weatherlib1
+590c615754f438b7c1f7af85e71f6234347d3b09		branch 'hdk/apilatest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/weatherlib1
+04906278b747e3aad1449266fa206a469511e5cf		branch 'hdk/buildsdklatest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/weatherlib1
+24fa1221a77e7b7587e574fd19097d0d2f45180c	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/weatherlib1
+a0b2066d7e69d59d507e861cd3a1b38436a8045b	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/weatherlib1
+a35145af2819b702310ebce9fa9b7d0d25d749fc	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/weatherlib1
+b660037f442a1cd4314a6f3d877cb92f5d8be57b	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/weatherlib1

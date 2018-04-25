@@ -1,0 +1,19 @@
+include ":..:..:..:..:hdk:htc:lib1:HtcTheme"
+project(':..:..:..:..:hdk:htc:lib1:HtcTheme').projectDir = new File('../../../../../hdk/htc/lib1/HtcTheme')
+
+include ":..:..:..:..:hdk:htc:lib0:Customization"
+project(':..:..:..:..:hdk:htc:lib0:Customization').projectDir = new File('../../../../../hdk/htc/lib0/Customization')
+
+include ":..:..:..:..:hdk:htc:lib0:HDKUtil"
+project(':..:..:..:..:hdk:htc:lib0:HDKUtil').projectDir = new File('../../../../../hdk/htc/lib0/HDKUtil')
+
+include ":..:..:..:..:hdk:htc:lib0:HtcDebugFlag"
+project(':..:..:..:..:hdk:htc:lib0:HtcDebugFlag').projectDir = new File('../../../../../hdk/htc/lib0/HtcDebugFlag')
+
+
+include ":..:..:..:..:hdk:htc:lib1:HtcCommonControl"
+project(':..:..:..:..:hdk:htc:lib1:HtcCommonControl').projectDir = new File('../../../../../hdk/htc/lib1/HtcCommonControl/htccommoncontrol')
+
+include ":..:..:..:..:hdk:htc:lib2:HtcConfiguration"
+project(':..:..:..:..:hdk:htc:lib2:HtcConfiguration').projectDir = new File('../../../../../hdk/htc/lib2/HtcConfiguration')
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="TestStyle">Hello My Style!</string>
+    <string name="menu_dark">Dark Mode</string>
+    <string name="menu_light">Light Mode</string>
+
+
+    <string-array name="pkgBlackList">
+        <item>com.google.android</item>
+        <item>com.htc.android.inputset</item>
+        <item>com.android.providers</item>
+        <item>com.htc.provider</item>
+        <item>com.htc.engine</item>
+        <item>com.htc.cs</item>
+        <item>com.htc.test</item>
+        <item>com.htc.fieldtest</item>
+        <item>com.aviyehuda.test</item>
+        <item>com.broadcom</item>
+        <item>com.android.chrome</item>
+        <item>com.android.backupconfirm</item>
+        <item>com.android.defcontainer</item>
+        <item>com.android.dreams.basic</item>
+        <item>com.android.htmlviewer</item>
+        <item>com.dropbox.android</item>
+        <item>com.android.development</item>
+        <item>com.android.certinstaller</item>
+        <item>com.android.keychain</item>
+        <item>com.android.apps.tag</item>
+        <item>com.android.CSDFunctionG</item>
+        <item>com.android.packageinstaller</item>
+        <item>com.htc.android.qxdm2sd</item>
+        <item>com.htc.android.ramdump</item>
+        <item>com.htc.android.ssdtest</item>
+        <item>com.htc.android.netlogger</item>
+        <item>com.htc.android.htcloglevel</item>
+        <item>com.htc.android.vending</item>
+        <item>com.htc.android.holospiral</item>
+        <item>com.htc.android.location.fused</item>
+        <item>com.htc.android.updater</item>
+        <item>com.htc.CruiserPwrExpert</item>
+        <item>com.htc.CustomizationSetup</item>
+        <item>com.melodis</item>
+        <item>com.westtek</item>
+        <item>com.skysoft</item>
+        <item>com.inventec</item>
+        <item>com.qualcomm</item>
+        <item>uk.co</item>
+    </string-array>
+
+    <string-array name="pkgHiddenList">
+        <item>com.htc.browsermodule.res</item>
+        <item>com.htc.videowidget.res</item>
+        <item>com.htc.weather.res</item>
+        <item>com.htc.android.home.res</item>
+        <item>com.htc.framework</item>
+    </string-array>
+
+    <string-array name="pkgHiddenListLabel">
+        <item>Browser Resource</item>
+        <item>Video Widget Resource</item>
+        <item>Weather Resource</item>
+        <item>Htc Home Resource</item>
+        <item>Htc Framework Resource</item>
+    </string-array>
+</resources>

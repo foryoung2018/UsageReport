@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Fullført</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Del via</string><!--Share via-->
+    <string name="carousel_title">Trykk på og hold ikoner for å flytte dem</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Kan ikke fjerne denne kategorien</string><!--Unable to remove this tab-->
+    <string name="yes">Ja</string><!--Yes-->
+    <string name="no">Nei</string><!--No-->
+    <string name="menu_view_full">Vis</string><!--View-->
+    <string name="menu_view_video">Spill</string><!--Play-->
+    <string name="menu_slideshow">Lysbildefremvisning</string><!--Slideshow-->
+    <string name="menu_share">Del</string><!--Share-->
+    <string name="menu_set_as">Angi som</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Angi som favoritt</string><!--Set as favorite-->
+    <string name="menu_protect_info">Beskyttelsesinfo</string><!--Protection info-->
+    <string name="meun_rotate">Roter</string><!--Rotate-->
+    <string name="menu_delete">Slett</string><!--Delete-->
+    <string name="menu_crop">Beskjær</string><!--Crop-->
+    <string name="menu_properties">Detaljer</string><!--Details-->
+    <string name="menu_show_on_map">Vis på kart</string><!--Show on map-->
+    <string name="menu_settings">Innstillinger</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Del fotokobling</string><!--Share photo link-->
+    <string name="refresh">Oppdater</string><!--Refresh-->
+    <string name="add_comments">Legg til kommentar</string><!--Add comment-->
+    <string name="button_show_caption">Vis bildetekst</string><!--Show caption-->
+    <string name="button_hide_caption">Skjul bildetekst</string><!--Hide caption-->
+    <string name="button_show_description">Vis beskrivelse</string><!--Show description-->
+    <string name="button_hide_description">Skjul beskrivelse</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Liten</item><!--Small-->
+        <item>Middels</item><!--Medium-->
+        <item>Stor</item><!--Large-->
+        <item>Ekstra stor</item><!--Extra large-->
+        <item>Kjempestor</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dobbelttrykk for handling</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Trekk ikon opp</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Trekk opp for å låse opp</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Sø</item><!--SU-->
+        <item>M</item><!--M-->
+        <item>Ti</item><!--TU-->
+        <item>O</item><!--W-->
+        <item>To</item><!--TH-->
+        <item>F</item><!--F-->
+        <item>Lø</item><!--SA-->
+    </string-array>
+</resources>

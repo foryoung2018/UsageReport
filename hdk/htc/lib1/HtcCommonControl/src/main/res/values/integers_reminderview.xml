@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="unlock_distance_mm">12</integer>
+
+    <array name="click_vibration">
+        <item>0.00dip</item>
+        <item>-0.67dip</item>
+        <item>-3.67dip</item>
+        <item>-8.67dip</item>
+        <item>-13.00dip</item>
+        <item>-15.67dip</item>
+        <item>-17.67dip</item>
+        <item>-18.67dip</item>
+        <item>-19.67dip</item>
+        <item>-20.00dip</item>
+        <item>-20.00dip</item>
+        <item>-20.00dip</item>
+        <item>-20.00dip</item>
+        <item>-20.00dip</item>
+        <item>-19.67dip</item>
+        <item>-19.33dip</item>
+        <item>-18.67dip</item>
+        <item>-18.00dip</item>
+        <item>-16.67dip</item>
+        <item>-15.33dip</item>
+        <item>-13.33dip</item>
+        <item>-12.00dip</item>
+        <item>-5.67dip</item>
+        <item>0.67dip</item>
+        <item>1.33dip</item>
+        <item>2.00dip</item>
+        <item>0.00dip</item>
+        <item>-2.00dip</item>
+        <item>-1.00dip</item>
+        <item>0.00dip</item>
+    </array>
+
+</resources>

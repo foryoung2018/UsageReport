@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="htcaccount_margin_l">15dp</dimen>
+    <dimen name="htcaccount_margin_m">10dp</dimen>
+    <dimen name="htcaccount_margin_m_2">20dp</dimen>
+    <dimen name="htcaccount_margin_xs_2">12dp</dimen>
+    <dimen name="htcaccount_layout_margin_sides">40dp</dimen>
+    <dimen name="htcaccount_spacing_2">9dp</dimen>
+
+    <dimen name="htcaccount_other_acount_listitem_height">80dp</dimen>
+    <dimen name="htcaccount_other_acount_icon_wh">70dp</dimen>
+
+    <dimen name="htcaccount_description_text_size">16sp</dimen>
+
+    <dimen name="htcaccount_list_body_primary_m">17sp</dimen>
+</resources>

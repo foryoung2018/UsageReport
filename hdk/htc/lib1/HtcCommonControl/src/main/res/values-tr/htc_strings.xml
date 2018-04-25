@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Kişileri ara</string><!--Search People-->
+    <string name="common_string_share_title">Bununla paylaş</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Mevcut kişiye ekle</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Kişiler\'e Kaydet</string><!--Save to People-->
+    <string name="label_year">Yıl</string><!--Year-->
+    <string name="label_month">Ay</string><!--Month-->
+    <string name="label_day">Gün</string><!--Day-->
+    <string name="label_hour">Saat</string><!--Hour-->
+    <string name="label_minute">Dakika</string><!--Minute-->
+    <string name="label_second">Saniye</string><!--Second-->
+    <string name="common_string_open_contact">Kişi aç</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Yalnızca bir sekme bıraktınız. Bu uygulama için daha fazla sekme eklemek üzere, menüden Sekmeleri/Filtreleri Düzenle sekmelerini seçin.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">İptal</string><!--Cancel-->
+    <string name="va_ok">TAMAM</string><!--OK-->
+    <string name="va_next">İleri</string><!--Next-->
+    <string name="va_back">Geri</string><!--Back-->
+    <string name="va_call">Ara</string><!--Call-->
+    <string name="st_loading">Yüklüyor...</string><!--Loading...-->
+    <string name="va_close">Kapat</string><!--Close-->
+    <string name="va_open">Aç</string><!--Open-->
+    <string name="va_clear">Temizle</string><!--Clear-->
+    <string name="va_send_mail">E-posta gönder</string><!--Send mail-->
+    <string name="va_send_message">İleti gönder</string><!--Send message-->
+    <string name="va_download">İndir</string><!--Download-->
+    <string name="st_more">Daha</string><!--More-->
+    <string name="nn_unknown_error">"Bilinmeyen hata"</string><!--Unknown error-->
+    <string name="va_downloading">İndiriliyor</string><!--Downloading-->
+    <string name="va_finish">Son</string><!--Finish-->
+    <string name="va_reset">Sıfırla</string><!--Reset-->
+    <string name="va_hide">"Gizle"</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Tabletinizin depolama alanında bir hata ile karşılaşıldı. Lütfen aygıtı yeniden başlatın veya depolama alanını biçimlendirin.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Yenilemek için serbest bırak</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Güncelleştiriliyor...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">ayarlamak için iki defa dokunun ve sürükleyin</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Süreklenebilir öğe</string><!--Draggable item-->
+    <string name="va_move_above">Yukarı taşı</string><!--Move above-->
+    <string name="va_move_below">Aşağı taşı</string><!--Move below-->
+    <string name="st_pull_down_refresh">Yenilemek için aşağı çek</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Aramadan önce numarayı düzenle</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Harita\'da aç</string><!--Open in map-->
+    <string name="va_copy">Kopyala</string><!--Copy-->
+    <string name="va_show_all">Tümünü göster</string><!--Show all-->
+</resources>

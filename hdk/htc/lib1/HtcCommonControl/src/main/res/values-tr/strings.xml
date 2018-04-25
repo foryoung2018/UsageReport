@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Bitti</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Bununla paylaş</string><!--Share via-->
+    <string name="carousel_title">Tekrar düzenlemek için simgelere basın ve basılı tutun</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Bu sekme kaldırılamadı</string><!--Unable to remove this tab-->
+    <string name="yes">Evet</string><!--Yes-->
+    <string name="no">Hayır</string><!--No-->
+    <string name="menu_view_full">Görüntüle</string><!--View-->
+    <string name="menu_view_video">Yürüt</string><!--Play-->
+    <string name="menu_slideshow">Slayt Gösterisi</string><!--Slideshow-->
+    <string name="menu_share">Paylaş</string><!--Share-->
+    <string name="menu_set_as">Böyle ayarla</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Sık kullanan olarak ayarla</string><!--Set as favorite-->
+    <string name="menu_protect_info">Koruma bilgileri</string><!--Protection info-->
+    <string name="meun_rotate">Döndür</string><!--Rotate-->
+    <string name="menu_delete">Sil</string><!--Delete-->
+    <string name="menu_crop">Kes</string><!--Crop-->
+    <string name="menu_properties">Detaylar</string><!--Details-->
+    <string name="menu_show_on_map">Haritada göster</string><!--Show on map-->
+    <string name="menu_settings">Ayarlar</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Fotoğraf bağlantısını paylaş</string><!--Share photo link-->
+    <string name="refresh">Yenile</string><!--Refresh-->
+    <string name="add_comments">Yorum ekle</string><!--Add comment-->
+    <string name="button_show_caption">Başlığı göster</string><!--Show caption-->
+    <string name="button_hide_caption">Başlığı gizle</string><!--Hide caption-->
+    <string name="button_show_description">Tanımı göster</string><!--Show description-->
+    <string name="button_hide_description">Tanımı gizle</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Küçük</item><!--Small-->
+        <item>Orta</item><!--Medium-->
+        <item>Büyük</item><!--Large-->
+        <item>Çok büyük</item><!--Extra large-->
+        <item>Çok Büyük</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Eyleme iki kez dokunun</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Simgeyi yukarı çek</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Kilidi açmak için yukarı çekin</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Pa</item><!--SU-->
+        <item>Pz</item><!--M-->
+        <item>Sa</item><!--TU-->
+        <item>Çr</item><!--W-->
+        <item>Pş</item><!--TH-->
+        <item>Cu</item><!--F-->
+        <item>Ct</item><!--SA-->
+    </string-array>
+</resources>

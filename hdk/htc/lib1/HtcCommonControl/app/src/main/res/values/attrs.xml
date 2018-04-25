@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="myInfoPanel">
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:fontFamily"/>
+    </declare-styleable>
+</resources>

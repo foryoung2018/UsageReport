@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/MyTask/7.0/api21/GooglePlay" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/MyTask" path="app/packages/apps/MyTask" revision="app/apps/MyTask/7.0/api21/GooglePlay"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="e0b7385392599bfe284f1a1795748da40fac4202"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="78a336c422a2586b1c6b9137ac3e195782f9072d"/>
+  <project name="app/hdk/htc/lib1/home" path="hdk/htc/lib1/Home" revision="573dfcf4d20d0ee7085481cc3f5274492a3ab76c"/>
+  <project name="app/hdk/htc/lib1/lockscreenlib1" path="hdk/htc/lib1/LockScreenLib1" revision="71a5a441e8fcd29c643655c33907cd4de410428d"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="207f5a3e2bac78fea3579ff5bf6c52e10fc3185d"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib2/lockscreenlib2" path="hdk/htc/lib2/LockScreenLib2" revision="f27bedef305279b843b7d196b7a61ae3a9be129e"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="ac6a49b4cb56c3a3c8cf9492285a03141f89e31b"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ce56ee1481a6a88f5ea1f128d4f5564b501397d8"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="e7cb70206258367285611c9e94ea5c702d9dca2c"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="2b28907cec3c0e88c5914643b97865d555f2acb4"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="9d2464e78bbfd8d1c9ae6e36233d08958277efea"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="11a5d118a0656ea3fdb81f583af80ee267974b54"/>
+</manifest>

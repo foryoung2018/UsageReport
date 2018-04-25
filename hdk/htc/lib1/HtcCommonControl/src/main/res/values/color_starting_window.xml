@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<!-- For HTC defined color values -->
+<resources>
+    <!-- Starting Window Header Color -->
+    <color name="starting_window_header">#252525</color>
+</resources>

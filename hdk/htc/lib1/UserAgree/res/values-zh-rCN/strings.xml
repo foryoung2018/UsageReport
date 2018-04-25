@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">此应用程序会使用移动数据或 WLAN。具体流量费用请咨询当地运营商。</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">请勿再询问</string><!--Don\'t ask me again-->
+
+</resources>

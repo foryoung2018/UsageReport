@@ -1,0 +1,77 @@
+apply plugin: 'maven-publish'
+
+import org.codehaus.groovy.runtime.DateGroovyMethods;
+
+def isRelease() {
+    if ( System.env.containsKey("IS_RELEASE") &&
+        System.env.IS_RELEASE == "true" ) {
+        return true;
+    }
+
+    return false;
+
+}
+
+def getTimeStamp() {
+    return DateGroovyMethods.format(new Date(), 'yyyyMMdd')
+}
+
+def getCLIDVersion() {
+    def patchset = ""
+    if ( !isRelease() && System.env.containsKey("GERRIT_CHANGE_NUMBER") && System.env.containsKey("GERRIT_PATCHSET_NUMBER") ) {
+        patchset = "-" + System.env.GERRIT_CHANGE_NUMBER + "." + System.env.GERRIT_PATCHSET_NUMBER;
+    }
+
+    if ( System.env.containsKey("LATEST_CLID") ) {
+        return "1.0.$System.env.LATEST_CLID" + patchset ;
+    } else {
+        return "1.0.0" + patchset
+    }
+}
+
+def delegatePomXML = {
+    def dependenciesNode = asNode().appendNode('dependencies')
+        configurations.compile.allDependencies.each {
+            if(it instanceof org.gradle.api.internal.artifacts.dependencies.DefaultExternalModuleDependency){
+                def dependencyNode = dependenciesNode.appendNode('dependency')
+                    dependencyNode.appendNode('groupId', it.group)
+                    dependencyNode.appendNode('artifactId', it.name)
+                    dependencyNode.appendNode('version', it.version)
+            }
+        }
+}
+
+
+publishing {
+    android.libraryVariants.all { variant ->
+        variant.outputs.each { output ->
+            println variant.name;
+            publications {
+                repositories.maven {
+                    /*
+                    * Need to setting up maven server configuration and place these settings into USER_HOME/.gradle/gradle.properties
+                    * ex:
+                    * systemProp.maven.userName=YOUR_HTC_ACCOUNT
+                    * systemProp.maven.passWord=YOUR_HTC_ACCOUNT_PASSWOARD
+                    */
+                    url "http://prebuild-repositories.htc.com.tw:8081/artifactory/"+((variant.name == "debug")?"HICSnapshot":"HICRelease")
+                    name ((variant.name == "debug")?"HICSnapshot":"HICRelease")
+                    credentials {
+                        username "$System.env.mavenUserName"
+                        password "$System.env.mavenUserPassword"
+                    }
+                }
+
+                "$variant.name"(MavenPublication) {
+                    groupId "com.htc.lib0"
+                    artifactId 'Customization'
+                    version getCLIDVersion()
+                    artifact output.getOutputFile();
+                    pom.withXml delegatePomXML
+                    ext.repo = ((variant.name == "debug")?"HICSnapshot":"HICRelease")
+                }
+            }
+        }
+    }
+}
+

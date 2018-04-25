@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">HTC အေကာင့္</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">မဆက္သြယ္ႏိုင္</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">ဤပ႐ိုဂရမ္ကိုသုံးရန္ ကြန္ယက္ခ်ိတ္ဆက္မႈတစ္ခု လိုအပ္သည္။ မိုဘိုင္း ေဒတာ သို႔မဟုတ္ Wi-Fi သို႔ ေက်းဇူးျပဳ၍ ဆက္သြယ္ပါ။</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">ေက်းဇူးျပဳ၍ ေစာင့္ပါ...</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">သင္သည္  HTC ဆာဗာသို႔ ခ်ိတ္ဆက္၍ မရပါ။ ေက်းဇူးျပဳ၍ ေနာက္မွ ထပ္မံႀကိဳးစားပါ။</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">ဤပ႐ိုဂရမ္ကိုသုံးရန္ ကြန္ယက္ခ်ိတ္ဆက္မႈတစ္ခု လိုအပ္သည္။</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">ဆိုင္းအင္ဝင္ရန္ ေက်းဇူးျပဳ၍ Google အေကာင့္တစ္ခုဖန္တီးပါ။</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">မဆက္သြယ္ႏိုင္ပါ။ ေက်းဇူးျပဳ၍ ထပ္မံႀကိဳးစားပါ။</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">သင့္ Google အေကာင့္ကို ကၽြႏ္ုပ္တို႔ ရယူမသုံးစြဲႏိုင္ပါ။ အေကာင့္ကို ေက်းဇူးျပဳ၍ အသက္သြင္းထားေၾကာင္း ေသခ်ာပါေစ။</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">ခြင့္ျပဳခ်က္မ်ား လိုအပ္သည္</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">Google အေကာင့္ျဖင့္ ဆိုင္းအင္ဝင္ရန္၊ ဤအက္ပ္သည္ သင့္အေကာင့္ကို ရယူသုံးစြဲရန္ လိုအပ္သည္။ ခြင့္ျပဳခ်က္ကို ေမးျမန္းလာပါက ခြင့္ျပဳပါ။</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">&quot;သင့္တင့္စြာလုပ္ေဆာင္ရန္၊ ဤအက္ပ္မွ သင့္အေကာင့္ကို ရယူသုံးစြဲရန္ လိုအပ္သည္။  %1$s ၏ ခြင့္ျပဳခ်က္မ်ားကို ခ်ိန္ၫွိခ်က္မ်ားတြင္ စီမံခန္႔ခြဲႏိုင္သည္။&quot;</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">HTC အေကာင့္တစ္ခု ဖန္တီးပါ</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">အီးေမးလ္လိပ္စာ</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">သင့္အီးေမးလ္လိပ္စာျဖင့္ HTC အေကာင့္ကို ဖန္တီးၿပီးၿပီ။ ဆိုင္းအင္ဝင္ရန္ အသာပုတ္ပါ သို႔မဟုတ္ အေကာင့္အသစ္တစ္ခု ဖန္တီးပါ။</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">HTC မွ ေပးအပ္မႈမ်ား၊ ထုတ္ကုန္အခ်က္အလက္ႏွင့္ သတင္းစာမ်ားကို ကၽြႏ္ုပ္ထံ အီးေမးလ္ပို႔ပါ။</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">%s အေကာင့္မွ အီးေမးလ္သုံးျခင္း-</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">အေကာင့္ဖန္တီးပါ</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">အေကာင့္အသစ္ဖန္တီးပါ</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">အေကာင့္ဖန္တီးျဖင့္ သင္သည္ HTC အေကာင့္၏ %1$s ကို သေဘာတူျခင္းႏွင့္ %2$s ကို အသိမွတ္ျပဳျခင္းျဖစ္သည္။ ဆိုင္းအပ္လုပ္ရန္အတြက္ သင့္အသက္သည္ အနည္းဆုံး ၁၄ ႏွစ္ရွိရမည္။</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">စည္းကမ္းႏွင့္ သတ္မွတ္ခ်က္မ်ား</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">သီးသန္႔တည္ရွိမႈ မူဝါဒ</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">သီးသန္႔တည္ရွိမႈ မူဝါဒ</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">စည္းကမ္းႏွင့္ သတ္မွတ္ခ်က္မ်ား</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">သင့္အေကာင့္ အတည္ျပဳစစ္ေဆးပါ</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">ေမးလ္ဖြင့္ပါ</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">ယခုမဟုတ္</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">HTC အေကာင့္ကို ဆိုင္းအင္ဝင္ရန္ %1$s သို႔ပို႔ထားေသာ လင့္ခ္ကို သုံး၍ သင့္အီးေမးလ္လိပ္စာကို အတည္ျပဳပါ။\n\nသင္သည္ အီးေမးလ္ကို မရခဲ့ပါက စပမ္းဖိုဒါ သို႔မဟုတ္ %2$s တြင္ ယခုပင္ စစ္ေဆးပါ။</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">ျပန္ပို႔ပါ</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">အီးေမးလ္လိပ္စာ လိုအပ္သည္။</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">ေက်းဇူးျပဳ၍ မွန္ကန္ေသာ အီးေမးလ္လိပ္စာကို ထည့္သြင္းပါ။</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">ပို႔ရန္အီးေမးလ္- %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">ခ်ိန္ၫွိခ်က္မ်ား</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">ပိတ္</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">ေနာက္သို႔</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">ဖ်က္သိမ္း</string><!--Cancel-->
+
+</resources>

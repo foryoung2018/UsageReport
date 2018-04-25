@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/widget_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/theme_background_block_margin_top"
+        android:layout_marginLeft="@dimen/theme0_background_block_margin_left"
+        android:layout_marginRight="@dimen/theme0_background_block_margin_right"
+        android:paddingBottom="@dimen/theme_background_padding_bottom"
+        android:layoutDirection="ltr">
+        <RelativeLayout
+            android:id="@+id/background_block"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+            <com.htc.lib1.masthead.view.DigitalClock 
+                android:id="@+id/digital_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/sun_block"
+                android:paddingLeft="@dimen/theme_digital_padding_left"
+                android:layout_marginTop="@dimen/theme_widget_padding_top"
+                style="@style/weather_clock_4x1_digital_layout_params">
+                <include
+                    layout="@layout/specific_theme0_weather_clock_4x1_digital_body"/>
+                <!-- AM/PM -->
+                <TextView
+                    android:id="@+id/digital_am_pm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/digital_minute_units_lower"
+                    android:layout_alignBottom="@+id/digital_minute_units_lower"
+                    android:layout_marginBottom="@dimen/theme_am_pm_margin_bottom"
+                    style="@style/weather_clock_am_pm"/>
+            </com.htc.lib1.masthead.view.DigitalClock>
+            <include
+                android:id="@+id/sun_block"
+                layout="@layout/specific_theme_weather_clock_4x1_location"/>
+            <include
+                android:id="@+id/info_temp_area"
+                layout="@layout/specific_theme_weather_clock_4x1_info"/> 
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

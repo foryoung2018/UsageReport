@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HMS_Gallery_GP/11.00/api26/sense9gp" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HMS_Gallery_GP" path="app/packages/apps/HMS_Gallery_GP" revision="app/apps/HMS_Gallery_GP/11.00/api26/sense9gp"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HTCImageCodec" path="app/packages/apps/HTCImageCodec" revision="91cf9fd5e01a1060a0b438979146e5ab79f0ed49"/>
+  <project name="app/packages/apps/Video_Editor" path="app/packages/apps/Video_Editor" revision="f17822eab5b9e3b745790ad65351ada35d21b8a9"/>
+  <project name="app/packages/apps/MediaManager" path="app/packages/apps/MediaManager" revision="8550063c04be2748c118195d7fda577321a1a2ba"/>
+  <project name="app/packages/apps/HTCAlbum" path="app/packages/apps/HTCAlbum" revision="e28cf0a4b09805470303a0e29066fdf42d9bd29f"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/HMS_Gallery_GP_Libs" path="app/hms_libs/HMS_Gallery_GP_Libs" revision="cc30303745810efe8ac6ec351e3ed6eed51db2e9"/>
+  <project name="app/hms_libs/GalleryPlugin_GP" path="app/hms_libs/GalleryPlugin_GP" revision="47fb8d908ccde54c86958dd58cda3b4591d362d4"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="242e618969763f99c5912f9927e7681cffec5c94"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib1/htcmp4parser" path="hdk/htc/lib1/HtcMp4Parser" revision="5c55f208917dc5e051e71fbcc824fb1a20f2c24c"/>
+  <project name="app/hdk/htc/lib1/gifmodule" path="hdk/htc/lib1/GIFModule" revision="8823a790b2373eba4e51ca746616b9020e554e01"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="8d01e74650ea5722260b3fb4ed10cbacecfe656e"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="b67561a313a06873d6a04dbd71a4c39d768fbb8e"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="8478d49cdaec526eab6e7076cec140678d62f2e7"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib1/panoviewer" path="hdk/htc/lib1/PanoViewer" revision="4eb59e195ddb7cbac3a8b47b4e0e1b076ab68bbb"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="b637c9c580a58536e6ed6c085ee5f723c151d66a"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib2/photoplatformcachemanager" path="hdk/htc/lib2/PhotoPlatformCacheManager" revision="68dcbd4a679851a5dbbf727a8562b7b4f6d0d107"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="34cc0c60b78d29084892829aa9d50de56f0c6317"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="5a75455fa328568a2a0b782b2c67dc1055314642"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="0e1f1f27cff79806e19c27c44da08838d99df7eb"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="2a93b18292432597e1dd33d632355b0ca91438dc"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="4858bb0da120069f33543864a30a912fe8df45c5"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="76262e8cabaa56b545f2bfe3ab774bfb8b65972f"/>
+  <project name="app/hdk/htc/lib3/medialinksharedmodule" path="hdk/htc/lib3/MediaLinkSharedModule" revision="dad18414a56f89af7435a5109af8d3eaf7d705db"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="e7a0d817c468af35385abbe04abf713fab46e705"/>
+  <project name="app/hdk/htc/lib3/ams" path="hdk/htc/lib3/AMS" revision="07b4380ba5f3f4acd858862241d5c8be52b37c96"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="a844e8f71d8b4f1f86bde322accfe13eb11690e3"/>
+  <project name="app/hdk/htc/lib1/exoplayer" path="hdk/htc/lib1/ExoPlayer" revision="bbc8d9731e4acf772b65e9e1306329537903320d"/>
+  <project name="app/hdk/htc/lib1/htcvideoeditorlib" path="hdk/htc/lib1/HtcVideoEditorLib" revision="27c18a21b76b74785bcc53bbb7690ce406a0bc0f"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ba10b72629760afc03c442156160fc86ae4d3c0e"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="58c07de1db90afa5bfe903f452ae80360dd4cd37"/>
+</manifest>

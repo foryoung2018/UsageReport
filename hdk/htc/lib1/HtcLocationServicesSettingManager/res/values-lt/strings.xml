@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC buvimo vietos paslaugos</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC buvimo vietos paslaugos</string><!--HTC Location Services-->
+    <string name="home_label">Namų</string><!--Home-->
+    <string name="work_label">Darbo</string><!--Work-->
+    <string name="location_picker">vietų parinkiklis</string><!--location picker-->
+    <string name="clear_label">Išvalyti</string><!--Clear-->
+    <string name="description_label">Rankiniu būdu susiedami adresą arba „Wi-Fi“ tinklą su namų arba darbo vieta, sutinkate bendrinti savo %1$s ir %2$s su „HTC Sense“ pradžios ekranu.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">tiksli buvimo vieta</string><!--precise location-->
+    <string name="precise_location_upper">Tiksli buvimo vieta</string><!--Precise location-->
+    <string name="personal_usage_data">asmeniniai naudojimo duomenys</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Asmeniniai naudojimo duomenys</string><!--Personal usage data-->
+    <string name="precise_location_description">Kad gautumėte gretimų restoranų ar kitų vietų pasiūlymų, pabendrinkite savo %s.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Pabendrinkite savo %s, pvz., naudojamas programėles, lankomas interneto svetaines ir klausomą arba žiūrimą mediją, kad gautumėte programėlių, naujienų ir turinio pasiūlymų.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Susiekite adresus arba „Wi-Fi“ tinklus</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Susiekite adresus arba „Wi-Fi“ tinklus</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">įtraukti</string><!--add-->
+    <string name="no_content">Bakstelėkite „+“, kad įtrauktumėte adresą arba „Wi-Fi“ tinklą</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi TINKLAI</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESAI</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi tinklas</string><!--Wi-/Fi network-->
+    <string name="address_label">Adresas</string><!--Address-->
+    <string name="select_wifi_title">Pasirinkti vieną ar daugiau tinklų</string><!--Select one or more networks-->
+    <string name="remove_label">Pašalinti</string><!--Remove-->
+    <string name="edit_label">Redaguoti</string><!--Edit-->
+    <string name="alert_dialog_ok">GERAI</string><!--OK-->
+    <string name="alert_dialog_cancel">ATŠAUKTI</string><!--CANCEL-->
+    <string name="lib_app_name">HTC buvimo vietos paslaugos</string><!--HTC location services-->
+    <string name="switch_mode_title">Adreso vietos keitimas</string><!--Address location change-->
+    <string name="switch_mode_home">Jūs pirmiau įtraukėte šį adresą kaip darbo vietą. Adresą galima įtraukti tik į vieną vietą. Ar norite jį dabar padaryti namų vieta?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Jūs pirmiau įtraukėte šį adresą kaip namų vietą. Adresą galima įtraukti tik į vieną vietą. Ar norite jį dabar padaryti darbo vieta?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">„Wi-Fi“ išjungtas</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Kad susietumėte „Wi-Fi“ tinklą su šia vieta, nuostatose turite įjungti „Wi-Fi“ ryšį.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">NUOSTATOS</string><!--SETTINGS-->
+    <string name="duplicate_address">Šis adresas jau įtrauktas.</string><!--This address has already been added.-->
+    <string name="unknown_address">nežinomas adresas</string><!--unknown address-->
+    <string name="too_much_item">Įtraukėte maksimalų vietų skaičių.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Prisijungta</string><!--Connected-->
+    <string name="saved_label">Įrašyta</string><!--Saved-->
+    <string name="secured_label">Apsaugota naudojant %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Kad ši programėlė veiktų tinkamai, ji turi pasiekti šio įrenginio buvimo vietą. Gavę užklausą duokite leidimą.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Kad ši programėlė veiktų tinkamai, ji turi pasiekti jūsų buvimo vietą. %s leidimus galima valdyti Nuostatose.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">UŽVERTI</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">NUOSTATOS</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC pataisų paketas</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Vietos duomenų šaltiniai išjungti</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Kad ši programa veiktų tinkamai, ji turi žinoti jūsų vietą. Įjunkite vietos šaltinį Nustatymuose.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">NUSTATYMAS</string><!--SETTING-->
+    <string name="no_wifi_available">Nėra pasiekiamų „Wi-Fi“ tinklų</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

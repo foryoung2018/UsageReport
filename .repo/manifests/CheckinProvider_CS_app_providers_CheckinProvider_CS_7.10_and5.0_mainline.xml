@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/providers/CheckinProvider_CS/7.10/and5.0/mainline" sync-j="4" HDKLib3Name="HDK_Lib3_API19_2_Stable" HDKLib3Ver="19.2"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/providers/CheckinProvider_CS" path="app/packages/providers/CheckinProvider_CS" revision="app/providers/CheckinProvider_CS/7.10/and5.0/mainline"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/providers/CheckinProvider_CS" path="app/customization/packages/providers/CheckinProvider_CS" revision="app/providers/CheckinProvider_CS/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="64c65ab430ee07428b8fcb021eb25c248dfca2e4"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="c55e0397d358a94751ede927de171d81cc846b5a"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/htclib0" path="hdk/htc/lib0/HtcLib0" revision="ea0d185ce6e8a62d5347733939e5b995cb07a52b"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="bf96b3472a73f1dc142e7cd332844c185bcace7f"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="93066b1b5cf0617c28312ff48521c3492a86f446"/>
+</manifest>

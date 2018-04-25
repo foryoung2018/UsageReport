@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >ပထမတနဂၤေႏြေန႔တိုင္း</item><!--on every first Sunday-->
+        <item >ဒုတိယတနဂၤေႏြေန႔တိုင္း</item><!--on every second Sunday-->
+        <item >တတိယတနဂၤေႏြေန႔တိုင္း</item><!--on every third Sunday-->
+        <item >စတုတၳတနဂၤေႏြေန႔တိုင္း</item><!--on every fourth Sunday-->
+        <item >ေနာက္ဆုံးတနဂၤေႏြေန႔တိုင္း</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >ပထမတနလၤာေန႔တိုင္း</item><!--on every first Monday-->
+        <item >ဒုတိယတနလၤာေန႔တိုင္း</item><!--on every second Monday-->
+        <item >တတိယတနလၤာေန႔တိုင္း</item><!--on every third Monday-->
+        <item >စတုတၳတနလၤာေန႔တိုင္း</item><!--on every fourth Monday-->
+        <item >ေနာက္ဆုံးတနလၤာေန႔တိုင္း</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >ပထမအဂၤါေန႔တိုင္း</item><!--on every first Tuesday-->
+        <item >ဒုတိယအဂၤါေန႔တိုင္း</item><!--on every second Tuesday-->
+        <item >တတိယအဂၤါေန႔တိုင္း</item><!--on every third Tuesday-->
+        <item >စတုတၳအဂၤါေန႔တိုင္း</item><!--on every fourth Tuesday-->
+        <item >ေနာက္ဆုံးအဂၤါေန႔တိုင္း</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >ပထမဗုဒၶဟူးေန႔တိုင္း</item><!--on every first Wednesday-->
+        <item >ဒုတိယဗုဒၶဟူးေန႔တိုင္း</item><!--on every second Wednesday-->
+        <item >တတိယဗုဒၶဟူးေန႔တိုင္း</item><!--on every third Wednesday-->
+        <item >စတုတၳဗုဒၶဟူးေန႔တိုင္း</item><!--on every fourth Wednesday-->
+        <item >ေနာက္ဆုံးဗုဒၶဟူးေန႔တိုင္း</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >ပထမၾကာသပေတးေန႔တိုင္း</item><!--on every first Thursday-->
+        <item >ဒုတိယၾကာသပေတးေန႔တိုင္း</item><!--on every second Thursday-->
+        <item >တတိယၾကာသပေတးေန႔တိုင္း</item><!--on every third Thursday-->
+        <item >စတုတၳၾကာသပေတးေန႔တိုင္း</item><!--on every fourth Thursday-->
+        <item >ေနာက္ဆုံးၾကာသပေတးေန႔တိုင္း</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >ပထမေသာၾကာေန႔တိုင္း</item><!--on every first Friday-->
+        <item >ဒုတိယေသာၾကာေန႔တိုင္း</item><!--on every second Friday-->
+        <item >တတိယေသာၾကာေန႔တိုင္း</item><!--on every third Friday-->
+        <item >စတုတၳေသာၾကာေန႔တိုင္း</item><!--on every fourth Friday-->
+        <item >ေနာက္ဆုံးေသာၾကာေန႔တိုင္း</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >ပထမစေနေန႔တိုင္း</item><!--on every first Saturday-->
+        <item >ဒုတိယစေနေန႔တိုင္း</item><!--on every second Saturday-->
+        <item >တတိယစေနေန႔တိုင္း</item><!--on every third Saturday-->
+        <item >စတုတၳစေနေန႔တိုင္း</item><!--on every fourth Saturday-->
+        <item >ေနာက္ဆုံးစေနေန႔တိုင္း</item><!--on every last Saturday-->
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC konum hizmetleri</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC Konum Hizmetleri</string><!--HTC Location Services-->
+    <string name="home_label">Giriş Ekranı</string><!--Home-->
+    <string name="work_label">İş</string><!--Work-->
+    <string name="location_picker">konum seçici</string><!--location picker-->
+    <string name="clear_label">Temizle</string><!--Clear-->
+    <string name="description_label">Bir adresi veya Wi-Fi ağını ev ya da iş konumuna elle bağlayarak, HTC Sense Giriş ile %1$s ve %2$s paylaşmayı kabul edersiniz.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">kesin konum</string><!--precise location-->
+    <string name="precise_location_upper">Kesin konum</string><!--Precise location-->
+    <string name="personal_usage_data">kişisel kullanım verisi</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Kişisel kullanım verisi</string><!--Personal usage data-->
+    <string name="precise_location_description">Yakındaki restoranlar ve diğer yerlere yönelik öneriler almak için %s paylaşın.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Uygulamalara yönelik öneriler, haberler ve içerik almak için, kullandığım uygulamalar, ziyaret ettiğim siteler ve dinlediğim veya görüntülediğim medya gibi %s paylaşın.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Adresleri veya Wi-Fi ağlarını bağla</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Adresleri veya Wi-Fi ağlarını bağla</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">ekle</string><!--add-->
+    <string name="no_content">Bir adres veya Wi-Fi ağı eklemek için \"+\" simgesine dokunun</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi AĞLARI</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESLER</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi ağı</string><!--Wi-/Fi network-->
+    <string name="address_label">Adres</string><!--Address-->
+    <string name="select_wifi_title">Bir ya da daha fazla ağ seçin</string><!--Select one or more networks-->
+    <string name="remove_label">Kaldır</string><!--Remove-->
+    <string name="edit_label">Düzenle</string><!--Edit-->
+    <string name="alert_dialog_ok">TAMAM</string><!--OK-->
+    <string name="alert_dialog_cancel">İPTAL</string><!--CANCEL-->
+    <string name="lib_app_name">HTC konum hizmetleri</string><!--HTC location services-->
+    <string name="switch_mode_title">Adres konumu değişikliği</string><!--Address location change-->
+    <string name="switch_mode_home">Bu adresi daha önce iş konumu olarak eklediniz. Bir adres yalnızca bir konuma eklenebilir. Bunu şimdi ev konumu yapmak istiyor musunuz?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Bu adresi daha önce ev konumu olarak eklediniz. Bir adres yalnızca bir konuma eklenebilir. Bunu şimdi iş konumu yapmak istiyor musunuz?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi kapalı</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Bir Wi-Fi ağını bu konuma bağlamak için, Ayarlar kısmında Wi-Fi işlevini açmanız gerekir.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">AYARLAR</string><!--SETTINGS-->
+    <string name="duplicate_address">Bu adres zaten eklendi.</string><!--This address has already been added.-->
+    <string name="unknown_address">bilinmeyen adres</string><!--unknown address-->
+    <string name="too_much_item">En fazla sayıda konumu eklediniz.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Bağlandı</string><!--Connected-->
+    <string name="saved_label">Kaydedildi</string><!--Saved-->
+    <string name="secured_label">%s ile güvence altında</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Bu uygulama, düzgün biçimde çalışmak için bu aygıtın konumuna erişim gerektirir. Lütfen istendiğinde izin verin.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Bu uygulama, düzgün biçimde çalışmak için konumunuza erişim gerektirir. %s izinlerini Ayarlar kısmında yönetebilirsiniz.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">KAPAT</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">AYARLAR</string><!--SETTINGS-->
+    <string name="hsp_app_name">Htc Hizmet Paketi</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Konum kaynakları devre dışı</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Gerektiği gibi çalışmak için bu uygulamanın konumunuza ihtiyacı var. Lütfen Ayarlar kısmında bir konum kaynağını açın.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">AYAR</string><!--SETTING-->
+    <string name="no_wifi_available">Wi-Fi ağları yok</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/BlinkFeedManager/8.00/api24/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/BlinkFeedManager" path="app/packages/apps/BlinkFeedManager" revision="app/apps/BlinkFeedManager/8.00/api24/master"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/Social_Library" path="app/hms_libs/Social_Library" revision="e550b8226e5b4a1aea9c42e9c3fe4bc1f2d74c24"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="7acd88d6095d306ff6f6f56277c652c249798fe9"/>
+</manifest>

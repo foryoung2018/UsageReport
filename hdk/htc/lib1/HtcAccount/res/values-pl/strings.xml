@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">Konto HTC</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">Nie można połączyć</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">Do korzystania z tej aplikacji konieczne jest połączenie sieciowe. Ustanów komórkowe połączenie danych lub połącz się z siecią Wi-Fi.</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">Proszę czekać...</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">Nie można połączyć się ze serwerami HTC. Spróbuj ponownie później.</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">Do korzystania z tej aplikacji konieczne jest połączenie sieciowe.</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">Utwórz konto Google, aby móc zalogować się za jego pomocą.</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">Nie można połączyć. Spróbuj ponownie.</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">Nie można uzyskać dostępu do konta Google. Upewnij się, że konto jest aktywne.</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">Wymagane uprawnienia</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">Aby móc zalogować się za pomocą konta Google, aplikacja ta wymaga dostępu do konta. Zezwól po wyświetleniu monitu.</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">\"Do poprawnego działania tej aplikacji wymagany jest dostęp do kont. Uprawnieniami aplikacji %1$s można zarządzać w menu Ustawienia.\"</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">Utwórz konto HTC</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">Adres e-mail</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">Konto HTC z tym adresem e-mail już istnieje. Stuknij konto, aby się zalogować lub utwórz nowe.</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">Wysyłaj do mnie wiadomości e-mail z ofertami, informacjami o produktach i biuletynami firmy HTC.</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">Za pomocą adresu e-mail z konta %s:</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">Utwórz konto</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">Utwórz nowe konto</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">Tworząc konto, wyrażasz zgodę na %1$s obowiązujące dla konta HTC oraz potwierdzasz zapoznanie się z dokumentem %2$s. Rejestrować się mogą tylko osoby w wieku co najmniej 14 lat.</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">Warunki i zasady korzystania</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">Polityka prywatności</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">Polityka prywatności</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">Warunki i zasady korzystania</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">Zweryfikuj konto</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">Otwórz pocztę</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">Nie teraz</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">Aby móc zalogować się do konta HTC, należy najpierw zweryfikować adres e-mail przy użyciu łącza wysłanego na adres %1$s.\n\nJeśli wiadomość e-mail nie została otrzymana, sprawdź folder wiadomości śmieci lub %2$s teraz.</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">wyślij ponownie</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">Wymagany jest adres e-mail.</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">Wprowadź poprawny adres e-mail.</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">Wiadomość e-mail została wysłana do: %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">Ustawienia</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">Zamknij</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">Wstecz</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">Anuluj</string><!--Cancel-->
+
+</resources>

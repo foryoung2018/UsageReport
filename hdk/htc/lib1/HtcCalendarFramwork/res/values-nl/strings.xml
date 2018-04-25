@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- A label in a multiple-choice list for the specifying that an event repeats every weekday (Monday through Friday) -->
+    <string name="every_weekday">"Elke werkdag (ma - vr)"</string><!--"Every weekday (Mon\u2013Fri)"-->  
+<!-- A label in a multiple-choice list for the specifying that an event repeats weekly on some day of the week.  For example, 'Weekly (every Tuesday)'. -->
+    <plurals name="weekly">
+        <item quantity="one">Wekelijks op <xliff:g id="days_of_week">%2$s</xliff:g></item><!--Weekly on <xliff:g id="days_of_week">%2$s</xliff:g>-->
+        <item quantity="other">Om de <xliff:g id="number">%1$d</xliff:g> weken op <xliff:g id="days_of_week">%2$s</xliff:g></item><!--Every <xliff:g id="number">%1$d</xliff:g> weeks on <xliff:g id="days_of_week">%2$s</xliff:g>-->
+    </plurals>   
+    
+<!-- Example: 'Monthly (every first Sunday)' -->
+<!--   1st parameter is an ordinal number, like 'first' -->
+<!--   2nd parameter is a day of the week, like 'Sunday' -->
+    <string name="monthly_on_day_count">\"Maandelijks (Elke <xliff:g id="ordinal_number">%1$s</xliff:g> <xliff:g id="day_of_week">%2$s</xliff:g>)\"</string><!--"Monthly (Every <xliff:g id="ordinal_number">%1$s</xliff:g> <xliff:g id="day_of_week">%2$s</xliff:g>)"-->
+     
+<!-- Calendar spinner item, to select that an event recurs every year. -->
+    <string name="yearly_plain">Jaarlijks</string><!--Yearly-->
+    
+    <string name="monthly">"Maandelijks"</string><!--Monthly-->
+        
+<!-- counts of a repeat event-->
+     <plurals name="endByCount">
+        <item quantity="one">eenmaal</item><!--one time-->
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> maal</item><!--<xliff:g id="number">%d</xliff:g> times-->
+    </plurals>
+    
+<!-- Daily, move from common string-->
+     <string name="tm_daily">\"Dagelijks\"</string>   
+     
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+    <plurals name="recurrence_interval_daily">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Elke <xliff:g id="count">%d</xliff:g> dag</item><!--Every <xliff:g id="count">%d</xliff:g> day-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Elke <xliff:g id="count">%d</xliff:g> dagen</item><!--Every <xliff:g id="count">%d</xliff:g> days-->
+    </plurals>
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+    <plurals name="recurrence_interval_weekly">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Elke <xliff:g id="count">%d</xliff:g> week</item><!--Every <xliff:g id="count">%d</xliff:g> week-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Elke <xliff:g id="count">%d</xliff:g> weken</item><!--Every <xliff:g id="count">%d</xliff:g> weeks-->
+    </plurals>
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+    <plurals name="recurrence_interval_monthly">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Elke <xliff:g id="count">%d</xliff:g> maand</item><!--Every <xliff:g id="count">%d</xliff:g> month-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Elke <xliff:g id="count">%d</xliff:g> maanden</item><!--Every <xliff:g id="count">%d</xliff:g> months-->
+    </plurals>
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+    <plurals name="recurrence_interval_yearly">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Elk <xliff:g id="count">%d</xliff:g> jaar</item><!--Every <xliff:g id="count">%d</xliff:g> year-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Elke <xliff:g id="count">%d</xliff:g> jaar</item><!--Every <xliff:g id="count">%d</xliff:g> years-->
+    </plurals>
+</resources>

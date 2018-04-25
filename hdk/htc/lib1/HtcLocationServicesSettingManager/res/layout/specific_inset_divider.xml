@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/h_divider_height"
+    android:layout_marginLeft="@dimen/common_M1"
+    android:layout_marginRight="@dimen/common_M1"
+    android:background="@drawable/common_list_divider"
+    android:orientation="vertical" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.htc.lib1.cc.widget.HtcListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cc="http://schemas.android.com/apk/res-auto"
+    cc:itemMode="popupMenuMode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.htc.lib1.cc.widget.HtcListItem1LineCenteredText
+        android:id="@+id/text1"
+        cc:textMode="darklist"/>
+
+</com.htc.lib1.cc.widget.HtcListItem>

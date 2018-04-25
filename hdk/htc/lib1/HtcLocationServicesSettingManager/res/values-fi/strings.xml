@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC:n sijaintipalvelut</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC:n sijaintipalvelut</string><!--HTC Location Services-->
+    <string name="home_label">Alkunäyttö</string><!--Home-->
+    <string name="work_label">Työ</string><!--Work-->
+    <string name="location_picker">sijainnin valitsin</string><!--location picker-->
+    <string name="clear_label">Tyhjennä</string><!--Clear-->
+    <string name="description_label">Linkittämällä manuaalisesti osoitteen tai Wi-Fi-verkon kodin tai työsijainnin kanssa, hyväksyt kohteiden %1$s ja %2$s jakamisen HTC Sense Home -sovelluksen kanssa.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">tarkka sijainti</string><!--precise location-->
+    <string name="precise_location_upper">Tarkka sijainti</string><!--Precise location-->
+    <string name="personal_usage_data">henkilökohtaiset käyttötiedot</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Henkilökohtaiset käyttötiedot</string><!--Personal usage data-->
+    <string name="precise_location_description">Jaa oma %s saadaksesi ehdotuksia lähellä olevista ravintoloista ja muista paikoista.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Jaa omat %s, kuten käyttämäni sovellukset, vierailemani web-sivustot ja media, jota kuuntelen tai katson, saadakseni sovellusehdotuksia, uutisia ja sisältöä.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Linkitä osoitteita tai Wi-Fi-verkkoja</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Linkitä osoitteita tai Wi-Fi-verkkoja</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">lisää</string><!--add-->
+    <string name="no_content">Napauta \"+\" lisätäksesi osoitteen tai Wi-Fi-verkon</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi-VERKOT</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">OSOITTEET</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi-verkko</string><!--Wi-/Fi network-->
+    <string name="address_label">Osoite</string><!--Address-->
+    <string name="select_wifi_title">Valitse yksi tai useampi verkko</string><!--Select one or more networks-->
+    <string name="remove_label">Poista</string><!--Remove-->
+    <string name="edit_label">Muokkaa</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">PERU</string><!--CANCEL-->
+    <string name="lib_app_name">HTC:n sijaintipalvelut</string><!--HTC location services-->
+    <string name="switch_mode_title">Osoitteen sijainnin muutos</string><!--Address location change-->
+    <string name="switch_mode_home">Olet hiljattain lisännyt tämän osoitteen työsijainniksi. Osoitteen voi lisätä vain yhteen sijaintiin. Haluatko tehdä siitä nyt kotisijainnin?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Olet hiljattain lisännyt tämän osoitteen kotisijainniksi. Osoitteen voi lisätä vain yhteen sijaintiin. Haluatko tehdä siitä nyt työsijainnin?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi on pois päältä</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Linkittääksesi Wi-Fi-verkon tämän sijainnin kanssa, sinun on kytkettävä Wi-Fi päälle Asetuksissa.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">ASETUKSET</string><!--SETTINGS-->
+    <string name="duplicate_address">Tämä osoite on jo lisätty.</string><!--This address has already been added.-->
+    <string name="unknown_address">tuntematon osoite</string><!--unknown address-->
+    <string name="too_much_item">Olet lisännyt enimmäismäärän sijainteja.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Yhdistetty</string><!--Connected-->
+    <string name="saved_label">Tallennettu</string><!--Saved-->
+    <string name="secured_label">Suojaus: %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Toimiakseen oikein, tämän sovelluksen on käytettävä laitteen sijaintia. Myönnä käyttöoikeus, kun sitä kysytään.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Toimiakseen oikein, tämän sovelluksen on käytettävä sijaintasi. Voit hallita %s-käyttöoikeuksia Asetuksissa.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">SULJE</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">ASETUKSET</string><!--SETTINGS-->
+    <string name="hsp_app_name">Htc Service Pack</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Sijaintilähteet poistettu käytöstä</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Jotta tämä sovellus toimisi oikein, sen täytyy tietää sijaintisi. Käynnistä Asetuksissa sijaintilähde.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">ASETUS</string><!--SETTING-->
+    <string name="no_wifi_available">Ei Wi-Fi-verkkoja käytettävissä</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_margin_top">@dimen/spacing_2</dimen> <!-- M5x2 -->
+    <dimen name="content_margin_bottom">@dimen/margin_xs_2</dimen> <!-- M4x2 -->
+    <dimen name="content_margin_left">@dimen/margin_m</dimen> <!-- M2 -->
+    <dimen name="content_margin_right">@dimen/margin_m</dimen> <!-- M2 -->
+
+    <string name="title_demo_activity1">HtcWizardActivity Demo 1 (normal)</string>
+    <string name="title_demo_activity2">HtcWizardActivity Demo 2 (orientation)</string>
+    <string name="title_demo_preference_activity">HtcWizardPreferenceActivity Demo</string>
+    <string name="title_demo_radiolist_activity">HtcRadioListWizardActivity Demo</string>
+    <string name="title_demo_button_activity">HtcButtonWizardActivity Demo</string>
+    <string name="title_demo_special_activity">HtcSpecialWizardActivity Demo</string>
+    <string name="title_demo_multi_page">Multi-page Demo</string>
+    <string name="Primary_1">Primary 1</string>
+    <string name="Secondary_1">Secondary 1</string>
+    <string name="Primary_2">Primary 2</string>
+    <string name="Secondary_2">Secondary 2</string>
+
+    <style name="CommonTheme"></style>
+
+    <style name="NoTitleBar" parent="@style/CommonTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="normal_button" parent="@style/button_primary_m">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textAppearance_content" parent="@style/list_body_primary_xs" />
+
+</resources>

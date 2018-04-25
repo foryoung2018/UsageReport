@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alert_dialog_title">HtcAlertDialog Demo</string>
+    <string name="delete_duplicate_contacts">Delete duplicated contacts</string>
+    <string name="less_than_two">The number of all contact types are less than two items</string>
+    <string name="remove_account">Remove account</string>
+    <string name="remove_account_warning">Removing this account will delete all of its messages, contacts, and other data from the phone!</string>
+    <string name="htc_legal">HTC legal</string>
+    <string name="center_align">Center vertical alignment</string>
+    <string name="one_line_message">1 line message</string>
+    <string name="neutral">Neutral</string>
+    <string name="demo_checkbox">Demo check-box</string>
+    <string name="checkbox_description">Check-box above the footer is a new feature at Sense 5+. Here is the demo.</string>
+    <string name="dont_ask">Do not ask me again!</string>
+    <string name="long_list">Very long list</string>
+    <string name="long_confirm_message">The check item is disabled for test purpose. Don\'t worry, it\'s not a bug. Beside, these text message should take more then 2 lines of space. Be careful how it is vertical aligned.</string>
+    <string name="font_size">Font size</string>
+    <string name="export_contact">Exporting contact data to /sdcard/eas_yenlee_chu_002.vcf</string>
+    <string name="run_in_background">Continue in background</string>
+    <string name="horizontal_progress_without_message">Horizontal progress dialog with no message</string>
+    <string name="horizontal_progress_with_long_message">Horizontal progress dialog with long message</string>
+    <string name="spinner_with_title">If there is title here</string>
+    <string name="titled_spinner_message">The content looks like a list-item.</string>
+    <string name="notice_n_disclaimer_title">NOTICE &amp; DISCLAIMER</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="fm_station">FM transmitter station</string>
+    <string name="auto_multi_choice">Automotive Multi-choice 2-button Dialog</string>
+    <string name="checkbox_in_auto">Checkbox in auto</string>
+    <string name="checkbox_in_auto_description">Check item above the footer should support automotive mode. Please check if the paddings/styles are correct.</string>
+    <string name="ringtone_picker_dialog">Ringtone picker dialog</string>
+    <string name="all_alert_dialogs">Choose a message dialog</string>
+    <string name="all_list_dialogs">Choose a list dialog</string>
+    <string name="all_progress_dialogs">Choose a progress dialog</string>
+    <string name="all_automotive_dialogs">Choose an automotive dialog</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_hide">Hide</string>
+    <string name="alert_dialog_something">Other</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_short_messgae_title">Short message dialog demo</string>
+    <string name="alert_dialog_long_message_title">Android Introduction</string>
+    <string name="alert_dialog_long_message_content">Android is a software stack for mobile devices that includes 
+    an operating system, middleware and key applications. The Android SDK provides the tools and APIs necessary 
+    to begin developing applications on the Android platform using the Java programming language.
+    \n\n<b>1. Applications</b>\nAndroid will ship with a set of core applications including an email client, 
+    SMS program, calendar, maps, browser, contacts, and others. All applications are written using the 
+    Java programming language.
+    While the decade long debate in the European Union over the definition of “open standards” has been well-publicized, it may come as a surprise to some that EU member nations are required to utilize a second standards filter in public procurement as well. 
+ 
+
+That filter relates to whether a standard has been developed by a “formal” standard setting organization (SSO).  In other words, by either an EU SSO, such as CEN/CENELEC or ETSI, or by one of the global “Big Is” (ISO, IEC or ITU).  If it doesn’t, then it’s supposed to be off limits - until now.
+
+That filter has roots in a sixty year standards-based quest to benefit European trade, both within the EU and internationally. Historically, this goal was met by seeking to develop EU-wide standards that member states would be required to adopt, thereby replacing the national standards they had long used to keep the goods of neighboring nations out of their own markets. At the same time, these standards would be designed to facilitate EU goods internationally.
+Of course, in an era of multinational companies and increasingly global trade, the concept of “European standards” makes even less sense in the information and communications technology (ICT) sector then it does generally.  And with the rise of consortia, even standards developed by the Big Is (where every EU nation has its own vote, comprising quite a large voting block) are diminishing in importance, since the majority of the standards in ICT are now created within consortia and not by the old-line, mainstream SSOs.
+ 
+For the past year, EU representatives have been wrestling with this reality. The answer, one would think, would be simple: just acknowledge the fact that (at least) after the marketplace has universally adopted an ICT standard developed by a consortium, there really is no alternative but to follow the pack, or you won’t be able to interoperate with the rest of the world.
+
+    \n\n<b>2. Application Framework</b>\nDevelopers have full access to the same framework APIs used by 
+    the core applications. The application architecture is designed to simplify the reuse of components; 
+    any application can publish its capabilities and any other application may then make use of those capabilities
+     (subject to security constraints enforced by the framework). This same mechanism allows components to be 
+    replaced by the user.</string>
+    <string name="list_dialog_title">Favorite animal</string>
+    <string name="progress_dialog_title">Progress dialog</string>
+    <string name="single_choice_list_dialog_title">Your current location</string>
+    <string name="multiple_choice_list_dialog_title">Your favorite books</string>
+    <string name="alert_dialog_url_title">URL Address</string>
+    <string name="alert_dialog_url">Input URL address:</string>
+    <string name="alert_dialog_game_over">The game is over.</string>
+    <string name="alert_dialog_custom_title">Custom Title Dialog</string>
+    <string name="alert_dialog_custom_title_content">Custom Title Dialog is showing.</string>
+    <string name="notice_n_disclaimer">Digital cartography can be inaccurate and incomplete to some extent. The availability and accuracy of GPS and related services are dependent, among other things on wireless networks and satellite systems. They may not function in all areas or at all times. Therefore never rely solely on the aforementioned material and services e.g. for essential communications like emergencies. This product and its contents are made for nono-commercial private use only. This product should not be used in the following cases: by the driver of a motor vehicle while driving, while flying aircraft, cycling, or in situations where the risk of damage or loss is foreseeable.</string>
+    <string name="auto_single_choice">Automotive Single Choice List Dialog with very very very lengthy and wordy title text</string>
+    <string name="all_themed_dialogs">Choose a theme for demo</string>
+    <string name="all_tie_dialogs">Choose a dialog in frameworkTie</string>
+
+    <dimen name="alertdialog_main_section_padding">9dp</dimen>
+    <dimen name="alertdialog_main_text_size">19dp</dimen>
+
+    <string-array name="action_colors">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>yellow</item>
+    </string-array>
+    <string-array name="alert_dialog_items">
+        <item>Acknowledgement (2 lines, 1 button)</item>
+        <item>Question (longer, 2 buttons)</item>
+        <item>Legal message (pages, 0 button)</item>
+        <item>Center-aligned (1 line, 3 buttons)</item>
+        <item>Check-box following text</item>
+        <item>Check-box only</item>
+        <!-- <item>Custom view with inverted background</item> -->
+    </string-array>
+    <string-array name="long_list_dialog_items">
+        <item>Andrew</item>
+        <item>Bill</item>
+        <item>Candice</item>
+        <item>Danny</item>
+        <item>Frank</item>
+        <item>Golden</item>
+        <item>Henry</item>
+        <item>Ivan</item>
+        <item>Jack</item>
+        <item>Kenny</item>
+        <item>Lotus</item>
+        <item>Mansion</item>
+        <item>Nick</item>
+        <item>Oliver</item>
+        <item>Peter</item>
+        <item>Queen</item>
+        <item>Ricky</item>
+        <item>Stanley</item>
+        <item>Tom</item>
+        <item>Uma</item>
+        <item>Vicky</item>
+        <item>Wally</item>
+        <item>X</item>
+        <item>Yoda</item>
+        <item>Zombie</item>
+    </string-array>
+    <string-array name="list_dialog_items">
+        <item>List dialog (0 button)</item>
+        <item>Single choice (1 button)</item>
+        <item>Multiple choice (2 buttons)</item>
+        <item>Long list (3 buttons)</item>
+        <item>Check-box following list</item>
+        <item>Font selector</item>
+    </string-array>
+    <string-array name="progress_dialog_items">
+        <item>Spinning progress dialog</item>
+        <item>Spinning progress dialog with title</item>
+        <item>Horizontal progress dialog</item>
+        <item>Horizontal progress dialog with no message</item>
+        <item>Horizontal progress dialog with long message</item>
+    </string-array>
+    <string-array name="automotive_dialog_items">
+        <item>Message dialog</item>
+        <item>List dialog</item>
+        <item>Multi-choice dialog</item>
+        <item>Check-box dialog</item>
+        <item>Single-choice dialog</item>
+    </string-array>
+    <string-array name="list_dialog_items1">
+        <item>Tiger</item>
+        <item>Lion Lion</item>
+        <item>Dog Dog Dog Dog</item>
+        <item>Pig Pig Pig Pig Pig Pig Pig Pig</item>
+        <item>Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat Cat</item>
+    </string-array>
+    <string-array name="single_choice_dialog_items2">
+        <item>New York</item>
+        <item>Washington DC</item>
+        <item>Chicago Chicago Chicago Chicago</item>
+        <item>Detroit</item>
+        <item>Los Angeles Los Angeles Los Angeles Los Angeles Los Angeles Los Angeles Los Angeles Los Angeles</item>
+        <item>Seattle</item>
+        <item>Miami</item>
+    </string-array>
+    <string-array name="dialog_auto_list">
+        <item>87.9</item>
+        <item>89.3</item>
+        <item>90.5</item>
+        <item>92.4</item>
+        <item>93.6</item>
+        <item>94.3</item>
+        <item>96.7</item>
+        <item>98.9</item>
+        <item>100.1</item>
+        <item>102.1</item>
+        <item>103.9</item>
+    </string-array>
+    <string-array name="multiple_choice_dialog_items3">
+        <item>Alice Adventures in Wonderland Alice Adventures in Wonderland Alice Adventures in Wonderland</item>
+        <item>Treasure Island</item>
+        <item>Brave New World</item>
+        <item>Lolita</item>
+        <item>The Catcher In The Rye The Catcher In The Rye</item>
+        <item>Animal Farm</item>
+    </string-array>
+    <string-array name="theme_dialog_items">
+        <item>NA (use default context)</item>
+        <item>Category One</item>
+        <item>Category Two</item>
+        <item>Category Three</item>
+        <item>Category Four</item>
+    </string-array>
+    <string-array name="tie_dialog_items">
+        <item>Message dialog w/ CheckBox</item>
+        <item>List dialog</item>
+        <item>Multi-choice dialog</item>
+        <item>Single-choice dialog</item>
+    </string-array>
+    <string name="horizontal_progress_without_number_minheight">Horizontal progress dialog with no number</string>
+    <string name="horizontal_progress_without_number">Horizontal progress dialog with no number</string>
+</resources>

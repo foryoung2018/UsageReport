@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- A label in a multiple-choice list for the specifying that an event repeats every weekday (Monday through Friday) -->
+    <string name="every_weekday">"По будням (Пн\u2013Пт)"</string><!--"Every weekday (Mon\u2013Fri)"-->  
+<!-- A label in a multiple-choice list for the specifying that an event repeats weekly on some day of the week.  For example, 'Weekly (every Tuesday)'. -->
+    <plurals name="weekly">
+        <item quantity="one">Еженедельно по <xliff:g id="days_of_week">%2$s</xliff:g></item><!--Weekly on <xliff:g id="days_of_week">%2$s</xliff:g>-->
+        <item quantity="other">Каждую <xliff:g id="number">%1$d</xliff:g> неделю по <xliff:g id="days_of_week">%2$s</xliff:g></item><!--Every <xliff:g id="number">%1$d</xliff:g> weeks on <xliff:g id="days_of_week">%2$s</xliff:g>-->
+    </plurals>   
+    
+<!-- Example: 'Monthly (every first Sunday)' -->
+<!--   1st parameter is an ordinal number, like 'first' -->
+<!--   2nd parameter is a day of the week, like 'Sunday' -->
+    <string name="monthly_on_day_count">&quot;Ежемесячно (каждый/ую <xliff:g id="ordinal_number">%1$s</xliff:g> <xliff:g id="day_of_week">%2$s</xliff:g>)&quot;</string><!--"Monthly (Every <xliff:g id="ordinal_number">%1$s</xliff:g> <xliff:g id="day_of_week">%2$s</xliff:g>)"-->
+     
+<!-- Calendar spinner item, to select that an event recurs every year. -->
+    <string name="yearly_plain">Ежегодно</string><!--Yearly-->
+    
+    <string name="monthly">"Ежемесячно"</string><!--Monthly-->
+        
+<!-- counts of a repeat event-->
+     <plurals name="endByCount">
+        <item quantity="one">один раз</item><!--one time-->
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> раз</item><!--<xliff:g id="number">%d</xliff:g> times-->
+    </plurals>
+    
+<!-- Daily, move from common string-->
+     <string name="tm_daily">Ежедневно</string>   
+     
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+    <plurals name="recurrence_interval_daily">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Каждый <xliff:g id="count">%d</xliff:g> день</item><!--Every <xliff:g id="count">%d</xliff:g> day-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Каждые <xliff:g id="count">%d</xliff:g> дней</item><!--Every <xliff:g id="count">%d</xliff:g> days-->
+    </plurals>
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+    <plurals name="recurrence_interval_weekly">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Каждую <xliff:g id="count">%d</xliff:g> неделю</item><!--Every <xliff:g id="count">%d</xliff:g> week-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Каждые <xliff:g id="count">%d</xliff:g> недели</item><!--Every <xliff:g id="count">%d</xliff:g> weeks-->
+    </plurals>
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+    <plurals name="recurrence_interval_monthly">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Каждый <xliff:g id="count">%d</xliff:g> месяц</item><!--Every <xliff:g id="count">%d</xliff:g> month-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Каждые <xliff:g id="count">%d</xliff:g> месяцев</item><!--Every <xliff:g id="count">%d</xliff:g> months-->
+    </plurals>
+<!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+    <plurals name="recurrence_interval_yearly">
+<!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Каждый <xliff:g id="count">%d</xliff:g> год</item><!--Every <xliff:g id="count">%d</xliff:g> year-->
+<!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Каждые <xliff:g id="count">%d</xliff:g> лет</item><!--Every <xliff:g id="count">%d</xliff:g> years-->
+    </plurals>
+</resources>

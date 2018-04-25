@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/CN_DeviceGuard/1.2/api21/sense7_api21" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/CN_DeviceGuard" path="app/packages/apps/CN_DeviceGuard" revision="app/apps/CN_DeviceGuard/1.2/api21/sense7_api21"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="7b532f9dd727c0388eeacb18f0cc8e8e20dfa5f6"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="cd0cd6acfa4966c4c404c25c48ffec19935f1979"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="579b143486a835f370c46fb09f03b97ecf16dde0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+</manifest>

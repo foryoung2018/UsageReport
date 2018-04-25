@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="htcdrawer_content_item_size">30dp</dimen>
+    <dimen name="htcdrawer_content_view_height">90dp</dimen>
+    <dimen name="htcdrawer_linked_item_size">60dp</dimen>
+
+</resources>

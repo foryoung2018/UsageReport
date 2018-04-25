@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Buscar Contactos</string><!--Search People-->
+    <string name="common_string_share_title">Compartir vía</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Guardar en contacto existente</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Guardar en Contactos</string><!--Save to People-->
+    <string name="label_year">Año</string><!--Year-->
+    <string name="label_month">Mes</string><!--Month-->
+    <string name="label_day">Día</string><!--Day-->
+    <string name="label_hour">Hora</string><!--Hour-->
+    <string name="label_minute">Minuto</string><!--Minute-->
+    <string name="label_second">Segundo</string><!--Second-->
+    <string name="common_string_open_contact">Abrir contacto</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Le queda una sola pestaña. Para agregar más pestañas para esta aplicación, elija Editar pestañas/Filtros en el menú.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Cancelar</string><!--Cancel-->
+    <string name="va_ok">Aceptar</string><!--OK-->
+    <string name="va_next">Siguiente</string><!--Next-->
+    <string name="va_back">Atrás</string><!--Back-->
+    <string name="va_call">Llamar</string><!--Call-->
+    <string name="st_loading">Cargando...</string><!--Loading...-->
+    <string name="va_close">Cerrar</string><!--Close-->
+    <string name="va_open">Abrir</string><!--Open-->
+    <string name="va_clear">"Borrar"</string><!--Clear-->
+    <string name="va_send_mail">Enviar correo</string><!--Send mail-->
+    <string name="va_send_message">Enviar mensaje</string><!--Send message-->
+    <string name="va_download">Descargar</string><!--Download-->
+    <string name="st_more">Más</string><!--More-->
+    <string name="nn_unknown_error">"Error desconocido"</string><!--Unknown error-->
+    <string name="va_downloading">Descargando</string><!--Downloading-->
+    <string name="va_finish">Finalizar</string><!--Finish-->
+    <string name="va_reset">Restablecer</string><!--Reset-->
+    <string name="va_hide">"Ocultar"</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Se ha producido un error en el almacenamiento de su tablet. Reinicie su dispositivo o formatee el almacenamiento.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Soltar para actualizar</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Actualizando...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">pulse dos veces y arrastre para ajustar</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Elemento arrastrable</string><!--Draggable item-->
+    <string name="va_move_above">Mover arriba</string><!--Move above-->
+    <string name="va_move_below">Mover abajo</string><!--Move below-->
+    <string name="st_pull_down_refresh">Jale hacia abajo para actualizar</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Editar número antes de llamar</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Abrir en mapa</string><!--Open in map-->
+    <string name="va_copy">Copiar</string><!--Copy-->
+    <string name="va_show_all">Mostrar todo</string><!--Show all-->
+</resources>

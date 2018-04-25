@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Automotive_Home/8.50/api24/Nmaster" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Automotive_Home" path="app/packages/apps/Automotive_Home" revision="app/apps/Automotive_Home/8.50/api24/Nmaster"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8005bc17a611496a17615a08b837e643f080489d"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="0e1f1f27cff79806e19c27c44da08838d99df7eb"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="567366aeed01fda3c0f00b85ba695bca25b7c324"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="5d8c81026736b8c470cf44eea978ff4353b362b0"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="259935b27cf11bd39b753d084befcd13d1a10bf3"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="814b40253dfff3b8417482ef17bf307da583cfe0"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="c7e3ee5b90d83701172ca9386f8cf497f762ab42"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="d1133b2b296919759551be26203fff6ecfcc5954"/>
+  <project name="app/hdk/htc/lib1/weatherlib1" path="hdk/htc/lib1/WeatherLib1" revision="5f52d58e538d459562a929f017f5533264fcea18"/>
+  <project name="app/hdk/htc/lib1/masthead" path="hdk/htc/lib1/MastHead" revision="134fcfd3d9a61f62c1c0602b3bf0e0141b037b4c"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="2a93b18292432597e1dd33d632355b0ca91438dc"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="7590bf293425563ae1234fcfa496cb9723ee29e1"/>
+  <project name="app/hdk/htc/lib1/hfmclient" path="hdk/htc/lib1/HfmClient" revision="6cec5eb77360a1ebefafa8e5ee689052a802291e"/>
+</manifest>

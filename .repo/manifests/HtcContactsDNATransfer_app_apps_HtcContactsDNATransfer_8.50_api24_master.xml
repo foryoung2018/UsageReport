@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcContactsDNATransfer/8.50/api24/master" sync-j="4" HDKLib3Name="HDK_Lib3_API19_1_Stable" HDKLib3Ver="19.1"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcContactsDNATransfer" path="app/packages/apps/HtcContactsDNATransfer" revision="app/apps/HtcContactsDNATransfer/8.50/api24/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="c77977a76efe5c322d1f5721b6d371ac4d64cf8b"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="509b39879a6823f768d647c4e9a2581f6f9de8ed"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="8478d49cdaec526eab6e7076cec140678d62f2e7"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="dbba9496456e6e7e20b7659d5533dfc8a7ad6011"/>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.widget.ListView
+        xmlns:htccontacts="http://schemas.android.com/apk/res/com.android.htccontacts"
+        android:id="@android:id/list"
+          android:layout_width="fill_parent"
+          android:layout_height="0px"
+          android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+       android:divider="@drawable/htclistview_demo_common_divider_items" />
+
+</LinearLayout>

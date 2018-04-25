@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="show_one_seekbar_dialog_bydefault">Show(1 SeekBar Google style)</string>
+    <string name="show_multi_seekbar_dialog_bydefault">Show(Multiple SeekBar Google style)</string>
+    <string name="show_one_seekbar_dialog">Show(1 SeekBar)</string>
+    <string name="show_multi_seekbar_dialog">Show(Multiple SeekBar)</string>
+    <string name="progress_value">Progress Value:</string>
+    <string name="textview_value">TextView Value</string>
+
+</resources>

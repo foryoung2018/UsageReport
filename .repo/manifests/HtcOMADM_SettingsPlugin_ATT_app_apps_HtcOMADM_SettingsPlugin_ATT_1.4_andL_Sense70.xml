@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcOMADM_SettingsPlugin_ATT/1.4/andL/Sense70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcOMADM_SettingsPlugin_ATT" path="app/packages/apps/HtcOMADM_SettingsPlugin_ATT" revision="app/apps/HtcOMADM_SettingsPlugin_ATT/1.4/andL/Sense70"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HtcOMADM_SettingsPlugin_ATT" path="app/customization/packages/apps/HtcOMADM_SettingsPlugin_ATT" revision="app/apps/HtcOMADM_SettingsPlugin_ATT/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="558e03903ee52d5e628f206a2d5a72ff97d2df39"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="180cbcb0bee59643f403be776ab31ebdc950d319"/>
+  
+  <!-- Essential Library List -->
+  <project name="app/essential_libs/HtcPreference" path="app/essential_libs/HtcPreference" revision="a5507bdd729c2e34587f61de6a37b1b6799eaa92"/>
+</manifest>

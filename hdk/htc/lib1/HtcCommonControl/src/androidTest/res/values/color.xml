@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Stock colors -->
+    <color name="stock_gray">#ffb2b2b2</color>
+    <color name="stock_green">#ff74ba37</color>
+    <color name="grey">#ff7f7f7f</color>
+    <color name="button_disabled">#B7B7B7</color>
+</resources>

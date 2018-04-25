@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC-locatiediensten</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC-locatiediensten</string><!--HTC Location Services-->
+    <string name="home_label">Begin</string><!--Home-->
+    <string name="work_label">Werken</string><!--Work-->
+    <string name="location_picker">locatiekiezer</string><!--location picker-->
+    <string name="clear_label">Wissen</string><!--Clear-->
+    <string name="description_label">Door handmatig een adres of Wi-Fi-netwerk te koppelen aan de thuis- of werklocatie, ga je akkoord met het delen van je %1$s en %2$s met HTC Sense Home.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">exacte locatie</string><!--precise location-->
+    <string name="precise_location_upper">Exacte locatie</string><!--Precise location-->
+    <string name="personal_usage_data">persoonlijke gebruiksgegevens</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Persoonlijke gebruiksgegevens</string><!--Personal usage data-->
+    <string name="precise_location_description">Deel je %s voor het ontvangen van suggesties voor nabijgelegen restaurants en andere plaatsen.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Deel je %s, zoals apps die ik gebruik, websites die ik bezoek en media waarnaar ik luister of die ik bekijk, voor het ontvangen van suggesties voor apps, nieuws en inhoud.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Koppel adressen of Wi-Fi-netwerken</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Koppel adressen of Wi-Fi-netwerken</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">toevoegen</string><!--add-->
+    <string name="no_content">Tik \"+\" om een adres of Wi-Fi-netwerk toe te voegen</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi-NETWERKEN</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESSEN</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi-netwerk</string><!--Wi-/Fi network-->
+    <string name="address_label">Adres</string><!--Address-->
+    <string name="select_wifi_title">Eén of meer netwerken selecteren</string><!--Select one or more networks-->
+    <string name="remove_label">Verwijderen</string><!--Remove-->
+    <string name="edit_label">Bewerken</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">ANNULEREN</string><!--CANCEL-->
+    <string name="lib_app_name">HTC-locatiediensten</string><!--HTC location services-->
+    <string name="switch_mode_title">Wijziging adreslocatie</string><!--Address location change-->
+    <string name="switch_mode_home">Je hebt dit adres eerder toegevoegd als werklocatie. Een adres kan slechts aan één locatie worden toegevoegd. Wilt je hier nu een thuislocatie van maken?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Je hebt dit adres eerder toegevoegd als thuislocatie. Een adres kan slechts aan één locatie worden toegevoegd. Wilt je hier nu een werklocatie van maken?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi is uitgeschakeld</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Om een Wi-Fi-netwerk aan deze locatie te koppelen, moet je Wi-Fi-instellingen inschakelen.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">INSTELLINGEN</string><!--SETTINGS-->
+    <string name="duplicate_address">Dit adres is al toegevoegd.</string><!--This address has already been added.-->
+    <string name="unknown_address">onbekend adres</string><!--unknown address-->
+    <string name="too_much_item">Je hebt het maximale aantal locaties toegevoegd.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Verbonden</string><!--Connected-->
+    <string name="saved_label">Opgeslagen</string><!--Saved-->
+    <string name="secured_label">Beveiligd met %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Voor een goede werking heeft deze app toegang nodig tot de locatie van dit apparaat. Toestemming geven wanneer hiernaar wordt gevraagd.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Voor een goede werking heeft deze app toegang nodig tot je locatie. Je kunt rechten van %s beheren in Instellingen.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">SLUITEN</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">INSTELLINGEN</string><!--SETTINGS-->
+    <string name="hsp_app_name">Htc Service-pack</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Locatiebronnen uitgeschakeld</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Deze toepassing kan alleen correct functioneren als jouw locatie bekend is. Schakel in Instellingen een locatiebron in.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">INSTELLING</string><!--SETTING-->
+    <string name="no_wifi_available">Geen Wi-Fi-netwerk beschikbaar</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

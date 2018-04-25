@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>Արևոտ</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>Հիմնականում արևոտ</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>Մասամբ արևոտ</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>Մասամբ մապամած</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>Մառախուղ և արև</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>Հիմնականում ամպամած</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>Ամպամած</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>Մռայլ</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>Մառախուղ</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>Հորդառատ անձրևներ</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Հիմնականում ամպամած` անձրևներով</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Մասամբ արևոտ` անձրևներով</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>Ամպրոպներ</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Ամպամած` ամպրոպներով</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Մասամբ արևոտ` ամպրոպներով</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>Անձրև</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>Ուժեղ քամի</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Հիմնականում ամպամած` ուժեղ քամիներով</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Մասամբ արևոտ` ուժեք քամիներով</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>Ձյուն</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Հիմնականում ամպամած` ձյունով</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>Սառույց</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>Ձնախառը անձրև</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>Սառը անձրև</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Ձնախառը անձրև</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>Շոգ</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>Ցուրտ</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>Քամոտ</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>Մաքուր</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>Հիմնականում պայծառ</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>Մասամբ ամպամած</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>Մասամբ մապամած</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>Միագամած</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>Հիմնականում ամպամած</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Մասամբ ամպամած` անձրևներով</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Հիմնականում ամպամած` անձրևներով</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Մասամբ ամպամած` ամպրոպներով</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Ամպամած` ամպրոպներով</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Մասամբ ամպամած` ուժեղ քամիով</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Հիմնականում ամպամած` ուժեղ քամիներով</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>Ամպրոպներ` թաց անձրևով</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>Ավազ</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>Փոշի</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>Տորնադո</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

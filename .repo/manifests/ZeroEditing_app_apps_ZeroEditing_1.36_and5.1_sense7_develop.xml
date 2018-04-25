@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/ZeroEditing/1.36/and5.1/sense7_develop" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/ZeroEditing" path="app/packages/apps/ZeroEditing" revision="app/apps/ZeroEditing/1.36/and5.1/sense7_develop"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/Kuato" path="app/packages/apps/Kuato" revision="1eab9ca5698e7c549fb57b8cbb370ecadc169d5a"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/CSBiLogClient" path="app/hms_libs/CSBiLogClient" revision="f57f5f79c4e53bda65cd13a1a9389f50bbb01c3e"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="a78351835011711454a601c17e0788bb02da808f"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="6f0220122395763c2f8253a97834352f05d944aa"/>
+  <project name="app/hdk/htc/lib1/panoviewer" path="hdk/htc/lib1/PanoViewer" revision="4eb59e195ddb7cbac3a8b47b4e0e1b076ab68bbb"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="d1d523b5a9cb64e8afcdea7d2f3fa9769c173eb0"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="d696fad8fe3001a685ab75d3950088e53015d6b5"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="941ec63f448bf9d1888ff58c88672812f7535531"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="2b28907cec3c0e88c5914643b97865d555f2acb4"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="0617ae21d0392c58956f7e7e1a44d37e378f6d46"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="67f886c5aafd9fa663a9f021ba54a9895acb17ff"/>
+</manifest>

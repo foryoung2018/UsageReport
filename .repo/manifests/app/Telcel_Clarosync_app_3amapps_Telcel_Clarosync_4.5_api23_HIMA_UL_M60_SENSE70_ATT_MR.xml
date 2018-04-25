@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/Telcel_Clarosync/4.5/api23/HIMA_UL_M60_SENSE70_ATT_MR" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/Telcel_Clarosync" path="app/packages/3amapps/Telcel_Clarosync" revision="app/3amapps/Telcel_Clarosync/4.5/api23/HIMA_UL_M60_SENSE70_ATT_MR"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HTCImageCodec" path="app/packages/apps/HTCImageCodec" revision="483ae6fc8f605179e39e531d3470765382603c93"/>
+  <project name="app/packages/apps/HTCAlbum" path="app/packages/apps/HTCAlbum" revision="c4db69f662696b56e85ee6b060d96d6e5f3f8dd1"/>
+  <project name="app/packages/apps/MediaManager" path="app/packages/apps/MediaManager" revision="fea5f64cd3283e080c51201f7897faa1ab91aca6"/>
+</manifest>

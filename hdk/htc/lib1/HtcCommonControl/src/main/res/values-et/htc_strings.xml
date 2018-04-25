@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Otsi inimesi</string><!--Search People-->
+    <string name="common_string_share_title">Jaga:</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Salvesta olemasolevale kontaktile</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Salvesta kausta Inimesed</string><!--Save to People-->
+    <string name="label_year">Aasta</string><!--Year-->
+    <string name="label_month">Kuu</string><!--Month-->
+    <string name="label_day">Päev</string><!--Day-->
+    <string name="label_hour">Tund</string><!--Hour-->
+    <string name="label_minute">Minut</string><!--Minute-->
+    <string name="label_second">Sekund</string><!--Second-->
+    <string name="common_string_open_contact">Ava kontakt</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Järel on üks vahekaart. Sellele rakendusele rohkemate vahekaartide lisamiseks valige menüüst suvand Redigeeri vahekaarte / Filtrid.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Tühista</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Järgmine</string><!--Next-->
+    <string name="va_back">Tagasi</string><!--Back-->
+    <string name="va_call">Kõne</string><!--Call-->
+    <string name="st_loading">Laadimine...</string><!--Loading...-->
+    <string name="va_close">Sulge</string><!--Close-->
+    <string name="va_open">Ava</string><!--Open-->
+    <string name="va_clear">Tühjenda</string><!--Clear-->
+    <string name="va_send_mail">Saada e-kiri</string><!--Send mail-->
+    <string name="va_send_message">Saada sõnum</string><!--Send message-->
+    <string name="va_download">Laadi alla</string><!--Download-->
+    <string name="st_more">Rohkem</string><!--More-->
+    <string name="nn_unknown_error">Tundmatu tõrge</string><!--Unknown error-->
+    <string name="va_downloading">Allalaadimine</string><!--Downloading-->
+    <string name="va_finish">Lõpeta</string><!--Finish-->
+    <string name="va_reset">Lähtesta</string><!--Reset-->
+    <string name="va_hide">Peida</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Tahvelseadme mälus tekkis tõrge. Taaskäivitage seade või vormindage mälu.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Vabastage värskendamiseks</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Värskendamine...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">reguleerimiseks topelttoksake ja lohistage</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Lohistatav üksus</string><!--Draggable item-->
+    <string name="va_move_above">Teisalda üles</string><!--Move above-->
+    <string name="va_move_below">Teisalda alla</string><!--Move below-->
+    <string name="st_pull_down_refresh">Tõmmake alla värskendamiseks</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Redigeeri numbrit enne helistamist</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Ava kaardil</string><!--Open in map-->
+    <string name="va_copy">Kopeeri</string><!--Copy-->
+    <string name="va_show_all">Näita kõiki</string><!--Show all-->
+</resources>

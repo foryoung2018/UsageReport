@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcDLNAMiddleLayer/7.0/api19/Sense70Mainline" sync-j="4" HDKLib3Name="HDK_Lib3_API19_3_Stable" HDKLib3Ver="19.3"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcDLNAMiddleLayer" path="app/packages/apps/HtcDLNAMiddleLayer" revision="app/apps/HtcDLNAMiddleLayer/7.0/api19/Sense70Mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="9469f560575ace6c73782bd894b673a05ba89943"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="31f8d5d813a3c786f5c9c1d5f132ca1f82a82a6e"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ce56ee1481a6a88f5ea1f128d4f5564b501397d8"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="c4d77cd415b8bd38cd5f6bf1a99e7142023b0364"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="b56bee98c8961b2e45caefca75287eb525020766"/>
+</manifest>

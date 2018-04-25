@@ -1,0 +1,73 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/vcard_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/common_photo_frame"
+        android:scaleType="center"
+        android:src="@drawable/people_detail_photo" />
+
+    <View
+        android:id="@+id/vcard_mask_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mask_bitmap_repeat_alpha"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@android:id/primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/quickcontact_namebar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/name_bar_background" >
+
+        <ImageButton
+            android:id="@android:id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/quickcontact_namebar_icon_margin_tb"
+            android:layout_marginRight="@dimen/quickcontact_namebar_icon_margin_lr"
+            android:layout_marginTop="@dimen/quickcontact_namebar_icon_margin_tb"
+            android:background="@drawable/icon_btn_contact_card_dark" />
+
+        <View
+            android:id="@android:id/icon1"
+            android:layout_width="@dimen/htc_list_item_vertical_divider_width"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:layout_marginRight="@dimen/quickcontact_namebar_icon_margin_lr"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_toLeftOf="@android:id/button1"
+            android:background="@drawable/common_b_div_land" />
+
+        <TextView
+            android:id="@android:id/text1"
+            style="@style/darklist_primary_l"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_m"
+            android:layout_marginRight="@dimen/margin_m"
+            android:layout_toLeftOf="@android:id/icon1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true" >
+        </TextView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="@dimen/quickcontact_smallphoto_size"
+        android:layout_height="@dimen/quickcontact_smallphoto_size"
+        android:layout_above="@android:id/primary"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:layout_marginLeft="@dimen/margin_m"
+        android:background="@color/small_photo_background"
+        android:padding="@dimen/quickcontact_smallphoto_padding"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+</merge>

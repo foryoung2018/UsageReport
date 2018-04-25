@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/VZW_VVM3/4.0/and8.0/Sense90" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/VZW_VVM3" path="app/packages/apps/VZW_VVM3" revision="app/apps/VZW_VVM3/4.0/and8.0/Sense90"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="43ff19d124b6bb7e71a42601c2e1f86956acf68e"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="7e88a2d8f0774cc760075c628f34d22955225ff6"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="567366aeed01fda3c0f00b85ba695bca25b7c324"/>
+  <project name="app/hdk/htc/lib1/home" path="hdk/htc/lib1/Home" revision="59fa063e3db307ef417fdcea874b65d1051221bf"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8005bc17a611496a17615a08b837e643f080489d"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+</manifest>

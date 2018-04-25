@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">บริการค้นหาตำแหน่งของ HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">บริการค้นหาตำแหน่งของ HTC</string><!--HTC Location Services-->
+    <string name="home_label">บ้าน</string><!--Home-->
+    <string name="work_label">งาน</string><!--Work-->
+    <string name="location_picker">เลือกสถานที่</string><!--location picker-->
+    <string name="clear_label">ล้าง</string><!--Clear-->
+    <string name="description_label">ในการเชื่อมโยงที่อยู่หรือเครือข่าย Wi-Fi ด้วยตำแหน่งที่ตั้งบ้านหรือที่ทำงานด้วยตัวเอง ถือว่าคุณเห็นด้วยที่จะแบ่งปัน %1$s และ %2$s กับ HTC เซ้นส์ โฮม</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">ตำแหน่งที่ตั้งที่แม่นยำ</string><!--precise location-->
+    <string name="precise_location_upper">ตำแหน่งที่ตั้งที่แม่นยำ</string><!--Precise location-->
+    <string name="personal_usage_data">ข้อมูลการใช้งานส่วนบุคคล</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">ข้อมูลการใช้งานส่วนบุคคล</string><!--Personal usage data-->
+    <string name="precise_location_description">แบ่งปัน %s ของคุณเพื่อรับคำแนะนำสำหรับร้านอาหารและสถานที่อื่นๆ ในบริเวณใกล้เคียง</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">แบ่งปัน %s ของคุณ เช่น แอพพลิเคชันที่ฉันใช้ เว็บไซต์ที่ฉันเข้าชม และสื่อที่ฉันฟังหรือดู เพื่อรับคำแนะนำแอพพลิเคชัน ข่าวสาร และเนื้อหา</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">เชื่อมโยงที่อยู่ หรือเครือข่าย Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">เชื่อมโยงที่อยู่ หรือเครือข่าย Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">เพิ่ม</string><!--add-->
+    <string name="no_content">แตะที่ &quot;+&quot; เพื่อเพิ่มที่อยู่เข้าในเครือข่าย Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">เครือข่าย Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ที่อยู่</string><!--ADDRESSES-->
+    <string name="wifi_label">เครือข่าย Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">ที่อยู่</string><!--Address-->
+    <string name="select_wifi_title">เลือกเครือข่ายหนึ่งรายการหรือมากกว่า</string><!--Select one or more networks-->
+    <string name="remove_label">ลบ</string><!--Remove-->
+    <string name="edit_label">แก้ไข</string><!--Edit-->
+    <string name="alert_dialog_ok">ยืนยัน</string><!--OK-->
+    <string name="alert_dialog_cancel">ยกเลิก</string><!--CANCEL-->
+    <string name="lib_app_name">บริการค้นหาตำแหน่งของ HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">เปลี่ยนตำแหน่งที่ตั้งที่อยู่</string><!--Address location change-->
+    <string name="switch_mode_home">คุณมีการเพิ่มที่อยู่นี้เป็นตำแหน่งที่ตั้งที่ทำงานไว้ก่อนหน้านี้ สามารถเพิ่มที่อยู่เข้าตำแหน่งที่ตั้งเดียวเท่านั้น คุณต้องการกำหนดให้เป็นตำแหน่งที่บ้านตอนนี้หรือไม่?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">คุณมีการเพิ่มที่อยู่นี้เป็นตำแหน่งที่ตั้งบ้านไว้ก่อนหน้านี้ สามารถเพิ่มที่อยู่เข้าตำแหน่งที่ตั้งเดียวเท่านั้น คุณต้องการกำหนดให้เป็นตำแหน่งที่งานตอนนี้หรือไม่?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi ปิดอยู่</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">เพื่อลิงก์เครือข่าย Wi-Fi เข้ากับตำแหน่งที่นั่งนี้ คุณจะต้องเปิดใช้ Wi-Fi ในการตั้งค่า</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">การตั้งค่า</string><!--SETTINGS-->
+    <string name="duplicate_address">มีการเพิ่มที่อยู่นี้แล้ว</string><!--This address has already been added.-->
+    <string name="unknown_address">ที่อยู่ที่ไม่รู้จัก</string><!--unknown address-->
+    <string name="too_much_item">คุณมีการเพิ่มตำแหน่งถึงจำนวนสูงสุดแล้ว</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">เชื่อมต่อแล้ว</string><!--Connected-->
+    <string name="saved_label">บันทึกแล้ว</string><!--Saved-->
+    <string name="secured_label">รักษาความปลอดภัยด้วย %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">เพื่อให้ทำงานได้อย่างถูกต้อง แอพพลิเคชันนี้ต้องการเข้าถึงตำแหน่งที่ตั้งของอุปกรณ์นี้ โปรดให้สิทธิอนุญาตเมื่อได้รับคำขอ</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">เพื่อให้ทำงานได้อย่างถูกต้อง แอพพลิเคชันนี้ต้องการเข้าถึงตำแหน่งที่ตั้งของคุณ คุณสามารถจัดการสิทธิอนุญาตสำหรับ %s ได้ในการตั้งค่า</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ปิด</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">การตั้งค่า</string><!--SETTINGS-->
+    <string name="hsp_app_name">เซอร์วิสแพ็คของ HTC</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">แหล่งตำแหน่งไม่สามารถใช้งานได้</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">เพื่อการทำงานอย่างถูกต้อง แอพพลิเคชั่นนี้ต้องการทราบสถานที่ของคุณ โปรดเปิดใช้งานแหล่งตำแหน่งสถานที่ในการตั้งค่า</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">การตั้งค่า</string><!--SETTING-->
+    <string name="no_wifi_available">ไม่มีเครือข่าย Wi-Fi ให้เลือกใช้งาน</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

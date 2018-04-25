@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/htcaccount_margin_m_2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/common_list_divider"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <include layout="@layout/htcaccount_layout_social_email_tips" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/htcaccount_margin_xs_2"
+                android:layout_marginLeft="@dimen/htcaccount_layout_margin_sides"
+                android:layout_marginRight="@dimen/htcaccount_layout_margin_sides"
+                android:layout_marginTop="@dimen/htcaccount_spacing_2"
+                layout="@layout/htcaccount_layout_input_username" />
+
+            <include layout="@layout/htcaccount_layout_other_accounts" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/htcaccount_layout_margin_sides"
+                android:layout_marginRight="@dimen/htcaccount_layout_margin_sides"
+                layout="@layout/htcaccount_layout_newsletter" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/htcaccount_layout_margin_sides"
+                android:layout_marginRight="@dimen/htcaccount_layout_margin_sides"
+                android:layout_marginTop="@dimen/htcaccount_margin_l"
+                layout="@layout/htcaccount_layout_create_account" />
+        </LinearLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/htcaccount_layout_margin_sides"
+            android:layout_marginRight="@dimen/htcaccount_layout_margin_sides"
+            android:layout_marginTop="@dimen/htcaccount_margin_m"
+            layout="@layout/htcaccount_layout_legal_tips" />
+    </LinearLayout>
+</ScrollView>

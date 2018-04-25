@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC 位置服務</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC 位置服務</string><!--HTC Location Services-->
+    <string name="home_label">住家</string><!--Home-->
+    <string name="work_label">公司</string><!--Work-->
+    <string name="location_picker">位置選擇器</string><!--location picker-->
+    <string name="clear_label">清除</string><!--Clear-->
+    <string name="description_label">手動將住家或工作地點與地址或 Wi-Fi 網路連結後，表示您同意與 HTC Sense Home 分享您的 %1$s 以及 %2$s。</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">精確位置</string><!--precise location-->
+    <string name="precise_location_upper">精確位置</string><!--Precise location-->
+    <string name="personal_usage_data">個人使用資料</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">個人使用資料</string><!--Personal usage data-->
+    <string name="precise_location_description">分享您的 %s，以取得附近餐廳或其他場所的建議。</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">分享您的 %s，例如我所使用的應用程式、造訪的網站、聆聽或觀賞的媒體，以取得應用程式、新聞及內容方面的建議。</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">連結地址或 Wi-Fi 網路</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">連結地址或 Wi-Fi 網路</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">新增</string><!--add-->
+    <string name="no_content">點選 &quot;+&quot; 以新增地址或 Wi-Fi 網路</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi 網路</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">地址</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi 網路</string><!--Wi-/Fi network-->
+    <string name="address_label">地址</string><!--Address-->
+    <string name="select_wifi_title">選取一個或多個網路</string><!--Select one or more networks-->
+    <string name="remove_label">移除</string><!--Remove-->
+    <string name="edit_label">編輯</string><!--Edit-->
+    <string name="alert_dialog_ok">確定</string><!--OK-->
+    <string name="alert_dialog_cancel">取消</string><!--CANCEL-->
+    <string name="lib_app_name">HTC 位置服務</string><!--HTC location services-->
+    <string name="switch_mode_title">變更地址位置</string><!--Address location change-->
+    <string name="switch_mode_home">您先前曾將此地址設定為公司位置。一組地址只能設為一個位置。您是否要將此地址變更為住家位置？</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">您先前曾將此地址設定為住家位置。一組地址只能設為一個位置。您是否要將此地址變更為公司位置？</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi 已關閉</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">若要連線至此位置的 Wi-Fi 網路，您需要在「設定」中開啟 Wi-Fi。</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">設定</string><!--SETTINGS-->
+    <string name="duplicate_address">您已經加入過此地址了。</string><!--This address has already been added.-->
+    <string name="unknown_address">未知的地址</string><!--unknown address-->
+    <string name="too_much_item">位置數量已達上限。</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">已連線</string><!--Connected-->
+    <string name="saved_label">已儲存</string><!--Saved-->
+    <string name="secured_label">透過 %s 加密保護</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">為了能正常運作，此應用程式需要存取您的裝置位置。請在詢問時允許權限。</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">為了能正常運作，此應用程式需要存取您的所在位置。您可以於「設定」中管理 %s 的權限。</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">關閉</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">設定</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC 服務包</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">位置來源已停用</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">為了能正常運作，此應用程式需要得知您的所在位置。請在「設定」中開啟位置來源。</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">設定</string><!--SETTING-->
+    <string name="no_wifi_available">沒有可用的 Wi-Fi 網路</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

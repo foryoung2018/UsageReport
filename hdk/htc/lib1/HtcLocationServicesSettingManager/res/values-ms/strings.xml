@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Perkhidmatan lokasi HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">Perkhidmatan Lokasi HTC</string><!--HTC Location Services-->
+    <string name="home_label">Rumah</string><!--Home-->
+    <string name="work_label">Kerja</string><!--Work-->
+    <string name="location_picker">pemilih lokasi</string><!--location picker-->
+    <string name="clear_label">Kosongkan</string><!--Clear-->
+    <string name="description_label">Dengan memautkan alamat atau rangkaian Wi-Fi secara manual dengan lokasi rumah atau tempat kerja, anda bersetuju untuk berkongsi %1$s dan %2$s anda dengan HTC Sense Home.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">lokasi tepat</string><!--precise location-->
+    <string name="precise_location_upper">Lokasi tepat</string><!--Precise location-->
+    <string name="personal_usage_data">data penggunaan peribadi</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Data penggunaan peribadi</string><!--Personal usage data-->
+    <string name="precise_location_description">Kongsi %s anda bagi mendapatkan cadangan untuk restoran dan tempat lain yang berdekatan.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Kongsi %s anda seperti aplikasi yang saya guna, laman web yang saya lawat dan media yang saya dengar atau lihat, bagi mendapatkan cadangan untuk aplikasi, berita dan kandungan.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Alamat pautan atau rangkaian Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Alamat pautan atau rangkaian Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">tambah</string><!--add-->
+    <string name="no_content">Ketik \"+\" untuk menambah alamat atau rangkaian Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">RANGKAIAN Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ALAMAT</string><!--ADDRESSES-->
+    <string name="wifi_label">Rangkaian Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">Alamat</string><!--Address-->
+    <string name="select_wifi_title">Pilih satu atau lebih banyak rangkaian</string><!--Select one or more networks-->
+    <string name="remove_label">Alih keluar</string><!--Remove-->
+    <string name="edit_label">Edit</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">BATAL</string><!--CANCEL-->
+    <string name="lib_app_name">Perkhidmatan lokasi HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">Lokasi alamat berubah</string><!--Address location change-->
+    <string name="switch_mode_home">Anda telah menambah alamat ini sebelum ini sebagai lokasi tempat kerja. Alamat hanya boleh ditambah ke satu lokasi. Adakah anda ingin menjadikannya lokasi rumah sekarang?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Anda telah menambah alamat ini sebelum ini sebagai lokasi rumah. Alamat hanya boleh ditambah ke satu lokasi. Adakah anda ingin menjadikannya lokasi tempat kerja sekarang?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi mati</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Untuk memautkan rangkaian Wi-Fi dengan lokasi ini, anda perlu menghidupkan Wi-Fi dalam Tetapan.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">TETAPAN</string><!--SETTINGS-->
+    <string name="duplicate_address">Alamat ini sudah ditambah.</string><!--This address has already been added.-->
+    <string name="unknown_address">alamat tidak diketahui</string><!--unknown address-->
+    <string name="too_much_item">Anda telah menambah bilangan maksimum lokasi.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Bersambung</string><!--Connected-->
+    <string name="saved_label">Disimpan</string><!--Saved-->
+    <string name="secured_label">Dilindungi dengan %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Untuk berfungsi dengan betul, aplikasi ini perlu mengakses lokasi peranti ini. Sila berikan kebenaran apabila diminta.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Untuk berfungsi dengan betul, aplikasi ini perlu mengakses lokasi anda. Anda boleh mengurus kebenaran %s dalam Tetapan.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">TUTUP</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">TETAPAN</string><!--SETTINGS-->
+    <string name="hsp_app_name">Pek Servis Htc</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Sumber lokasi dilumpuhkan</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Untuk berfungsi dengan betul, aplikasi ini perlu mengetahui lokasi anda. Sila hidupkan sumber lokasi dalam Tetapan.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">TETAPAN</string><!--SETTING-->
+    <string name="no_wifi_available">Tiada rangkaian Wi-Fi yang tersedia</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>Слънчево</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>Преобладаващо слънчево</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>Предимно слънчево</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>Периодични заоблачавания</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>Мъгливо и слънчево</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>Преобладаваща облачност</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>Облачно</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>Мрачно</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>Мъгла</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>Валежи</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Преобладаващо облачно с валежи</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Предимно слънчево с валежи</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>Гръмотевични бури</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Преобладаваща облачност с валежи и гръмотевици</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Предимно слънчево с валежи и гръмотевици</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>Дъждовно</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>Превалявания</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Преобладаваща облачност с превалявания</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Предимно слънчево с превалявания</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>Снеговалежи</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Преобладаваща облачност със снеговалежи</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>Лед</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>Заледяване</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>Леден дъжд</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Примесени дъжд и снеговалеж</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>Горещо</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>Студено</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>Ветровито</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>Ясно</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>Предимно ясно</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>Разкъсана облачност</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>Периодични заоблачавания</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>Мъгливо</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>Преобладаваща облачност</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Разкъсана облачност с валежи</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Преобладаващо облачно с валежи</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Разкъсана облачност с валежи и гръмотевици</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Преобладаваща облачност с валежи и гръмотевици</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Разкъсана облачност с превалявания</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Преобладаваща облачност с превалявания</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>Гръмотевични бури с градушка</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>Пясък</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>Прах</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>Торнадо</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

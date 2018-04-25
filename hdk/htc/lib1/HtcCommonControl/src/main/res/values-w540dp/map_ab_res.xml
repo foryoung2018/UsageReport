@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="ab_item_width_percent">14.7%</fraction>
+    <item name="ab_primary_textview_style" type="style">@style/fixed_title_primary_m</item>
+    <item name="ab_primary_textview_pulldown_style" type="style">@style/fixed_darklist_primary_xxs</item>
+    <item name="ab_secondary_textview_style" type="style">@style/fixed_title_secondary_m</item>
+    <item name="ab_secondary_textview_pulldown_style" type="style">@style/fixed_info_primary_s</item>
+    <item name="ab_secondary_textview_update_style" type="style">@style/fixed_darklist_primary_xxs</item>
+    <item name="ab_secondary_textview_transparent_style" type="style">@style/fixed_title_secondary_m</item>
+    <item name="ab_counter_textview_style" type="style">@style/fixed_darklist_primary_xxs</item>
+</resources>

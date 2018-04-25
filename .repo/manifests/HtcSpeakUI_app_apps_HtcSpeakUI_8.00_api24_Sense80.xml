@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcSpeakUI/8.00/api24/Sense80" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcSpeakUI" path="app/packages/apps/HtcSpeakUI" revision="app/apps/HtcSpeakUI/8.00/api24/Sense80"/>
+</manifest>

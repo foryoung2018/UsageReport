@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PopupBubbleWindow">
+        <attr name="popupBubbleBackground" format="reference|color" />
+        <attr name="popupBubbleTriangle" format="reference" />
+        <attr name="popupBubbleLeftTriangle" format="reference" />
+        <attr name="popupBubbleAnimationStyle" format="reference" />
+        <attr name="android:drawable" />
+        <attr name="android:drawableLeft" />
+    </declare-styleable>
+</resources>

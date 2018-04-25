@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="UnitTestExample" basedir="." default="coverage">
+
+	<!-- RD只需要配置这个路径即可 -->
+	<!--<property name="dep-package.dir" value="/home/htc1/MYHDK/dep-package" />-->
+	<property file="hdktest.properties" />
+
+	<!-- cobertura.dir cobertura路径 -->
+	<property name="cobertura.dir" location="${dep-package.dir}/cobertura-1.9.4.1" />
+
+	<!-- android.jar.path android.jar所在位置 -->
+	<path id="android.jar.path">
+
+		<pathelement location="${dep-package.dir}/android/android.jar" />
+	</path>
+
+	<!-- test.project.lib.classpath fileset dir 引用库文件所在位置 -->
+	<path id="test.project.lib.classpath">
+		<fileset dir="${dep-package.dir}/libs">
+			<include name="*.jar" />
+		</fileset>
+
+		<fileset dir="${dep-package.dir}/cobertura">
+			<include name="*.jar" />
+		</fileset>
+
+		<path refid="target.project.classpath" />
+		<path refid="test.project.bin.dir" />
+		<path refid="target.project.lib.classpath" />
+	</path>
+
+	<path id="target.project.lib.classpath">
+		<fileset dir="${basedir}/../libs">
+			<include name="**/*.jar" />
+		</fileset>
+
+		<path refid="target.project.classpath" />
+	</path>
+
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.6" />
+	<property name="source" value="1.6" />
+	<property name="target.project.location" value="../" />
+	<property name="target.project.src.dir" value="${basedir}/../src" />
+	<property name="target.project.classes.dir" value="${basedir}/../bin" />
+	<property name="test.project.src.dir" value="${basedir}/src" />
+	<property name="test.project.classes.dir" value="${basedir}/bin" />
+	<property name="instrumented.classes.dir" value="${basedir}/instrumented" />
+	<property name="reports.dir" value="${basedir}/coverage" />
+	<property name="reports.junit.xml.dir" value="${basedir}/coverage" />
+	<property name="reports.junit.html.dir" value="${basedir}/coverage" />
+	<property name="coverage.cobertura.xml.dir" location="${basedir}/coverage" />
+	<property name="coverage.cobertura.summary.dir" location="${basedir}/coverage" />
+	<property name="coverage.cobertura.html.dir" location="${basedir}/coverage" />
+	<path id="cobertura.alljar.path">
+		<fileset dir="${cobertura.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<taskdef classpathref="cobertura.alljar.path" resource="tasks.properties" />
+
+	<path id="Android Private Libraries.libraryclasspath" />
+	<path id="Android Dependencies.libraryclasspath" />
+	<path id="target.project.classpath">
+		<path refid="android.jar.path" />
+		<path refid="Android Private Libraries.libraryclasspath" />
+		<path refid="Android Dependencies.libraryclasspath" />
+		<pathelement location="${target.project.location}/bin/classes" />
+	</path>
+
+	<path id="test.project.bin.dir">
+		<pathelement location="bin" />
+	</path>
+
+	<target name="init">
+		<mkdir dir="bin" />
+		<mkdir dir="${target.project.classes.dir}" />
+		<mkdir dir="${test.project.classes.dir}" />
+		<mkdir dir="${instrumented.classes.dir}" />
+		<mkdir dir="${reports.dir}" />
+		<mkdir dir="${reports.junit.html.dir}" />
+		<mkdir dir="${reports.junit.xml.dir}" />
+		<mkdir dir="${coverage.cobertura.xml.dir}" />
+		<mkdir dir="${coverage.cobertura.summary.dir}" />
+		<mkdir dir="${coverage.cobertura.html.dir}" />
+
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="src">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="clean">
+		<delete dir="bin" />
+		<delete dir="${test.project.classes.dir}" />
+		<delete dir="${instrumented.classes.dir}" />
+		<delete dir="${reports.dir}" />
+		<delete file="cobertura.log" />
+		<delete file="cobertura.ser" />
+	</target>
+
+	<target name="cleanall" depends="clean">
+		<ant antfile="build.xml" dir="${target.project.location}"
+			inheritAll="false" target="clean" />
+	</target>
+
+	<target name="compile" depends="init">
+		<!-- 重复编译目标代码	
+		<javac debug="yes" destdir="${target.project.classes.dir}"
+			srcdir="${target.project.src.dir}">
+
+			<classpath refid="target.project.lib.classpath" />
+		</javac>
+		-->
+		<javac debug="yes" destdir="${test.project.classes.dir}" srcdir="${test.project.src.dir}">
+			<classpath location="${target.project.classes.dir}" />
+			<classpath refid="test.project.lib.classpath" />
+		</javac>
+	</target>
+
+	<target name="instrument">
+		<delete file="cobertura.ser" />
+		<delete dir="${instrumented.classes.dir}" />
+
+		<cobertura-instrument todir="${instrumented.classes.dir}">
+			<ignore regex="org.apache.log4j.*" />
+			<fileset dir="${target.project.classes.dir}">
+				<include name="**/*.class" />
+			</fileset>
+		</cobertura-instrument>
+	</target>
+
+	<target name="test" depends="init,compile">
+		<junit dir="${basedir}" failureProperty="test.failed" fork="yes">
+			<classpath location="${instrumented.classes.dir}" />
+			<classpath location="${target.project.classes.dir}" />
+			<classpath location="${test.project.classes.dir}" />
+			<classpath refid="test.project.lib.classpath" />
+			<classpath refid="target.project.lib.classpath" />
+
+			<formatter type="xml" />
+
+			<test name="${testcase}" if="testcase" todir="${reports.junit.xml.dir}" />
+
+			<batchtest todir="${reports.junit.xml.dir}" unless="testcase">
+				<fileset dir="${test.project.src.dir}">
+					<include name="**/*.java" />
+					<exclude name="**/SampleClass.java" /><!-- 使jUnit过滤掉 example target -->
+				</fileset>
+			</batchtest>
+		</junit>
+
+		<junitreport todir="${reports.junit.xml.dir}">
+			<fileset dir="${reports.junit.xml.dir}">
+				<include name="TEST-*.xml" />
+			</fileset>
+
+			<report format="frames" todir="${reports.junit.html.dir}" />
+		</junitreport>
+	</target>
+
+	<target name="coverage-check">
+		<cobertura-check branchrate="34" totallinerate="100" />
+	</target>
+
+	<target name="coverage-report">
+		<cobertura-report destdir="${coverage.cobertura.xml.dir}"
+			format="xml" srcdir="${target.project.src.dir}" />
+	</target>
+
+	<target name="summary-coverage-report">
+		<cobertura-report destdir="${coverage.cobertura.summary.dir}"
+			format="summaryXml" srcdir="${target.project.src.dir}" />
+	</target>
+
+	<target name="alternate-coverage-report">
+		<cobertura-report destdir="${coverage.cobertura.html.dir}">
+			<fileset dir="${target.project.src.dir}">
+				<include name="**/*.java" />
+			</fileset>
+		</cobertura-report>
+	</target>
+
+	<target name="coverage"
+		depends="clean, compile, instrument, test, coverage-report,
+		summary-coverage-report, alternate-coverage-report"
+		description="Compile, instrument ourself, run the tests and generate
+		JUnit and coverage reports." />
+</project>

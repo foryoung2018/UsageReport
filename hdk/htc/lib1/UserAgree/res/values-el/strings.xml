@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Η εφαρμογή αυτή χρησιμοποιεί δίκτυο κινητής τηλεφωνίας ή Wi-Fi. Απευθυνθείτε στον τοπικό φορέα σας για να μάθετε επακριβώς τη χρέωση για τη χρήση δεδομένων.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Να μην ερωτηθώ ξανά</string><!--Don\'t ask me again-->
+
+</resources>

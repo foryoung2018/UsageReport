@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_Light"
+        android:title="@string/menu_light"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_Dark"
+        android:title="@string/menu_dark"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

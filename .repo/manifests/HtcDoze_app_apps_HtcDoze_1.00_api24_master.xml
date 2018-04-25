@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcDoze/1.00/api24/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcDoze" path="app/packages/apps/HtcDoze" revision="app/apps/HtcDoze/1.00/api24/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="a844e8f71d8b4f1f86bde322accfe13eb11690e3"/>
+</manifest>

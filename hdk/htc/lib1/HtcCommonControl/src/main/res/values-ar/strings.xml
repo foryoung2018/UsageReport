@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">تم</string><!--Done-->
+    <string name="am">ص</string><!--AM-->
+    <string name="pm">م</string><!--PM-->
+    <string name="quickselection_share">المشاركة عبر</string><!--Share via-->
+    <string name="carousel_title">اضغط باستمرار على الرموز لإعادة الترتيب</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">تعذر إزالة علامة التبويب هذه</string><!--Unable to remove this tab-->
+    <string name="yes">نعم</string><!--Yes-->
+    <string name="no">لا</string><!--No-->
+    <string name="menu_view_full">عرض</string><!--View-->
+    <string name="menu_view_video">تشغيل</string><!--Play-->
+    <string name="menu_slideshow">عرض الشرائح</string><!--Slideshow-->
+    <string name="menu_share">مشاركة</string><!--Share-->
+    <string name="menu_set_as">تعيين كـ</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">تعيين كمفضلة</string><!--Set as favorite-->
+    <string name="menu_protect_info">معلومات الحماية</string><!--Protection info-->
+    <string name="meun_rotate">تدوير</string><!--Rotate-->
+    <string name="menu_delete">حذف</string><!--Delete-->
+    <string name="menu_crop">اقتصاص</string><!--Crop-->
+    <string name="menu_properties">التفاصيل</string><!--Details-->
+    <string name="menu_show_on_map">إظهار على الخريطة</string><!--Show on map-->
+    <string name="menu_settings">إعدادات</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">مشاركة ارتباط الصورة</string><!--Share photo link-->
+    <string name="refresh">تحديث</string><!--Refresh-->
+    <string name="add_comments">إضافة تعليق</string><!--Add comment-->
+    <string name="button_show_caption">إظهار الشرح</string><!--Show caption-->
+    <string name="button_hide_caption">إخفاء الشرح</string><!--Hide caption-->
+    <string name="button_show_description">إظهار الوصف</string><!--Show description-->
+    <string name="button_hide_description">إخفاء الوصف</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>صغير</item><!--Small-->
+        <item>متوسط</item><!--Medium-->
+        <item>كبير</item><!--Large-->
+        <item>كبير جدًا</item><!--Extra large-->
+        <item>ضخم</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">انقر نقرًا مزدوجًا لاتخاذ إجراء</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">اسحب أيقونة لأعلى</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">اسحب لأعلى لإلغاء التأمين</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>أح</item><!--SU-->
+        <item>اث</item><!--M-->
+        <item>ث</item><!--TU-->
+        <item>أر</item><!--W-->
+        <item>خ</item><!--TH-->
+        <item>ج</item><!--F-->
+        <item>س</item><!--SA-->
+    </string-array>
+</resources>

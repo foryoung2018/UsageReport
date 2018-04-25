@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">HTC Hesabı</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">Bağlanılamıyor</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">Bu uygulamayı kullanmak için bir ağ bağlantısı gerekli. Lütfen mobil verilere veya Wi-Fi\'ye bağlanın.</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">Lütfen bekleyin…</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">HTC sunucularına bağlanamıyoruz. Lütfen daha sonra yeniden deneyin.</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">Bu uygulamayı kullanmak için bir ağ bağlantısı gerekli.</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">Oturum açmak amacıyla kullanmak için lütfen bir Google Hesabı oluşturun.</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">Bağlanılamıyor. Lütfen tekrar deneyin.</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">Google Hesabınıza erişemiyoruz. Lütfen hesabın etkin olduğundan emin olun.</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">İzinler gerekiyor</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">Bu uygulama, Google Hesabıyla oturum açmak için hesabınıza erişim gerektirir. Lütfen istendiğinde izin verin.</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">\"Bu uygulama, düzgün biçimde çalışmak için hesaplarınıza erişim gerektirir. %1$s izinlerini Ayarlar kısmında yönetebilirsiniz.\"</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">HTC Hesabı oluşturun</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">Eposta adresi</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">E-posta adresinizle bir HTC Hesabı zaten oluşturuldu. Oturum açmak için bir hesaba dokunun veya yeni bir hesap oluşturun.</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">Bana HTC\'den teklifleri, ürün bilgilerini ve bültenleri içeren e-posta gönder.</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">%s hesabından e-posta kullanarak:</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">Hesap oluştur</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">Yeni hesap oluştur</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">Bir hesap oluşturarak, HTC Hesabının %1$s hükümlerini kabul eder ve %2$s koşullarını onaylarsınız. Kaydolmak için en az 14 yaşında olmalısınız.</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">Hüküm ve Koşullar</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">Gizlilik Politikası</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">Gizlilik politikası</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">Şartlar ve koşullar</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">Hesabınızı doğrulayın</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">Postayı aç</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">Şimdi değil</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">HTC Hesabında oturum açmak için, %1$s adresine gönderilen bağlantıyı kullanarak e-posta adresinizi doğrulamanız gerekir.\n\nE-postayı almazsanız, istenmeyen e-posta klasörünüzü kontrol edin veya şimdi %2$s seçeneğini seçin.</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">yeniden gönder</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">E-posta adresi gerekli.</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">Lütfen geçerli bir e-posta adresi girin.</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">E-posta şu adrese gönderildi: %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">Ayarlar</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">Kapat</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">Geri</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">İptal Et</string><!--Cancel-->
+
+</resources>

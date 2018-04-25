@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/b_button_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="b_button_primary" />
+
+    <Button
+        android:id="@+id/b_separator_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="b_separator_primary" />
+
+    <Button
+        android:id="@+id/b_separator_secondary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="b_separator_secondary" />
+
+    <Button
+        android:id="@+id/button_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button_primary" />
+
+    <Button
+        android:id="@+id/darklist_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="darklist_primary" />
+
+    <Button
+        android:id="@+id/darklist_secondary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="darklist_secondary" />
+
+    <Button
+        android:id="@+id/info_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="info_primary" />
+
+    <Button
+        android:id="@+id/input_default"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="input_default" />
+
+    <Button
+        android:id="@+id/list_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="list_body" />
+
+    <Button
+        android:id="@+id/list_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="list_primary" />
+
+    <Button
+        android:id="@+id/list_secondary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="list_secondary" />
+
+    <Button
+        android:id="@+id/separator_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="separator_primary" />
+
+    <Button
+        android:id="@+id/separator_secondary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="separator_secondary" />
+
+    <Button
+        android:id="@+id/title_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="title_primary" />
+
+    <Button
+        android:id="@+id/title_secondary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="title_secondary" />
+    <Button
+        android:id="@+id/automotive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="automotive" />
+
+    <Button
+        android:id="@+id/others"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="others" />
+
+</LinearLayout>
+</ScrollView>

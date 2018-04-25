@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcCompressViewer/7.0/andL/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcCompressViewer" path="app/packages/apps/HtcCompressViewer" revision="app/apps/HtcCompressViewer/7.0/andL/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ce56ee1481a6a88f5ea1f128d4f5564b501397d8"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="30601db881f17896377228c90535c733fd274ae5"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="f6a21c5830fc7693e00c99571ad5ea5fe26c54ed"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+</manifest>

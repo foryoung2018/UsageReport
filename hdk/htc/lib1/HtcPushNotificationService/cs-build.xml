@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="libpush"
+         xmlns:ivy="antlib:org.apache.ivy.ant">
+
+  <!-- ==================================================== -->
+  <!-- Preamble...                                          -->
+  <!-- ==================================================== -->
+
+  <property name="project.root" value=".."/>
+
+  <property environment="env"/>
+
+  <!-- May be defined by CI build... -->
+  <property name="build.root" value="${env.BUILD_ROOT}"/>
+
+  <fail message="Required property build.root not set.">
+    <condition>
+      <not>
+        <isset property="build.root"/>
+      </not>
+    </condition>
+  </fail>
+
+  <property name="module.type" value="library"/>
+  <property name="module.javadoc.project.name" value="Push Notification Service Library"/>
+  <property name="module.javadoc.package_names" value="com.htc.lib1.cs.pns"/>
+
+  <import file="${build.root}/ant/build-module.xml"/>
+
+  <!-- Copy module-specific local dependencies that can not be retrieved through ivy. -->
+  <target name="copy-local-dependencies"
+          description="Copy local library dependencies.">
+    <copy todir="libs" verbose="true" failonerror="false">
+      <fileset dir="local-libs"/>
+    </copy>
+  </target>
+
+  <!-- Copy module-specific local javadoc dependencies that can not be retrieved through ivy. -->
+  <target name="copy-local-javadoc-dependencies"
+          description="Copy local library dependencies.">
+    <copy todir="${android.project.build.dir}/ivy/javadoc-dependencies" verbose="true" failonerror="false">
+      <fileset dir="libs"/>
+    </copy>
+  </target>
+
+  <!-- Override module-retrieve-dependencies with local dependencies. -->
+  <target name="module-retrieve-dependencies"
+    depends="build-module.module-retrieve-dependencies,copy-local-dependencies"/>
+
+  <!-- Override -ivy-retrieve-javadoc-dependencies with local dependencies. -->
+  <target name="-ivy-retrieve-javadoc-dependencies"
+    depends="build-ivy.-ivy-retrieve-javadoc-dependencies, copy-local-javadoc-dependencies"/>
+
+</project>

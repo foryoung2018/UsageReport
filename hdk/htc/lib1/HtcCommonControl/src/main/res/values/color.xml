@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<!-- For HTC defined color values -->
+<resources>
+    <!-- ListItem Designer replace color drawable instead Bill Lin -->
+    <drawable name="list_selector_background_pressed">@color/focused_color</drawable>
+    <!-- ListItem Designer replace color drawable instead Bill Lin -->
+
+       <!-- HtcListItemSeparator Color -->
+       <drawable name="section_b_divider_top">#262626</drawable>
+       <drawable name="section_divider_top">#dfdfdf</drawable>
+
+    <!-- HtcSpinner Color -->
+    <color name="htcspinner">#10000000</color>
+</resources>

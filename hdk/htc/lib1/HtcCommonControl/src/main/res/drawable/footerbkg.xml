@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Portrait: light, dark, transparent purLight-->
+    <item android:drawable="@drawable/common_app_bkg_down_light_src"/>
+    <item android:drawable="@drawable/common_app_bkg_down_dark_src"/>
+    <item android:drawable="@drawable/common_app_bkg_down_full"/>
+    <item android:drawable="@drawable/common_app_bkg_down_purelight_src"/>
+    <!-- landscape: light, dark, transparent purLight-->
+    <item android:drawable="@drawable/common_app_bkg_down_land_light_src"/>
+    <item android:drawable="@drawable/common_app_bkg_down_land_dark_src"/>
+    <item android:drawable="@drawable/common_app_bkg_down_full_land"/>
+    <item android:drawable="@drawable/common_app_bkg_down_land_purelight_src"/>
+</layer-list>

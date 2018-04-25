@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HtcPreference SeekBar Start -->
+    <declare-styleable name="HtcPreferenceSeekBar">
+        <attr name="android:drawable" />
+    </declare-styleable>
+    <!-- HtcPreference SeekBar End -->
+    <!-- HtcPreference ListView Start-->
+    <declare-styleable name="HtcPreferenceList">
+        <attr name="android:divider" />
+        <attr name="android:listSelector" />
+    </declare-styleable>
+    <!-- HtcPreference ListView End -->
+
+</resources>

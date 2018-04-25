@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/WorldClock/7.50/api19/ForSense75M" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/WorldClock" path="app/packages/apps/WorldClock" revision="app/apps/WorldClock/7.50/api19/ForSense75M"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="06dd0102dd2c5f6dd5ed4d8413b0bb74d4128b97"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+  <project name="app/hdk/htc/lib3/htcintentlib3" path="hdk/htc/lib3/HtcIntentLib3" revision="faf2ac33d89f7f8bbbd0b121740429dc531ad422"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="d247a2cbc0868dcd244292b7db4957fe456c0acd"/>
+  <project name="app/hdk/htc/lib3/htcwrapwindowmanager" path="hdk/htc/lib3/HtcWrapWindowManager" revision="883e088af01134bf321b33d1c0fbc4d458867fff"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib2/lockscreenlib2" path="hdk/htc/lib2/LockScreenLib2" revision="f27bedef305279b843b7d196b7a61ae3a9be129e"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="b809e6d9350c31fdb745585b03dd2b1a2afbbeb8"/>
+  <project name="app/hdk/htc/lib1/lockscreenlib1" path="hdk/htc/lib1/LockScreenLib1" revision="71a5a441e8fcd29c643655c33907cd4de410428d"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="d1c4f578902533f221a82037e02973dbd8e7dc79"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="180cbcb0bee59643f403be776ab31ebdc950d319"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="c71e95ebe5185c0801b64e364e631bb2ab16c10c"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="bfab811c6a3538acb202a36e84b4ac2e9e4c8f13"/>
+  <project name="app/hdk/htc/lib1/weatherlib1" path="hdk/htc/lib1/WeatherLib1" revision="ca9429b69f71d1e8c203e5d7771d2e9cb40fb1b9"/>
+  <project name="app/hdk/htc/lib1/masthead" path="hdk/htc/lib1/MastHead" revision="21138c506b3fdc2471a83db95755b09662989f27"/>
+</manifest>

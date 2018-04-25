@@ -1,0 +1,13 @@
+c1709ef0adaa59b3d6db60093e6ad8ae3725e077		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+4cc0e4916efdc562ab79bde2b46549e5989c760a		branch 'hdk/api19_sense6.5' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+29e8cdbc8b35ecdae2218a0358032786c0ce0780		branch 'hdk/api19_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+996bfacf023f78ce8e7405e17b5bb6b6b5ec4d0e		branch 'hdk/api20_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+9b94c509c5ffa5951f5b8d065256c596fe3a64a5		branch 'hdk/api21_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+08687d9a2a738e1aeeee34ab5820d073a54c75f3		branch 'hdk/apilatest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+17e78024a7d47bdf26f535549b3e597526b71d6b		branch 'hdk/buildsdk19_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+a700334911237a0a8e1040dab43f5112123355c2		branch 'hdk/buildsdklatest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+bba735eebf0aa58963e13a76c3638effd7996d8a		branch 'hdk/buildsdklatest_sense8.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+e8ddd63cd0a59b394361ef7a1f5fc9e45bc366d0	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+789ffbd414b40aedd7912027e3662bd707374aab	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+602b9760a9499e88f89bf969c9e1752a9ddb729a	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol
+1b65ddfdf71d7bb89e2d2c5c4271f29a1e3dd906	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccommoncontrol

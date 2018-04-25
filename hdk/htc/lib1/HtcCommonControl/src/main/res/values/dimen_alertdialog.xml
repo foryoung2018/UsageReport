@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Not Use -->
+    <dimen name="common_dialogbox_header_height">47.5dp</dimen>
+    <dimen name="common_dialogbox_horizontal_margin">10dp</dimen>
+    <dimen name="common_dialogbox_vertical_margin">10dp</dimen>
+</resources>

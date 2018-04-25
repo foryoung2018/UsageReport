@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Lucy/4.0/api19/Sense70_no_movedata_patch" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Lucy" path="app/packages/apps/Lucy" revision="app/apps/Lucy/4.0/api19/Sense70_no_movedata_patch"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="aa46f79a9e2cdd43f79403bc342c7077f966f855"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="d1d523b5a9cb64e8afcdea7d2f3fa9769c173eb0"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="60ca3dee50e340ad4332d6551916b4b5a0d7c9ec"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="0617ae21d0392c58956f7e7e1a44d37e378f6d46"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="30601db881f17896377228c90535c733fd274ae5"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="f6a21c5830fc7693e00c99571ad5ea5fe26c54ed"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="d010b5e214ba49ff28aa3ee74d0b536d1adcfcba"/>
+</manifest>

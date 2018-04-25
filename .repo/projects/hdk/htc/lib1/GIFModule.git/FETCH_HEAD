@@ -1,0 +1,5 @@
+8823a790b2373eba4e51ca746616b9020e554e01		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/gifmodule
+b87c4160f8cf2a76b55bd15d06a307a672c0b132	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/gifmodule
+5d0dce3146a440986d3147a58a92c4c616b3cbf1	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/gifmodule
+06fcb4e63a06b66ec1bcaa6d7d7d027d664fb493	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/gifmodule
+5ef40a65101ad407d97537ad45c14361d99ad9b6	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/gifmodule

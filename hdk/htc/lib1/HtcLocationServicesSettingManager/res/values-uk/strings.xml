@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Служби визначення розташування HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">Служби визначення Розташування HTC</string><!--HTC Location Services-->
+    <string name="home_label">Дім</string><!--Home-->
+    <string name="work_label">Робота</string><!--Work-->
+    <string name="location_picker">інструмент вибору розташування</string><!--location picker-->
+    <string name="clear_label">Видалити</string><!--Clear-->
+    <string name="description_label">За допомогою ручного зв\'язування адреси або мережі Wi-Fi з домашнім або робочим розташуванням ви даєте згоду публікувати %1$s та %2$s у HTC Sense Home.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">точне розташування</string><!--precise location-->
+    <string name="precise_location_upper">Точне розташування</string><!--Precise location-->
+    <string name="personal_usage_data">персональні дані про використання</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Персональні дані про використання</string><!--Personal usage data-->
+    <string name="precise_location_description">Опублікуйте %s для отримання пропозицій про найближчі ресторани та інші місця.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Опублікуйте %s, такі як додатки, які я використовую, веб-сайти, які я відвідую, та медіафайли, які я слухаю або переглядаю, щоб отримувати пропозиції додатків, новини та вміст.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Зв\'яжіть адреси або мережі Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Зв\'яжіть адреси або мережі Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">додати</string><!--add-->
+    <string name="no_content">Натисніть &quot;+&quot;, щоб додати адресу або мережу Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">МЕРЕЖІ Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">АДРЕСИ</string><!--ADDRESSES-->
+    <string name="wifi_label">Мережа Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">Адреса</string><!--Address-->
+    <string name="select_wifi_title">Виберіть одну або кілька мереж</string><!--Select one or more networks-->
+    <string name="remove_label">Видалити</string><!--Remove-->
+    <string name="edit_label">Редагувати</string><!--Edit-->
+    <string name="alert_dialog_ok">OК</string><!--OK-->
+    <string name="alert_dialog_cancel">СКАСУВАТИ</string><!--CANCEL-->
+    <string name="lib_app_name">Служби визначення розташування HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">Зміна адреси розташування</string><!--Address location change-->
+    <string name="switch_mode_home">Ви раніше додали цю адресу як робоче розташування. Одну адресу можна додавати лише до одного розташування. Зробити її зараз як домашне розташування?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Ви раніше додали цю адресу як домашнє розташування. Одну адресу можна додавати лише до одного розташування. Зробити її зараз як робоче розташування?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi вимкнено</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Щоб прив\'язати мережу Wi-Fi до цього розташування, ви маєте увімкнути Wi-Fi в Налаштуваннях.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">НАЛАШТУВАННЯ</string><!--SETTINGS-->
+    <string name="duplicate_address">Ця адреса вже була додана.</string><!--This address has already been added.-->
+    <string name="unknown_address">невідома адреса</string><!--unknown address-->
+    <string name="too_much_item">Ви додали максимальну кількість розташувань.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">З\'єднано</string><!--Connected-->
+    <string name="saved_label">Збережено</string><!--Saved-->
+    <string name="secured_label">Захищено за допомогою %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Для правильної роботи цьому додатку необхідний доступ до розташування цього пристрою. Надайте дозвіл за запитом.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Для правильної роботи цьому додатку необхідний доступ до вашого розташування. Ви можете керувати дозволами %s в Налаштуваннях.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ЗАКРИТИ</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">НАЛАШТУВАННЯ</string><!--SETTINGS-->
+    <string name="hsp_app_name">Пакет оновлень HTC</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Джерела даних про розташування вимкнено</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Для правильної роботи цьому додатку має бути відоме ваше розташування. Увімкніть джерело даних про розташування у Налаштуваннях.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">НАЛАШТУВАННЯ</string><!--SETTING-->
+    <string name="no_wifi_available">Доступних мереж Wi-Fi не виявлено</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

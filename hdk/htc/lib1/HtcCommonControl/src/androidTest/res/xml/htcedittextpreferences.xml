@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/preference_attributes" >
+        <com.htc.lib1.cc.widget.preference.HtcEditTextPreference
+            android:dialogTitle="@string/dialog_title_edittext_preference"
+            android:key="htc_edittext_preference"
+            android:summary="@string/summary_edittext_preference"
+            android:title="@string/title_edittext_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcDialogPreference
+            android:dialogLayout="@layout/preference_widget_seekbar"
+            android:dialogTitle="@string/title_dialog_preference"
+            android:key="htcseekbar_dialog_preference"
+            android:summary="@string/summary_htcdialogpreference"
+            android:title="@string/title_htcseekbar_preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+
+</PreferenceScreen>

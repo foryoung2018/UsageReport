@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Търсене на хора</string><!--Search People-->
+    <string name="common_string_share_title">Споделяне чрез</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Записване в съществуващ контакт</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Записване в „Хора“</string><!--Save to People-->
+    <string name="label_year">Година</string><!--Year-->
+    <string name="label_month">Месец</string><!--Month-->
+    <string name="label_day">Ден</string><!--Day-->
+    <string name="label_hour">Час</string><!--Hour-->
+    <string name="label_minute">Минута</string><!--Minute-->
+    <string name="label_second">Секунда</string><!--Second-->
+    <string name="common_string_open_contact">Отваряне на контакт</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Имате останал един раздел. За да добавите още раздели за това приложение, изберете Редактиране на раздели/Филтри от менюто.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Отказ</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Напред</string><!--Next-->
+    <string name="va_back">Назад</string><!--Back-->
+    <string name="va_call">Повикване</string><!--Call-->
+    <string name="st_loading">Зареждане...</string><!--Loading...-->
+    <string name="va_close">Затвори</string><!--Close-->
+    <string name="va_open">Отваряне</string><!--Open-->
+    <string name="va_clear">Изчистване</string><!--Clear-->
+    <string name="va_send_mail">Изпращане на имейл</string><!--Send mail-->
+    <string name="va_send_message">Изпращане на съобщение</string><!--Send message-->
+    <string name="va_download">Изтегляне</string><!--Download-->
+    <string name="st_more">Още</string><!--More-->
+    <string name="nn_unknown_error">Непозната грешка</string><!--Unknown error-->
+    <string name="va_downloading">Изтегляне</string><!--Downloading-->
+    <string name="va_finish">Край</string><!--Finish-->
+    <string name="va_reset">Начално състояние</string><!--Reset-->
+    <string name="va_hide">Скриване</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Възникна грешка в паметта на вашия таблет. Моля, рестартирайте вашето устройство или форматирайте паметта.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Освободете за обновяване</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Актуализиране...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">натиснете два пъти и плъзнете за настройване</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Елемент за плъзгане</string><!--Draggable item-->
+    <string name="va_move_above">Премести горе</string><!--Move above-->
+    <string name="va_move_below">Премести долу</string><!--Move below-->
+    <string name="st_pull_down_refresh">Дръпнете надолу за обновяване</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Редактиране на номера преди набиране</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Отвори в карта</string><!--Open in map-->
+    <string name="va_copy">Копиране</string><!--Copy-->
+    <string name="va_show_all">Показване на всички</string><!--Show all-->
+</resources>

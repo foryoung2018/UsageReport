@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/WeatherSyncProvider/6.0/api19/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/WeatherSyncProvider" path="app/packages/apps/WeatherSyncProvider" revision="app/apps/WeatherSyncProvider/6.0/api19/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="e0b7385392599bfe284f1a1795748da40fac4202"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="bf96b3472a73f1dc142e7cd332844c185bcace7f"/>
+</manifest>

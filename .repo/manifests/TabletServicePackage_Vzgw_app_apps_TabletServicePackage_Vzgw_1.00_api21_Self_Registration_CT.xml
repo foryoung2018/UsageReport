@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/TabletServicePackage_Vzgw/1.00/api21/Self_Registration_CT" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/TabletServicePackage_Vzgw" path="app/packages/apps/TabletServicePackage_Vzgw" revision="app/apps/TabletServicePackage_Vzgw/1.00/api21/Self_Registration_CT"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="a78351835011711454a601c17e0788bb02da808f"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="93066b1b5cf0617c28312ff48521c3492a86f446"/>
+</manifest>

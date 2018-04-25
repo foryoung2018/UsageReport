@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">חיפוש ב\"אנשים\"</string><!--Search People-->
+    <string name="common_string_share_title">שתף באמצעות</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">שמור לאיש קשר קיים</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">שמור ב\"אנשים\"</string><!--Save to People-->
+    <string name="label_year">שנה</string><!--Year-->
+    <string name="label_month">חודש</string><!--Month-->
+    <string name="label_day">יום</string><!--Day-->
+    <string name="label_hour">שעה</string><!--Hour-->
+    <string name="label_minute">דקה</string><!--Minute-->
+    <string name="label_second">שניה</string><!--Second-->
+    <string name="common_string_open_contact">פתח איש קשר</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">נותרה לך לשונית אחת. להוספת לשוניות ליישום זה, בחר באפשרות \'ערוך לשוניות/מסננים\' בתפריט.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">ביטול</string><!--Cancel-->
+    <string name="va_ok">אישור</string><!--OK-->
+    <string name="va_next">הבא</string><!--Next-->
+    <string name="va_back">הקודם</string><!--Back-->
+    <string name="va_call">התקשר</string><!--Call-->
+    <string name="st_loading">טוען...</string><!--Loading...-->
+    <string name="va_close">סגור</string><!--Close-->
+    <string name="va_open">פתח</string><!--Open-->
+    <string name="va_clear">נקה</string><!--Clear-->
+    <string name="va_send_mail">שלח דואר</string><!--Send mail-->
+    <string name="va_send_message">שלח הודעה</string><!--Send message-->
+    <string name="va_download">הורד</string><!--Download-->
+    <string name="st_more">עוד</string><!--More-->
+    <string name="nn_unknown_error">שגיאה לא ידועה</string><!--Unknown error-->
+    <string name="va_downloading">מוריד</string><!--Downloading-->
+    <string name="va_finish">סיים</string><!--Finish-->
+    <string name="va_reset">אתחל</string><!--Reset-->
+    <string name="va_hide">הסתר</string><!--Hide-->
+    <string name="ls_tablet_storage_error">אירעה שגיאה בזכרון מחשב הלוח. אתחל את המכשיר או אתחל פרמט את הזכרון.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">שחרר כדי לרענן</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">מעדכן...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">הקש פעמיים וגרור כדי לכוונן</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">פריט ניתן לגרירה</string><!--Draggable item-->
+    <string name="va_move_above">הזז למעלה</string><!--Move above-->
+    <string name="va_move_below">הזז למטה</string><!--Move below-->
+    <string name="st_pull_down_refresh">משוך למטה כדי לרענן</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">לפני שתתקשר, ערוך את המספר</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">פתח במפה</string><!--Open in map-->
+    <string name="va_copy">העתק</string><!--Copy-->
+    <string name="va_show_all">הצג הכל</string><!--Show all-->
+</resources>

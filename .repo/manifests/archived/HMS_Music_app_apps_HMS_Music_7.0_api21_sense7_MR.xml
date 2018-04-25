@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HMS_Music/7.0/api21/sense7_MR" sync-j="4" HDKLib3Name="HDK_Lib3_API19_2_Stable" HDKLib3Ver="19.2"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HMS_Music" path="app/packages/apps/HMS_Music" revision="app/apps/HMS_Music/7.0/api21/sense7_MR"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcMusic" path="app/packages/apps/HtcMusic" revision="3136c88b88628dd813d8e60d6389bc752e8a8ebd"/>
+  <project name="app/packages/apps/HtcMusicEnhancer" path="app/packages/apps/HtcMusicEnhancer" revision="cb82b3080c273872432867499805c05d7658061e"/>
+  <project name="app/packages/apps/Music3DVisualizer" path="app/packages/apps/Music3DVisualizer" revision="2944d330b2e359b3038ccf12b5d1154600e9a40b"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="9469f560575ace6c73782bd894b673a05ba89943"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib1/hfmclient" path="hdk/htc/lib1/HfmClient" revision="0b52bef1b83b3c0568defa6715a21d0af161d40c"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="516d289b44fdf33b99eeb731c006b454811c6e15"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="6da57b5746cb9aa19e852cea70461187ea8b5a6b"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="b8dca57a814e33513f823a692a0d38ed081d8ef8"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="60ca3dee50e340ad4332d6551916b4b5a0d7c9ec"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="c51ab837e6dfb60a0c695d436a373d131a6537e4"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="3888fe81f6bafc6357966068996ba47e5f957f21"/>
+  <project name="app/hdk/htc/lib1/htcsetasringtone" path="hdk/htc/lib1/HtcSetAsRingtone" revision="36f02d7bcfef554e108b2169299f722fb85dd0b2"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="718b1f15f22e63575abdf4324d0c13d3d673c359"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="9d2464e78bbfd8d1c9ae6e36233d08958277efea"/>
+  <project name="app/hdk/htc/lib3/htcir" path="hdk/htc/lib3/HtcIR" revision="e0d7467ceb07ae46e91a49f041f2c6a78672facd"/>
+  <project name="app/hdk/htc/lib3/htcreport" path="hdk/htc/lib3/HtcReport" revision="f14b68388492ea348970174dba0fd329d236f219"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="70a9ff6b8de287a8f1ca94e28ee14eaa996f9c64"/>
+  <project name="app/hdk/htc/lib3/htcwrapdalviksystem" path="hdk/htc/lib3/HtcWrapdalviksystem" revision="1c4e743378c762242fb0034d738b7dd98d1e4ac1"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="c4d77cd415b8bd38cd5f6bf1a99e7142023b0364"/>
+  <project name="app/hdk/htc/lib3/medialinksharedmodule" path="hdk/htc/lib3/MediaLinkSharedModule" revision="b0c7230b7a99e2a85ff729c5a1fa2482cbaa5e0e"/>
+  <project name="app/hdk/htc/lib3/htcwrapwallpapermanager" path="hdk/htc/lib3/HtcWrapWallpaperManager" revision="78e01c7305f04cac05e9e7863f92e38147dee128"/>
+  <project name="app/hdk/htc/lib3/htcwrapwindowmanager" path="hdk/htc/lib3/HtcWrapWindowManager" revision="49be5e08cefa5128752ff4a263ad327d2600c4da"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="39dada8ddbed700166685fb84d44a57d0c1bf240"/>
+  <project name="app/hdk/htc/lib3/htcintentlib3" path="hdk/htc/lib3/HtcIntentLib3" revision="b4d842cb46d4ee05062643906d822c5c52346208"/>
+  <project name="app/hdk/htc/lib3/htcwrapsqlite" path="hdk/htc/lib3/HtcWrapSQLite" revision="578c7a5420011a2265a88c31593f3148c9a608b6"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidappadmin" path="hdk/htc/lib3/HtcWrapandroidappadmin" revision="dcd2c86337dc80341b62405b9fe4032a2d9ca2fa"/>
+</manifest>

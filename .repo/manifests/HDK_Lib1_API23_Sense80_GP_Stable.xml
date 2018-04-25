@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="hdk/api23_sense8.0_gp" sync-j="4"/>
+  
+  <!-- START of HDK Lib1 git -->
+  <project name="app/hdk/htc/lib1/htcpushnotificationservice" path="hdk/htc/lib1/HtcPushNotificationService" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/feedservice" path="hdk/htc/lib1/FeedService" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/gifmodule" path="hdk/htc/lib1/GIFModule" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/home" path="hdk/htc/lib1/Home" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/htceaspim" path="hdk/htc/lib1/HtcEasPim" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/htcmp4parser" path="hdk/htc/lib1/HtcMp4Parser" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="hdk/api19_sense7.0"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/lockscreenlib1" path="hdk/htc/lib1/LockScreenLib1" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/panoviewer" path="hdk/htc/lib1/PanoViewer" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="hdk/api19_sense7.0"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/weatherlib1" path="hdk/htc/lib1/WeatherLib1" revision="hdk/buildsdklatest_sense7.0"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="hdk/buildsdk_latest_sense7.0"/>
+  <project name="app/hdk/htc/lib1/exifengine" path="hdk/htc/lib1/ExifEngine" revision="hdk/buildsdk_latest_sense7.0"/>
+  <project name="app/hdk/htc/lib1/exoplayer" path="hdk/htc/lib1/ExoPlayer" revision="hdk/buildsdk_latest_sense7.0"/>
+  <project name="app/hdk/htc/lib1/htcvideoeditorlib" path="hdk/htc/lib1/HtcVideoEditorLib" revision="hdk/api8_generic"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="hdk/buildsdklatest_sense8.0"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="hdk/api19_sense6.0"/>
+  <project name="app/hdk/htc/lib1/hfmclient" path="hdk/htc/lib1/HfmClient" revision="hdk/api23_sense8.0_gp"/>
+  <project name="app/hdk/htc/lib1/htcsetasringtone" path="hdk/htc/lib1/HtcSetAsRingtone" revision="hdk/api23_sense8.0"/>
+  <project name="app/hdk/htc/lib1/htclocationservicessettingmanager" path="hdk/htc/lib1/HtcLocationServicesSettingManager" revision="hdk/api23_sense8.0_gp"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="hdk/api23_sense8.0_gp"/>
+  <project name="app/hdk/htc/lib1/masthead" path="hdk/htc/lib1/MastHead" revision="hdk/api23_sense8.0_gp"/>
+  
+  <!-- START of HDK Lib2 git -->
+  <project name="app/hdk/htc/lib2/htcactiveservice" path="hdk/htc/lib2/HtcActiveService" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/lockscreenlib2" path="hdk/htc/lib2/LockScreenLib2" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/photoplatformcachemanager" path="hdk/htc/lib2/PhotoPlatformCacheManager" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/htclib2" path="hdk/htc/lib2/HtcLib2" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib2/htclocationservicessettingmodule" path="hdk/htc/lib2/HtcLocationServicesSettingModule" revision="hdk/buildsdk_latest_1"/>
+  <project name="app/hdk/htc/lib2/pitroadhspenhancerlib" path="hdk/htc/lib2/PitroadHSPEnhancerLib" revision="refs/tags/HDK_Lib1_API23_Sense80_GP_Mainline"/>
+  
+  <hdk libtype="Lib1" hdkversion="23_sense8.0_gp"/>
+</manifest>

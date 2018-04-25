@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >ամեն ամսվա առաջին կիրակի</item><!--on every first Sunday-->
+        <item >ամեն ամսվա երկրորդ կիրակի</item><!--on every second Sunday-->
+        <item >ամեն ամսվա երրորդ կիրակի</item><!--on every third Sunday-->
+        <item >ամեն ամսվա չորրորդ կիրակի</item><!--on every fourth Sunday-->
+        <item >ամեն ամսվա վերջին կիրակի</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >ամեն ամսվա առաջին երկուշաբթի</item><!--on every first Monday-->
+        <item >ամեն ամսվա երկրորդ երկուշաբթի</item><!--on every second Monday-->
+        <item >ամեն ամսվա երրորդ երկուշաբթի</item><!--on every third Monday-->
+        <item >ամեն ամսվա չորրորդ երկուշաբթի</item><!--on every fourth Monday-->
+        <item >ամեն ամսվա վերջին երկուշաբթի</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >ամեն ամսվա առաջին երեքշաբթիի</item><!--on every first Tuesday-->
+        <item >ամեն ամսվա երկրորդ երեքշաբթիի</item><!--on every second Tuesday-->
+        <item >ամեն ամսվա երրորդ երեքշաբթիի</item><!--on every third Tuesday-->
+        <item >ամեն ամսվա չորրորդ երեքշաբթիի</item><!--on every fourth Tuesday-->
+        <item >ամեն ամսվա վերջին երեքշաբթիի</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >ամեն ամսվա առաջին չորեքշաբթի</item><!--on every first Wednesday-->
+        <item >ամեն ամսվա երկրորդ չորեքշաբթի</item><!--on every second Wednesday-->
+        <item >ամեն ամսվա երրորդ չորեքշաբթի</item><!--on every third Wednesday-->
+        <item >ամեն ամսվա չորրորդ չորեքշաբթի</item><!--on every fourth Wednesday-->
+        <item >ամեն ամսվա վերջին չորեքշաբթի</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >ամեն ամսվա առաջին հինգշաբթի</item><!--on every first Thursday-->
+        <item >ամեն ամսվա երկրորդ հինգշաբթի</item><!--on every second Thursday-->
+        <item >ամեն ամսվա երրորդ հինգշաբթի</item><!--on every third Thursday-->
+        <item >ամեն ամսվա չորրորդ հինգշաբթի</item><!--on every fourth Thursday-->
+        <item >ամեն ամսվա վերջին հինգշաբթի</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >ամեն ամսվա առաջին ուրբաթ</item><!--on every first Friday-->
+        <item >ամեն ամսվա երկրորդ ուրբաթ</item><!--on every second Friday-->
+        <item >ամեն ամսվա երրորդ ուրբաթ</item><!--on every third Friday-->
+        <item >ամեն ամսվա չորրորդ ուրբաթ</item><!--on every fourth Friday-->
+        <item >ամեն ամսվա վերջին ուրբաթ</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >ամեն ամսվա առաջին շաբաթ</item><!--on every first Saturday-->
+        <item >ամեն ամսվա երկրորդ շաբաթ</item><!--on every second Saturday-->
+        <item >ամեն ամսվա երրորդ շաբաթ</item><!--on every third Saturday-->
+        <item >ամեն ամսվա չորրորդ շաբաթ</item><!--on every fourth Saturday-->
+        <item >ամեն ամսվա վերջին շաբաթ</item><!--on every last Saturday-->
+    </string-array>
+</resources>

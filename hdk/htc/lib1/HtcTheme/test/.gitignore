@@ -1,0 +1,12 @@
+assets
+bin
+gen
+.project
+.settings
+.classpath
+project.properties
+*.iml
+build
+.idea
+.gradle
+

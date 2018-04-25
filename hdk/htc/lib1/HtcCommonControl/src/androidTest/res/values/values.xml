@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textsize">28sp</dimen>
+
+    <string name="actionBar">ActionBar</string>
+    <string name="viewPage"> Page </string>
+    <string name="leftMenu">Left Menu</string>
+    <string name="rightMenu">Right Menu</string>
+    <string name="clickTest">Click Succeed</string>
+
+</resources>

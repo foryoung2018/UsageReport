@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCOOBEAdvantage/7.01/api24/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCOOBEAdvantage" path="app/packages/apps/HTCOOBEAdvantage" revision="app/apps/HTCOOBEAdvantage/7.01/api24/mainline"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/SetupWizardLib" path="app/hms_libs/SetupWizardLib" revision="fa3e4d0518664a3a58d28c7df2954dec9a4155b3"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ecb282271d8749fe52366823d2e247736cb2f59f"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="6d3b98ad21443ecb7ccbef641c2083abf9b66a77"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="9278dc274a03c118001866df2ddf50848556c764"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="3fcb7bb248157ef34a893158ce7dde7aafb81542"/>
+</manifest>

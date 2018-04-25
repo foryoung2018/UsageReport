@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/QuickLauncherShell/2.00/api19/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/QuickLauncherShell" path="app/packages/apps/QuickLauncherShell" revision="app/apps/QuickLauncherShell/2.00/api19/master"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/QuickLauncher" path="app/packages/apps/QuickLauncher" revision="1ca2178deca0ae9b9ffb03ce138f94c22ce89c5e"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/ThemeLibrary" path="app/hms_libs/ThemeLibrary" revision="b4df4274fb8a13544bd20bcdfa0d427e30501a0b"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a41003e430352d3937c9154d2f8856aac1d8abff"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="e78c8de25ce285be3db259c330b8b737ec37d6eb"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib1/home" path="hdk/htc/lib1/Home" revision="0e6852443f2a683d2ea2fa2451eea159d4d0205e"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="63501e36bdbb76cd76115d368e1b5d84e0e8f48f"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ba10b72629760afc03c442156160fc86ae4d3c0e"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+</manifest>

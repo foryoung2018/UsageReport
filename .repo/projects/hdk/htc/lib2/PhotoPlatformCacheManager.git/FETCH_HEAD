@@ -1,0 +1,5 @@
+68dcbd4a679851a5dbbf727a8562b7b4f6d0d107		branch 'hdk/api19_1' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/photoplatformcachemanager
+d900ee733fa7bd8b3691ef50787f9c06630ead22	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/photoplatformcachemanager
+b26db03f476726e670634eb3bed874f944d93ce6	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/photoplatformcachemanager
+b45370c8620438200ddb07872bb0c4a9b238f748	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/photoplatformcachemanager
+faf2539cbb20e4f1bda54dba79f82cfb96f25fb3	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/photoplatformcachemanager

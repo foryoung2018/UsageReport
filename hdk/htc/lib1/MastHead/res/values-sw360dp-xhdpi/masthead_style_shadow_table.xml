@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item name="masthead_01_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_01_shadowDy" type="dimen">3.3</item>
+    <item name="masthead_02_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_02_shadowDy" type="dimen">3.3</item>
+    <item name="masthead_03_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_03_shadowDy" type="dimen">3.3</item>
+    <item name="masthead_04_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_04_shadowDy" type="dimen">3.3</item>
+    <item name="masthead_05_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_05_shadowDy" type="dimen">3.3</item>
+    <item name="masthead_06_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_06_shadowDy" type="dimen">3.3</item>
+    <item name="masthead_07_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_07_shadowDy" type="dimen">3.3</item>
+    <item name="masthead_08_shadowSize" type="dimen">3.3</item>
+    <item name="masthead_08_shadowDy" type="dimen">3.3</item>
+</resources>

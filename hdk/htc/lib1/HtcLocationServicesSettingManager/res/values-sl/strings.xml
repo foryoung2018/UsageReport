@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Lokacijske storitve HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">Lokacijske storitve HTC</string><!--HTC Location Services-->
+    <string name="home_label">Doma</string><!--Home-->
+    <string name="work_label">Služba</string><!--Work-->
+    <string name="location_picker">program za izbiranje lokacije</string><!--location picker-->
+    <string name="clear_label">Počisti</string><!--Clear-->
+    <string name="description_label">Če naslov ali brezžično omrežje ročno povežete z domačo ali službeno lokacijo, soglašate, da boste s storitvijo HTC Sense Home souporabljali %1$s in %2$s.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">natančna lokacija</string><!--precise location-->
+    <string name="precise_location_upper">Natančna lokacija</string><!--Precise location-->
+    <string name="personal_usage_data">osebni podatki o uporabi</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Osebni podatki o uporabi</string><!--Personal usage data-->
+    <string name="precise_location_description">Souporabljajte svoj %s za prikazovanje predlogov za restavracije v bližini in druga mesta.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Souporabljajte %s, kot so aplikacije, ki jih uporabljam, spletna mesta, ki jih obiščem, in mediji, ki jih poslušam ali si jih ogledam, za prikazovanje priporočil za aplikacije, novice in vsebino.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Povežite naslove ali brezžična omrežja</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Povežite naslove ali brezžična omrežja</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">dodaj</string><!--add-->
+    <string name="no_content">Tapnite &quot;+&quot;, da dodate naslov ali brezžično omrežje</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">BREZŽIČNA OMREŽJA</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">NASLOVI</string><!--ADDRESSES-->
+    <string name="wifi_label">Brezžično omrežje</string><!--Wi-/Fi network-->
+    <string name="address_label">Naslov</string><!--Address-->
+    <string name="select_wifi_title">Izberite eno ali več omrežij</string><!--Select one or more networks-->
+    <string name="remove_label">Odstrani</string><!--Remove-->
+    <string name="edit_label">Uredi</string><!--Edit-->
+    <string name="alert_dialog_ok">V redu</string><!--OK-->
+    <string name="alert_dialog_cancel">PREKLIČI</string><!--CANCEL-->
+    <string name="lib_app_name">Lokacijske storitve HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">Sprememba lokacije naslova</string><!--Address location change-->
+    <string name="switch_mode_home">Ta naslov ste predhodno vnesli kot službeno lokacijo. Naslov lahko dodate samo za eno lokacijo. Jo želite določiti kot domačo lokacijo?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Ta naslov ste predhodno vnesli kot domačo lokacijo. Naslov lahko dodate samo za eno lokacijo. Jo želite določiti kot službeno lokacijo?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Brezžična povezava je izklopljena</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Če želite s to lokacijo povezati brezžično omrežje, morate v Nastavitvah vklopiti brezžično povezavo</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">NASTAVITVE</string><!--SETTINGS-->
+    <string name="duplicate_address">Ta naslov je bil že dodan.</string><!--This address has already been added.-->
+    <string name="unknown_address">neznan naslov</string><!--unknown address-->
+    <string name="too_much_item">Dodali ste največje število lokacij.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Povezava je vzpostavljena</string><!--Connected-->
+    <string name="saved_label">Shranjeno</string><!--Saved-->
+    <string name="secured_label">Zaščiteno s/z %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Ta aplikacija mora za pravilno delovanje dostopati do lokacije te naprave. Ob pozivu dodelite dovoljenje.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Ta aplikacija mora za pravilno delovanje dostopati do vaše lokacije. Dovoljenja za %s lahko upravljate v Nastavitvah.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ZAPRI</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">NASTAVITVE</string><!--SETTINGS-->
+    <string name="hsp_app_name">Storitveni paket HTC</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Viri lokacije so onemogočeni</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Ta aplikacija za pravilno delovanje potrebuje podatke o vaši lokaciji. V Nastavitvah vklopite vir lokacije.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">NASTAVITEV</string><!--SETTING-->
+    <string name="no_wifi_available">Na voljo ni nobeno brezžično omrežje</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

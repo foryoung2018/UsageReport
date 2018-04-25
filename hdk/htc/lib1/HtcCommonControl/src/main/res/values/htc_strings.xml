@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Search People</string>
+    <string name="common_string_share_title">Share via</string>
+    <string name="common_string_save_to_existing_contact">Save to existing contact</string>
+    <string name="common_string_save_to_people">Save to People</string>
+    <string name="label_year">Year</string>
+    <string name="label_month">Month</string>
+    <string name="label_day">Day</string>
+    <string name="label_hour">Hour</string>
+    <string name="label_minute">Minute</string>
+    <string name="label_second">Second</string>
+    <string name="common_string_open_contact">Open contact</string>
+    <string name="tab_remove_dialog_message">You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.</string>
+    <string name="va_cancel">Cancel</string>
+    <string name="va_ok">OK</string>
+    <string name="va_next">Next</string>
+    <string name="va_back">Back</string>
+    <string name="va_call">Call</string>
+    <string name="st_loading">Loading...</string>
+    <string name="va_close">Close</string>
+    <string name="va_open">Open</string>
+    <string name="va_clear">Clear</string>
+    <string name="va_send_mail">Send mail</string>
+    <string name="va_send_message">Send message</string>
+    <string name="va_download">Download</string>
+    <string name="st_more">More</string>
+    <string name="nn_unknown_error">Unknown error</string>
+    <string name="va_downloading">Downloading</string>
+    <string name="va_finish">Finish</string>
+    <string name="va_reset">Reset</string>
+    <string name="va_hide">Hide</string>
+    <string name="ls_tablet_storage_error">An error was encountered on your tablet storage. Please reboot your device or format the storage.</string>
+    <string name="st_action_bar_pull_down">Release to refresh</string>
+    <string name="st_action_bar_updating">Updating...</string>
+    <string name="ls_doubletap_drag">double tap and drag to adjust</string>
+    <string name="st_draggable_item">Draggable item</string>
+    <string name="va_move_above">Move above</string>
+    <string name="va_move_below">Move below</string>
+    <string name="st_pull_down_refresh">Pull down to refresh</string>
+    <string name="ls_edit_number_before_calling">Edit number before calling</string>
+    <string name="ls_open_in_map">Open in map</string>
+    <string name="va_copy">Copy</string>
+    <string name="va_show_all">Show all</string>
+</resources>

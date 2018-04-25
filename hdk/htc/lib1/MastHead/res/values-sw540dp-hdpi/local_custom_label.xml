@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- weather clock 4x1 -->
+	<style name="weather_clock_week_date_city_temp" parent="custom_fixed_masthead_01"/>
+    <style name="weather_clock_am_pm" parent="custom_fixed_masthead_02"/>
+	<style name="weather_clock_error_text" parent="custom_fixed_masthead_08"/>
+</resources>

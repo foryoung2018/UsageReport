@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Поиск в контактах</string><!--Search People-->
+    <string name="common_string_share_title">Отправить в</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Сохранить в существующем контакте</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Сохранить в контактах</string><!--Save to People-->
+    <string name="label_year">Год</string><!--Year-->
+    <string name="label_month">Месяц</string><!--Month-->
+    <string name="label_day">День</string><!--Day-->
+    <string name="label_hour">Час.</string><!--Hour-->
+    <string name="label_minute">Мин.</string><!--Minute-->
+    <string name="label_second">Сек.</string><!--Second-->
+    <string name="common_string_open_contact">Открыть контакт</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">У вас осталась одна вкладка. Чтобы добавить к этому приложению другие вкладки, выберите «Изменить вкладки/фильтры» в меню.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Отмена</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Далее</string><!--Next-->
+    <string name="va_back">Назад</string><!--Back-->
+    <string name="va_call">Вызов</string><!--Call-->
+    <string name="st_loading">Загрузка...</string><!--Loading...-->
+    <string name="va_close">Закрыть</string><!--Close-->
+    <string name="va_open">Открыть</string><!--Open-->
+    <string name="va_clear">Сброс</string><!--Clear-->
+    <string name="va_send_mail">Отправить почту</string><!--Send mail-->
+    <string name="va_send_message">Отправить сообщение</string><!--Send message-->
+    <string name="va_download">Загрузить</string><!--Download-->
+    <string name="st_more">Ещё</string><!--More-->
+    <string name="nn_unknown_error">Неизвестная ошибка</string><!--Unknown error-->
+    <string name="va_downloading">Выполняется загрузка</string><!--Downloading-->
+    <string name="va_finish">Готово</string><!--Finish-->
+    <string name="va_reset">Сброс</string><!--Reset-->
+    <string name="va_hide">Скрыть</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Произошла ошибка памяти. Перезагрузите планшет или отформатируйте память.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Отпустить для обновления</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Обновление...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">удвойтесь нажмите и тащите для корректировки</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Перетаскиваемый элемент</string><!--Draggable item-->
+    <string name="va_move_above">Сместить выше</string><!--Move above-->
+    <string name="va_move_below">Сместить ниже</string><!--Move below-->
+    <string name="st_pull_down_refresh">Потяните вниз для обновления</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Изменить номер перед вызовом</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Открыть на карте</string><!--Open in map-->
+    <string name="va_copy">Копировать</string><!--Copy-->
+    <string name="va_show_all">Показать все</string><!--Show all-->
+</resources>

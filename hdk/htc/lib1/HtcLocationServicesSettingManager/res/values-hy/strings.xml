@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC տեղորոշման ծառայություն</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC տեղորոշման ծառայություն</string><!--HTC Location Services-->
+    <string name="home_label">Տուն</string><!--Home-->
+    <string name="work_label">Աշխատավայր</string><!--Work-->
+    <string name="location_picker">տեղադրության ընտրիչ</string><!--location picker-->
+    <string name="clear_label">Մաքրել</string><!--Clear-->
+    <string name="description_label">Ձեր տանը կամ աշխատավայրին հասցե կամ Wi-Fi ցանց ձեռքով ավելացնելու դեպքում դուք համաձայնվում եք համօգտագործել ձեր %1$s-ը և %2$s-ը HTC Sense Տնայինի հետ:</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">ճշգրիտ տեղադրություն</string><!--precise location-->
+    <string name="precise_location_upper">Ճշգրիտ տեղադրություն</string><!--Precise location-->
+    <string name="personal_usage_data">անձնական օգտագործման տվյալներ</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Անձնական օգտագործման տվյալներ</string><!--Personal usage data-->
+    <string name="precise_location_description">Համօգտագործեք ձեր %s-ը՝ մոտակա ռեստորանների և այլ վայրերի առաջարկպություններ ստանալու համար:</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Համօգտագործեք ձեր %s-ը, օրինակ՝ իմ օգտագործվող գործադիրները, այցելված կայքերը և մեդիան որը ես լիսում եմ կամ դիտում՝ գործադիրների, նորությունների և բովանդակության առաջարկություններ ստանալու համար:</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Կապել հասցեներ կամ Wi-Fi ցանցեր</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Կապել հասցեներ կամ Wi-Fi ցանցեր</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">ավելացնել</string><!--add-->
+    <string name="no_content">Հպեք &quot;+&quot;` Wi-Fi ցանցում հասցե ավելացնելու համար</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi ՑԱՆՑԵՐ</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ՀԱՍՑԵՆԵՐ</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi ցանց</string><!--Wi-/Fi network-->
+    <string name="address_label">Հասցե</string><!--Address-->
+    <string name="select_wifi_title">Ընտրեք մեկ կամ ավելի ցանց</string><!--Select one or more networks-->
+    <string name="remove_label">Հեռացնել</string><!--Remove-->
+    <string name="edit_label">Խմբագրել</string><!--Edit-->
+    <string name="alert_dialog_ok">ԼԱՎ</string><!--OK-->
+    <string name="alert_dialog_cancel">ՉԵՂԱՐԿԵԼ</string><!--CANCEL-->
+    <string name="lib_app_name">HTC տեղորոշման ծառայություն</string><!--HTC location services-->
+    <string name="switch_mode_title">Հասցեի տեղադրության փոփոխություն</string><!--Address location change-->
+    <string name="switch_mode_home">Արդեն ավելացրել եք այս հասցեն որպես աշխատանքի վայր: Հասցեն կարող է ավելացվել միայն մեկ վայրի համար: Դարձնե՞լ այն տան տեղադրություն:</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Արդեն ավելացրել եք այս հասցեն որպես տան տեղադրություն: Հասցեն կարող է ավելացվել միայն մեկ վայրի համար: Դարձնե՞լ այն աշխատավայր:</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi-ն անջատած է</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Wi-Fi ցանցն այս տեղադրությանը կապելու համար միացրեք Wi-Fi-ը Կարգավորումներում:</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">ԿԱՐԳԱՎՈՐՈՒՄՆԵՐ</string><!--SETTINGS-->
+    <string name="duplicate_address">Այս հասցեն արդեն ավելացվել է:</string><!--This address has already been added.-->
+    <string name="unknown_address">անհայտ հասցե</string><!--unknown address-->
+    <string name="too_much_item">Ավելացրել եք տեղադրությունների առավելագույն քանակը:</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Կապակցված</string><!--Connected-->
+    <string name="saved_label">Պահված է</string><!--Saved-->
+    <string name="secured_label">Ապահովված է %s-ով</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Ճիշտ աշխատանքի համար այս գործադիրը պետք է մատչի այս սարքի տեղադրությունը: Անհրաժեշտության դեպքում տվեք թույլտվություն:</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Ճիշտ աշխատանքի համար այս գործադիրը պետք է մատչի ձեր տեղադրությունը: Կառավարեք %s-ի թույլտվությունները Կարգավորումներում:</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ՓԱԿԵԼ</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">ԿԱՐԳԱՎՈՐՈՒՄՆԵՐ</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC ծառայության փաթեթ</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Տեղադրության աղբյուրներն անջատած են</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Ճիշտ աշխատանքի համար այս գործադիրը պետք է իմանա Ձեր տեղադրությունը: Միացրեք տեղադրության աղբյուը Կարգավորումներում:</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">ԿԱՐԳԱՎՈՐՈՒՄ</string><!--SETTING-->
+    <string name="no_wifi_available">Չկան մատչելի Wi-Fi ցանցեր</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

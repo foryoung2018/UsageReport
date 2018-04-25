@@ -1,0 +1,6 @@
+6b45a8262ca176a3238c2609948b99cc9cf93ab2		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htceaspim
+716bb1986e0c2c775feb8ae0bb5e85ab36d9cbd3	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htceaspim
+35eb366615ebeeaadabb6132df2637f1ab88028b	not-for-merge	tag 'HDK_Lib1_API19_Sense65_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htceaspim
+2359656533649125914e3cf2cedf595c73248f62	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htceaspim
+b7d0b75e6af65e665c852680590bae708875b8f3	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htceaspim
+0b55e1b6516f81baf807f0dfeddd614e76cb2250	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htceaspim

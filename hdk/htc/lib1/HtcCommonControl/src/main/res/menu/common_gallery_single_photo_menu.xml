@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- orthogonal -->
+    <item
+        android:id="@+id/menu_view_photo"
+        android:title="@string/menu_view_full"
+        android:orderInCategory="0"/>
+    <item
+        android:id="@+id/menu_view_video"
+        android:title="@string/menu_view_video"
+        android:orderInCategory="0"/>
+    <!-- end -->
+    <item
+        android:id="@+id/menu_slideshow"
+        android:title="@string/menu_slideshow"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/menu_share"
+        android:orderInCategory="6"/>
+    <!-- orthogonal -->
+    <item
+        android:id="@+id/menu_setas"
+        android:title="@string/menu_set_as"
+        android:orderInCategory="9"/>
+    <item
+        android:id="@+id/menu_save_to_my_favorite"
+        android:title="@string/menu_save_to_my_favorite"
+        android:orderInCategory="9"/>
+    <!-- end -->
+    <item
+        android:id="@+id/menu_properties_for_protection"
+        android:title="@string/menu_protect_info"
+        android:orderInCategory="12"/>
+    <item
+        android:id="@+id/menu_rotate"
+        android:title="@string/meun_rotate"
+        android:orderInCategory="15"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/menu_delete"
+        android:orderInCategory="18"/>
+    <item
+        android:id="@+id/menu_crop"
+        android:title="@string/menu_crop"
+        android:orderInCategory="21"/>
+    <item
+        android:id="@+id/menu_properties"
+        android:title="@string/menu_properties"
+        android:orderInCategory="24"/>
+    <item
+        android:id="@+id/menu_show_on_map"
+        android:title="@string/menu_show_on_map"
+        android:orderInCategory="27"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="30"/>
+</menu>

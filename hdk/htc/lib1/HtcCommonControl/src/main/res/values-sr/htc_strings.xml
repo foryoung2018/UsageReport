@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Pretraga Ljudi</string><!--Search People-->
+    <string name="common_string_share_title">Deljenje preko</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Sačuvaj u postojeći kontakt</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Sačuvaj u imenik Ljudi</string><!--Save to People-->
+    <string name="label_year">Godina</string><!--Year-->
+    <string name="label_month">Mesec</string><!--Month-->
+    <string name="label_day">Dan</string><!--Day-->
+    <string name="label_hour">Sat</string><!--Hour-->
+    <string name="label_minute">Minut</string><!--Minute-->
+    <string name="label_second">Sekunda</string><!--Second-->
+    <string name="common_string_open_contact">Otvori kontakt</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Ostala vam je jedna kartica. Da biste dodali još kartica za ovu aplikaciju, sa menija izaberite opciju Uredi kartice/Filteri.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Otkaži</string><!--Cancel-->
+    <string name="va_ok">U redu</string><!--OK-->
+    <string name="va_next">Dalje</string><!--Next-->
+    <string name="va_back">Nazad</string><!--Back-->
+    <string name="va_call">Poziv</string><!--Call-->
+    <string name="st_loading">Učitavanje...</string><!--Loading...-->
+    <string name="va_close">Zatvori</string><!--Close-->
+    <string name="va_open">Otvori</string><!--Open-->
+    <string name="va_clear">Obriši</string><!--Clear-->
+    <string name="va_send_mail">Pošalji poštu</string><!--Send mail-->
+    <string name="va_send_message">Pošalji poruku</string><!--Send message-->
+    <string name="va_download">Preuzmi</string><!--Download-->
+    <string name="st_more">Još</string><!--More-->
+    <string name="nn_unknown_error">Nepoznata greška</string><!--Unknown error-->
+    <string name="va_downloading">Preuzimanje</string><!--Downloading-->
+    <string name="va_finish">Završi</string><!--Finish-->
+    <string name="va_reset">Resetuj</string><!--Reset-->
+    <string name="va_hide">Sakrij</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Došlo je do greške u memoriji vašeg tablet uređaja. Ponovo pokrenite (reboot) uređaj ili formatirajte memoriju.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Pustite za osvežavanje</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Ažuriranje...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">dvaput dodirnite i prevucite radi podešavanja</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Stavka koja se može prevlačiti</string><!--Draggable item-->
+    <string name="va_move_above">Premesti iznad</string><!--Move above-->
+    <string name="va_move_below">Premesti ispod</string><!--Move below-->
+    <string name="st_pull_down_refresh">Prevucite nadole radi osvežavanja</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Uredi broj pre pozivanja</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Otvori u mapi</string><!--Open in map-->
+    <string name="va_copy">Kopiraj</string><!--Copy-->
+    <string name="va_show_all">Prikaži sve</string><!--Show all-->
+</resources>

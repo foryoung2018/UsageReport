@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcIndicatorButton xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/htc_expandable_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingRight="10px" />

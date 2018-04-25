@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC орын анықтау қызметтері</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC орын анықтау қызметтері</string><!--HTC Location Services-->
+    <string name="home_label">Үй</string><!--Home-->
+    <string name="work_label">Жұмыс</string><!--Work-->
+    <string name="location_picker">орын таңдағыш</string><!--location picker-->
+    <string name="clear_label">Өшіру</string><!--Clear-->
+    <string name="description_label">Мекенжайды немесе Wi-Fi желісін үй немесе жұмыс орнымен байланыстыру арқылы сіз %1$s және %2$s HTC Sense Home қолданбасымен бөлісуге келісесіз.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">дәл орын</string><!--precise location-->
+    <string name="precise_location_upper">Дәл орын</string><!--Precise location-->
+    <string name="personal_usage_data">жеке қолданыс деректері</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Жеке қолданыс деректері</string><!--Personal usage data-->
+    <string name="precise_location_description">Жақын мейрамханалар мен басқа орындар ұсыныстарын алу үшін %s бөлісіңіз.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Мен пайдаланатын қолданбалар, кіретін веб-сайттар және тыңдайтын не қарайтын мультимедиа, қолданбалар үшін ұсыныстар, жаңалықтар және мазмұн алу үшін %s бөлісіңіз.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Мекенжайларды немесе Wi-Fi желілерін байланыстыру</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Мекенжайларды немесе Wi-Fi желілерін байланыстыру</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">қосу</string><!--add-->
+    <string name="no_content">Мекенжай немесе Wi-Fi желісін қосу үшін &quot;+&quot; түймесін түртіңіз</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi ЖЕЛІЛЕРІ</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">МЕКЕНЖАЙЛАР</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi желісі</string><!--Wi-/Fi network-->
+    <string name="address_label">Мекенжай</string><!--Address-->
+    <string name="select_wifi_title">Бір немесе бірнеше желі таңдау</string><!--Select one or more networks-->
+    <string name="remove_label">Жою</string><!--Remove-->
+    <string name="edit_label">Өңдеу</string><!--Edit-->
+    <string name="alert_dialog_ok">ОК</string><!--OK-->
+    <string name="alert_dialog_cancel">БАС ТАРТУ</string><!--CANCEL-->
+    <string name="lib_app_name">HTC орын анықтау қызметтері</string><!--HTC location services-->
+    <string name="switch_mode_title">Мекенжай орнын өзгерту</string><!--Address location change-->
+    <string name="switch_mode_home">Сіз бұл мекенжайды жұмыс орны ретінде қостыңыз. Мекенжайды тек бір орынға қосуға болады. Оны қазір үй орны етіп орнатқыңыз келе ме?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Сіз бұл мекенжайды үй орны ретінде қостыңыз. Мекенжайды тек бір орынға қосуға болады. Оны қазір жұмыс орны етіп орнатқыңыз келе ме?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi өшірулі</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Wi-Fi желісін осы орынмен байланыстыру үшін параметрлер ішінен Wi-Fi желісін қосу керек.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">ПАРАМЕТРЛЕР</string><!--SETTINGS-->
+    <string name="duplicate_address">Бұл мекенжай әлдеқашан қосылған.</string><!--This address has already been added.-->
+    <string name="unknown_address">белгісіз мекенжай</string><!--unknown address-->
+    <string name="too_much_item">Сіз максималды орын санын қостыңыз.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Қосылған</string><!--Connected-->
+    <string name="saved_label">Cақталды</string><!--Saved-->
+    <string name="secured_label">%s арқылы қорғалған</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Дұрыс жұмыс істеуі үшін, қолданба құрылғы орнына кіруі керек. Сұралған кезде рұқсат беріңіз.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Дұрыс жұмыс істеуі үшін, бұл қолданба орныңызға кіруі керек. %s рұқсаттарын Параметрлер бөлімінде басқаруға болады.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ЖАБУ</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">ПАРАМЕТРЛЕР</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC жаңарту бумасы</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Орынды анықтау көздері ажыратылған</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Дұрыс жұмыс істеуі үшін, осы қолданба орныңызды білуі керек. Параметрлер бөлімінде орынды анықтау көзін қосыңыз.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">ПАРАМЕТР</string><!--SETTING-->
+    <string name="no_wifi_available">Қолжетімді Wi-Fi желілері жоқ</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

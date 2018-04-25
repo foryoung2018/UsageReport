@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TabBarStyle">
+
+        <!-- skinable attribute -->
+        <item name="android:drawable">@array/tabbar_drawables</item>
+        <!-- skinable attribute -->
+        <item name="android:color">@array/tabbar_colors</item>
+    </style>
+
+    <style name="AnimationTabReorder">
+        <item name="android:windowEnterAnimation">@anim/tabreorder_enter</item>
+        <item name="android:windowExitAnimation">@anim/tabreorder_exit</item>
+    </style>
+
+</resources>

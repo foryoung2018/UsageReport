@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/preference_attributes" >
+        <com.htc.lib1.cc.widget.preference.HtcDialogPreference
+            android:dialogMessage="@string/dialog_preference_msg"
+            android:dialogTitle="@string/title_dialog_preference"
+            android:key="dialog_preference"
+            android:summary="@string/summary_htcdialogpreference"
+            android:title="@string/title_dialog_preference" />
+        <com.htc.lib1.cc.widget.preference.HtcDialogPreference
+            android:dialogLayout="@layout/preference_widget_switch"
+            android:dialogTitle="@string/title_dialog_preference"
+            android:key="htcswitch_dialog_preference"
+            android:summary="@string/summary_htcdialogpreference"
+            android:title="@string/title_htcswitchdialog_preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+
+</PreferenceScreen>

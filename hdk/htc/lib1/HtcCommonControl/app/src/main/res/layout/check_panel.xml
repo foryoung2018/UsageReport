@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing"
+    android:paddingLeft="@dimen/margin_l"
+    android:paddingTop="@dimen/spacing">
+
+    <TextView
+        style="@style/list_body_primary_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您是否要授予 Now SMS 權限讀取簡訊？" />
+
+    <CheckBox
+        style="@style/fixed_list_secondary_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:text="不要再顯示此訊息">
+
+    </CheckBox>
+</LinearLayout>

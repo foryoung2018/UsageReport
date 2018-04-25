@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- weather clock 4x1 degree -->
+    <dimen name="theme_temp_symbol_margin_top">3.76dp</dimen> <!-- 5px -->
+    <dimen name="theme_temp_c_f_margin_top">0dp</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.htc.lib1.cc.widget.HtcFooter
+        android:id="@+id/test_htcFooterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        htc:backgroundMode="dark" >
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_ok"
+            android:focusable="false"
+            android:src="@drawable/icon_btn_done_dark"
+            android:text="@string/va_ok"
+            htc:backgroundMode="dark" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_done"
+            android:focusable="false"
+            android:src="@drawable/icon_btn_search_dark"
+            android:text="DONE"
+            htc:backgroundMode="dark" />
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_cancel"
+            android:focusable="false"
+            android:src="@drawable/icon_btn_cancel_dark_s"
+            android:text="@string/va_cancel"
+            htc:backgroundMode="dark" />
+    </com.htc.lib1.cc.widget.HtcFooter>
+
+</LinearLayout>

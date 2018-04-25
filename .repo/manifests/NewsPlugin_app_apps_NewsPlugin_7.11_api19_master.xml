@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/NewsPlugin/7.11/api19/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/NewsPlugin" path="app/packages/apps/NewsPlugin" revision="app/apps/NewsPlugin/7.11/api19/master"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/NewsPlugin" path="app/customization/packages/apps/NewsPlugin" revision="app/apps/NewsPlugin/master"/>
+</manifest>

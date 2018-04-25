@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pull_down_offset">27px</dimen> <!-- Used by Pull down dectector(Contact with Ivan) -->
+</resources>

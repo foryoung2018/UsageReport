@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Τέλος</string><!--Done-->
+    <string name="am">ΠΜ</string><!--AM-->
+    <string name="pm">ΜΜ</string><!--PM-->
+    <string name="quickselection_share">Κοινή χρήση μέσω</string><!--Share via-->
+    <string name="carousel_title">Πιέστε παρατεταμένα τα εικονίδια για ανακατάταξη</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Αδύνατη η κατάργηση αυτής της ετικέτας</string><!--Unable to remove this tab-->
+    <string name="yes">Ναι</string><!--Yes-->
+    <string name="no">Όχι</string><!--No-->
+    <string name="menu_view_full">Προβολή</string><!--View-->
+    <string name="menu_view_video">Αναπαραγωγή</string><!--Play-->
+    <string name="menu_slideshow">Παρουσίαση</string><!--Slideshow-->
+    <string name="menu_share">Κοινόχρηστο</string><!--Share-->
+    <string name="menu_set_as">Ορισμός ως</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Ορισμός ως αγαπημένο</string><!--Set as favorite-->
+    <string name="menu_protect_info">Πληροφορίες προστασίας</string><!--Protection info-->
+    <string name="meun_rotate">Περιστροφή</string><!--Rotate-->
+    <string name="menu_delete">Διαγραφή</string><!--Delete-->
+    <string name="menu_crop">Περικοπή</string><!--Crop-->
+    <string name="menu_properties">Λεπτομέρειες</string><!--Details-->
+    <string name="menu_show_on_map">Εμφάνιση στο χάρτη</string><!--Show on map-->
+    <string name="menu_settings">Ρυθμίσεις</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Κοινή χρήση συνδέσμου φωτογραφιών</string><!--Share photo link-->
+    <string name="refresh">Ανανέωση</string><!--Refresh-->
+    <string name="add_comments">Προσθήκη σχολίου</string><!--Add comment-->
+    <string name="button_show_caption">Εμφάνιση λεζάντας</string><!--Show caption-->
+    <string name="button_hide_caption">Απόκρυψη λεζάντας</string><!--Hide caption-->
+    <string name="button_show_description">Εμφάνιση περιγραφής</string><!--Show description-->
+    <string name="button_hide_description">Απόκρυψη περιγραφής</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Μικρό</item><!--Small-->
+        <item>Μεσαίο</item><!--Medium-->
+        <item>Μεγάλο</item><!--Large-->
+        <item>Πολύ μεγάλο μέγεθος</item><!--Extra large-->
+        <item>Τεράστιο</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Διπλό πάτημα για ενέργεια</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Τραβήξτε το εικονίδιο προς τα πάνω</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Τραβήξτε προς τα πάνω για να ξεκλειδώσετε</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Κυ</item><!--SU-->
+        <item>Δ</item><!--M-->
+        <item>Τρ</item><!--TU-->
+        <item>Τε</item><!--W-->
+        <item>Π</item><!--TH-->
+        <item>Π</item><!--F-->
+        <item>Σ</item><!--SA-->
+    </string-array>
+</resources>

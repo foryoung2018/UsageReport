@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Stock colors -->
+    <color name="stock_gray">#ffb2b2b2</color>
+    <color name="stock_green">#ff74ba37</color>
+</resources>

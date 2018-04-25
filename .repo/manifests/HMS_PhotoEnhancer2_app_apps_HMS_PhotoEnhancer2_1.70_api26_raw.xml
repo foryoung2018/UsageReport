@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HMS_PhotoEnhancer2/1.70/api26/raw" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HMS_PhotoEnhancer2" path="app/packages/apps/HMS_PhotoEnhancer2" revision="app/apps/HMS_PhotoEnhancer2/1.70/api26/raw"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HTCImageCodec" path="app/packages/apps/HTCImageCodec" revision="483ae6fc8f605179e39e531d3470765382603c93"/>
+  <project name="app/packages/apps/HtcPhotoEnhancer_GP" path="app/packages/apps/HtcPhotoEnhancer_GP" revision="317ba0fecdee3e920ad9b8f67130fa051998a40a"/>
+  <project name="app/packages/apps/HtcPhotoLab" path="app/packages/apps/HtcPhotoLab" revision="7ca3b6b042e695bdbbbe8415585eaa3b833ddb53"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/HMS_Gallery_GP_Libs" path="app/hms_libs/HMS_Gallery_GP_Libs" revision="488af72c5fb9ceec8c768121099a5a5ed8086af7"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="b67561a313a06873d6a04dbd71a4c39d768fbb8e"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="c1962ae30cf0f5be83e5f45b7b2eff988a56b728"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="165b7a329315013303580c333cc5e695ccdaf6fc"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="0e1f1f27cff79806e19c27c44da08838d99df7eb"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="5a75455fa328568a2a0b782b2c67dc1055314642"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="acb07654da1bab3a22aa64d522c7ee86baaae0cb"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="2a93b18292432597e1dd33d632355b0ca91438dc"/>
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="topleft" />
+  <item type="id" name="topright" />
+  <item type="id" name="bottomleft" />
+  <item type="id" name="bottomright" />
+  <item name="popup_view_start" type="id"/>
+  <item name="popup_view_end" type="id"/>
+</resources>

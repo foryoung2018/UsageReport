@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#ff0000" >
+
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <nine-patch
+                    android:alpha="0.5"
+                    android:src="@drawable/common_inputfield_rest" />
+            </item>
+            <item>
+                <nine-patch android:src="@drawable/common_inputfield_rest" />
+            </item>
+        </selector>
+    </item>
+    <item
+        android:id="@+id/mask"
+        android:drawable="@drawable/common_inputfield_rest"/>
+
+</ripple>

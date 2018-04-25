@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- To define the diameter and strok of HtcProgressButton -->
+    <dimen name="progress_button_diameter_small">60px</dimen>
+    <dimen name="progress_button_diameter_middle">72px</dimen>
+    <dimen name="progress_button_stroke_small">4px</dimen>
+    <dimen name="progress_button_stroke_middle">4px</dimen>
+    <!-- To define the diameter and strok of HtcProgressButton -->
+
+    <!-- To define the diameter and strok of HtcRimButton with Colorful mode -->
+    <dimen name="color_button_border_width">1px</dimen>
+    <!-- To define the diameter and strok of HtcRimButton with Colorful mode -->
+</resources>

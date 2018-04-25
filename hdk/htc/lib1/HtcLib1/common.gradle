@@ -1,0 +1,17 @@
+ext {
+    debug = false
+
+    sdkVersion = "Google Inc.:Google APIs:21"
+
+    toolVersion = "19.1.0"
+
+    Properties androidProperties = new Properties()
+    androidProperties.load(new FileInputStream("${project.rootDir}/local.properties"))
+    sdkDir = androidProperties.get('sdk.dir')
+
+    mavenServer = [
+        "http://prebuild-repositories.htc.com.tw:8081/artifactory/Custom-snapshots"
+    ]
+
+    proguard = ["proguard-hdklib1.txt"]
+}

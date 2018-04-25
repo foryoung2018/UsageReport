@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.lib1.masthead.view.WeatherDisplay xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:minWidth="@dimen/theme_sun_small_width"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/theme_location_padding_top">
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="@dimen/theme_sun_small_width"
+        android:layout_height="@dimen/theme_sun_small_height"
+        style="@style/weather_clock_4x1_sun_layout_params"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/no_weather_data_area"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+	    <TextView 
+		    android:id="@+id/no_weather_text"
+		    android:layout_width="@dimen/theme_error_text_width"
+	        android:layout_height="wrap_content"
+	        android:minHeight="@dimen/theme_error_text_height"
+	        android:maxLines="@integer/theme_error_text_max_lines"
+		    android:gravity="center"
+		    android:ellipsize="end"
+            style="@style/weather_clock_error_text"
+		    android:visibility="gone" />                                  
+    </RelativeLayout>
+</com.htc.lib1.masthead.view.WeatherDisplay>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Αναζήτηση επαφών</string><!--Search People-->
+    <string name="common_string_share_title">Κοινή χρήση μέσω</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Αποθήκευση σε υπάρχουσα επαφή</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Αποθήκευση σε Επαφές</string><!--Save to People-->
+    <string name="label_year">Έτος</string><!--Year-->
+    <string name="label_month">Αυτό το μήνα</string><!--Month-->
+    <string name="label_day">Ημέρα</string><!--Day-->
+    <string name="label_hour">Ώρα</string><!--Hour-->
+    <string name="label_minute">Λεπτό</string><!--Minute-->
+    <string name="label_second">Δευτερ/πτο.</string><!--Second-->
+    <string name="common_string_open_contact">Άνοιγμα επαφής</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Σας έμεινε μία καρτέλα. Για να προσθέσετε περισσότερες καρτέλες για αυτήν την εφαρμογή, επιλέξτε Επεξεργασία καρτελών/Φίλτρα στο μενού.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Ακύρωση</string><!--Cancel-->
+    <string name="va_ok">ΟΚ</string><!--OK-->
+    <string name="va_next">Επόμενο</string><!--Next-->
+    <string name="va_back">Πίσω</string><!--Back-->
+    <string name="va_call">Κλήση</string><!--Call-->
+    <string name="st_loading">Φόρτωση...</string><!--Loading...-->
+    <string name="va_close">Κλείσιμο</string><!--Close-->
+    <string name="va_open">Άνοιγμα</string><!--Open-->
+    <string name="va_clear">Απαλοιφή</string><!--Clear-->
+    <string name="va_send_mail">Αποστολή e-mail</string><!--Send mail-->
+    <string name="va_send_message">Αποστολή μηνύματος</string><!--Send message-->
+    <string name="va_download">Λήψη</string><!--Download-->
+    <string name="st_more">Περισσότερα</string><!--More-->
+    <string name="nn_unknown_error">Άγνωστο σφάλμα</string><!--Unknown error-->
+    <string name="va_downloading">Γίνεται λήψη</string><!--Downloading-->
+    <string name="va_finish">Τέλος</string><!--Finish-->
+    <string name="va_reset">Επαναφορά</string><!--Reset-->
+    <string name="va_hide">Απόκρυψη</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Παρουσιάστηκε σφάλμα στον αποθηκευτικό χώρο της ταμπλέτας σας. Επανεκκινήστε τη συσκευή σας ή εκτελέστε διαμόρφωση του αποθηκευτικού χώρου.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Αφήστε για ανανέωση</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Ενημέρωση...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">διπλό πάτημα και μεταφορά για ρύθμιση</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Στοιχείο με δυνατότητα μεταφοράς</string><!--Draggable item-->
+    <string name="va_move_above">Μετακίνηση προς τα επάνω</string><!--Move above-->
+    <string name="va_move_below">Μετακίνηση προς τα κάτω</string><!--Move below-->
+    <string name="st_pull_down_refresh">Τραβήξτε προς τα κάτω για ανανέωση</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Επεξεργασία αριθμού πριν την κλήση</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Άνοιγμα σε χάρτη</string><!--Open in map-->
+    <string name="va_copy">Αντιγραφή</string><!--Copy-->
+    <string name="va_show_all">Εμφάνιση όλων</string><!--Show all-->
+</resources>

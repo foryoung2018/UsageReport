@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name_test_file_util">TestFileUtil</string>
+    <string name="app_name_test_theme_info">TestThemeInfo</string>
+    <string name="app_name_demo_file_util_weatherclock">DemoFileUtilWeatherClock</string>
+</resources>

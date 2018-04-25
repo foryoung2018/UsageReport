@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/Claro_SpiderManUltimatePower/4.5/api26/OCEAN_WHL_O80_SENSE90GP_MR" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/Claro_SpiderManUltimatePower" path="app/packages/3amapps/Claro_SpiderManUltimatePower" revision="app/3amapps/Claro_SpiderManUltimatePower/4.5/api26/OCEAN_WHL_O80_SENSE90GP_MR"/>
+</manifest>

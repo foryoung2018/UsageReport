@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_view">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@android:id/empty"
+            layout="@layout/common_empty"
+            />
+
+        <com.htc.lib1.cc.widget.HtcListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            style="@style/HtcListView"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <include layout="@layout/specific_inset_divider"/>
+    <TextView
+	    android:id="@+id/description_body"
+	    style="@style/list_body_primary_m"
+	    android:layout_marginLeft="@dimen/common_M1"
+	    android:layout_marginRight="@dimen/common_M1"
+	    android:layout_marginTop="@dimen/common_M5x2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="false"
+	    android:singleLine="false"
+	    android:text="@string/description_label" />
+
+</LinearLayout>

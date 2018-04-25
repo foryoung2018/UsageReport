@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCZero/3.21/api24/htczero_dev" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCZero" path="app/packages/apps/HTCZero" revision="app/apps/HTCZero/3.21/api24/htczero_dev"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/Kuato" path="app/packages/apps/Kuato" revision="0e8571f8c8ca41207a2ccd268cdf48df7d455098"/>
+  <project name="app/packages/apps/Video_Editor" path="app/packages/apps/Video_Editor" revision="1b5770c94f01086b67da4d7448f7c4796619a5f8"/>
+  <project name="app/packages/apps/ZeroEditing" path="app/packages/apps/ZeroEditing" revision="a3d538fd3f2ee45ce39822f3ab551d1b98151c27"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/CSBiLogClient" path="app/hms_libs/CSBiLogClient" revision="08a687b31e0907280cf9e9070476171ef04c6dfb"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="b67561a313a06873d6a04dbd71a4c39d768fbb8e"/>
+  <project name="app/hdk/htc/lib1/panoviewer" path="hdk/htc/lib1/PanoViewer" revision="4eb59e195ddb7cbac3a8b47b4e0e1b076ab68bbb"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="8d01e74650ea5722260b3fb4ed10cbacecfe656e"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="4744a481f390b57269bc762db879b99966dbb849"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="5a75455fa328568a2a0b782b2c67dc1055314642"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="34cc0c60b78d29084892829aa9d50de56f0c6317"/>
+  <project name="app/hdk/htc/lib1/exoplayer" path="hdk/htc/lib1/ExoPlayer" revision="b916f98d55c6e3e94f3667bb220fb1cd2e50dea5"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="ad64bb2e73213d8aff174b33d91df750b62b2f4b"/>
+  <project name="app/hdk/htc/lib1/htcvideoeditorlib" path="hdk/htc/lib1/HtcVideoEditorLib" revision="ee6d50e388cb634cf49013529f8e051e877c13ea"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="acb07654da1bab3a22aa64d522c7ee86baaae0cb"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="88be2b20c0482c1ad536f8a811ce5953ef38f5ee"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="5a56dfe33a225c8f6a6cd53fde000d942919ba2d"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="29207d3ac0dd4e4cb09d676a154af9a1362b997f"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+</manifest>

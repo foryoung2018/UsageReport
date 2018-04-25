@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/VivePortClient/1.00/api21/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/VivePortClient" path="app/packages/apps/VivePortClient" revision="app/apps/VivePortClient/1.00/api21/master"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/VivePortClient" path="app/customization/packages/apps/VivePortClient" revision="app/apps/VivePortClient/master"/>
+
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="c77977a76efe5c322d1f5721b6d371ac4d64cf8b"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="509b39879a6823f768d647c4e9a2581f6f9de8ed"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="d7003413096ec0aaa02ede0a773bf37d253b07ce"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="d56f982b4c7e51380da3669946117ed192a617ef"/>
+</manifest>

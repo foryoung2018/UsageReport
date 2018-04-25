@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/lala"
+                    android:text="lala" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:id="@+id/transparent_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                enable_transparent="true">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/enable_transparent"
+                    android:text="Transparent" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/disable_transparent"
+                    android:text="Footer" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton android:text="lala" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:enabled="false"
+                    android:text="Disable Button" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:enabled="true"
+                    footerButtonImage="@drawable/common_icon_all_songs" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:enabled="false"
+                    footerButtonImage="@drawable/common_icon_all_songs" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton android:text="Icon footer" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton android:src="@drawable/common_icon_back" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton android:src="@drawable/common_icon_play" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton android:src="@drawable/common_icon_next" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/showpopupwindow"
+                    android:text="PopupWindow" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/showpopupexpwindow"
+                    android:text="PopupExpandWindow" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/gone"
+                    android:text="Gone" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/visible"
+                    android:text="Visible" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/hide"
+                    android:text="Hide" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:id="@+id/target"
+                    android:text="Example" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="200px">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton android:text="200px" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.htc.lib1.cc.widget.HtcFooterButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="My word" />
+
+                    <TextView
+                        style="@style/notification_info_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25px"
+                        android:text="(+99)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:enabled="false">
+
+                    <com.htc.lib1.cc.widget.HtcFooterButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:text="My word" />
+
+                    <TextView
+                        style="@style/notification_info_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25px"
+                        android:layout_marginTop="25px"
+                        android:enabled="false"
+                        android:text="(+98)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:enabled="false">
+
+                    <com.htc.lib1.cc.widget.HtcFooterButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/common_icon_all_songs" />
+
+                    <TextView
+                        style="@style/notification_info_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25px"
+                        android:layout_marginTop="25px"
+                        android:text="+97"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.htc.lib1.cc.widget.HtcFooterButton
+                        android:id="@+id/cmd_bar_imgbtn_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:src="@drawable/common_icon_all_songs" />
+
+                    <TextView
+                        android:id="@+id/cmd_bar_imgbtn_4_count"
+                        style="@style/notification_info_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25px"
+                        android:layout_marginTop="25px"
+                        android:enabled="false"
+                        android:text="+96"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </FrameLayout>
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Gone" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Visible" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/common_icon_all_songs" />
+
+                <com.htc.lib1.cc.widget.HtcSeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:paddingLeft="20px"
+                    android:paddingRight="20px" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                enable_transparent="true">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Gone" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Visible" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    footerButtonImage="@drawable/common_icon_all_songs" />
+
+                <com.htc.lib1.cc.widget.HtcSeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:paddingLeft="20px"
+                    android:paddingRight="20px" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

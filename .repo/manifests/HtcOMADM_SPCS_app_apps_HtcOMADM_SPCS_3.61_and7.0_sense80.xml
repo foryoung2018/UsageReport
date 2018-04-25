@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcOMADM_SPCS/3.61/and7.0/sense80" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcOMADM_SPCS" path="app/packages/apps/HtcOMADM_SPCS" revision="app/apps/HtcOMADM_SPCS/3.61/and7.0/sense80"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib3/htctelephonycarriers" path="hdk/htc/lib3/HtcTelephonyCarriers" revision="efbbfe07dfa852830d28a74984bf17b6aa9edbc6"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidhardwareinput" path="hdk/htc/lib3/HtcWrapandroidhardwareinput" revision="d95203a7770d7d37f665370b3717b9cf7cbe9e9b"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="242e618969763f99c5912f9927e7681cffec5c94"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="259935b27cf11bd39b753d084befcd13d1a10bf3"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="8f8ec9d571ba48936a88c83a2c15f80cf6a5839c"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="93d7b476fd341d40aa9c33c879d8961f84591c59"/>
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Znajdź kontakt</string><!--Search People-->
+    <string name="common_string_share_title">Udostępnij</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Zapisz do istniejącego kontaktu</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Zapisz w kontaktach</string><!--Save to People-->
+    <string name="label_year">Rok</string><!--Year-->
+    <string name="label_month">Miesiąc</string><!--Month-->
+    <string name="label_day">Dzień</string><!--Day-->
+    <string name="label_hour">Godzina</string><!--Hour-->
+    <string name="label_minute">Minuta</string><!--Minute-->
+    <string name="label_second">Sekunda</string><!--Second-->
+    <string name="common_string_open_contact">Otwórz kontakt</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Pozostała jedna karta. Aby dodać więcej kart dla tej aplikacji, wybierz w menu opcję Edytuj karty/Filtry.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Anuluj</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Dalej</string><!--Next-->
+    <string name="va_back">Wstecz</string><!--Back-->
+    <string name="va_call">Zadzwoń</string><!--Call-->
+    <string name="st_loading">Ładowanie...</string><!--Loading...-->
+    <string name="va_close">Zamknij</string><!--Close-->
+    <string name="va_open">Otwórz</string><!--Open-->
+    <string name="va_clear">"Wyczyść"</string><!--Clear-->
+    <string name="va_send_mail">Wyślij wiadomość e-mail</string><!--Send mail-->
+    <string name="va_send_message">Wyślij wiadomość</string><!--Send message-->
+    <string name="va_download">Pobierz</string><!--Download-->
+    <string name="st_more">Więcej</string><!--More-->
+    <string name="nn_unknown_error">"Nieznany błąd"</string><!--Unknown error-->
+    <string name="va_downloading">Pobieranie</string><!--Downloading-->
+    <string name="va_finish">Zakończ</string><!--Finish-->
+    <string name="va_reset">Resetuj</string><!--Reset-->
+    <string name="va_hide">"Ukryj"</string><!--Hide-->
+    <string name="ls_tablet_storage_error">W pamięci tabletu wystąpił błąd. Uruchom urządzenie ponownie lub sformatuj pamięć.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Zwolnij, aby odświeżyć</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Aktualizowanie...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">stuknij dwukrotnie i przeciągnij, aby dostosować</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Element, który można przeciągnąć</string><!--Draggable item-->
+    <string name="va_move_above">Przesuń do góry</string><!--Move above-->
+    <string name="va_move_below">Przesuń w dół</string><!--Move below-->
+    <string name="st_pull_down_refresh">Przesuń w dół, aby odświeżyć</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Edytuj numer przed wykonaniem połączenia</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Otwórz na mapie</string><!--Open in map-->
+    <string name="va_copy">Kopiuj</string><!--Copy-->
+    <string name="va_show_all">Pokaż wszystkie</string><!--Show all-->
+</resources>

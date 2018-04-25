@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="hdk/api19_4" sync-j="4"/>
+  
+  <!-- START of HDK Lib0 git -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/htclib0" path="hdk/htc/lib0/HtcLib0" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  
+  <!-- START of HDK Lib3 git -->
+  <project name="app/hdk/htc/lib3/accessoryservice" path="hdk/htc/lib3/AccessoryService" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/ams" path="hdk/htc/lib3/AMS" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcfingerprint" path="hdk/htc/lib3/HtcFingerprint" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcintentlib3" path="hdk/htc/lib3/HtcIntentLib3" revision="hdk/api19_2"/>
+  <project name="app/hdk/htc/lib3/htcir" path="hdk/htc/lib3/HtcIR" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidappadmin" path="hdk/htc/lib3/HtcWrapandroidappadmin" revision="hdk/api19_2"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="hdk/api19_2"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcwrapdalviksystem" path="hdk/htc/lib3/HtcWrapdalviksystem" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcwrapsqlite" path="hdk/htc/lib3/HtcWrapSQLite" revision="hdk/api19_2"/>
+  <project name="app/hdk/htc/lib3/htcwrapwindowmanager" path="hdk/htc/lib3/HtcWrapWindowManager" revision="hdk/api19_2"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/medialinksharedmodule" path="hdk/htc/lib3/MediaLinkSharedModule" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htctelephonycarriers" path="hdk/htc/lib3/HtcTelephonyCarriers" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htctetheringguard" path="hdk/htc/lib3/HtcTetheringGuard" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidhardwareinput" path="hdk/htc/lib3/HtcWrapandroidhardwareinput" revision="hdk/api19_3"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidnetwifi" path="hdk/htc/lib3/HtcWrapandroidnetwifi" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcwrapbluetooth" path="hdk/htc/lib3/HtcWrapBluetooth" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htcwrapdevicemanager3lm" path="hdk/htc/lib3/HtcWrapDeviceManager3LM" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/wificalling" path="hdk/htc/lib3/WifiCalling" revision="hdk/api19_1"/>
+  <project name="app/hdk/htc/lib3/htclib3" path="hdk/htc/lib3/HtcLib3" revision="hdk/api19_4"/>
+  
+  <hdk libtype="Lib3" hdkversion="19_4"/>
+</manifest>

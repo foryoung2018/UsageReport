@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- [Note] Reminder View must is Full Screen. -->
+<com.htc.sense.commoncontrol.demo.reminder.ui.TestViewVoiceCall
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_reminder_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+</com.htc.sense.commoncontrol.demo.reminder.ui.TestViewVoiceCall>
+

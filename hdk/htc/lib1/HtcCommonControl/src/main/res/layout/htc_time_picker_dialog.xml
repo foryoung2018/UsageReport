@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    >
+
+        <com.htc.lib1.cc.widget.HtcTimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="@dimen/time_pick_total_width"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:selectable="false"
+            android:layout_marginLeft="@dimen/time_pick_left_margin"
+            android:layout_marginRight="@dimen/time_pick_right_margin"
+            android:layout_marginTop="@dimen/time_pick_top_margin"
+            android:paddingBottom="@dimen/time_pick_bottom_margin"
+        />
+</RelativeLayout>
+

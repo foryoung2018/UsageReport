@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="0"
+    android:visibility="gone">
+    <TextView  
+        android:id="@+id/temparature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/theme0_info_temp_area_margin_top"
+        android:singleLine="true"
+        style="@style/custom_fixed_masthead_01"/>
+    <TextView
+        android:id="@+id/temparature_degree_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/temparature"
+        android:layout_marginTop="@dimen/theme0_info_temp_area_degree_symbol_margin_top"
+        android:singleLine="true"
+        android:text="@string/temp_degree"
+        style="@style/custom_fixed_masthead_03"/>    
+    <TextView  
+        android:id="@+id/temparature_degree_c_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/temparature_degree_symbol"
+        android:layout_marginTop="@dimen/theme0_info_temp_area_degree_margin_top"
+		android:paddingRight="@dimen/spacing"
+        android:singleLine="true"
+        style="@style/custom_fixed_masthead_04"/>
+</RelativeLayout>

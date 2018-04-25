@@ -1,0 +1,12 @@
+<com.htc.lib1.cc.widget.HtcListItem
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    itemMode="customizedMode"
+>
+<com.htc.lib1.cc.widget.HtcCheckBox
+    android:id="@+id/checkImgBut"/>
+<com.htc.lib1.cc.widget.HtcListItemMessageBody
+  android:id="@+id/message"/>
+</com.htc.lib1.cc.widget.HtcListItem>

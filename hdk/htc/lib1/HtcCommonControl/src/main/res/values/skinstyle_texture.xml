@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Only Primary TextView -->
+    <style name="ThemeTexture">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:headerBackground">@null</item>
+        <item name="android:panelBackground">@null</item>
+    </style>
+</resources>

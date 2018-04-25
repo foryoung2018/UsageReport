@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_template"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:minHeight="32.6dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/margin_l"
+    android:paddingRight="@dimen/margin_l"
+    >
+    <ImageView android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingTop="0dip"
+        android:paddingRight="0dip"
+        android:visibility="gone" />
+    <TextView android:id="@+id/alertTitle"
+        style="@style/fixed_title_primary_m"
+        android:text="One line title"
+        android:singleLine="false"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <ProgressBar
+        android:id="@android:id/progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--TODO fix this later style="?attr/htcProgressBarStyleIndeterminateSmall"-->
+</LinearLayout>

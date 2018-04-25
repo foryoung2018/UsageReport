@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HtcDeviceDefault.CategoryOne">
+        <!-- add for sense60 start -->
+        <item name="category_color">@color/CategoryOne_category_color</item>
+        <item name="light_category_color">@color/CategoryOne_light_category_color</item>
+        <item name="dark_category_color">@color/CategoryOne_dark_category_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryOne_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryOne_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryOne_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryOne_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryOne_progress_track_end_color</item>
+        <item name="multiply_color">@color/CategoryOne_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryOne_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryOne_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryOne_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryOne_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryOne_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryOne_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryOne_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryOne_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryOne_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryOne_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryOne_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryOne_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryOne_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryOne_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryOne_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryOne_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryOne_focused_color</item>
+        <item name="standard_color">@color/CategoryOne_standard_color</item>
+        <!-- add for sense60 end -->
+        <!-- HtcProgressBar -->
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryOne</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryOne</item>
+        <!-- HtcSeekBar -->
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryOne</item>
+        <item name="android:textColorHighlight">@color/CategoryOne_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryOne_text_selection_color</item>
+    </style>
+    <style name="HtcDeviceDefault.CategoryTwo">
+        <!-- add for sense60 start -->
+        <item name="category_color">@color/CategoryTwo_category_color</item>
+        <item name="light_category_color">@color/CategoryTwo_light_category_color</item>
+        <item name="dark_category_color">@color/CategoryTwo_dark_category_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryTwo_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryTwo_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryTwo_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryTwo_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryTwo_progress_track_end_color</item>
+        <item name="multiply_color">@color/CategoryTwo_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryTwo_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryTwo_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryTwo_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryTwo_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryTwo_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryTwo_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryTwo_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryTwo_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryTwo_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryTwo_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryTwo_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryTwo_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryTwo_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryTwo_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryTwo_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryTwo_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryTwo_focused_color</item>
+        <item name="standard_color">@color/CategoryTwo_standard_color</item>
+        <!-- add for sense60 end -->
+        <!-- HtcProgressBar -->
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryTwo</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryTwo</item>
+        <!-- HtcSeekBar -->
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryTwo</item>
+        <item name="android:textColorHighlight">@color/CategoryTwo_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryTwo_text_selection_color</item>
+    </style>
+    <style name="HtcDeviceDefault.CategoryThree">
+        <!-- add for sense60 start -->
+        <item name="category_color">@color/CategoryThree_category_color</item>
+        <item name="light_category_color">@color/CategoryThree_light_category_color</item>
+        <item name="dark_category_color">@color/CategoryThree_dark_category_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryThree_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryThree_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryThree_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryThree_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryThree_progress_track_end_color</item>
+        <item name="multiply_color">@color/CategoryThree_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryThree_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryThree_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryThree_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryThree_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryThree_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryThree_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryThree_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryThree_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryThree_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryThree_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryThree_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryThree_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryThree_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryThree_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryThree_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryThree_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryThree_focused_color</item>
+        <item name="standard_color">@color/CategoryThree_standard_color</item>
+        <!-- add for sense60 end -->
+        <!-- HtcProgressBar -->
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryThree</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryThree</item>
+        <!-- HtcSeekBar -->
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryThree</item>
+        <item name="android:textColorHighlight">@color/CategoryThree_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryThree_text_selection_color</item>
+    </style>
+    <style name="HtcDeviceDefault.CategoryFour">
+        <!-- add for sense60 start -->
+        <item name="category_color">@color/CategoryFour_category_color</item>
+        <item name="light_category_color">@color/CategoryFour_light_category_color</item>
+        <item name="dark_category_color">@color/CategoryFour_dark_category_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryFour_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryFour_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryFour_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryFour_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryFour_progress_track_end_color</item>
+        <item name="multiply_color">@color/CategoryFour_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryFour_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryFour_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryFour_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryFour_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryFour_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryFour_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryFour_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryFour_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryFour_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryFour_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryFour_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryFour_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryFour_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryFour_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryFour_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryFour_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryFour_focused_color</item>
+        <item name="standard_color">@color/CategoryFour_standard_color</item>
+        <!-- add for sense60 end -->
+        <!-- HtcProgressBar -->
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryFour</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryFour</item>
+        <!-- HtcSeekBar -->
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryFour</item>
+        <item name="android:textColorHighlight">@color/CategoryFour_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryFour_text_selection_color</item>
+    </style>
+</resources>

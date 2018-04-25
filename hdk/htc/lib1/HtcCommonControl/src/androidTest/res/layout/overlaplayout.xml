@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcOverlapLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res/com.htc.overlapLayout.aut"
+    android:id="@+id/testoverlaplayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.htc.lib1.cc.widget.HtcFooter
+        android:id="@+id/testHtcFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0" >
+    </com.htc.lib1.cc.widget.HtcFooter>
+
+    <TextView
+        android:id="@+id/testTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff808080" />
+
+</com.htc.lib1.cc.widget.HtcOverlapLayout>

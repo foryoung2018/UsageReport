@@ -1,0 +1,10 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Preference" parent="@android:style/Theme.Material.Light">
+        <item name="android:textAppearanceMedium">@style/list_primary_m</item>
+        <item name="android:textAppearanceSmall">@style/list_secondary_m</item>
+        <item name="android:textColorSecondary">@color/light_primaryfont</item>
+        <item name="android:textColorPrimary">@color/light_primaryfont</item>
+        <item name="android:textAppearanceListItem">@style/list_primary_m</item>
+        <item name="android:textAppearanceListItemSecondary">@style/list_secondary_m</item>
+    </style>
+</resources>

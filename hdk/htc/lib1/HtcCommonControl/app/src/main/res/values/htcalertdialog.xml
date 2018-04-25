@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- because Theme.Holo.Light.Dialog.Alert is private, I can not refer it directly -->
+    <style name="HtcAlertDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">89.5%p</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <!-- above 4+1 items are from Theme.Holo.Light.Dialog.Alert -->
+
+        <item name="android:alertDialogStyle">@style/HtcAlertDialogStyle</item>
+        <!--<item name="android:windowTitleStyle">@style/HtcAlertDialogWindowTitleStyle</item> &lt;!&ndash; this attribute is used in alert_dialog_holo&ndash;&gt;-->
+        <item name="android:textAppearanceLarge">@style/HtcAlertDialogWindowTitleStyle</item> <!-- this attribute is used in alert_dialog -->
+        <item name="android:textAppearanceMedium">@style/list_body_primary_m</item> <!-- used for text message in content -->
+        <item name="android:buttonBarStyle">@style/HtcAlertDialogButtonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">@style/HtcAlertDialogButtonBarButtonStyle</item>
+
+        <item name="android:progressBarStyle">@style/HtcProgressDialogProgressBarStyle</item>
+    </style>
+
+    <style name="HtcProgressDialogProgressBarStyle" parent="@style/HTCProgressBarStyle.Indeterminate">
+        <!--<item name="android:paddingTop">@dimen/margin_m_2</item> add a padding to shift the progress spinner-->
+    </style>
+
+    <!--<style name="HtcAlertDialogStyle" parent="*android:style/AlertDialog.Holo">-->
+    <style name="HtcAlertDialogStyle">
+        <item name="android:bottomBright">@drawable/common_dialogbox_bottom_bright</item> <!--for dialog with no button-->
+        <item name="android:bottomMedium">@drawable/common_dialogbox_bottom_medium</item>
+        <item name="android:centerDark">@drawable/common_dialogbox_center_bright</item>
+        <item name="android:fullDark">@drawable/common_dialogbox_full_dark</item> <!--for progress dialog-->
+        <item name="android:topDark">@drawable/common_dialogbox_top_dark</item>
+    </style>
+
+    <style name="HtcAlertDialogWindowTitleStyle">
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:textSize">@dimen/fixed_title_primary_m</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:translationX">@dimen/spacing_2</item>
+    </style>
+
+    <style name="HtcAlertDialogButtonBarStyle">
+        <item name="android:divider">@drawable/common_dialogbox_footer_divider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="HtcAlertDialogButtonBarButtonStyle" parent="@style/fixed_separator_secondary_m">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:minHeight">@dimen/htc_footer_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+</resources>

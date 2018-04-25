@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PopupWindowDrawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:variablePadding="true" >
+    <BubbleDrawable
+        android:drawable="@drawable/popupwindow_bubbledrawable"
+        android:state_above_anchor="true"
+        android:gravity="bottom" >
+    </BubbleDrawable>
+    <BubbleDrawable
+        android:drawable="@drawable/popupwindow_bubbledrawable"
+        android:gravity="top" >
+    </BubbleDrawable>
+</PopupWindowDrawable>

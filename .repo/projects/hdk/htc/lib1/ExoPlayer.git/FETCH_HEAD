@@ -1,0 +1,3 @@
+bbc8d9731e4acf772b65e9e1306329537903320d		branch 'hdk/buildsdk_latest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/exoplayer
+9320938db0689a68d5261ca624b814f87da83e99	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/exoplayer
+b5ca7cd241142c1a8f40f898db656bf6143b426b	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/exoplayer

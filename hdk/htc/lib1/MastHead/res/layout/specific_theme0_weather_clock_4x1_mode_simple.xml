@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge  xmlns:android="http://schemas.android.com/apk/res/android">
+   <RelativeLayout
+        android:id="@+id/background_block"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layoutDirection="ltr">
+
+        <com.htc.lib1.masthead.view.WeatherDisplay
+            android:id="@+id/sun_block"
+            android:layout_width="@dimen/theme0_sun_small_width"
+            android:layout_height="@dimen/theme0_sun_small_height"
+            android:layout_marginTop="@dimen/simple_theme0_sun_margin_top"
+			android:layout_marginLeft="@dimen/simple_theme0_background_block_margin_left"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/sun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+            <include
+                android:id="@+id/no_weather_text"
+                layout="@layout/specific_common_no_weather_text_view" />                       
+        </com.htc.lib1.masthead.view.WeatherDisplay>
+                
+		<com.htc.lib1.masthead.view.DigitalClock
+		    android:id="@+id/digital_clock"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/theme0_sun_and_digit_gap"
+		    android:layout_marginTop="@dimen/simple_theme0_digital_margin_top"
+		    android:layout_toRightOf="@id/sun_block" >
+		
+		    <ImageView
+		        android:id="@+id/digital_hour_tens"
+		        android:layout_width="@dimen/theme_clock_4x1_img_width"
+		        android:layout_height="@dimen/theme_clock_4x1_img_height" />
+		
+		    <ImageView
+		        android:id="@+id/digital_hour_units"
+		        android:layout_width="@dimen/theme_clock_4x1_img_width"
+		        android:layout_height="@dimen/theme_clock_4x1_img_height"
+		        android:layout_toRightOf="@id/digital_hour_tens" />
+		
+		    <ImageView
+		        android:id="@+id/digital_dot"
+		        android:layout_width="@dimen/theme1_clock_point_4x1_width"
+		        android:layout_height="@dimen/theme_clock_4x1_img_height"
+		        android:layout_toRightOf="@id/digital_hour_units" />
+		
+		    <ImageView
+		        android:id="@+id/digital_minute_tens"
+		        android:layout_width="@dimen/theme_clock_4x1_img_width"
+		        android:layout_height="@dimen/theme_clock_4x1_img_height"
+		        android:layout_toRightOf="@id/digital_dot" />
+		
+		    <ImageView
+		        android:id="@+id/digital_minute_units"
+		        android:layout_width="@dimen/theme_clock_4x1_img_width"
+		        android:layout_height="@dimen/theme_clock_4x1_img_height"
+		        android:layout_toRightOf="@id/digital_minute_tens" />
+		    <!-- AM/PM -->
+		
+		    <TextView
+		        android:id="@+id/digital_am_pm"
+		        style="@style/custom_fixed_simple_launcher_05"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBottom="@id/digital_minute_units"
+		        android:layout_marginBottom="@dimen/simple_theme0_am_pm_margin_bottom"
+		        android:layout_toRightOf="@id/digital_minute_units" />
+		</com.htc.lib1.masthead.view.DigitalClock>
+        
+        <LinearLayout
+            android:id="@+id/info_temp_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/digital_clock"
+            android:layout_marginLeft="@dimen/margin_l"
+            android:layout_marginRight="@dimen/margin_l"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/info_weather_text"
+                    style="@style/HeaderInfoTextStyleSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/simple_theme0_info_temp_area_margin_top"
+                    android:ellipsize="marquee"
+                    android:layout_weight="1"
+                    android:singleLine="true" />
+                <TextView
+                    android:id="@+id/comma"
+                    style="@style/HeaderInfoTextStyleSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/simple_theme0_info_temp_area_margin_top"
+                    android:layout_weight="0"
+                    android:singleLine="true"
+                    android:visibility="invisible"
+                    android:text="@string/comma" />                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">            
+	            <RelativeLayout
+	                android:id="@+id/temp_block"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0"
+	                android:visibility="gone" >
+	                <TextView
+	                    android:id="@+id/temparature"
+	                    style="@style/HeaderInfoTextStyleSimple"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="@dimen/simple_theme0_info_temp_area_margin_top"
+	                    android:singleLine="true" />
+	
+	                <TextView
+	                    android:id="@+id/temparature_degree_symbol"
+	                    style="@style/custom_fixed_simple_launcher_03"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="@dimen/simple_theme0_info_temp_area_degree_symbol_margin_top"
+	                    android:layout_toRightOf="@id/temparature"
+	                    android:singleLine="true"
+	                    android:text="@string/temp_degree" />
+	
+	                <TextView
+	                    android:id="@+id/temparature_degree_c_f"
+	                    style="@style/custom_fixed_simple_launcher_04"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="@dimen/simple_theme0_info_temp_area_degree_margin_top"
+	                    android:layout_toRightOf="@id/temparature_degree_symbol"
+	                    android:singleLine="true" />
+	            </RelativeLayout>
+	
+	            <FrameLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="@dimen/margin_l"
+	                android:layout_weight="1">
+	
+	                <TextView
+	                    android:id="@+id/city_name"
+	                    style="@style/HeaderInfoTextStyleSimple"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:drawableLeft="@drawable/clock_weather_icon_location_dark_s"
+						android:layout_marginTop="@dimen/simple_theme0_info_temp_area_margin_top" 
+	                    android:ellipsize="marquee"
+	                    android:singleLine="true" />
+	            </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>
+</merge>

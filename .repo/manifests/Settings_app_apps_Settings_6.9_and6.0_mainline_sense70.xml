@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Settings/6.9/and6.0/mainline_sense70" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Settings" path="app/packages/apps/Settings" revision="app/apps/Settings/6.9/and6.0/mainline_sense70"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Settings" path="app/customization/packages/apps/Settings" revision="app/apps/Settings/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="2b28907cec3c0e88c5914643b97865d555f2acb4"/>
+  <project name="app/hdk/htc/lib3/htctelephonycarriers" path="hdk/htc/lib3/HtcTelephonyCarriers" revision="be2a14fc625f8396d6f9405de9522ad732b9c287"/>
+  <project name="app/hdk/htc/lib3/htcwrapdevicemanager3lm" path="hdk/htc/lib3/HtcWrapDeviceManager3LM" revision="13d51741b7cf433e3812748e8204eb9d48127f96"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="64c65ab430ee07428b8fcb021eb25c248dfca2e4"/>
+  <project name="app/hdk/htc/lib3/htcwrapbluetooth" path="hdk/htc/lib3/HtcWrapBluetooth" revision="a21f940c0e14a7824276565c3da8bf661fb29c1f"/>
+  <project name="app/hdk/htc/lib3/htcintentlib3" path="hdk/htc/lib3/HtcIntentLib3" revision="faf2ac33d89f7f8bbbd0b121740429dc531ad422"/>
+  <project name="app/hdk/htc/lib3/wificalling" path="hdk/htc/lib3/WifiCalling" revision="f5f2abcf5dcdb56938da9f9727d83935a647bfb2"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidhardwareinput" path="hdk/htc/lib3/HtcWrapandroidhardwareinput" revision="1acbc246111c48c1c62abb7574b0d1a335805d7f"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="93066b1b5cf0617c28312ff48521c3492a86f446"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="3d1af8e2f89bcc62b2c5b43af1363ad1997799d3"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="4eee232c65a1fb02c02c10d67fb8c6f5e7084256"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="579976482c03ae2892ffb71b89d3e0a8682d43e5"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="06dd0102dd2c5f6dd5ed4d8413b0bb74d4128b97"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="d1c4f578902533f221a82037e02973dbd8e7dc79"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="fa3138366700ad0ddd93146684ac4a36c008d1f1"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidappadmin" path="hdk/htc/lib3/HtcWrapandroidappadmin" revision="c1173f8bd5d1d23c0330ff9edff5a359406b3246"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="1f9036d774e68759c76517d6a1572ea1b18a20b5"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="51cdb5979cb6c04a8ec45daab2d61b1fed5ea674"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="58cbb1adeca1a8bdd15971382ec3ea4d9f13913b"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="c71e95ebe5185c0801b64e364e631bb2ab16c10c"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="93da80a9ad18029fca94ae136bed871d21475dbd"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidnetwifi" path="hdk/htc/lib3/HtcWrapandroidnetwifi" revision="e2050f9307463f5c0706d2053e52692c8397cae2"/>
+  
+  <!-- Essential Library List -->
+  <project name="app/essential_libs/HtcPreference" path="app/essential_libs/HtcPreference" revision="f5f300ef74fa50f365c13d33a16683a558b973ff"/>
+</manifest>

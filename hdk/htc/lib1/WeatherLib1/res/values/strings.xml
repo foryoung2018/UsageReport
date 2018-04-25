@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Do not translate. -->
+    <string name="htc_private_app_weather">Weather Resource</string>
+    <!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+        <!-- weather condition 1 : Sunny -->
+        <item>Sunny</item>
+        <!-- weather condition 2 : Mostly Sunny -->
+        <item>Mostly Sunny</item>
+        <!-- weather condition 3 : Partly Sunny -->
+        <item>Partly Sunny</item>
+        <!-- weather condition 4 : Intermittent Clouds -->
+        <item>Intermittent Clouds</item>
+        <!-- weather condition 5 : Hazy Sunshine -->
+        <item>Hazy Sunshine</item>
+        <!-- weather condition 6 : Mostly Cloudy -->
+        <item>Mostly Cloudy</item>
+        <!-- weather condition 7 : Cloudy -->
+        <item>Cloudy</item>
+        <!-- weather condition 8 : Dreary -->
+        <item>Dreary</item>
+        <!-- weather condition 11 : Fog -->
+        <item>Fog</item>
+        <!-- weather condition 12 : Showers -->
+        <item>Showers</item>
+        <!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Mostly Cloudy with Showers</item>
+        <!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Partly Sunny with Showers</item>
+        <!-- weather condition 15 : Thunderstorms -->
+        <item>Thunderstorms</item>
+        <!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Mostly Cloudy with Thunder Showers</item>
+        <!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Partly Sunny with Thunder Showers</item>
+        <!-- weather condition 18 : Rain -->
+        <item>Rain</item>
+        <!-- weather condition 19 : Flurries -->
+        <item>Flurries</item>
+        <!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Mostly Cloudy with Flurries</item>
+        <!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Partly Sunny with Flurries</item>
+        <!-- weather condition 22 : Snow -->
+        <item>Snow</item>
+        <!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Mostly Cloudy with Snow</item>
+        <!-- weather condition 24 : Ice -->
+        <item>Ice</item>
+        <!-- weather condition 25 : Sleet -->
+        <item>Sleet</item>
+        <!-- weather condition 26 : Freezing Rain -->
+        <item>Freezing Rain</item>
+        <!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Rain and Snow Mixed</item>
+        <!-- weather condition 30 : Hot -->
+        <item>Hot</item>
+        <!-- weather condition 31 : Cold -->
+        <item>Cold</item>
+        <!-- weather condition 32 : Windy -->
+        <item>Windy</item>
+        <!-- weather condition 33 : Clear -->
+        <item>Clear</item>
+        <!-- weather condition 34 : Mostly Clear -->
+        <item>Mostly Clear</item>
+        <!-- weather condition 35 : Partly Cloudy -->
+        <item>Partly Cloudy</item>
+        <!-- weather condition 36 : Intermittent Clouds -->
+        <item>Intermittent Clouds</item>
+        <!-- weather condition 37 : Hazy -->
+        <item>Hazy</item>
+        <!-- weather condition 38 : Mostly Cloudy -->
+        <item>Mostly Cloudy</item>
+        <!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Partly Cloudy with Showers</item>
+        <!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Mostly Cloudy with Showers</item>
+        <!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Partly Cloudy with Thunder Showers</item>
+        <!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Mostly Cloudy with Thunder Showers</item>
+        <!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Partly Cloudy with Flurries</item>
+        <!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Mostly Cloudy with Flurries</item>
+        <!-- _For Huafeng -->
+        <!-- weather condition 51 : -->
+        <item>Thunderstorms with sleet</item>
+        <!-- weather condition 52 : -->
+        <item>Sand</item>
+        <!-- weather condition 53 : -->
+        <item>Dust</item>
+        <!-- weather condition 54 : -->
+        <item>Tornado</item>
+    </string-array>
+    <!-- -Chun Ko for Weather condition -->
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- main layout for HtcShareActivity -->
+<com.htc.lib1.cc.widget.HtcShareSlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    android:importantForAccessibility="no"
+
+    android:gravity="bottom"
+    sothree:dragView="@+id/dragView"
+    sothree:fadeColor="@android:color/transparent"
+    sothree:initialState="collapsed"
+    sothree:paralaxOffset="0dp"
+    sothree:shadowHeight="0dp">
+
+    <!-- MAIN CONTENT -->
+    <View
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:importantForAccessibility="no"
+        />
+
+    <!-- SLIDING LAYOUT -->
+    <LinearLayout
+        android:id="@+id/dragView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:importantForAccessibility="no"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_height="@dimen/headerHeight_htcShareActivity"
+            android:layout_width="match_parent"
+
+            android:text="@string/common_string_share_title"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/margin_l"
+            android:paddingRight="@dimen/margin_l"
+            style="@style/fixed_title_primary_m"
+            />
+
+        <com.htc.lib1.cc.widget.HtcShareGridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gridview"
+
+            android:importantForAccessibility="yes"
+            android:background="#252525"
+
+            android:columnWidth="@dimen/width_shareGridItem"
+            android:numColumns="@integer/columnNum_htcShareActivity"
+            android:stretchMode="spacingWidthUniform"
+
+            style="@style/HtcGridView.Dark"
+            />
+    </LinearLayout>
+</com.htc.lib1.cc.widget.HtcShareSlidingUpPanelLayout>

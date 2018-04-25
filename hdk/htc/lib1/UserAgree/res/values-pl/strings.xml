@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Ta aplikacja korzysta z danych komórkowych lub sieci Wi-Fi. Zapoznaj się z dodatkowymi opłatami naliczanymi przez operatora za użycie danych.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Nie pytaj ponownie</string><!--Don\'t ask me again-->
+
+</resources>

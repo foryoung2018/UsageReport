@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="panelHeight" format="dimension" /> <!-- offset of the drag panel in collapsed state -->
+        <attr name="shadowHeight" format="dimension" /> <!-- shadow height on the edge of the drag panel -->
+        <attr name="paralaxOffset" format="dimension" /> <!-- offset to push the main layout -->
+        <attr name="fadeColor" format="color" /> <!-- this is the dim color -->
+        <attr name="flingVelocity" format="integer" />
+        <attr name="dragView" format="reference" /> <!-- the view to be dragged out -->
+        <attr name="overlay" format="boolean"/> <!-- overlay dragView and mainView. this is useful if your dragView is translucent -->
+        <attr name="anchorPoint" format="float" />
+        <attr name="initialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!-- moved to strings.xml for easier maintenance
+    <string name="title_htcShareActivity">Share</string>
+    -->
+
+    <!-- resources for GridItem in HtcShareActivity -->
+    <dimen name="width_shareGridItem">100dp</dimen>
+    <dimen name="height_shareGridItem">110dp</dimen>
+    <dimen name="paddingTop_shareGridItem">@dimen/margin_m_2</dimen>
+    <dimen name="drawablePadding_shareGridItem">2dp</dimen>
+
+    <!-- resources for HtcShareActivity-->
+    <dimen name="headerHeight_htcShareActivity">@dimen/ab_height</dimen>
+    <integer name="columnNum_htcShareActivity">3</integer>
+    <integer name="duration_slide_from_hide_to_collapse">250</integer>
+    <integer name="duration_slide_from_expand_to_hide">500</integer>
+
+    <style name="ThemeHtcShareActivity_v16">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="ThemeHtcShareActivity" parent="@style/ThemeHtcShareActivity_v16" />
+</resources>

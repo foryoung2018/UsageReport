@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.htc.lib1.dm">
+
+    <!--  So we can communicate via the Internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!--  So we can query the network state (ConnectivityManager) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!--  So we can access Wifi state (ConnectivityManager) -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!-- So we can query the phone state (TelephonyManager) -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+
+    <application />
+
+</manifest>

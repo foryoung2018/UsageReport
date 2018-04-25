@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcRingtoneWidget/7.0/api23/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcRingtoneWidget" path="app/packages/apps/HtcRingtoneWidget" revision="app/apps/HtcRingtoneWidget/7.0/api23/master"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcSettingWidgetsUIModule" path="app/packages/apps/HtcSettingWidgetsUIModule" revision="54936fc2f5f68f97a05db59b5dd854278c668052"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="f6a21c5830fc7693e00c99571ad5ea5fe26c54ed"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="a78351835011711454a601c17e0788bb02da808f"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="e2f1419eba5df778cda5a1c0cf3b54bfbd3df372"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="58cbb1adeca1a8bdd15971382ec3ea4d9f13913b"/>
+</manifest>

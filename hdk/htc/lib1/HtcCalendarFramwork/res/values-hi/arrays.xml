@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >हर पहले रविवार को</item><!--on every first Sunday-->
+        <item >हर दूसरे रविवार को</item><!--on every second Sunday-->
+        <item >हर तीसरे रविवार को</item><!--on every third Sunday-->
+        <item >हर चौथे रविवार को</item><!--on every fourth Sunday-->
+        <item >हर अंतिम रविवार को</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >हर पहले सोमवार को</item><!--on every first Monday-->
+        <item >हर दूसरे सोमवार को</item><!--on every second Monday-->
+        <item >हर तीसरे सोमवार को</item><!--on every third Monday-->
+        <item >हर चौथे सोमवार को</item><!--on every fourth Monday-->
+        <item >हर अंतिम सोमवार को</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >हर पहले मंगलवार को</item><!--on every first Tuesday-->
+        <item >हर दूसरे मंगलवार को</item><!--on every second Tuesday-->
+        <item >हर तीसरे मंगलवार को</item><!--on every third Tuesday-->
+        <item >हर चौथे मंगलवार को</item><!--on every fourth Tuesday-->
+        <item >हर अंतिम मंगलवार को</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >हर पहले बुधवार को</item><!--on every first Wednesday-->
+        <item >हर दूसरे बुधवार को</item><!--on every second Wednesday-->
+        <item >हर तीसरे बुधवार को</item><!--on every third Wednesday-->
+        <item >हर चौथे बुधवार को</item><!--on every fourth Wednesday-->
+        <item >हर अंतिम बुधवार को</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >हर पहले गुरुवार को</item><!--on every first Thursday-->
+        <item >हर दूसरे गुरुवार को</item><!--on every second Thursday-->
+        <item >हर तीसरे गुरुवार को</item><!--on every third Thursday-->
+        <item >हर चौथे गुरुवार को</item><!--on every fourth Thursday-->
+        <item >हर अंतिम गुरुवार को</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >हर पहले शुक्रवार को</item><!--on every first Friday-->
+        <item >हर दूसरे शुक्रवार को</item><!--on every second Friday-->
+        <item >हर तीसरे शुक्रवार को</item><!--on every third Friday-->
+        <item >हर चौथे शुक्रवार को</item><!--on every fourth Friday-->
+        <item >हर अंतिम शुक्रवार को</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >हर पहले शनिवार को</item><!--on every first Saturday-->
+        <item >हर दूसरे शनिवार को</item><!--on every second Saturday-->
+        <item >हर तीसरे शनिवार को</item><!--on every third Saturday-->
+        <item >हर चौथे शनिवार को</item><!--on every fourth Saturday-->
+        <item >हर अंतिम शनिवार को</item><!--on every last Saturday-->
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Որոնել Մարդկանց</string><!--Search People-->
+    <string name="common_string_share_title">Համօգտագործել`</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Պահել առկա կոնտակտում</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Պահել` Մարդիկ գործադիրում</string><!--Save to People-->
+    <string name="label_year">Տարի</string><!--Year-->
+    <string name="label_month">Ամիս</string><!--Month-->
+    <string name="label_day">Օր</string><!--Day-->
+    <string name="label_hour">Ժամ</string><!--Hour-->
+    <string name="label_minute">Րոպե</string><!--Minute-->
+    <string name="label_second">Վայրկյան</string><!--Second-->
+    <string name="common_string_open_contact">Բացել կոնտակտը</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Մնացել է մեկ ներդիր: Այս գործադիրի համար լրացուցիչ ներդիրներ հավելելու համար ցանկում ընտրեք Խմբագրել ներդիրներ/Զտիչներ:</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Չեղարկել</string><!--Cancel-->
+    <string name="va_ok">Լավ</string><!--OK-->
+    <string name="va_next">Հաջորդը</string><!--Next-->
+    <string name="va_back">Հետ</string><!--Back-->
+    <string name="va_call">Կանչ</string><!--Call-->
+    <string name="st_loading">Բեռնում...</string><!--Loading...-->
+    <string name="va_close">Փակել</string><!--Close-->
+    <string name="va_open">Բացել</string><!--Open-->
+    <string name="va_clear">Մաքրել</string><!--Clear-->
+    <string name="va_send_mail">Ուղարկել փոստ</string><!--Send mail-->
+    <string name="va_send_message">Ուղարկել ուղերձ</string><!--Send message-->
+    <string name="va_download">Ներբեռնել</string><!--Download-->
+    <string name="st_more">Ավելին</string><!--More-->
+    <string name="nn_unknown_error">Անհայտ սխալ</string><!--Unknown error-->
+    <string name="va_downloading">Ներբեռնում</string><!--Downloading-->
+    <string name="va_finish">Ավարտել</string><!--Finish-->
+    <string name="va_reset">Վերակայել</string><!--Reset-->
+    <string name="va_hide">Թաքցնել</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Ձեր սալիկի պահեստում սխալ է տեղի ունեցել: Վերասկզբնաբեռնեք Ձեր սարքը կամ ձևաչափեք պահեստը:</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Բաց թողնել` թարմացնելու համար</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Արդիացում...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">երկհպեք և քաշեք` կարգաբերելու համար</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Տեղափոխելի միավոր</string><!--Draggable item-->
+    <string name="va_move_above">Տեղափոխել վեր</string><!--Move above-->
+    <string name="va_move_below">Տեղափոխել ստորև</string><!--Move below-->
+    <string name="st_pull_down_refresh">Սեղմել վար` թարմացնելու համար</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Խմբագրել համարը նախքան զանգելը</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Բացել քարտեզում</string><!--Open in map-->
+    <string name="va_copy">Պատճենել</string><!--Copy-->
+    <string name="va_show_all">Ցուցադրել բոլորը</string><!--Show all-->
+</resources>

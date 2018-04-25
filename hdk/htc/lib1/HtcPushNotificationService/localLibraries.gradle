@@ -1,0 +1,9 @@
+def myDependProjects = project.rootProject.allprojects.grep( {
+    it.name =~ /(Customization|HtcAccount)/
+});
+
+dependencies {
+    for(prj in myDependProjects) {
+        compile prj;
+    }
+}

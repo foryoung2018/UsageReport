@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myns="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal" >
+
+        <!-- For designers to review UI -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff4567"
+            android:text="For designers to review UI" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_demo_string_1" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="dark"
+                android:text="@string/button_demo_string_1" />
+        </LinearLayout>
+
+        <!-- HtcIconButton Light mode -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff4567"
+            android:text="HtcIconButton Light mode" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_light_2"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:textAppearance="@style/button_primary_l"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_light_3"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:textAppearance="@style/button_primary_l"
+                android:drawableTop="@drawable/icon_btn_phone_light" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_light_4"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:textAppearance="@style/button_primary_l"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_light_disable"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:textAppearance="@style/button_primary_l"
+                android:text="@string/button_demo_string_2"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:enabled="false" />
+        </LinearLayout>
+
+        <!-- HtcRimButton Light mode -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff4567"
+            android:text="HtcRimButton Light mode" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_light_2"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_light_3"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_light_4"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_light_disable"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:enabled="false" />
+        </LinearLayout>
+
+        <!-- HtcRimButton Dark mode -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff4567"
+            android:text="HtcRimButton Dark mode" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@android:color/black">
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_dark"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                myns:backgroundMode="dark" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_dark_disable"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                android:drawableTop="@drawable/icon_btn_phone_dark"
+                android:enabled="false"
+                myns:backgroundMode="dark" />
+        </LinearLayout>
+
+        <!-- API Test -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff4567"
+            android:text="setColorOn()/stayInPress()" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_coloron"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:textAppearance="@style/button_primary_l"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_coloron"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_stayinpress"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:textAppearance="@style/button_primary_l"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_stayinpress"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/button_demo_string_2"
+                android:drawableTop="@drawable/icon_btn_phone_light" />
+        </LinearLayout>
+
+        <!-- No overlay/Usage with PopupWindow -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff4567"
+            android:text="Turn off overlay/Usage with PopupWindow" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_noanim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:textAppearance="@style/button_primary_l"
+                android:text="@string/button_demo_string_2"
+                myns:isContentMultiply="false" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_noanim"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2"
+                myns:isContentMultiply="false" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_popup"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:textAppearance="@style/button_primary_l"
+                android:text="@string/button_demo_string_2" />
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/rim_popup"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:drawableTop="@drawable/icon_btn_phone_light"
+                android:text="@string/button_demo_string_2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

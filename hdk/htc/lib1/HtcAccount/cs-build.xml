@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="libauth"
+         xmlns:ivy="antlib:org.apache.ivy.ant">
+
+  <!-- ==================================================== -->
+  <!-- Preamble...                                          -->
+  <!-- ==================================================== -->
+
+  <property name="project.root" value=".."/>
+
+  <property environment="env"/>
+
+  <!-- May be defined by CI build... -->
+  <property name="build.root" value="${env.BUILD_ROOT}"/>
+
+  <fail message="Required property build.root not set.">
+    <condition>
+      <not>
+        <isset property="build.root"/>
+      </not>
+    </condition>
+  </fail>
+
+  <property name="module.type" value="app"/>
+  <property name="module.javadoc.project.name" value="HMS-ready HTC Account Android SDK"/>
+  <property name="module.javadoc.package_names" value="com.htc.lib1.cs.account, com.htc.lib1.cs.account.restobj, com.htc.lib1.cs.httpclient"/>
+
+  <import file="${build.root}/ant/build-module.xml"/>
+
+</project>

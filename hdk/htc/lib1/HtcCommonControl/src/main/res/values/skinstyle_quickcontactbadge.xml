@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="QuickContactBadgeStyle">
+        <!-- skinable attribute -->
+        <item name="android:drawable">@drawable/common_photo_frame_quick_contact_mask</item>
+    </style>
+</resources>

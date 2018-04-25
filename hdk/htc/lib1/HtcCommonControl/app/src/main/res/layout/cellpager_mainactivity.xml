@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CellLayout"
+        android:id="@+id/cellpager_btn1"
+        android:onClick="onClick"
+     />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CellPager"
+        android:id="@+id/cellpager_btn2"
+        android:onClick="onClick"
+    />
+
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Template"
+        android:id="@+id/cellpager_btn4"
+        android:onClick="onClick"
+     />
+
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prism Templete"
+        android:id="@+id/cellpager_btn5"
+        android:onClick="onClick"
+     />
+
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation Demo"
+        android:id="@+id/cellpager_btn7"
+        android:onClick="onClick"
+     />
+
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CellItemTest"
+        android:id="@+id/cellpager_btn9"
+        android:onClick="onClick"
+     />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_create_account"
+    style="@style/TextAppearance.HtcAccountDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onBtnCreateAccountClick"
+    android:text="@string/btn_create_account" />

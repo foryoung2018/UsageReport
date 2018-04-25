@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/PrintStudio/2.01/api21/Sense75_Gradle" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/PrintStudio" path="app/packages/apps/PrintStudio" revision="app/apps/PrintStudio/2.01/api21/Sense75_Gradle"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/PrintStudio" path="app/customization/packages/apps/PrintStudio" revision="app/apps/PrintStudio/master"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/CSBiLogClient" path="app/hms_libs/CSBiLogClient" revision="08a687b31e0907280cf9e9070476171ef04c6dfb"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="f6a21c5830fc7693e00c99571ad5ea5fe26c54ed"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="a78351835011711454a601c17e0788bb02da808f"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="ce56ee1481a6a88f5ea1f128d4f5564b501397d8"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="2b2f5404d98b65eacccb5a565a06405172ecf500"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib2/photoplatformcachemanager" path="hdk/htc/lib2/PhotoPlatformCacheManager" revision="a3243c0f322797dd331d684a888c53afe5cb6887"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="a9e3fd6a96d4859e0614a11ccb20abbfef2a6131"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="30601db881f17896377228c90535c733fd274ae5"/>
+  <project name="app/hdk/htc/lib1/htcpushnotificationservice" path="hdk/htc/lib1/HtcPushNotificationService" revision="af582336b6eef5b320f467bb74aea1570b043f3e"/>
+</manifest>

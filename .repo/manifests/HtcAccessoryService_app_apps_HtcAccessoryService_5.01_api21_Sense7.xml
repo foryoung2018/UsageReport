@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcAccessoryService/5.01/api21/Sense7" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcAccessoryService" path="app/packages/apps/HtcAccessoryService" revision="app/apps/HtcAccessoryService/5.01/api21/Sense7"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="84a670a980d4680edd6e3290b14986196cd64d23"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="c7e3ee5b90d83701172ca9386f8cf497f762ab42"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="a3b8f807cd2e41b4766d455bb8318057020e865e"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="51cdb5979cb6c04a8ec45daab2d61b1fed5ea674"/>
+  <project name="app/hdk/htc/lib3/htcir" path="hdk/htc/lib3/HtcIR" revision="78ea25bad5ae22996b3b0dac3ab2f29eda1807ab"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidhardwareinput" path="hdk/htc/lib3/HtcWrapandroidhardwareinput" revision="d95203a7770d7d37f665370b3717b9cf7cbe9e9b"/>
+  <project name="app/hdk/htc/lib3/htcwrapbluetooth" path="hdk/htc/lib3/HtcWrapBluetooth" revision="0380c2f0ac719b36379c9863e137606d400b78e9"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="dbba9496456e6e7e20b7659d5533dfc8a7ad6011"/>
+  <project name="app/hdk/htc/lib3/accessoryservice" path="hdk/htc/lib3/AccessoryService" revision="2fccaa385110756f93881172f306b76f68dceb1d"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="a6b3be5c18902b9169bd60f648424fdfc41c1920"/>
+</manifest>

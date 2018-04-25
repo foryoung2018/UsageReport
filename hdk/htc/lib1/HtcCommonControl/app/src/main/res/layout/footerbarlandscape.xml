@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.htc.lib1.cc.widget.HtcOverlapLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/separator_primary_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Background Color" />
+
+            <RadioGroup
+                android:id="@+id/rgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/lightrb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Demo Light(Default) Mode" />
+
+                <RadioButton
+                    android:id="@+id/darkrb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Demo Dark Mode" />
+
+                <RadioButton
+                    android:id="@+id/transparentrb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Demo Transparent Mode" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/separator_primary_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rgroup"
+                android:text="Choose Background Color" />
+
+            <RadioGroup
+                android:id="@+id/bkgrgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/darkbkgrb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dark Color Background" />
+
+                <RadioButton
+                    android:id="@+id/mediumbkgrb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium color Background" />
+
+                <RadioButton
+                    android:id="@+id/lightbkgrb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Light Color Background" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <com.htc.lib1.cc.widget.HtcFooter
+            android:id="@+id/footerbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.htc.lib1.cc.widget.HtcFooterButton
+                android:id="@+id/showhideicon"
+                android:text="@string/footertextbuttonlightstyle" />
+
+            <com.htc.lib1.cc.widget.HtcFooterButton
+                android:id="@+id/footericonbutton"
+                android:src="@drawable/icon_btn_phone_light"
+                android:text="@string/footericonbuttonlightstyle" />
+
+            <com.htc.lib1.cc.widget.HtcFooterButton
+                android:id="@+id/footerbutton"
+                android:src="@drawable/icon_btn_phone_light"
+                android:text="@string/htcfooterbuttonlightstyle"/>
+        </com.htc.lib1.cc.widget.HtcFooter>
+
+    </com.htc.lib1.cc.widget.HtcOverlapLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCCamera2Imp/9.30/api25/Sense9GP" sync-j="4" HDKLib3Name="HDK_Lib3_API19_2_Stable" HDKLib3Ver="19.2"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCCamera2Imp" path="app/packages/apps/HTCCamera2Imp" revision="app/apps/HTCCamera2Imp/9.30/api25/Sense9GP"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="06dd0102dd2c5f6dd5ed4d8413b0bb74d4128b97"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+  <project name="app/hdk/htc/lib1/gifmodule" path="hdk/htc/lib1/GIFModule" revision="38f5a7c5d05837c8efc55613887feff72d594b28"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="1fa52ef78dffd686a67ff30f1a61c7b2338a2372"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib1/htceaspim" path="hdk/htc/lib1/HtcEasPim" revision="41498ac55b429031a951c39376ea0693cf1e0c02"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="207f5a3e2bac78fea3579ff5bf6c52e10fc3185d"/>
+  <project name="app/hdk/htc/lib1/hfmclient" path="hdk/htc/lib1/HfmClient" revision="f2f6e9a9e387e33c9f368465070fa9ff352f54fd"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="83f086c024223784b41807049051a21cffd2cac7"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="6fab601cb13c469b07268d6d959423ce8b4495bd"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="0ddabe119ecb032459f41585519e9d9915fc84b9"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="579976482c03ae2892ffb71b89d3e0a8682d43e5"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="af9c78075d7ecf379a41cea6f615cfb241577849"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="2b28907cec3c0e88c5914643b97865d555f2acb4"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="1f7ce31d9ed62f5e03ad67a86a12b7f8388aee11"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="2a93b18292432597e1dd33d632355b0ca91438dc"/>
+  <project name="app/hdk/htc/lib3/htcwrapwindowmanager" path="hdk/htc/lib3/HtcWrapWindowManager" revision="883e088af01134bf321b33d1c0fbc4d458867fff"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="76262e8cabaa56b545f2bfe3ab774bfb8b65972f"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="3f5f929feeb15a0f72b4a7ef32622277a0b5f30a"/>
+  <project name="app/hdk/htc/lib1/htcvideoeditorlib" path="hdk/htc/lib1/HtcVideoEditorLib" revision="27c18a21b76b74785bcc53bbb7690ce406a0bc0f"/>
+</manifest>

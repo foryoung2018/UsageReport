@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="htc_footer_height">90px</dimen>
+    <dimen name="htc_footer_width">98px</dimen>
+
+</resources>

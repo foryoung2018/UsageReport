@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+	<Button android:id="@+id/keep_show_btn" 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal|top"
+    	android:text="KeepShowAtOrientation"
+	    />
+	    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="You should set content width like the top example. If you don't set it, it will show up with the anchor view width. The bottom button is the wrong example."
+        android:layout_gravity="center_vertical"/>	
+        
+	<Button android:id="@+id/btn" 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal|bottom"
+    	android:text="Button2"
+	    />
+</FrameLayout>

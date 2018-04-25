@@ -1,0 +1,5 @@
+8478d49cdaec526eab6e7076cec140678d62f2e7		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/frisbee
+0187e2006bdaf58f9774cf237b5b6b7cbe90e9f8	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/frisbee
+d9334adafa659ce9de452ec1ea84858236900574	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/frisbee
+a8c71e68e0b71dbe428724adc510d960597ae43b	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/frisbee
+7bf15d718c55639d8177ed92197bab07070bd843	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/frisbee

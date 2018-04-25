@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Video_Center/3.0/api21/mainline" sync-j="4" HDKLib3Name="HDK_Lib3_API19_1_Stable" HDKLib3Ver="19.1"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Video_Center" path="app/packages/apps/Video_Center" revision="app/apps/Video_Center/3.0/api21/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="32b4128e9a74c85e0f3a522b43c9da30b15f79e9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib1/feedservice" path="hdk/htc/lib1/FeedService" revision="7ef37a11e24c5cd3c8d70de489559e11abbc618d"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="07b3d4c1ae03b5d33cc6aa5b9be22ee2bd7d9ce3"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="78a336c422a2586b1c6b9137ac3e195782f9072d"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="c65f3f8a26cd1560058ec47efa2ee0cb325b394d"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="60ca3dee50e340ad4332d6551916b4b5a0d7c9ec"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="ac6a49b4cb56c3a3c8cf9492285a03141f89e31b"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib3/htcir" path="hdk/htc/lib3/HtcIR" revision="78ea25bad5ae22996b3b0dac3ab2f29eda1807ab"/>
+</manifest>

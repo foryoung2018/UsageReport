@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Адамдарды іздеу</string><!--Search People-->
+    <string name="common_string_share_title">Ортақтастыру әдісі</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Бар контактіге сақтау</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Адамдар қолданбасына сақтау</string><!--Save to People-->
+    <string name="label_year">Жыл</string><!--Year-->
+    <string name="label_month">Ай</string><!--Month-->
+    <string name="label_day">Күн</string><!--Day-->
+    <string name="label_hour">Сағат</string><!--Hour-->
+    <string name="label_minute">Минут</string><!--Minute-->
+    <string name="label_second">Секунд</string><!--Second-->
+    <string name="common_string_open_contact">Контактіні ашу</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Бір қойынды қалды. Бұл қолданба үшін қосымша қойынды қосу үшін мәзірде "Қойындыларды/сүзгілерді өңдеу" түймешігін таңдаңыз.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Бас тарту</string><!--Cancel-->
+    <string name="va_ok">ОК</string><!--OK-->
+    <string name="va_next">Келесі</string><!--Next-->
+    <string name="va_back">Артқа</string><!--Back-->
+    <string name="va_call">Қоңырау</string><!--Call-->
+    <string name="st_loading">Жүктелуде...</string><!--Loading...-->
+    <string name="va_close">Жабу</string><!--Close-->
+    <string name="va_open">Ашу</string><!--Open-->
+    <string name="va_clear">Өшіру</string><!--Clear-->
+    <string name="va_send_mail">Хат жіберу</string><!--Send mail-->
+    <string name="va_send_message">Хабар жіберу</string><!--Send message-->
+    <string name="va_download">Жүктеу</string><!--Download-->
+    <string name="st_more">Басқа</string><!--More-->
+    <string name="nn_unknown_error">Белгісіз қате</string><!--Unknown error-->
+    <string name="va_downloading">Жүктелуде</string><!--Downloading-->
+    <string name="va_finish">Дайын</string><!--Finish-->
+    <string name="va_reset">Қалпына келтіру</string><!--Reset-->
+    <string name="va_hide">Жасыру</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Планшет жадына қатысты қате пайда болды. Құрылғыны қайта қосыңыз немесе жадты пішімдеңіз.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">ЖАҢАРТУ ҮШІН БОСАТЫҢЫЗ</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Жаңартылуда...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">реттеу үшін екі рет басып, сүйреңіз</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Сүйрелетін элемент</string><!--Draggable item-->
+    <string name="va_move_above">Үстіне жылжу</string><!--Move above-->
+    <string name="va_move_below">Астына жылжу</string><!--Move below-->
+    <string name="st_pull_down_refresh">Жаңарту үшін төмен қарай тартыңыз</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Нөмірді қоңырау соғудан бұрын өңдеу</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Картада ашу</string><!--Open in map-->
+    <string name="va_copy">Көшіру</string><!--Copy-->
+    <string name="va_show_all">Барлығын көрсету</string><!--Show all-->
+</resources>

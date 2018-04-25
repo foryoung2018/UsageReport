@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="zero_dummy_asset"/>
+    <!-- Used by Mail/Message notification bubble(Share Module IconGenerator.java), created by Rosie team -->
+    <item type="id" name="bubble_icon_image"/>
+    <item type="id" name="bubble_icon_text"/>
+    <!--
+        Since htc_list_item_image_text.xml removed, add to avoid HtcListViewCore2.java & HtcListViewCore.java
+        modules/gson/com/htc/gson/JsonParserJavacc.java build break
+    -->
+    <item type="id" name="htc_list_item_top_round"/>
+    <item type="id" name="htc_list_item_bottom_round"/>
+    <!-- Add id for HtcAlertDialog -->
+    <item type="id" name="leftSpacer"/>
+    <item type="id" name="rightSpacer"/>
+    <item type="id" name="padding2"/>
+    <!-- Add id for HtcAlertDialog -->
+    <!-- Id defined for HtcExpandableListView and MoreExpandableHtcListView -->
+    <item type="id" name="htc_expandable_indicator"/>
+    <!-- Id defined for HtcExpandableListView and MoreExpandableHtcListView -->
+    <!-- action bar usage -->
+    <!-- @deprecated actionBarOverflowView -->
+    <item type="id" name="actionBarOverflowView"/>
+    <!-- @deprecated actionBarOverflowView -->
+    <item type="id" name="overflowView"/>
+    <!-- Add id for RecipientBlock -->
+    <item type="id" name="receiverList_img_to" />
+    <!-- Add id for RecipientBlock -->
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/PNSClient/1.51/api26/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/PNSClient" path="app/packages/apps/PNSClient" revision="app/apps/PNSClient/1.51/api26/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a41003e430352d3937c9154d2f8856aac1d8abff"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="ca6345478e54c857cca4cdcbb48d169a81df0f45"/>
+  <project name="app/hdk/htc/lib1/htcpushnotificationservice" path="hdk/htc/lib1/HtcPushNotificationService" revision="c2f9b40f4d9e7d44371dec82e176fcdd8738b8f6"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="3e9651cf51b5ced9bb2493cb0b0a7d7119c529ea"/>
+</manifest>

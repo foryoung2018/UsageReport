@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.htc.lib1.theme.test"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26"
+        tools:overrideLibrary="com.htc.lib1.cc"/>
+
+    <uses-permission android:name="com.htc.sense.permission.APP_HSP" />
+
+    <application>
+        <activity
+            android:name=".TestFileUtil"
+            android:exported="true"
+            android:icon="@drawable/icon_launcher_albums"
+            android:label="@string/app_name_test_file_util"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TestThemeInfo"
+            android:exported="true"
+            android:icon="@drawable/icon_launcher_albums"
+            android:label="@string/app_name_test_theme_info"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".demo.fileutil.DemoFileUtilWeatherClock"
+                android:exported="true"
+                android:icon="@drawable/icon_launcher_albums"
+                android:label="@string/app_name_demo_file_util_weatherclock"
+                android:launchMode="standard"
+                android:screenOrientation="portrait"
+                android:theme="@style/HtcDeviceDefault">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+        </activity>
+
+        <activity android:name=".navi.TestNaviMain"
+            android:label="TestNaviColor"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".navi.TestNaviDisplay"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

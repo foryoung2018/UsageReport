@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Ứng dụng này sử dụng dữ liệu di động hoặc Wi-Fi. Hãy kiểm tra với nhà mạng địa phương của bạn để biết mức giá chính xác khi sử dụng dữ liệu.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Không hỏi lại nữa</string><!--Don\'t ask me again-->
+
+</resources>

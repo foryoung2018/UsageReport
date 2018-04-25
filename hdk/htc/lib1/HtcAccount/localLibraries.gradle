@@ -1,0 +1,17 @@
+def myDependProjects = project.rootProject.allprojects.grep( {
+    it.name =~ /(HtcDebugFlag)/
+});
+
+def localJarsDependent =[
+    // AndLog Jar
+    "andlog-*.jar",
+    "email-validator-*.jar"
+];
+
+dependencies {
+    for(prj in myDependProjects) {
+        compile prj;
+    }
+    compile fileTree(dir: "libs", include: localJarsDependent)
+}
+

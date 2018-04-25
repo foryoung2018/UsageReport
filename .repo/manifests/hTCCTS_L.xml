@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/htccts/master-l-rel" sync-j="4"/>
+
+  <project name="app/htccts" path="htccts" />
+</manifest>

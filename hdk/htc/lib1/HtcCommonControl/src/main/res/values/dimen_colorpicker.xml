@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="colorpicker_frame_border_width">3dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Indeterminate Small Progress extend android:Widget.ProgressBar -->
+    <style name="HTCProgressBarStyle.Indeterminate.ActionBar">
+        <item name="displayMode">mode_light</item>
+        <!-- skinable attribute -->
+        <item name="android:indeterminateDrawable">@drawable/htcprogress_actionbar</item>
+    </style>
+</resources>

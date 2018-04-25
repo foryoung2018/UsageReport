@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>Sunčano</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>Pretežno sunčano</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>Delimično sunčano</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>Mestimično oblačno</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>Sunčano sa smogom</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>Pretežno oblačno</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>Oblačno</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>Tmurno</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>Magla</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>Kiša</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Pretežno oblačno sa kišom</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Delimično sunčano sa kišom</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>Oluje sa grmljavinom</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Pretežno oblačno i grmljavina sa kišom</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Delimično sunčano i grmljavina sa kišom</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>Kiša</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>Pljuskovi</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Pretežno oblačno sa pljuskovima </item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Delimično sunčano sa pljuskovima</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>Sneg</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Pretežno oblačno sa snegom</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>Led</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>Susnežica</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>Ledena kiša</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Kiša sa snegom</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>Toplo</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>Hladno</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>Vetrovito</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>Obriši</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>Pretežno vedro</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>Delimično vedro</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>Mestimično oblačno</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>Maglovito</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>Pretežno oblačno</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Delimično oblačno sa kišom</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Pretežno oblačno sa kišom</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Delimično oblačno i grmljavina sa kišom</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Pretežno oblačno i grmljavina sa kišom</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Delimično oblačno sa pljuskovima</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Pretežno oblačno sa pljuskovima </item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>Oluja sa susnežicom</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>Pesak</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>Prašina</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>Tornado</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

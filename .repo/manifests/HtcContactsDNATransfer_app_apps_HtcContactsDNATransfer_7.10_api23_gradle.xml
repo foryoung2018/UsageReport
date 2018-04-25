@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcContactsDNATransfer/7.10/api23/gradle" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcContactsDNATransfer" path="app/packages/apps/HtcContactsDNATransfer" revision="app/apps/HtcContactsDNATransfer/7.10/api23/gradle"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HtcContactsDNATransfer" path="app/customization/packages/apps/HtcContactsDNATransfer" revision="app/apps/HtcContactsDNATransfer/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="aa46f79a9e2cdd43f79403bc342c7077f966f855"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="d247a2cbc0868dcd244292b7db4957fe456c0acd"/>
+</manifest>

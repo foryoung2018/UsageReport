@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Căutare persoane</string><!--Search People-->
+    <string name="common_string_share_title">Partajare prin</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Salvare în contact existent</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Salvare la Persoane</string><!--Save to People-->
+    <string name="label_year">An</string><!--Year-->
+    <string name="label_month">Lună</string><!--Month-->
+    <string name="label_day">Zi</string><!--Day-->
+    <string name="label_hour">Oră</string><!--Hour-->
+    <string name="label_minute">Minut</string><!--Minute-->
+    <string name="label_second">Secundă</string><!--Second-->
+    <string name="common_string_open_contact">Deschidere contact</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Mai aveţi o singură filă. Pentru a adăuga mai multe file pentru această aplicaţie, alegeţi Editare file/Filtre din meniu.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Anulare</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Următorul</string><!--Next-->
+    <string name="va_back">Înapoi</string><!--Back-->
+    <string name="va_call">Apel</string><!--Call-->
+    <string name="st_loading">Se încarcă...</string><!--Loading...-->
+    <string name="va_close">Închidere</string><!--Close-->
+    <string name="va_open">Deschidere</string><!--Open-->
+    <string name="va_clear">Golire</string><!--Clear-->
+    <string name="va_send_mail">Trimitere e-mail</string><!--Send mail-->
+    <string name="va_send_message">Trimitere mesaj</string><!--Send message-->
+    <string name="va_download">Descărcare</string><!--Download-->
+    <string name="st_more">Mai mult</string><!--More-->
+    <string name="nn_unknown_error">Eroare necunoscută</string><!--Unknown error-->
+    <string name="va_downloading">Se descarcă</string><!--Downloading-->
+    <string name="va_finish">Terminare</string><!--Finish-->
+    <string name="va_reset">Resetare</string><!--Reset-->
+    <string name="va_hide">Ascundere</string><!--Hide-->
+    <string name="ls_tablet_storage_error">A fost găsită o eroare în spaţiul de stocare al tabletei. Reporniţi dispozitivul sau formataţi spaţiul de stocare.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Eliberaţi pentru reîmprospătare</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Se actualizează...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">apăsaţi de două ori şi glisaţi pentru reglare</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Element glisabil</string><!--Draggable item-->
+    <string name="va_move_above">Mutare deasupra</string><!--Move above-->
+    <string name="va_move_below">Mutare dedesubt</string><!--Move below-->
+    <string name="st_pull_down_refresh">Trageţi în jos pentru reîmprospătare</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Editare număr înainte de apelare</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Deschidere pe hartă</string><!--Open in map-->
+    <string name="va_copy">Copiere</string><!--Copy-->
+    <string name="va_show_all">Afişare toate</string><!--Show all-->
+</resources>

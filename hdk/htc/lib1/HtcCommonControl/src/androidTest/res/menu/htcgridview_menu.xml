@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/delete_item"
+        android:title="delete item"/>
+    <item
+        android:id="@+id/add_item_front"
+        android:title="add item front"/>
+    <item
+        android:id="@+id/add_item_middle"
+        android:title="add item middle"/>
+    <item
+        android:id="@+id/add_item_back"
+        android:title="add item back"/>
+    <item
+        android:id="@+id/intro_item"
+        android:title="Start Intro"/>
+
+</menu>

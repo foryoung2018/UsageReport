@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcBtWidget/7.10/api24/BT_widget" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcBtWidget" path="app/packages/apps/HtcBtWidget" revision="app/apps/HtcBtWidget/7.10/api24/BT_widget"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcSettingWidgetsUIModule" path="app/packages/apps/HtcSettingWidgetsUIModule" revision="63d7f7600b26cc9ac1c412c0e734096adecc1bec"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="7acd88d6095d306ff6f6f56277c652c249798fe9"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidappadmin" path="hdk/htc/lib3/HtcWrapandroidappadmin" revision="5f17c73992861cf052ee5a055591d40c1e33f542"/>
+  <project name="app/hdk/htc/lib3/htcwrapdevicemanager3lm" path="hdk/htc/lib3/HtcWrapDeviceManager3LM" revision="b23778da49e4ccba26093fda2c469123a30bfe16"/>
+  <project name="app/hdk/htc/lib3/htctetheringguard" path="hdk/htc/lib3/HtcTetheringGuard" revision="a74f236247af1a6043ba52b25bf4c43dc41c0ab0"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidnetwifi" path="hdk/htc/lib3/HtcWrapandroidnetwifi" revision="e2050f9307463f5c0706d2053e52692c8397cae2"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="0d377e6bbf2df9a4b838bc78a8aac1858a39c077"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="7e88a2d8f0774cc760075c628f34d22955225ff6"/>
+</manifest>

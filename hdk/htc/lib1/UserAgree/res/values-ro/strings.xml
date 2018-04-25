@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Această aplicaţie foloseşte conexiunea de date mobile sau Wi-Fi. Luaţi legătura cu operatorul dvs. pentru a afla tarifele de date.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Nu mai afişa solicitarea</string><!--Don\'t ask me again-->
+
+</resources>

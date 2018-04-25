@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Dịch vụ vị trí HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">Dịch Vụ Vị Trí HTC</string><!--HTC Location Services-->
+    <string name="home_label">Nhà</string><!--Home-->
+    <string name="work_label">Nơi làm việc</string><!--Work-->
+    <string name="location_picker">Chọn vị trí</string><!--location picker-->
+    <string name="clear_label">Xóa</string><!--Clear-->
+    <string name="description_label">Bằng cách liên kết địa chỉ hoặc mạng Wi-Fi của bạn với nhà hoặc nơi làm việc, bạn đồng ý chia sẻ %1$s và %2$s với Trải nghiệm Sense Home HTC.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">vị trí chính xác</string><!--precise location-->
+    <string name="precise_location_upper">Vị trí chính xác</string><!--Precise location-->
+    <string name="personal_usage_data">dữ liệu lưu lượng sử dụng cá nhân</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Dữ liệu lưu lượng sử dụng cá nhân</string><!--Personal usage data-->
+    <string name="precise_location_description">Chia sẻ %s để lấy gợi ý về các nhà hàng hoặc các địa điểm ở gần khác.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Chia sẻ %s của bạn như các ứng dụng tôi sử dụng, trang web tôi truy cập và nội dung phương tiện mà tôi nghe hoặc xem, để gợi ý các ứng dụng, tin tức và nội dung.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Liên kết địa chỉ hoặc mạng Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Liên kết địa chỉ hoặc mạng Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">thêm</string><!--add-->
+    <string name="no_content">Chạm &quot;+&quot; để thêm địa chỉ hoặc mạng Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">MẠNG Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ĐỊA CHỈ</string><!--ADDRESSES-->
+    <string name="wifi_label">Mạng Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">Địa chỉ</string><!--Address-->
+    <string name="select_wifi_title">Chọn một hoặc nhiều mạng</string><!--Select one or more networks-->
+    <string name="remove_label">Xóa</string><!--Remove-->
+    <string name="edit_label">Sửa</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">HỦY</string><!--CANCEL-->
+    <string name="lib_app_name">Dịch vụ vị trí HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">Thay đổi vị trí địa chỉ</string><!--Address location change-->
+    <string name="switch_mode_home">Trước đây bạn đã thêm vào địa chỉ này làm vị trí làm việc. Một địa chỉ có thể được thêm vào một vị trí. Bạn có muốn đặt nó làm vị trí nhà bây giờ không?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Trước đây bạn đã thêm vào địa chỉ này làm vị trí nhà. Một địa chỉ có thể được thêm vào một vị trí. Bạn có muốn đặt nó làm vị trí làm việc bây giờ không?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi tắt</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Để liên kết mạng Wi-Fi với vị trí này, bạn cần phải bật Wi-Fi trong Cài đặt.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">CÀI ĐẶT</string><!--SETTINGS-->
+    <string name="duplicate_address">Địa chỉ này đã được thêm vào.</string><!--This address has already been added.-->
+    <string name="unknown_address">địa chỉ chưa biết</string><!--unknown address-->
+    <string name="too_much_item">Bạn đã thêm số lượng vị trí tối đa.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Đã kết nối</string><!--Connected-->
+    <string name="saved_label">Đã lưu</string><!--Saved-->
+    <string name="secured_label">Bảo mật với %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Để hoạt động hiệu quả, ứng dụng này cần truy cập vị trí của bạn. Hãy cho phép truy cập khi được hỏi.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Để hoạt động hiệu quả, ứng dụng này cần truy cập vị trí của bạn. Bạn có thể quản lý quyền truy cập của %s trong Cài đặt.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ĐÓNG</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">CÀI ĐẶT</string><!--SETTINGS-->
+    <string name="hsp_app_name">Gói dịch vụ HTC</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Nguồn vị trí đang tắt.</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Để hoạt động tốt, ứng dụng này cần biết vị trí của bạn. Vui lòng mở nguồn vị trí trong phần Cài đặt.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">CÀI ĐẶT</string><!--SETTING-->
+    <string name="no_wifi_available">Không tìm thấy mạng Wi-Fi nào sẵn sàng</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

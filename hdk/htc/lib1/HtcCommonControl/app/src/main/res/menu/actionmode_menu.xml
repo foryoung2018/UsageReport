@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action0"
+        android:title="Options"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/icon_btn_settings_dark"/>
+    <item
+        android:id="@+id/action1"
+        android:title="Options"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/icon_btn_settings_dark"/>
+    <item
+        android:id="@+id/action2"
+        android:title="Options"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/icon_btn_settings_dark"/>
+</menu>

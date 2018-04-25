@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="carmode_gridview_marginLeft">76px</dimen>
+    <dimen name="automotive_contacts_size">300px</dimen>
+    <dimen name="text_size">6dp</dimen>
+    <dimen name="list_item_height">8dp</dimen>
+    <dimen name="text_margin_left">20dp</dimen>
+    <dimen name="image_view_width">60dp</dimen>
+    <dimen name="focus_button_height">1dp</dimen>
+    <dimen name="trim_seek_bar_popup_offset">15dp</dimen>
+    <dimen name="popup_view_width">30dp</dimen>
+    <dimen name="targetViewSize">100px</dimen>
+</resources>

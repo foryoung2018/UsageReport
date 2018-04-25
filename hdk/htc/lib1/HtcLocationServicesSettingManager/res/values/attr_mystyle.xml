@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="myStylable">
+        <attr name="multiply_color"/>
+    </declare-styleable>
+</resources>

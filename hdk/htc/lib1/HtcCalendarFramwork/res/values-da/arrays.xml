@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >til hver første søndag</item><!--on every first Sunday-->
+        <item >til hver anden søndag</item><!--on every second Sunday-->
+        <item >til hver tredje søndag</item><!--on every third Sunday-->
+        <item >til hver fjerde søndag</item><!--on every fourth Sunday-->
+        <item >til hver sidste søndag</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >til hver første mandag</item><!--on every first Monday-->
+        <item >til hver anden mandag</item><!--on every second Monday-->
+        <item >til hver tredje mandag</item><!--on every third Monday-->
+        <item >til hver fjerde mandag</item><!--on every fourth Monday-->
+        <item >til hver sidste mandag</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >til hver første tirsdag</item><!--on every first Tuesday-->
+        <item >til hver anden tirsdag</item><!--on every second Tuesday-->
+        <item >til hver tredje tirsdag</item><!--on every third Tuesday-->
+        <item >til hver fjerde tirsdag</item><!--on every fourth Tuesday-->
+        <item >til hver sidste tirsdag</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >til hver første onsdag</item><!--on every first Wednesday-->
+        <item >til hver anden onsdag</item><!--on every second Wednesday-->
+        <item >til hver tredje onsdag</item><!--on every third Wednesday-->
+        <item >til hver fjerde onsdag</item><!--on every fourth Wednesday-->
+        <item >til hver sidste onsdag</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >til hver første torsdag</item><!--on every first Thursday-->
+        <item >til hver anden torsdag</item><!--on every second Thursday-->
+        <item >til hver tredje torsdag</item><!--on every third Thursday-->
+        <item >til hver fjerde torsdag</item><!--on every fourth Thursday-->
+        <item >til hver sidste torsdag</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >til hver første fredag</item><!--on every first Friday-->
+        <item >til hver anden fredag</item><!--on every second Friday-->
+        <item >til hver tredje fredag</item><!--on every third Friday-->
+        <item >til hver fjerde fredag</item><!--on every fourth Friday-->
+        <item >til hver sidste fredag</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >til hver første lørdag</item><!--on every first Saturday-->
+        <item >til hver anden lørdag</item><!--on every second Saturday-->
+        <item >til hver tredje lørdag</item><!--on every third Saturday-->
+        <item >til hver fjerde lørdag</item><!--on every fourth Saturday-->
+        <item >til hver sidste lørdag</item><!--on every last Saturday-->
+    </string-array>
+</resources>

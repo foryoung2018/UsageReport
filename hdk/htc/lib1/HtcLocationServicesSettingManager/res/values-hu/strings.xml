@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC helymeghatározási szolgáltatások</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC helymeghatározási szolgáltatások</string><!--HTC Location Services-->
+    <string name="home_label">Otthon</string><!--Home-->
+    <string name="work_label">Munka</string><!--Work-->
+    <string name="location_picker">helyválasztó</string><!--location picker-->
+    <string name="clear_label">Törlés</string><!--Clear-->
+    <string name="description_label">Ha kézzel csatol egy címet vagy Wi-Fi-hálózatot az otthonához vagy a munkahelyéhez, akkor elfogadja a következők megosztását a HTC Sense kezdőoldallal: %1$s és %2$s.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">pontos hely</string><!--precise location-->
+    <string name="precise_location_upper">Pontos hely</string><!--Precise location-->
+    <string name="personal_usage_data">személyes használati adatok</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Személyes használati adatok</string><!--Personal usage data-->
+    <string name="precise_location_description">%s megosztása a közeli éttermekről és egyéb helyekről szóló javaslatok lekérése céljából</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">%s megosztása, mint például az általam használt alkalmazások, az általam meglátogatott webhelyek, az általam hallgatott vagy megtekintett médiafájlok alapján javaslatok lekérése az alkalmazásokhoz, hírekhez és egyéb tartalomhoz.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Címek és Wi-Fi hálózatok csatolása</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Címek és Wi-Fi hálózatok csatolása</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">hozzáadás</string><!--add-->
+    <string name="no_content">Cím vagy Wi-Fi hálózat hozzáadásához érintse meg a &quot;+&quot; gombot</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi HÁLÓZATOK</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">CÍMEK</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi hálózat</string><!--Wi-/Fi network-->
+    <string name="address_label">Cím</string><!--Address-->
+    <string name="select_wifi_title">Egy vagy több hálózat kiválasztása</string><!--Select one or more networks-->
+    <string name="remove_label">Eltávolítás</string><!--Remove-->
+    <string name="edit_label">Szerkesztés</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">MÉGSE</string><!--CANCEL-->
+    <string name="lib_app_name">HTC helymeghatározási szolgáltatások</string><!--HTC location services-->
+    <string name="switch_mode_title">Cím helyének megváltoztatása</string><!--Address location change-->
+    <string name="switch_mode_home">Ezt a címet korábban munkahelyként adta hozzá. Egy címet csak egy helyhez lehet hozzárendelni. Szeretné most otthoni helyként megadni?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Ezt a címet korábban otthonként adta hozzá. Egy címet csak egy helyhez lehet hozzárendelni. Szeretné most munkahelyként megadni?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">A Wi-Fi ki van kapcsolva</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Ha Wi-Fi-hálózatot szeretne rendelni ehhez a helyhez, a Beállítások között be kell kapcsolnia a Wi-Fi-t.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">BEÁLLÍTÁSOK</string><!--SETTINGS-->
+    <string name="duplicate_address">Ezt a címet már hozzáadta.</string><!--This address has already been added.-->
+    <string name="unknown_address">ismeretlen cím</string><!--unknown address-->
+    <string name="too_much_item">Elérte a helyek maximális számát.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Csatlakoztatva</string><!--Connected-->
+    <string name="saved_label">Mentve</string><!--Saved-->
+    <string name="secured_label">Biztosítva ezzel: %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">A megfelelő működéshez az alkalmazásnak hozzá kell férnie a készülék helyéhez. Kérjük, a kérésnél engedélyezze az engedélyt.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">A megfelelő működéshez az alkalmazásnak hozzá kell férnie az Ön helyéhez. A beállításokban kezelheti a %s engedélyeit.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">BEZÁRÁS</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">BEÁLLÍTÁSOK</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC szervizcsomag</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">A hely forrás nem engedélyezett</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">A megfelelő működéshez az alkalmazásnak ismernie kell az Ön tartózkodási helyét. Kapcsolja be a helyforrást a Beállításokban.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">BEÁLLÍTÁS</string><!--SETTING-->
+    <string name="no_wifi_available">Nem található elérhető Wi-Fi hálózat</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

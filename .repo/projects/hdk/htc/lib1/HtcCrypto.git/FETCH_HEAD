@@ -1,0 +1,5 @@
+04d9d30908442e4cd09092d51c765b4ec852939b		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccrypto
+2211b6281e9f8e803061a8357665211d572749a4	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccrypto
+060f5afb9735de59dbe1545a649040895b5efc31	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccrypto
+5bff93b6f63f11d79294062ee752c96e4e5813dd	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccrypto
+c82f71836c2e6d65c21a6b822d16db61c1f64b07	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htccrypto

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="fixed_masthead_01">17px</dimen>
+    <dimen name="fixed_masthead_02">15px</dimen>
+    <dimen name="fixed_masthead_03">18px</dimen>
+    <dimen name="fixed_masthead_04">10px</dimen>
+    <dimen name="fixed_masthead_05">13px</dimen>
+    <dimen name="fixed_masthead_06">8px</dimen>
+    <dimen name="fixed_masthead_07">16px</dimen>
+    <dimen name="fixed_masthead_08">16px</dimen>
+    <dimen name="fixed_masthead_09">0px</dimen>
+    <dimen name="fixed_masthead_10">0px</dimen>
+</resources>

@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".PreviewStyleActivity" >
+    <ScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+
+       <LinearLayout
+           android:id="@+id/compoundBtnGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+           <Spinner
+            android:id="@+id/myFontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green"/>
+
+           <com.htc.lib1.cc.widget.HtcEditText
+            android:id="@+id/myHtcEdit"
+            style="@style/input_default_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_m"
+            android:layout_marginRight="@dimen/margin_m"
+            android:textColor="#FF000000"
+            android:text="@string/TestStyle" />
+
+           <Button
+            android:id="@+id/myBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TestStyle"/>
+
+           <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/myBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TestStyle"
+            backgroundMode="dark" />
+
+           <com.htc.lib1.cc.widget.HtcRimButton
+            android:id="@+id/myBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TestStyle"
+            backgroundMode="light" />
+
+        <com.htc.lib1.cc.widget.HtcIconButton
+            android:id="@+id/myBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TestStyle"
+            backgroundMode="dark" />
+
+        <com.htc.lib1.cc.widget.HtcIconButton
+            android:id="@+id/myBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TestStyle"
+            backgroundMode="light" />
+
+           <Switch
+              android:id="@+id/mySwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Light"
+            android:textOff="Dark"/>
+        <CheckBox
+            android:id="@+id/myCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MyCheckBox"
+            />
+
+        <RadioButton
+            android:id="@+id/myRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MyRadioButton"
+            />
+    </LinearLayout>
+    </ScrollView>
+
+       <RelativeLayout
+           android:id="@+id/infoPanel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:background="#3cd8f6ce"
+           android:layout_below="@id/compoundBtnGroup"
+           >
+        <TextView
+            android:id="@+id/txPanelSize"
+            android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:maxWidth="150dp"
+               android:text="TextSize(px)"
+               android:background="@drawable/blue"/>
+           <TextView
+            android:id="@+id/txPanelColor"
+            android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:maxWidth="150dp"
+               android:text="Color(#XXXXXX)"
+               android:layout_marginLeft="20dp"
+               android:layout_toRightOf="@id/txPanelSize"
+               android:layout_alignParentRight="true"
+               android:background="@drawable/blue"/>
+           <TextView
+               android:id="@+id/txPanelStyle"
+            android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:maxWidth="150dp"
+               android:text="Style(bold/italic/bolditalic)"
+               android:layout_below="@id/txPanelSize"
+               android:background="@drawable/blue"/>
+           <TextView
+               android:id="@+id/txPanelTypeFace"
+            android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:maxWidth="150dp"
+               android:text="Typeface(normal,condense)"
+               android:layout_marginLeft="20dp"
+               android:layout_below="@id/txPanelColor"
+               android:layout_toRightOf="@id/txPanelStyle"
+               android:layout_alignParentRight="true"
+               android:background="@drawable/blue"/>
+       </RelativeLayout>
+
+</RelativeLayout>

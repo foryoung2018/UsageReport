@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC位置情報サービス</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC位置情報サービス</string><!--HTC Location Services-->
+    <string name="home_label">自宅</string><!--Home-->
+    <string name="work_label">勤務先</string><!--Work-->
+    <string name="location_picker">位置ピッカー</string><!--location picker-->
+    <string name="clear_label">クリア</string><!--Clear-->
+    <string name="description_label">アドレスまたは Wi-Fi ネットワークを自宅または職場と手動でリンクすると、HTC SENSE HOME が %1$s と %2$s を共有することに同意したものとみなされます。</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">現在地</string><!--precise location-->
+    <string name="precise_location_upper">現在地</string><!--Precise location-->
+    <string name="personal_usage_data">使用量データ</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">使用量データ</string><!--Personal usage data-->
+    <string name="precise_location_description">%s を共有し、近くにあるレストランやその他の施設のお薦めを表示します。</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">使用するアプリ、閲覧するウェブサイト、視聴するメディアなどの %s を共有し、アプリ、ニュース、コンテンツのお薦めを表示します。</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">アドレスまたは Wi-Fi ネットワークをリンク</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">アドレスまたは Wi-Fi ネットワークをリンク</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">追加</string><!--add-->
+    <string name="no_content">&quot;+&quot; をタップしてアドレスまたは Wi-Fi ネットワークを追加します</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi ネットワーク</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">アドレス</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi ネットワーク</string><!--Wi-/Fi network-->
+    <string name="address_label">住所</string><!--Address-->
+    <string name="select_wifi_title">ネットワークを選択してください</string><!--Select one or more networks-->
+    <string name="remove_label">削除</string><!--Remove-->
+    <string name="edit_label">編集</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">キャンセル</string><!--CANCEL-->
+    <string name="lib_app_name">HTC位置情報サービス</string><!--HTC location services-->
+    <string name="switch_mode_title">アドレスの位置情報を変更</string><!--Address location change-->
+    <string name="switch_mode_home">この住所を勤務先として以前追加しています。住所は1ヶ所にしか追加できません。これを自宅にしますか?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">この住所を自宅として以前追加しています。住所は1ヶ所にしか追加できません。これを勤務先にしますか?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi はオフです</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">この場所と Wi-Fi ネットワークでリンクするには、[設定] で Wi-Fi をオンにする必要があります。</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">設定</string><!--SETTINGS-->
+    <string name="duplicate_address">この住所はすでに追加されています。</string><!--This address has already been added.-->
+    <string name="unknown_address">不明なアドレス</string><!--unknown address-->
+    <string name="too_much_item">追加した位置の数が上限に達しました。</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">接続済み</string><!--Connected-->
+    <string name="saved_label">保存済み</string><!--Saved-->
+    <string name="secured_label">%s で保護</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">このアプリが正常に機能するためには、現在地を知る必要があります。尋ねられたら許可してください。</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">このアプリが正常に機能するためには、現在地を知る必要があります。%s の権限は [設定] で管理できます。</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">閉じる</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">設定</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC サービス パック</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">位置情報が無効です</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">正常に機能させるには、このアプリケーションに現在地を知らせる必要があります。[設定] でロケーション ソースをオンにしてください。</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">設定</string><!--SETTING-->
+    <string name="no_wifi_available">使用可能な Wi-Fi ネットワークがありません</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

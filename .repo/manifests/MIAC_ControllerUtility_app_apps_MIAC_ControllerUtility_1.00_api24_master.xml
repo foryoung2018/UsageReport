@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/MIAC_ControllerUtility/1.00/api24/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/MIAC_ControllerUtility" path="app/packages/apps/MIAC_ControllerUtility" revision="app/apps/MIAC_ControllerUtility/1.00/api24/master"/>
+</manifest>

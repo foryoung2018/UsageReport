@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_text">Tips</string>
+    <string name="quicktip_with_arrow">Change to arrow style</string>
+    <string name="quicktip_no_arrow">Change to no arrow style</string>
+    <string name="image_quicktip">Change to image tip</string>
+    <string name="text_only_quicktip">Change to text only</string>
+    <string name="fix_screen">Change to fixed screen</string>
+    <string name="unspecified_screen">Change to rotatable screen</string>
+    <string name="test_english">Change to English</string>
+    <string name="test_arabic">Change to Arabic</string>
+    <string name="set_custom_color">Set Color #FF0000FF</string>
+</resources>

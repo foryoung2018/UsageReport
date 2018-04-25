@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Twitter/7.60/api19/NonHTC" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Twitter" path="app/packages/apps/Twitter" revision="app/apps/Twitter/7.60/api19/NonHTC"/>
+</manifest>

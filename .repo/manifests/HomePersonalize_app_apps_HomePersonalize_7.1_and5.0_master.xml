@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HomePersonalize/7.1/and5.0/master" sync-j="4" HDKLib3Name="HDK_Lib3_API19_2_Stable" HDKLib3Ver="19.2"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HomePersonalize" path="app/packages/apps/HomePersonalize" revision="app/apps/HomePersonalize/7.1/and5.0/master"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HomePersonalize" path="app/customization/packages/apps/HomePersonalize" revision="app/apps/HomePersonalize/master"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/HtcFontUtil" path="app/hms_libs/HtcFontUtil" revision="86e67981b09026f67dae88fa96df6a026928ae1c"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="2d321c66eaecd44a2f994232f5e6a195ab41eeec"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="9469f560575ace6c73782bd894b673a05ba89943"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="0ca4ff47dea0b7226e50e5378db028183c492730"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidcontentpm" path="hdk/htc/lib3/HtcWrapandroidcontentpm" revision="c55e0397d358a94751ede927de171d81cc846b5a"/>
+  <project name="app/hdk/htc/lib3/htcwrapwindowmanager" path="hdk/htc/lib3/HtcWrapWindowManager" revision="883e088af01134bf321b33d1c0fbc4d458867fff"/>
+  <project name="app/hdk/htc/lib3/htcwrapwallpapermanager" path="hdk/htc/lib3/HtcWrapWallpaperManager" revision="2d1d5f6fbc51418626c9b24e7d263f0fabdb7a1a"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="c7e3ee5b90d83701172ca9386f8cf497f762ab42"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="daba73b4f7b010d88f2a19bdb4043fe1a70df04b"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="fb66a4a4d0d4765fb1921e2a741753e41e1640b2"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="4eee232c65a1fb02c02c10d67fb8c6f5e7084256"/>
+</manifest>

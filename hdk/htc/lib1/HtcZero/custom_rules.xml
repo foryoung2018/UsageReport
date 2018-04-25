@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="crules" default="help">
+
+
+<target name="-pre-init">
+    <property file="version.properties"/>
+    <property name="dist.jar" value="dist/${ant.project.name}-${project.version}.jar"/>
+    <delete dir="build/release"/>
+</target>
+
+
+<target description="bundle sources in a jar" name="package-sources" depends="-pre-init">
+    <jar basedir="src" destfile="build/release/${ant.project.name}-${project.version}-sources.jar"/>
+</target>
+
+<target name="javadoc" depends="-set-debug-mode,-build-setup">
+
+    <echo>Generating javadoc</echo>
+
+    <property name="project.target.class.path" refid="project.target.class.path"/>
+    <property name="project.all.jars.path" refid="project.all.jars.path"/>
+
+    <javadoc access="private" 
+        classpath="${project.target.class.path}:${project.all.jars.path}" 
+        destdir="build/javadoc" 
+        packagenames="${project.app.package}.*" 
+        source="1.5" sourcepath="gen:src" />
+</target>
+
+<target name="package_for_release" depends="-pre-init,debug,javadoc, package-sources">
+    <mkdir dir="build/release"/>
+    <copy file="${out.dir}/classes.jar" tofile="build/release/${ant.project.name}-${project.version}.jar"/>
+    <mkdir dir="build/release/doc"/>
+    <copy todir="build/release/doc">
+        <fileset dir="build/javadoc" includes="**"/>
+    </copy>
+
+    <zip basedir="build/release/" includes="**" destfile="dist/${ant.project.name}-${project.version}.zip"/>
+</target>
+
+</project>

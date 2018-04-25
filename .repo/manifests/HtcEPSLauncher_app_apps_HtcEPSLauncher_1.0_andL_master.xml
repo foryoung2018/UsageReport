@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcEPSLauncher/1.0/andL/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcEPSLauncher" path="app/packages/apps/HtcEPSLauncher" revision="app/apps/HtcEPSLauncher/1.0/andL/master"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HtcEPSLauncher" path="app/customization/packages/apps/HtcEPSLauncher" revision="app/apps/HtcEPSLauncher/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="347309cef8da3e2bedb879ba8f37a06fa11d31ed"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="f6a21c5830fc7693e00c99571ad5ea5fe26c54ed"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib1/home" path="hdk/htc/lib1/Home" revision="74af650c27dafc604d6c1b723e5b8a1a3a5513e1"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="859e073bf0e61f43b2d4438f8a403fcc8c6af6f0"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="58cbb1adeca1a8bdd15971382ec3ea4d9f13913b"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="c6b1009a74654cacbb8104663a1e39e8c27b8bbd"/>
+  <project name="app/hdk/htc/lib1/weatherlib1" path="hdk/htc/lib1/WeatherLib1" revision="463924b84bea5a3050596bf5701e6921c193739f"/>
+  <project name="app/hdk/htc/lib1/masthead" path="hdk/htc/lib1/MastHead" revision="746988dfb9821b50466a53566da70456630f03fe"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="e2f1419eba5df778cda5a1c0cf3b54bfbd3df372"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="f83a1c87c56488250594d18357461b34f51d961f"/>
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="fixed_automotive_01">36px</dimen>
+    <dimen name="fixed_automotive_02">106px</dimen>
+    <dimen name="fixed_automotive_03">72px</dimen>
+    <dimen name="fixed_automotive_07">120px</dimen>
+    <dimen name="fixed_automotive_08">120px</dimen>
+    <dimen name="fixed_automotive_11">48px</dimen>
+    <dimen name="fixed_automotive_13">58px</dimen>
+    <dimen name="fixed_automotive_14">62px</dimen>
+    <dimen name="fixed_automotive_15">40px</dimen>
+    <dimen name="fixed_automotive_16">40px</dimen>
+</resources>

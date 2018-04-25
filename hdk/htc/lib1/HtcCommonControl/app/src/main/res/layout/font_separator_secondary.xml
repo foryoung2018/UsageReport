@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/section_divider_top"
+        style="@style/separator_secondary_xl"
+        android:text="separator_secondary_xl" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/section_divider_top"
+        style="@style/separator_secondary_l"
+        android:text="separator_secondary_l" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/section_divider_top"
+        style="@style/separator_secondary_m"
+        android:text="separator_secondary_m" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/section_divider_top"
+        style="@style/separator_secondary_s"
+        android:text="separator_secondary_s" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/section_divider_top"
+        style="@style/separator_secondary_xs"
+        android:text="separator_secondary_xs" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="htc_thumb_size">24px</dimen>
+    <dimen name="htc_progressbar_height">8px</dimen>
+    <dimen name="htc_thumbOffset">1px</dimen>
+    <dimen name="htcprogress_small_size">24px</dimen>
+    <dimen name="htcprogress_medium_size">32px</dimen>
+
+</resources>

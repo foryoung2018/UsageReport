@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="progress_button_diameter_small">78px</dimen>
+    <dimen name="progress_button_diameter_middle">94px</dimen>
+    <dimen name="progress_button_stroke_small">6px</dimen>
+    <dimen name="progress_button_stroke_middle">6px</dimen>
+
+</resources>

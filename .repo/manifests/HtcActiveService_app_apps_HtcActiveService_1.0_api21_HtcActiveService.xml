@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcActiveService/1.0/api21/HtcActiveService" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcActiveService" path="app/packages/apps/HtcActiveService" revision="app/apps/HtcActiveService/1.0/api21/HtcActiveService"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib2/htcactiveservice" path="hdk/htc/lib2/HtcActiveService" revision="d7f930e26d41ebda18a1663077553619650487f0"/>
+</manifest>

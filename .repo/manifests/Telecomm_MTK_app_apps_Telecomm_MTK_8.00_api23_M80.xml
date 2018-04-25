@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Telecomm_MTK/8.00/api23/M80" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Telecomm_MTK" path="app/packages/apps/Telecomm_MTK" revision="app/apps/Telecomm_MTK/8.00/api23/M80"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Telecomm_MTK" path="app/customization/packages/apps/Telecomm_MTK" revision="app/apps/Telecomm_MTK/master"/>
+</manifest>

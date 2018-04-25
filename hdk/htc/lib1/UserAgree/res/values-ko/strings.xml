@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">이 앱은 모바일 데이터 또는 Wi-Fi를 사용합니다. 현지 이동통신사에 문의하여 정확한 데이터 사용 요금을 알아보십시오.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">다시 묻지 않음</string><!--Don\'t ask me again-->
+
+</resources>

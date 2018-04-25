@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    hasTexture="none">
+
+    <com.htc.lib1.cc.widget.HtcListItemColorBar
+        android:background="#FFFF0000" />
+
+    <com.htc.lib1.cc.widget.HtcListItem2LineText
+        android:id="@+id/text1" />
+
+    <com.htc.lib1.cc.widget.HtcListItemBubbleCount
+        android:id="@+id/bubble"
+        android:text="aaa"
+        bubbleText="haha" />
+
+    <com.htc.lib1.cc.widget.HtcListItemBubbleCount
+        bubbleText="" />
+
+</com.htc.lib1.cc.widget.HtcListItem>

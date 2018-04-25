@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/inline_preferences" >
+        <SwitchPreference
+            android:key="switch_preference"
+            android:title="@string/title_switch_preference" />
+
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:summary="@string/summary_checkbox_preference"
+            android:title="@string/title_checkbox_preference" />
+
+        <SeekBarDialogPreference
+            android:defaultValue="5"
+            android:key="seekbardialog_preference"
+            android:max="10"
+            android:summary="@string/summary_seekbardialog_preference"
+            android:title="@string/title_seekbardialog_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/dialog_based_preferences" >
+        <EditTextPreference
+            android:dialogTitle="@string/dialog_title_edittext_preference"
+            android:key="edittext_preference"
+            android:summary="@string/summary_edittext_preference"
+            android:title="@string/title_edittext_preference" />
+
+        <ListPreference
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="list_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="@string/title_list_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/launch_preferences" >
+        <PreferenceScreen
+            android:key="@string/screen_preference"
+            android:summary="@string/summary_screen_preference"
+            android:title="@string/screen_preference" >
+
+            <!-- You can place more preferences here that will be shown on the next screen. -->
+            <CheckBoxPreference
+                android:key="next_screen_checkbox_preference"
+                android:summary="@string/summary_next_screen_toggle_preference"
+                android:title="@string/title_next_screen_toggle_preference" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/preference_attributes" >
+        <SeekBarPreference
+            android:defaultValue="5"
+            android:key="seekbar_preference"
+            android:max="10"
+            android:summary="@string/summary_seekbar_preference"
+            android:title="@string/title_seekbar_preference" />
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/default_array"
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_multilist_preference"
+            android:entryValues="@array/entryvalues_multilist_preference"
+            android:key="multiselect_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="@string/title_multiselect_preference" />
+
+        <CheckBoxPreference
+            android:key="toggle_preference"
+            android:summary="@string/summary_parent_preference"
+            android:title="@string/title_parent_preference" />
+    </PreferenceCategory>
+
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/preference_attributes" >
+        <com.htc.lib1.cc.widget.preference.HtcCheckBoxPreference
+            android:key="htc_checkbox_preference"
+            android:summary="@string/summary_parent_preference"
+            android:title="@string/title_parent_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcMultiSelectListPreference
+            android:defaultValue="@array/default_array"
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_multilist_preference"
+            android:entryValues="@array/entryvalues_multilist_preference"
+            android:key="htc_multiselect_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="@string/title_htcmultiselect_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcEditTextPreference
+            android:dialogTitle="@string/dialog_title_edittext_preference"
+            android:key="htc_edittext_preference"
+            android:summary="@string/summary_edittext_preference"
+            android:title="@string/title_edittext_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcListPreference
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="htc_list_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="@string/title_list_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcSwitchPreference
+            android:key="@string/title_htcswitch_preference"
+            android:title="Switch preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcDialogPreference
+            android:dialogMessage="@string/dialog_preference_msg"
+            android:dialogTitle="@string/title_dialog_preference"
+            android:key="dialog_preference"
+            android:summary="@string/summary_htcdialogpreference"
+            android:title="@string/title_dialog_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcDialogPreference
+            android:dialogLayout="@layout/preference_widget_seekbar"
+            android:dialogTitle="@string/title_dialog_preference"
+            android:key="htcseekbar_dialog_preference"
+            android:summary="@string/summary_htcdialogpreference"
+            android:title="@string/title_htcseekbar_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcDialogPreference
+            android:dialogLayout="@layout/preference_widget_switch"
+            android:dialogTitle="@string/title_dialog_preference"
+            android:key="htcswitch_dialog_preference"
+            android:summary="@string/summary_htcdialogpreference"
+            android:title="@string/title_htcswitchdialog_preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+
+</PreferenceScreen>

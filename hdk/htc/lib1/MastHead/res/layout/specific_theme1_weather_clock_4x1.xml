@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge  xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout
+	    android:id="@+id/widget_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+		android:layoutDirection="ltr">
+	   	<RelativeLayout
+	        android:id="@+id/background_block"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="@dimen/theme1_background_block_margin_top"
+	        android:layout_marginLeft="@dimen/theme1_background_block_margin_left_right"
+	        android:layout_marginRight="@dimen/theme1_background_block_margin_left_right"
+	        android:layout_centerHorizontal="true">
+		    <include 
+		        android:id="@+id/digital_clock"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+		        layout="@layout/specific_theme1_weather_clock_4x1_digital"/>
+		    <FrameLayout 
+		            android:id="@+id/info_temp_area"
+		            android:layout_width="@dimen/theme1_info_temp_area_width"
+		            android:layout_height="@dimen/theme1_info_temp_area_height"
+		            android:layout_centerHorizontal="true"	            
+		            android:layout_below="@id/digital_clock">
+			    <LinearLayout
+	            	android:layout_width="wrap_content"
+	            	android:layout_height="match_parent"
+	            	android:layout_gravity="center_horizontal"            	
+		            android:orientation="horizontal">
+		            <include
+		                android:id="@+id/info_block"
+		                layout="@layout/specific_theme1_weather_clock_4x1_info" />
+		
+		            <include
+		                android:id="@+id/temp_block"
+		                layout="@layout/specific_theme1_weather_clock_4x1_temp" />
+		
+		        	<com.htc.lib1.masthead.view.WeatherDisplay
+				        android:id="@+id/sun_block"
+				        android:layout_width="@dimen/theme1_sun_small_width"
+				        android:layout_height="@dimen/theme1_sun_small_height"
+				        android:layout_marginLeft="@dimen/margin_xs"
+				        android:layout_gravity="bottom">
+				        <ImageView
+				            android:id="@+id/sun"
+				            android:layout_width="match_parent"
+				            android:layout_height="match_parent"
+				            android:visibility="gone"/>
+			        </com.htc.lib1.masthead.view.WeatherDisplay>
+		        </LinearLayout>
+	        </FrameLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+</merge>

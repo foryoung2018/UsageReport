@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  
+  <default remote="origin" revision="hdk/api19_1" sync-j="4"/>
+  
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="160d6287401e8e509ac55f673342460cfb646442"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="a36edda4d2af229e58f02d0b967b5220af3b5042"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3e827fbb56b01dada639c135b2f600ef4304b7e4"/>
+  <project name="app/hdk/htc/lib0/htclib0" path="hdk/htc/lib0/HtcLib0" revision="aa0356121accc65d1b229cc8b762000a804690da"/>
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Tìm số liên lạc</string><!--Search People-->
+    <string name="common_string_share_title">Chia sẻ qua</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Lưu vào số liên lạc đã có</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Lưu vào Danh Bạ</string><!--Save to People-->
+    <string name="label_year">Năm</string><!--Year-->
+    <string name="label_month">Tháng</string><!--Month-->
+    <string name="label_day">Ngày</string><!--Day-->
+    <string name="label_hour">Giờ</string><!--Hour-->
+    <string name="label_minute">Phút</string><!--Minute-->
+    <string name="label_second">Giây</string><!--Second-->
+    <string name="common_string_open_contact">Mở số liên lạc̣</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Bạn còn lại một tab. Để thêm tab cho ứng dụng này, chọn tab Chỉnh sửa/Lọc lại trên menu.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Hủy</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Tiếp tục</string><!--Next-->
+    <string name="va_back">Quay lại</string><!--Back-->
+    <string name="va_call">Gọi</string><!--Call-->
+    <string name="st_loading">Đang tải...</string><!--Loading...-->
+    <string name="va_close">Đóng</string><!--Close-->
+    <string name="va_open">Mở</string><!--Open-->
+    <string name="va_clear">Xóa</string><!--Clear-->
+    <string name="va_send_mail">Gửi mail</string><!--Send mail-->
+    <string name="va_send_message">Gửi tin nhắn</string><!--Send message-->
+    <string name="va_download">Tải</string><!--Download-->
+    <string name="st_more">Thêm nữa</string><!--More-->
+    <string name="nn_unknown_error">Lỗi không xác định</string><!--Unknown error-->
+    <string name="va_downloading">Đang tải...</string><!--Downloading-->
+    <string name="va_finish">Hoàn tất</string><!--Finish-->
+    <string name="va_reset">Cài lại</string><!--Reset-->
+    <string name="va_hide">Ẩn đi</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Đã xảy ra lỗi trên bộ nhớ máy tính bảng của bạn. Hãy khởi động lại thiết bị của bạn hoặc định dạng lại bộ nhớ.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Nhả để làm mới</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Đang cập nhật...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">chạm hai lần và kéo để điều chỉnh</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Mục kéo thả được</string><!--Draggable item-->
+    <string name="va_move_above">Chuyển lên trên</string><!--Move above-->
+    <string name="va_move_below">Chuyển xuống dưới</string><!--Move below-->
+    <string name="st_pull_down_refresh">Kéo xuống để cập nhật mới</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Sửa số trước khi gọI</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Mở trong bản đồ</string><!--Open in map-->
+    <string name="va_copy">Sao chép</string><!--Copy-->
+    <string name="va_show_all">Hiển thị tất cả</string><!--Show all-->
+</resources>

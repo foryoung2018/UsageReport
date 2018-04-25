@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="label_reg_info">Registration Information</string>
+    <string name="txt_reg_info">reg_info</string>
+    <string name="label_events">Event History</string>
+    <string name="label_messages">Message History</string>
+    <string name="fmt_success_event_record">\"%1$s\" event triggered by \"%2$s\" succeeded.</string>
+    <string name="fmt_failure_event_record">\"%1$s\" event triggered by \"%2$s\" failed due to \"%3$s\".</string>
+    <string name="txt_sucessful">successful</string>
+    <string name="txt_failed">failed</string>
+    <string name="txt_unknown_reason">unknown reason</string>
+    <string name="fmt_message_record">message id=%1$s to %2$s</string>
+
+</resources>

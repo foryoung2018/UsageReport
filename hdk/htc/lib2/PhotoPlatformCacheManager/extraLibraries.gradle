@@ -1,0 +1,5 @@
+ext {
+    extraLibrary = [
+        "com.aiqidii.mercury:library:1.2.1@jar"
+    ]
+}

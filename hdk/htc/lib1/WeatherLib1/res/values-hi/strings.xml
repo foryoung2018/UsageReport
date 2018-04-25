@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>उजला</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>अधिकतर उजला</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>आंशिक उजला</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>छिटपुट बादल</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>धुँधला सूर्य प्रकाश</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>अधिकतर मेघाच्छादित</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>मेघाच्छादित</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>उदास</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>कोहरा</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>बारिश</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>अधिकतर मेघाच्छादित बारिश सहित</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>आंशिक उजला बारिश सहित</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>आंधी-तूफान</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>अधिकतर मेघाच्छादित तूफानी बारिश सहित</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>आंशिक उजला तूफानी बारिश सहित</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>वर्षा</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>झोंका</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>अधिकतर मेघाच्छादित हवा का झोंका सहित</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>आंशिक उजला हवा का झोंका सहित</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>बर्फ</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>अधिकतर मेघाच्छादित बर्फ सहित</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>बर्फ</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>तुषार-वर्षा</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>हिमकारी बारिश</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>बारिश और बर्फ मिश्रित</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>गर्म</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>ठंडा</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>हवादार</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>साफ़</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>अधिकतर साफ़</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>आंशिक मेघाच्छादित</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>छिटपुट बादल</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>अस्पष्ट</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>अधिकतर मेघाच्छादित</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>आंशिक मेघाच्छादित बारिश सहित</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>अधिकतर मेघाच्छादित बारिश सहित</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>आंशिक मेघाच्छादित तूफानी बारिश सहित</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>अधिकतर मेघाच्छादित तूफानी बारिश सहित</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>आंशिक मेघाच्छादित हवा का झोंका सहित</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>अधिकतर मेघाच्छादित हवा का झोंका सहित</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>आंधी-तूफान ओलों के साथ</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>बालू</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>धूल</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>बवंडर</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

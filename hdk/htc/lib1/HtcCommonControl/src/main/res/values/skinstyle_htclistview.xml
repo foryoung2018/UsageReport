@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="HtcListView" parent="android:style/Widget.Holo.ExpandableListView">
+        <item name="android:divider">@drawable/inset_list_divider</item>
+        <item name="android:childDivider">@drawable/inset_list_divider</item>
+        <item name="android:listSelector"> @drawable/list_selector_light </item>
+    </style>
+
+    <style name="HtcListView.Dark">
+        <item name="android:divider">@drawable/inset_list_divider_dark</item>
+        <item name="android:childDivider">@drawable/inset_list_divider_dark</item>
+        <item name="android:listSelector"> @drawable/list_selector_dark </item>
+    </style>
+</resources>

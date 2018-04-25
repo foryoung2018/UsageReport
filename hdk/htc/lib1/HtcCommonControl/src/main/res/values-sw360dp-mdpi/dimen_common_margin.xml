@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="margin_l">15dp</dimen>
+    <dimen name="margin_m">10dp</dimen>
+    <dimen name="margin_s">7dp</dimen>
+    <dimen name="margin_xs">6dp</dimen>
+    <dimen name="spacing">5dp</dimen>
+    <dimen name="leading">3dp</dimen>
+    <dimen name="margin_l_2">30dp</dimen>
+    <dimen name="margin_m_2">20dp</dimen>
+    <dimen name="margin_s_2">14dp</dimen>
+    <dimen name="margin_xs_2">12dp</dimen>
+    <dimen name="spacing_2">10dp</dimen>
+    <dimen name="leading_2">6dp</dimen>
+    <dimen name="margin_l_3">45dp</dimen>
+    <dimen name="margin_m_3">30dp</dimen>
+    <dimen name="margin_s_3">21dp</dimen>
+    <dimen name="margin_xs_3">18dp</dimen>
+    <dimen name="spacing_3">15dp</dimen>
+    <dimen name="leading_3">9dp</dimen>
+</resources>

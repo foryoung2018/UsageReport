@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Atlikta</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Dalintis per</string><!--Share via-->
+    <string name="carousel_title">Paspauskite ir palaikykite piktogramas, kad jas pertvarkytumėte</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Neįmanoma pašalinti šį skirtuką</string><!--Unable to remove this tab-->
+    <string name="yes">Taip</string><!--Yes-->
+    <string name="no">Ne</string><!--No-->
+    <string name="menu_view_full">Peržiūra</string><!--View-->
+    <string name="menu_view_video">Leisti</string><!--Play-->
+    <string name="menu_slideshow">Skaidrių demonstravimas</string><!--Slideshow-->
+    <string name="menu_share">Dalintis</string><!--Share-->
+    <string name="menu_set_as">Nustatyti kaip</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Nustatyti kaip parankinį</string><!--Set as favorite-->
+    <string name="menu_protect_info">Apsaugos informacija</string><!--Protection info-->
+    <string name="meun_rotate">Pasukti</string><!--Rotate-->
+    <string name="menu_delete">Panaikinti</string><!--Delete-->
+    <string name="menu_crop">Apkirpti</string><!--Crop-->
+    <string name="menu_properties">Išsami informacija</string><!--Details-->
+    <string name="menu_show_on_map">Rodyti žemėlapyje</string><!--Show on map-->
+    <string name="menu_settings">Nustatymai</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Dalintis nuotraukos nuoroda</string><!--Share photo link-->
+    <string name="refresh">Atnaujinti</string><!--Refresh-->
+    <string name="add_comments">Pridėti komentarą</string><!--Add comment-->
+    <string name="button_show_caption">Rodyti antraštę</string><!--Show caption-->
+    <string name="button_hide_caption">Slėpti antraštę</string><!--Hide caption-->
+    <string name="button_show_description">Rodyti aprašymą</string><!--Show description-->
+    <string name="button_hide_description">Slėpti aprašymą</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Mažas</item><!--Small-->
+        <item>Vidutinis</item><!--Medium-->
+        <item>Didelis</item><!--Large-->
+        <item>Labai didelis</item><!--Extra large-->
+        <item>Didžiulis</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dukart bakstelėkite veiksmui</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Patraukti piktogramą aukštyn</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Patraukite į viršų, kad atrakintumėte</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Sk</item><!--SU-->
+        <item>Pr</item><!--M-->
+        <item>An</item><!--TU-->
+        <item>Tr</item><!--W-->
+        <item>Kt</item><!--TH-->
+        <item>Pn</item><!--F-->
+        <item>Št</item><!--SA-->
+    </string-array>
+</resources>

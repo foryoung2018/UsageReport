@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextAppearance">
+        <!-- Text color. -->
+        <attr name="android:textColor" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="android:textSize" />
+        <!-- Style (bold, italic, bolditalic) for the text. -->
+        <attr name="android:textStyle" />
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="android:typeface" />
+        <!-- Font family (named by string) for the text. -->
+        <attr name="android:fontFamily" />
+        <!-- Color of the text selection highlight. -->
+        <attr name="android:textColorHighlight" />
+        <!-- Color of the hint text. -->
+        <attr name="android:textColorHint" />
+        <!-- Color of the links. -->
+        <attr name="android:textColorLink" />
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="android:textAllCaps" />
+        <!-- Place a shadow of the specified color behind the text. -->
+        <attr name="android:shadowColor" />
+        <!-- Horizontal offset of the shadow. -->
+        <attr name="android:shadowDx"/>
+        <!-- Vertical offset of the shadow. -->
+        <attr name="android:shadowDy" />
+        <!-- Radius of the shadow. -->
+        <attr name="android:shadowRadius"/>
+    </declare-styleable>
+
+    <declare-styleable name="View">
+        <attr name="android:focusable" />
+        <attr name="android:clickable"/>
+        <attr name="android:background" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+        <attr name="android:padding" />
+    </declare-styleable>
+
+    <declare-styleable name="TextView">
+        <attr name="android:minWidth" />
+        <attr name="android:minHeight" />
+        <attr name="android:gravity" />
+        <attr name="android:text"  />
+        <attr name="android:textAllCaps" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageView">
+        <attr name="android:scaleType"/>
+    </declare-styleable>
+
+    <declare-styleable name="FrameLayout">
+        <attr name="android:foreground"/>
+        <!-- Defines the gravity to apply to the foreground drawable. The gravity defaults
+             to fill. -->
+        <attr name="android:foregroundGravity"/>
+        <!-- Determines whether to measure all children or just those in
+             the VISIBLE or INVISIBLE state when measuring. Defaults to false. -->
+        <attr name="android:measureAllChildren"/>
+    </declare-styleable>
+
+    <declare-styleable name="FrameLayout_Layout">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable>
+
+    <declare-styleable name="LinearLayout_Layout">
+        <attr name="android:layout_weight"/>
+    </declare-styleable>
+
+    <!-- By Ahan 20131031 start -->
+    <declare-styleable name="AbsTableView">
+        <attr name="android:stackFromBottom" />
+        <attr name="android:listSelector" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:textFilterEnabled" />
+        <attr name="android:transcriptMode" />
+        <attr name="android:cacheColorHint" />
+    </declare-styleable>
+
+    <declare-styleable name="TableView">
+        <!-- Defines the default horizontal spacing between columns. -->
+        <attr name="android:horizontalSpacing" />
+        <!-- Defines the default vertical spacing between rows. -->
+        <attr name="android:verticalSpacing" />
+        <!-- Defines how columns should stretch to fill the available empty space, if any. -->
+        <attr name="android:stretchMode" />
+        <!-- Specifies the fixed width for each column. -->
+        <attr name="android:columnWidth" />
+        <!-- Defines how many columns to show. -->
+        <attr name="android:numColumns" />
+        <!-- Specifies the gravity within each cell. -->
+        <attr name="android:gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="DatePicker">
+        <!-- The first year (inclusive), for example "1940".
+             {@deprecated Use minDate instead.}
+        -->
+        <attr name="android:startYear" />
+        <!-- The last year (inclusive), for example "2010".
+             {@deprecated Use maxDate instead.}
+        -->
+        <attr name="android:endYear" />
+        <!-- Whether the spinners are shown. -->
+        <attr name="android:spinnersShown" />
+        <!-- Whether the calendar view is shown. -->
+        <attr name="android:calendarViewShown" />
+        <!-- The minimal date shown by this calendar view in mm/dd/yyyy format. -->
+        <attr name="android:minDate" />
+        <!-- The maximal date shown by this calendar view in mm/dd/yyyy format. -->
+        <attr name="android:maxDate" />
+        <!-- @hide The layout of the date picker. -->
+        <attr name="android:internalLayout"  />
+    </declare-styleable>
+
+    <declare-styleable name="CompoundButton">
+        <!-- Indicates the initial checked state of this button. -->
+        <attr name="android:checked" />
+        <!-- Drawable used for the button graphic (e.g. checkbox, radio button, etc). -->
+        <attr name="android:button" />
+    </declare-styleable>
+    <!-- By Ahan 20131031 end -->
+
+    <declare-styleable name="AbsCrabWalkView">
+        <attr name="android:drawSelectorOnTop"/>
+        <attr name="android:scrollingCache"/>
+        <attr name="android:cacheColorHint"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- HtcSwitch Start -->
+    <style name="HtcSwitch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textOn">@string/switch_on</item>
+        <item name="android:textOff">@string/switch_off</item>
+        <item name="android:thumb">@drawable/common_switch_thumb</item>
+        <item name="android:track">@drawable/common_switch_thumb</item>
+        <item name="android:showText">false</item>
+    </style>
+    <!-- HtcSwitch End -->
+
+</resources>

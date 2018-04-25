@@ -1,0 +1,6 @@
+c0a087358a4b2510aa54e74862b8af1fb2c191c7		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcpushnotificationservice
+c2f9b40f4d9e7d44371dec82e176fcdd8738b8f6		branch 'hdk/api19_sense6.0_targetapi26' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcpushnotificationservice
+536a48ca6b5d3057acf657f9aa5751ed8a35708d	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcpushnotificationservice
+2f66d5c105bb6d785120dab037d57e8391300e7c	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcpushnotificationservice
+66c5fce65fb3cb8bc46d8bf1832b002ac6ae2361	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcpushnotificationservice
+ad530aaff4cd815a2357397f11ea9eda2f61f8bb	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcpushnotificationservice

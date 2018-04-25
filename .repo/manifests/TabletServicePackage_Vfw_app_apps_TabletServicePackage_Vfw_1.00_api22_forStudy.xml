@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/TabletServicePackage_Vfw/1.00/api22/forStudy" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/TabletServicePackage_Vfw" path="app/packages/apps/TabletServicePackage_Vfw" revision="app/apps/TabletServicePackage_Vfw/1.00/api22/forStudy"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/Camera" path="app/packages/apps/Camera" revision="f96e3577e4fa76546c786cf2c5db41ea2ef95def"/>
+  <project name="app/packages/3amapps/AmazonMP3" path="app/packages/3amapps/AmazonMP3" revision="667511ff00dfbaca6a3a9cd01ec526a8b2e07025"/>
+</manifest>

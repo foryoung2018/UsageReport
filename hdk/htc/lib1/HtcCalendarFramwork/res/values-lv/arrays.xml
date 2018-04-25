@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >katrā pirmajā svētdienā</item><!--on every first Sunday-->
+        <item >katrā otrajā svētdienā</item><!--on every second Sunday-->
+        <item >katrā trešajā svētdienā</item><!--on every third Sunday-->
+        <item >katrā ceturtajā svētdienā</item><!--on every fourth Sunday-->
+        <item >katrā pēdējā svētdienā</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >katrā pirmajā pirmdienā</item><!--on every first Monday-->
+        <item >katrā otrajā pirmdienā</item><!--on every second Monday-->
+        <item >katrā trešajā pirmdienā</item><!--on every third Monday-->
+        <item >katrā ceturtajā pirmdienā</item><!--on every fourth Monday-->
+        <item >katrā pēdējā pirmdienā</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >katrā pirmajā otrdienā</item><!--on every first Tuesday-->
+        <item >katrā otrajā otrdienā</item><!--on every second Tuesday-->
+        <item >katrā trešajā otrdienā</item><!--on every third Tuesday-->
+        <item >katrā ceturtajā otrdienā</item><!--on every fourth Tuesday-->
+        <item >katrā pēdējā otrdienā</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >katrā pirmajā trešdienā</item><!--on every first Wednesday-->
+        <item >katrā otrajā trešdienā</item><!--on every second Wednesday-->
+        <item >katrā trešajā trešdienā</item><!--on every third Wednesday-->
+        <item >katrā ceturtajā trešdienā</item><!--on every fourth Wednesday-->
+        <item >katrā pēdējā trešdienā</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >katrā pirmajā ceturtdienā</item><!--on every first Thursday-->
+        <item >katrā otrajā ceturtdienā</item><!--on every second Thursday-->
+        <item >katrā trešajā ceturtdienā</item><!--on every third Thursday-->
+        <item >katrā ceturtajā ceturtdienā</item><!--on every fourth Thursday-->
+        <item >katrā pēdējā ceturtdienā</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >katrā pirmajā piektdienā</item><!--on every first Friday-->
+        <item >katrā otrajā piektdienā</item><!--on every second Friday-->
+        <item >katrā trešajā piektdienā</item><!--on every third Friday-->
+        <item >katrā ceturtajā piektdienā</item><!--on every fourth Friday-->
+        <item >katrā pēdējā piektdienā</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >katrā pirmajā sestdienā</item><!--on every first Saturday-->
+        <item >katrā otrajā sestdienā</item><!--on every second Saturday-->
+        <item >katrā trešajā sestdienā</item><!--on every third Saturday-->
+        <item >katrā ceturtajā sestdienā</item><!--on every fourth Saturday-->
+        <item >katrā pēdējā sestdienā</item><!--on every last Saturday-->
+    </string-array>
+</resources>

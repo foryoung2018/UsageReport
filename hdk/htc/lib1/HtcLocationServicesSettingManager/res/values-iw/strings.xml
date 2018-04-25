@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">שירותי המיקום של HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">שירותי המיקום של HTC</string><!--HTC Location Services-->
+    <string name="home_label">מסך הבית</string><!--Home-->
+    <string name="work_label">עבודה</string><!--Work-->
+    <string name="location_picker">בורר מיקום</string><!--location picker-->
+    <string name="clear_label">מחק</string><!--Clear-->
+    <string name="description_label">על ידי קישור ידני של כתובת או רשת Wi-Fi למיקום הבית או העבודה שלך הנך מסכים לשתף את %1$s ו-%2$s עם HTC בית Sense.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">מיקום מדויק</string><!--precise location-->
+    <string name="precise_location_upper">מיקום מדויק</string><!--Precise location-->
+    <string name="personal_usage_data">צריכת נתונים אישית</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">צריכת נתונים אישית</string><!--Personal usage data-->
+    <string name="precise_location_description">עליך לשתף את המידע %s כדי לקבל המלצות למסעדות קרובות ומקומות נוספים.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">עליך לשתף את המידע %s כגון אפליקציות שבהן השתמשת, אתרים שבהם ביקרת ותוכן שבו צפית או שהאזנת לו כדי לקבל המלצות לאפליקציות, חדשות ותוכן.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">קשר כתובות או רשתות Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">קשר כתובות או רשתות Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">הוסף</string><!--add-->
+    <string name="no_content">הקש על \"+\" כדי להוסיף כתובת או רשת Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">רשתות Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">כתובות</string><!--ADDRESSES-->
+    <string name="wifi_label">רשתות Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">כתובת</string><!--Address-->
+    <string name="select_wifi_title">בחר אפשרות אחת או עוד רשתות</string><!--Select one or more networks-->
+    <string name="remove_label">הסר</string><!--Remove-->
+    <string name="edit_label">ערוך</string><!--Edit-->
+    <string name="alert_dialog_ok">אישור</string><!--OK-->
+    <string name="alert_dialog_cancel">ביטול</string><!--CANCEL-->
+    <string name="lib_app_name">שירותי המיקום של HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">שינוי כתובת המיקום</string><!--Address location change-->
+    <string name="switch_mode_home">כתובת זו נוספה בעבר כמיקום העבודה. ניתן להוסיף את אותה כתובת רק למיקום אחד. האם אתה בטוח שברצונך להפוך אותה למיקום הבית כעת?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">כתובת זו נוספה בעבר כמיקום הבית. ניתן להוסיף את אותה כתובת רק למיקום אחד. האם אתה בטוח שברצונך להפוך אותה למיקום העבודה כעת?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi כבוי</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">כדי לקשר רשת Wi-Fi למיקום זה עליך להפעיל את האפשרות Wi-Fi בהגדרות.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">הגדרות</string><!--SETTINGS-->
+    <string name="duplicate_address">כתובת זו כבר נוספה.</string><!--This address has already been added.-->
+    <string name="unknown_address">כתובת לא ידועה</string><!--unknown address-->
+    <string name="too_much_item">הוספת את המספר המרבי של מיקומים.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">מחובר</string><!--Connected-->
+    <string name="saved_label">נשמר</string><!--Saved-->
+    <string name="secured_label">מאובטח באמצעות %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">כדי לפעול כמו שצריך, האפליקציה הזו זקוקה לגישה לנתוני המיקום של המכשיר. הענק את ההרשאה כשתתבקש.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">כדי לפעול כמו שצריך, האפליקציה הזו זקוקה לגישה לנתוני המיקום שלך. ניתן לנהל את ההרשאות של %s בהגדרות.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">סגור</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">הגדרות</string><!--SETTINGS-->
+    <string name="hsp_app_name">חבילת שירות של Htc</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">מקורות המיקום מנוטרלים</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">כדי שהיישום יפעל כהלכה, עליו לאתר את מיקומך. הפעל את ה-Wi-Fi דרך \'הגדרות\'.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">הגדרה</string><!--SETTING-->
+    <string name="no_wifi_available">אין רשתות Wi-Fi זמינות</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/providers/CustomizationSettingsProvider/7.0/andL/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/providers/CustomizationSettingsProvider" path="app/packages/providers/CustomizationSettingsProvider" revision="app/providers/CustomizationSettingsProvider/7.0/andL/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Twitter/6.0/api19/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Twitter" path="app/packages/apps/Twitter" revision="app/apps/Twitter/6.0/api19/master"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/Social_Library" path="app/hms_libs/Social_Library" revision="613bfe24a1d0388cfb27a35d782d6c1fad3a3266"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="e0b7385392599bfe284f1a1795748da40fac4202"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="ac6a49b4cb56c3a3c8cf9492285a03141f89e31b"/>
+</manifest>

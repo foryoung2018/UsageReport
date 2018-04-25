@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/Browser/7.0/and4.4.3/test" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Browser" path="app/packages/apps/Browser" revision="app/Browser/7.0/and4.4.3/test"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Browser" path="app/customization/packages/apps/Browser" revision="app/Browser/master"/>
+</manifest>

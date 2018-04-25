@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    * HTC Corporation Proprietary Rights Acknowledgment
+    *
+    * Copyright (C) 2008 HTC Corporation
+    *
+    * All Rights Reserved.
+    *
+    * The information contained in this work is the exclusive property of
+    * HTC Corporation ("HTC"). Only the user who is legally
+    * authorized by HTC ("Authorized User") has right to employ this work
+    * within the scope of this statement. Nevertheless, the Authorized User
+    * shall not use this work for any purpose other than the purpose agreed by HTC.
+    * Any and all addition or modification to this work shall be unconditionally
+    * granted back to HTC and such addition or modification shall be solely owned by HTC.
+    * No right is granted under this statement, including but not limited to,
+    * distribution, reproduction, and transmission, except as otherwise provided in this statement.
+    * Any other usage of this work shall be subject to the further written consent of HTC.
+-->
+<!--
+    /*********************************************************************
+    * Purpose: Describe the purpose of this document
+    * Author: Kunhung Li
+    * History: 2009/05/20
+    * Note:
+    * Copyright (C) 19xx-20xx, HTC
+    *********************************************************************/
+-->
+<resources>
+    <!--ToDo no one use, remove by next sense-->
+    <integer name="listview_border_height">3</integer>
+    <integer name="listview_blade_padding">3</integer>
+    <color name="listview_app_background">#fff2f2f2</color>
+    <drawable name="listview_listbackground">#ff1e1e1e</drawable>
+    <color name="expand_list_child_color">#ffdbdbdb</color>
+    <bool name="listview_separate_section">true</bool>
+    <integer name="listview_fastscroller_big_height">230</integer>
+    <integer name="listview_fastscroller_big_width">230</integer>
+    <integer name="listview_fastscroller_big_textsize">200</integer>
+    <integer name="listview_fastscroller_big_textmargin">28</integer>
+    <integer name="listview_fastscroller_height">94</integer>
+    <integer name="listview_fastscroller_width">408</integer>
+    <integer name="listview_fastscroller_textsize">60</integer>
+    <integer name="listview_fastscroller_textmargin">20</integer>
+    <integer name="listview_scalex_difference">10</integer>
+    <integer name="listview_scaley_difference">10</integer>
+    <integer name="listview_fastscroller_automotive_big_height">328</integer>
+    <integer name="listview_fastscroller_automotive_big_width">328</integer>
+    <integer name="listview_fastscroller_automotive_big_textsize">300</integer>
+    <integer name="listview_fastscroller_automotive_textsize">60</integer>
+    <dimen name="listview_max_overfling_gap">18px</dimen>
+    <dimen name="listview_min_overfling_gap">3px</dimen>
+    <dimen name="gridview_min_overfling_gap">10px</dimen>
+    <dimen name="list_item_height">130px</dimen>
+    <!-- End -->
+    <dimen name="expand_divider_height">4px</dimen>
+</resources>

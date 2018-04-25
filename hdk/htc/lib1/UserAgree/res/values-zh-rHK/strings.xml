@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">此應用程式使用行動數據或 Wi-Fi。請與當地電信業者確認數據使用的確切費率。</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">不需要再問我</string><!--Don\'t ask me again-->
+
+</resources>

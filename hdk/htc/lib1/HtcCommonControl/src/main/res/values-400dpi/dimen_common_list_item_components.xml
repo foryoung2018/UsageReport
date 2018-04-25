@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="htc_list_item_height_popup_menu">154px</dimen>
+    <dimen name="htc_list_item_vertical_divider_width">2px</dimen>
+    <dimen name="htc_list_item_color_bar_width">10px</dimen>
+    <dimen name="htc_list_item_color_bar_bold_width">20px</dimen>
+    <dimen name="htc_list_item_color_icon_size">108px</dimen>
+</resources>

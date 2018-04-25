@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="tabbar_height">42px</dimen>
+    <dimen name="tab_indicator_height">6px</dimen>
+</resources>

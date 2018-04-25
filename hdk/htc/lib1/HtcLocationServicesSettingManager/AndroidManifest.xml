@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib1.locationservicessettingmanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+	<uses-permission android:name="com.htc.android.locationpicker.permission.PICK_LOCATION"/>
+    <uses-permission android:name="com.htc.sense.permission.APP_HSP"/>
+    <!-- For network state checking -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--access approximate location-->
+    <!-- The following permissions are only requested if the device is on M or above.
+     On older platforms these permissions are not requested and will not be available. -->
+    <uses-permission-sdk-m android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission-sdk-m android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application>
+        <activity
+            android:name="LocationServiceActivity"
+            android:theme="@style/theme_app"
+            android:permission="com.htc.sense.permission.APP_HSP">        	
+        </activity>
+        <activity
+            android:name="AddressNetworkActivity"
+            android:theme="@style/theme_app"
+            android:permission="com.htc.sense.permission.APP_HSP">        	
+        </activity>
+    </application>
+
+</manifest>

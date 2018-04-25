@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Servicios de ubicación HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">Servicios de ubicación HTC</string><!--HTC Location Services-->
+    <string name="home_label">Casa</string><!--Home-->
+    <string name="work_label">Trabajo</string><!--Work-->
+    <string name="location_picker">selector de ubicación</string><!--location picker-->
+    <string name="clear_label">Borrar</string><!--Clear-->
+    <string name="description_label">Al vincular manualmente una dirección o red Wi-Fi con la ubicación de su casa o trabajo, usted acepta compartir su %1$s y %2$s con Inicio de HTC Sense.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">ubicación exacta</string><!--precise location-->
+    <string name="precise_location_upper">Ubicación exacta</string><!--Precise location-->
+    <string name="personal_usage_data">datos de uso personales</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Datos de uso personales</string><!--Personal usage data-->
+    <string name="precise_location_description">Compartir %s para obtener sugerencias de restaurantes y otros lugares cercanos.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Compartir %s, como aplicaciones que uso, sitios web que visito y medios que escucho o veo, para obtener sugerencias de aplicaciones, noticias y contenido.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Vincular direcciones o redes Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Vincular direcciones o redes Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">agregar</string><!--add-->
+    <string name="no_content">Pulse &quot;+&quot; para agregar una dirección en la red Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">REDES Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">DIRECCIONES</string><!--ADDRESSES-->
+    <string name="wifi_label">Red Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">Dirección</string><!--Address-->
+    <string name="select_wifi_title">Seleccionar una o más redes</string><!--Select one or more networks-->
+    <string name="remove_label">Eliminar</string><!--Remove-->
+    <string name="edit_label">Editar</string><!--Edit-->
+    <string name="alert_dialog_ok">Aceptar</string><!--OK-->
+    <string name="alert_dialog_cancel">CANCELAR</string><!--CANCEL-->
+    <string name="lib_app_name">Servicios de ubicación HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">Cambio de ubicación de dirección</string><!--Address location change-->
+    <string name="switch_mode_home">Ha agregado anteriormente esta dirección como ubicación laboral. Una dirección solo puede agregarse a una ubicación. ¿Quiere convertirla en la ubicación de su casa ahora?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Ha agregado anteriormente esta dirección como la ubicación de su casa. Una dirección solo puede agregarse a una ubicación. ¿Quiere convertirla en una ubicación laboral ahora?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi está desactivado</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Para vincular una red Wi-Fi a esta ubicación, debe activar Wi-Fi en Configuración.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">CONFIGURACIÓN</string><!--SETTINGS-->
+    <string name="duplicate_address">Esta dirección ya ha sido agregada.</string><!--This address has already been added.-->
+    <string name="unknown_address">dirección desconocida</string><!--unknown address-->
+    <string name="too_much_item">Ha agregado el número máximo de ubicaciones.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Conectado</string><!--Connected-->
+    <string name="saved_label">Guardada</string><!--Saved-->
+    <string name="secured_label">Protegida con %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Para funcionar correctamente, esta aplicación necesita acceder a la ubicación de este dispositivo. Otorgue el permiso cuando se le solicite.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Para funcionar correctamente, esta aplicación necesita acceder a su ubicación. Puede administrar los permisos de %s en Configuración.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">CERRAR</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">CONFIGURACIÓN</string><!--SETTINGS-->
+    <string name="hsp_app_name">Paquete de servicios HTC</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Fuentes de ubicación deshabilitadas</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Para trabajar correctamente, esta aplicación necesita saber su ubicación. Active una fuente de ubicación en Configuración.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">CONFIGURACIÓN</string><!--SETTING-->
+    <string name="no_wifi_available">No hay redes Wi-Fi disponibles</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

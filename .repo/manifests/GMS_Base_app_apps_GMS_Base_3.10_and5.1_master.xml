@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/GMS_Base/3.10/and5.1/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/GMS_Base" path="app/packages/apps/GMS_Base" revision="app/apps/GMS_Base/3.10/and5.1/master"/>
+</manifest>

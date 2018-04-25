@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/GetCellsInfoServiceChina/1.0/api21/CT_SPECIAL_SKU" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/GetCellsInfoServiceChina" path="app/packages/apps/GetCellsInfoServiceChina" revision="app/apps/GetCellsInfoServiceChina/1.0/api21/CT_SPECIAL_SKU"/>
+</manifest>

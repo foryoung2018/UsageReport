@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/LocationAware_Plugin/7.0/api16/none_htc" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/LocationAware_Plugin" path="app/packages/apps/LocationAware_Plugin" revision="app/apps/LocationAware_Plugin/7.0/api16/none_htc"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/LocationAware_Plugin" path="app/customization/packages/apps/LocationAware_Plugin" revision="app/apps/LocationAware_Plugin/master"/>
+</manifest>

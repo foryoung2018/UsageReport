@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+	<Button android:id="@+id/keep_show_btn" 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal|top"
+    	android:text="KeepShowAtOrientation"
+	    />
+	
+	<Button android:id="@+id/btn" 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal|bottom"
+    	android:text="Button2"
+	    />
+</FrameLayout>

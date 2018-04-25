@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Dialog when user want to set as ringtone: Label for title -->
+    <string name="dialog_set_as_title">التعيين كنغمة رنين</string><!--Set as ringtone-->
+    
+<!-- Dialog when user want to set as ringtone: Label for button text -->
+    <string name="dialog_btn_set_default_text">نغمة رنين الهاتف</string><!--Phone ringtone-->
+    
+<!-- Dialog when user want to set as ringtone: Label for button text -->
+    <string name="dialog_btn_set_contact_text">نغمة رنين جهة الاتصال</string><!--Contact ringtone-->
+    
+<!-- Dialog when user want to set as ringtone: Label for button text -->
+    <string name="dialog_btn_trimmer_text">تشذيب نغمة الرنين</string><!--Trim the ringtone-->
+    
+<!-- Toast message when trimming audio length is less than 3 seconds: Label for message -->
+    <string name="toast_minimum_length_error">الحد الأدنى لطول نغمة رنين هو 3 ثوانٍ</string><!--Minimum length for a ringtone is 3 seconds-->
+    
+<!-- Toast message when No contacts selected: Label for message -->
+    <string name="toast_contact_picker_failed">لم يتم تحديد أي أشخاص</string><!--No people selected-->
+    
+<!-- Toast message when seting as default ringtone successfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_default_ok">تم تعيين هذه الموسيقى كنغمة رنين الهاتف</string><!--This music has been set as phone ringtone-->
+    
+<!-- Toast message when seting as default ringtone unsuccessfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_default_fail">يتعذر تعيين هذه الموسيقى كنغمة رنين افتراضية</string><!--Unable to set this music as default ringtone-->
+    
+<!-- Toast message when seting as contact ringtone successfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_contact_ok">تم تعيين هذه الموسيقى كنغمة رنين لجهة اتصال</string><!--This music has been set as contact ringtone-->
+    
+<!-- Toast message when seting as contact ringtone unsuccessfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_contact_fail">تعذر تعيين هذه الموسيقى كنغمة رنين لجهة اتصال</string><!--Unable to set this music as contact ringtone-->
+    
+<!-- Add for dual SIM projects, application need to identify slot 1/2 -->
+    <string name="nn_slot_number">الفتحة %d</string><!--Slot %d-->
+    
+<!-- Dual mode dialog item "Both" for phone type rintone choose -->
+    <string name="dual_mode_dialog_both_slots">كلاهما</string><!--Both-->
+    
+<!-- Dual mode dialog title for phone type rintone choose -->
+    <string name="dual_mode_dialog_title">التعيين كنغمة رنين الهاتف</string><!--Set as phone ringtone-->
+    
+<!-- Toast message when sd card is not available: Label for message -->
+    <string name="toast_sdcard_not_available">بطاقة SD غير متوفرة</string><!--SD card is not available-->
+
+<!-- Toast message when phone storage is not available: Label for message -->
+    <string name="toast_phonestorage_not_available">ذاكرة تخزين الهاتف غير متوفرة</string><!--Phone storage is not available-->
+    
+<!-- Toast message when sd card is low: Label for message -->
+    <string name="toast_sdcard_is_low">مساحة التخزين في بطاقة SD منخفضة</string><!--Storage on your SD card is low-->
+
+<!-- Toast message when phone storage is low: Label for message -->
+    <string name="toast_phonestorage_is_low">مساحة التخزين الحرة على هاتفك منخفضة</string><!--Your phone storage is low on free space-->
+</resources>

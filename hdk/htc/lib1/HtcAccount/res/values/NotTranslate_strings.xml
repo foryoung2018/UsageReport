@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Do not translate (alias). Legal tips terms and conditions hyper link. -->
+    <string name="txt_sign_up_legal_tips_tos_link" translatable="false">@string/txt_sign_in_legal_tips_tos_link</string>
+
+    <!-- Do not translate (alias). Legal tips privacy policy hyper link. -->
+    <string name="txt_sign_up_legal_tips_privacy_link" translatable="false">@string/txt_sign_in_legal_tips_privacy_link</string>
+
+</resources>

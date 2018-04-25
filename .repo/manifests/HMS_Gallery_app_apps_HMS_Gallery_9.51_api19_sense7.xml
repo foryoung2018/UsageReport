@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HMS_Gallery/9.51/api19/sense7" sync-j="4" HDKLib3Name="HDK_Lib3_API19_2_Stable" HDKLib3Ver="19.2"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HMS_Gallery" path="app/packages/apps/HMS_Gallery" revision="app/apps/HMS_Gallery/9.51/api19/sense7"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HTCImageCodec" path="app/packages/apps/HTCImageCodec" revision="483ae6fc8f605179e39e531d3470765382603c93"/>
+  <project name="app/packages/apps/DuoShare" path="app/packages/apps/DuoShare" revision="c2dd8b5b9735bf53ee166553a21a90ba0fe383d0"/>
+  <project name="app/packages/apps/DrawingBoard" path="app/packages/apps/DrawingBoard" revision="9a0f327d8e4d4bd3630c388c3e63d34faf6efc7c"/>
+  <project name="app/packages/apps/Liveretouch" path="app/packages/apps/Liveretouch" revision="46cdac4bb504c127b77d153b88f4f1043b6fba07"/>
+  <project name="app/packages/apps/ZeroEditing" path="app/packages/apps/ZeroEditing" revision="ee5b8eb5ff41a6aaeefcb68da1a0e1f8257c246f"/>
+  <project name="app/packages/apps/HtcAlbumMapView" path="app/packages/apps/HtcAlbumMapView" revision="21e69dab6bb3fb9ba17cbce23e05b53a84d35108"/>
+  <project name="app/packages/apps/MediaManager" path="app/packages/apps/MediaManager" revision="5304437d0890d6bbaaacf35d99f8b1c4ce690768"/>
+  <project name="app/packages/apps/HTCAlbum" path="app/packages/apps/HTCAlbum" revision="5aaf58ef4c69b05870a60b51e3be0f17cfd31c09"/>
+  <project name="app/packages/apps/HtcPhotoEnhancer_GP" path="app/packages/apps/HtcPhotoEnhancer_GP" revision="2eed3f183ca6635a612a08e8217351b76969be8d"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/GalleryPlugin" path="app/hms_libs/GalleryPlugin" revision="1e339463301c8cc4621da79eeca871108c2ce6d7"/>
+  <project name="app/hms_libs/HMS_Gallery_Libs" path="app/hms_libs/HMS_Gallery_Libs" revision="a17a8ef11cfb25a93d09ee9b9fc426d906d1420c"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="397b03e04ea85afe1c7e14c1a6f349d04abb1546"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="d1c4f578902533f221a82037e02973dbd8e7dc79"/>
+  <project name="app/hdk/htc/lib1/htcmp4parser" path="hdk/htc/lib1/HtcMp4Parser" revision="0b42901cdb9335d51d9203aa08e105cad37984d4"/>
+  <project name="app/hdk/htc/lib1/gifmodule" path="hdk/htc/lib1/GIFModule" revision="38f5a7c5d05837c8efc55613887feff72d594b28"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="8d01e74650ea5722260b3fb4ed10cbacecfe656e"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="6f0220122395763c2f8253a97834352f05d944aa"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="aa46f79a9e2cdd43f79403bc342c7077f966f855"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="579976482c03ae2892ffb71b89d3e0a8682d43e5"/>
+  <project name="app/hdk/htc/lib1/panoviewer" path="hdk/htc/lib1/PanoViewer" revision="4eb59e195ddb7cbac3a8b47b4e0e1b076ab68bbb"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="a3b8f807cd2e41b4766d455bb8318057020e865e"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="acb07654da1bab3a22aa64d522c7ee86baaae0cb"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="c51b1d5e22f49106563f596330c1e1c3776a7cce"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="58cbb1adeca1a8bdd15971382ec3ea4d9f13913b"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="0617ae21d0392c58956f7e7e1a44d37e378f6d46"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="34cc0c60b78d29084892829aa9d50de56f0c6317"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="b809e6d9350c31fdb745585b03dd2b1a2afbbeb8"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="eeb6b1df0f9980a55725a876521b77957c6a10fc"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="51cdb5979cb6c04a8ec45daab2d61b1fed5ea674"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="e2f1419eba5df778cda5a1c0cf3b54bfbd3df372"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="314bdf777793f5f5f4c2c8805d3d6a2dfc0ff906"/>
+  <project name="app/hdk/htc/lib3/medialinksharedmodule" path="hdk/htc/lib3/MediaLinkSharedModule" revision="ef546b3b8164d1bdf21c313223850b149d6514a8"/>
+  <project name="app/hdk/htc/lib3/htcreport" path="hdk/htc/lib3/HtcReport" revision="f14b68388492ea348970174dba0fd329d236f219"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="77289be9fac7dc0378e0059acb6ffed53e6694f4"/>
+  <project name="app/hdk/htc/lib3/ams" path="hdk/htc/lib3/AMS" revision="96a86be3e5a882d5ea3b7c55bfd53f78179116bf"/>
+  <project name="app/hdk/htc/lib2/photoplatformcachemanager" path="hdk/htc/lib2/PhotoPlatformCacheManager" revision="68dcbd4a679851a5dbbf727a8562b7b4f6d0d107"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="d7003413096ec0aaa02ede0a773bf37d253b07ce"/>
+</manifest>

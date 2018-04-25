@@ -1,0 +1,17 @@
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+
+# To resolve GMS related warnings such as:
+# Warning: com.google.android.gms.common.GooglePlayServicesUtil: can't find referenced class com.google.android.gms.R$string
+# Warning: com.google.android.gms.common.GooglePlayServicesUtil: can't find referenced class com.google.android.gms.R
+-dontwarn com.google.android.gms.**
+
+# if no -keepattributes *Annotation*, BDIPayload.Builder.build().toString() will get empty string
+-keepattributes Signature
+-keepattributes *Annotation*
+-keepattributes InnerClasses
+
+-keep class com.squareup.** { *; }
+-keep class com.htc.studio.** { *; }
+-keep class com.htc.xps.** { *; }
+-dontwarn okio.**

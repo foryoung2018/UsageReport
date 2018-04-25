@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/providers/SmartContactsProvider/1.10/api23/gradle" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/providers/SmartContactsProvider" path="app/packages/providers/SmartContactsProvider" revision="app/providers/SmartContactsProvider/1.10/api23/gradle"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+</manifest>

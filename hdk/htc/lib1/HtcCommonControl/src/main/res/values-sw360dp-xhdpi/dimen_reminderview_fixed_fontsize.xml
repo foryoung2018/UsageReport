@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="fixed_lockscreen_01">28px</dimen>
+    <dimen name="fixed_lockscreen_12">32px</dimen>
+    <dimen name="fixed_lockscreen_21">24px</dimen>
+</resources>

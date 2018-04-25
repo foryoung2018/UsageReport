@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/LINK_App/1.00/api25/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/LINK_App" path="app/packages/apps/LINK_App" revision="app/apps/LINK_App/1.00/api25/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="2499941c04c0b427e37f3a964ac19e77b8677a4b"/>
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="htcAutoCompleteTextViewStyleDefault" parent="@android:style/Widget.AutoCompleteTextView">
+        <!-- skinable attribute -->
+        <item name="android:entries">@array/autocompletetextview_backgrounds</item>
+        <!-- skinable attribute -->
+        <item name="android:popupBackground">@drawable/common_dropdown_background</item>
+        <item name="backgroundMode">light</item>
+        <!-- skinable attribute -->
+        <item name="overlay_color">?attr/category_color</item>
+        <item name="android:dropDownVerticalOffset">-1px</item>
+        <item name="android:dropDownHorizontalOffset">-1px</item>
+        <item name="android:dropDownWidth">-1px</item>
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">@style/input_default_m</item>
+        <item name="android:textColor">@color/list_primary</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_light</item>
+    </style>
+    <style name="htcAutoCompleteTextViewStyleDefault.Dark">
+        <!-- skinable attribute -->
+        <item name="android:popupBackground">@drawable/common_dropdown_background</item>
+        <item name="backgroundMode">dark</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_dark</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="htcEditTextStyleDefault" parent="@android:style/Widget.EditText">
+        <!-- skinable attribute -->
+        <item name="android:entries">@array/autocompletetextview_backgrounds</item>
+        <item name="backgroundMode">light</item>
+        <!-- skinable attribute -->
+        <item name="overlay_color">?attr/category_color</item>
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">@style/input_default_m</item>
+        <item name="android:textColor">@color/list_primary</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="htcEditTextStyleDefault.Dark">
+        <item name="backgroundMode">dark</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+</resources>

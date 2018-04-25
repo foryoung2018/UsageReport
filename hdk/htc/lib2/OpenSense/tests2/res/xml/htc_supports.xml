@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pluginpackage
+        certification="0F00"
+        version="0"
+        xmlns:htcsense="http://www.htc.com/opensense"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.htc.com/opensense plugin.xsd">
+    <plugin version="0">
+        <!-- Service Type -->
+        <feature>TestDataPlugin2</feature>
+        <!-- Service Class -->
+        <class>com.htc.example.blinkfeed.plugin.StreamPluginService</class>
+        <!-- Service Description -->
+        <description>BlinkFeed stream plugin service for Google Reader</description>
+        <!-- Service Metadata: Account Type -->
+        <plugin_meta>com.htc.example.blinkfeed</plugin_meta>
+    </plugin>
+</pluginpackage>

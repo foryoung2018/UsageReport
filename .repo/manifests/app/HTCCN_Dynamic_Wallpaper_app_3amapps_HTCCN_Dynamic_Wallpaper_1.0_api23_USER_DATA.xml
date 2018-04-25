@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/HTCCN_Dynamic_Wallpaper/1.0/api23/USER_DATA" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/HTCCN_Dynamic_Wallpaper" path="app/packages/3amapps/HTCCN_Dynamic_Wallpaper" revision="app/3amapps/HTCCN_Dynamic_Wallpaper/1.0/api23/USER_DATA"/>
+</manifest>

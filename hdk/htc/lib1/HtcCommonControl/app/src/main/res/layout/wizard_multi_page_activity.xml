@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_top"
+        android:layout_marginBottom="@dimen/content_margin_bottom"
+        android:layout_marginLeft="@dimen/content_margin_left"
+        android:layout_marginRight="@dimen/content_margin_right"
+        style="@style/textAppearance_content"/>
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Only Primary TextView -->
+    <style name="ActionBarPrimaryTextView">
+        <item name="android:textAppearance">@style/ab_primary_textview_style</item>
+    </style>
+    <!-- Primary TextView of Two textViews -->
+    <style name="ActionBarPrimaryTextView_TwoLine">
+        <item name="android:textAppearance">@style/ab_primary_textview_style</item>
+    </style>
+    <!-- Pull Down Only Primary TextView -->
+    <style name="ActionBarPrimaryTextView_Update">
+        <item name="android:textAppearance">@style/ab_primary_textview_pulldown_style</item>
+    </style>
+    <!-- Pull Down -->
+    <style name="ActionBarPrimaryTextView_PullDown">
+        <item name="android:textAppearance">@style/ab_primary_textview_pulldown_style</item>
+    </style>
+    <!-- Pull Down Two TextViews -->
+    <style name="ActionBarPrimaryTextView_PullDown_TwoLine">
+        <item name="android:textAppearance">@style/ab_primary_textview_pulldown_style</item>
+    </style>
+    <!-- Only Primary TextView Auotomotive -->
+    <style name="ActionBarPrimaryTextView_Automotive">
+        <item name="android:textAppearance">@style/fixed_automotive_title_primary_m</item>
+    </style>
+    <!-- Primary TextView of Two textViews Auotomotive -->
+    <style name="ActionBarPrimaryTextView_Automotive_TwoLine">
+        <item name="android:textAppearance">@style/fixed_automotive_title_primary_s</item>
+    </style>
+    <!-- Primary TextView for Multiline -->
+    <style name="ActionBarPrimaryTextView_Multiline">
+        <item name="android:textAppearance">@style/fixed_title_primary_xs</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <!-- Default Secondary TextView -->
+    <style name="ActionBarSecondaryTextView">
+        <item name="android:textAppearance">@style/ab_secondary_textview_style</item>
+    </style>
+    <!-- Pull Down Secondary TextView -->
+    <style name="ActionBarSecondaryTextView_PullDown">
+        <item name="android:textAppearance">@style/ab_secondary_textview_pulldown_style</item>
+    </style>
+    <!-- Update Secondary TextView -->
+    <style name="ActionBarSecondaryTextView_Update">
+        <item name="android:textAppearance">@style/ab_secondary_textview_update_style</item>
+    </style>
+    <!-- Transaprent Secondary TextView -->
+    <style name="ActionBarSecondaryTextView_Transparent">
+        <item name="android:textAppearance">@style/ab_secondary_textview_transparent_style</item>
+    </style>
+    <!-- Transaprent Secondary TextView -->
+    <style name="ActionBarSecondaryTextView_Automotive">
+        <item name="android:textAppearance">@style/fixed_automotive_title_secondary_m</item>
+    </style>
+    <!-- Counter TextView -->
+    <style name="ActionBarCounter_FollowPrimary">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_FollowSecondary">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_VerticalCenter">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_FollowPrimary_Automotive">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_FollowSecondary_Automotive">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarBackup">
+        <item name="android:src">@drawable/icon_btn_up_dark_xl</item>
+        <item name="android:drawable">@drawable/icon_btn_previous_dark</item>
+    </style>
+    <style name="ActionBarSearch">
+        <item name="android:src">@drawable/icon_btn_cancel_dark_s</item>
+    </style>
+    <style name="ActionBarRefresh">
+        <item name="android:src">@drawable/icon_indicator_scroll_up_dark_s</item>
+    </style>
+    <style name="ActionBarDropDown">
+        <item name="android:src">@drawable/automotive_common_arrow_down</item>
+        <item name="android:drawable">@drawable/common_arrow_down</item>
+    </style>
+    <style name="HtcActionBar">
+        <!-- the transparent mode can't work reason -->
+        <item name="android:background">?attr/multiply_color</item>
+        <item name="android:panelFullBackground">@drawable/common_app_bkg_top_full</item>
+        <item name="android:drawable">@drawable/common_app_bkg_top_full_land</item>
+    </style>
+    <style name="HtcWidget.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <!-- the transparent mode can't work reason -->
+        <item name="android:background">@color/starting_window_header</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="HtcWidget.ActionMode" parent="@android:style/Widget.Holo.Light.ActionMode.Inverse">
+        <!-- the transparent mode can't work reason -->
+        <item name="android:background">?attr/multiply_color</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:titleTextStyle">@style/ab_primary_textview_style</item>
+        <item name="android:subtitleTextStyle">@style/ab_secondary_textview_style</item>
+    </style>
+    <style name="ActionBarWidgetTheme">
+        <item name="android:dropDownListViewStyle">@style/HtcWidget.ListView.DropDown.ActionBar</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/htc_list_item_height_popup_menu</item>
+        <item name="android:popupMenuStyle">@style/HtcWidget.PopupMenu.ActionBar</item>
+        <item name="android:listPopupWindowStyle">@style/HtcWidget.ListPopupWindow.ActionBar</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/darklist_primary_s</item>
+    </style>
+    <style name="HtcWidget.ListPopupWindow.ActionBar" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/popupbg_inset</item>
+    </style>
+    <style name="HtcWidget.PopupMenu.ActionBar" parent="@android:style/Widget.Holo.PopupMenu">
+        <item name="android:popupBackground">@drawable/popupbg_inset</item>
+    </style>
+    <style name="HtcWidget.ListView.DropDown.ActionBar" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:divider">@drawable/inset_list_divider_dark</item>
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+    </style>
+    <style name="HtcWidget.ActionButton" parent="@android:style/Widget.Holo.ActionButton">
+        <item name="android:background">@drawable/list_selector_dark</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+        <item name="android:layout_width">@dimen/action_button_min_width</item>
+    </style>
+    <style name="HtcWidget.ActionButton.Overflow" parent="@android:Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/icon_btn_menu_dark</item>
+        <item name="android:background">@drawable/list_selector_dark</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+    </style>
+    <style name="HtcWidget.ActionButton.CloseMode" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/list_selector_dark</item>
+    </style>
+</resources>

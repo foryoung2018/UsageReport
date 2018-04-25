@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Završeno</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Deljenje preko</string><!--Share via-->
+    <string name="carousel_title">Pritisnite i zadržite prst na ikonici da biste promenili redosled</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Nije moguće ukloniti ovaj tab</string><!--Unable to remove this tab-->
+    <string name="yes">Da</string><!--Yes-->
+    <string name="no">Ne</string><!--No-->
+    <string name="menu_view_full">Prikaži</string><!--View-->
+    <string name="menu_view_video">Pusti</string><!--Play-->
+    <string name="menu_slideshow">Slideshow</string><!--Slideshow-->
+    <string name="menu_share">Podeli</string><!--Share-->
+    <string name="menu_set_as">Podesi za</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Podesi za omiljeni</string><!--Set as favorite-->
+    <string name="menu_protect_info">Informacije o zaštiti</string><!--Protection info-->
+    <string name="meun_rotate">Rotacija</string><!--Rotate-->
+    <string name="menu_delete">Brisanje</string><!--Delete-->
+    <string name="menu_crop">Rezanje</string><!--Crop-->
+    <string name="menu_properties">Detalji</string><!--Details-->
+    <string name="menu_show_on_map">Prikaži na mapi</string><!--Show on map-->
+    <string name="menu_settings">Podešavanja</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Podeli link za fotografije</string><!--Share photo link-->
+    <string name="refresh">Osveži</string><!--Refresh-->
+    <string name="add_comments">Dodaj komentar</string><!--Add comment-->
+    <string name="button_show_caption">Prikaži naslov</string><!--Show caption-->
+    <string name="button_hide_caption">Sakrij naslov</string><!--Hide caption-->
+    <string name="button_show_description">Prikaži opis</string><!--Show description-->
+    <string name="button_hide_description">Sakrij opis</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Mala</item><!--Small-->
+        <item>Srednja</item><!--Medium-->
+        <item>Velika</item><!--Large-->
+        <item>Ekstra veliki</item><!--Extra large-->
+        <item>Ogromna</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dvaput dodirnite za akciju</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Povucite ikonu nagore</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Prevucite gore radi otključavanja</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>N</item><!--SU-->
+        <item>Po</item><!--M-->
+        <item>Ut</item><!--TU-->
+        <item>Sr</item><!--W-->
+        <item>Č</item><!--TH-->
+        <item>Pe</item><!--F-->
+        <item>Su</item><!--SA-->
+    </string-array>
+</resources>

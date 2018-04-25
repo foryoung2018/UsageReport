@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcOverlapLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/testover">
+
+    <com.htc.lib1.cc.widget.HtcListView
+        android:id="@+id/list"
+        style="@style/HtcListView.Dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <com.htc.lib1.cc.widget.HtcFooter
+        android:id="@+id/footerbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/testbutton"
+            android:text="@string/enable_button" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:enabled="false"
+            android:text="@string/disable_button" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:src="@drawable/icon_btn_search_dark"
+            android:text="@string/btn" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:src="@drawable/icon_btn_search_dark"
+            android:text="@string/btn" />
+    </com.htc.lib1.cc.widget.HtcFooter>
+
+</com.htc.lib1.cc.widget.HtcOverlapLayout>

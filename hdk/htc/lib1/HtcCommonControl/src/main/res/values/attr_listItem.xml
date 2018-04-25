@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HtcListItemTextComponentMode">
+        <attr name="textMode">
+            <enum name="whitelist" value="0" />
+            <enum name="darklist" value="1" />
+            <enum name="automotive_whitelist" value="2" />
+            <enum name="automotive_darklist" value="4" />
+        </attr>
+        <attr name="isMarquee" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="HtcListItem2LineText">
+        <attr name="indicator" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="HtcListItem">
+        <attr name="itemMode">
+            <enum name="defaultMode" value="0" />
+            <enum name="customizedMode" value="1" />
+            <enum name="keepMediumHeightMode" value="2" />
+            <enum name="automotiveMode" value="3" />
+            <enum name="popupMenuMode" value="4" />
+        </attr>
+        <attr name="android:background" />
+        <attr name="android:drawable" />
+        <attr name="android:divider" />
+        <attr name="android:src" />
+        <attr name="android:childDivider" />
+        <attr name="android:childIndicator" />
+    </declare-styleable>
+    <declare-styleable name="HtcListItemBubbleCount">
+        <attr name="android:repeatCount" />
+    </declare-styleable>
+    <declare-styleable name="HtcListItemSeparator">
+        <attr name="android:drawable" />
+        <attr name="leftText" format="string" />
+        <attr name="middleText" format="string" />
+        <attr name="rightText" format="string" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="android:icon" />
+    </declare-styleable>
+    <declare-styleable name="HtcListItem_Layout">
+        <attr name="layout_type">
+            <flag name="size_wrap_content" value="0x00000001" />
+            <flag name="size_147" value="0x00000002" />
+            <flag name="size_default_height" value="0x00000004" />
+            <flag name="size_rest" value="0x00000008" />
+            <flag name="size_1_3_rest" value="0x00000010" />
+            <flag name="size_2_3_rest" value="0x00000020" />
+            <flag name="size_auto_1_3_rest" value="0x00000010" />
+            <flag name="size_auto_2_3_rest" value="0x00000020" />
+            <flag name="size_3_10_rest" value="0x00000040" />
+            <flag name="size_4_10_rest" value="0x00000080" />
+            <flag name="start" value="0x00000100" />
+            <flag name="end" value="0x00000200" />
+            <flag name="align_start_edge" value="0x00000400" />
+            <flag name="align_start_147_edge" value="0x00000800" />
+            <flag name="align_start_default_height_edge" value="0x00001000" />
+            <flag name="align_end_edge" value="0x00002000" />
+            <flag name="align_end_147_edge" value="0x00004000" />
+            <flag name="align_end_default_height_edge" value="0x00008000" />
+            <flag name="divider_start" value="0x00010000" />
+            <flag name="divider_end" value="0x00020000" />
+            <flag name="center_horizontal" value="0x00040000" />
+            <flag name="center_vertical" value="0x00080000" />
+            <flag name="align_top_edge" value="0x00100000" />
+            <flag name="primary" value="0x00200000" />
+            <flag name="secondary" value="0x00400000" />
+            <flag name="first_line" value="0x00800000" />
+            <flag name="secondary_line" value="0x01000000" />
+            <flag name="footer_line" value="0x02000000" />
+            <flag name="default_height_center_vertical" value="0x04000000" />
+        </attr>
+    </declare-styleable>
+</resources>

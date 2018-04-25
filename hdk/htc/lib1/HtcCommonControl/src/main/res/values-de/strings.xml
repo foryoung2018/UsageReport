@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Fertig</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Teilen via</string><!--Share via-->
+    <string name="carousel_title">Symbol drücken und halten zum Neuordnen</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Diese Registerkarte kann nicht entfernt werden</string><!--Unable to remove this tab-->
+    <string name="yes">Ja</string><!--Yes-->
+    <string name="no">Nein</string><!--No-->
+    <string name="menu_view_full">Ansicht</string><!--View-->
+    <string name="menu_view_video">Wiedergabe</string><!--Play-->
+    <string name="menu_slideshow">Diashow</string><!--Slideshow-->
+    <string name="menu_share">Senden</string><!--Share-->
+    <string name="menu_set_as">Einstellen als</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Als Favoriten einstellen</string><!--Set as favorite-->
+    <string name="menu_protect_info">Schutzinformationen</string><!--Protection info-->
+    <string name="meun_rotate">Drehen</string><!--Rotate-->
+    <string name="menu_delete">Löschen</string><!--Delete-->
+    <string name="menu_crop">Zuschneiden</string><!--Crop-->
+    <string name="menu_properties">Details</string><!--Details-->
+    <string name="menu_show_on_map">Auf der Karte anzeigen</string><!--Show on map-->
+    <string name="menu_settings">Einstellungen</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Fotolink teilen</string><!--Share photo link-->
+    <string name="refresh">Aktualisieren</string><!--Refresh-->
+    <string name="add_comments">Kommentar hinzufügen</string><!--Add comment-->
+    <string name="button_show_caption">Bildtitel anzeigen</string><!--Show caption-->
+    <string name="button_hide_caption">Bildtitel ausblenden</string><!--Hide caption-->
+    <string name="button_show_description">Beschreibung anzeigen</string><!--Show description-->
+    <string name="button_hide_description">Beschreibung ausblenden</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Klein</item><!--Small-->
+        <item>Mittel</item><!--Medium-->
+        <item>Groß</item><!--Large-->
+        <item>Sehr groß</item><!--Extra large-->
+        <item>Riesig</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Doppeltippen für Aktion</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Symbol nach oben ziehen</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Zum Entsperren nach oben ziehen</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>So</item><!--SU-->
+        <item>Mo</item><!--M-->
+        <item>Di</item><!--TU-->
+        <item>Mi</item><!--W-->
+        <item>Do</item><!--TH-->
+        <item>Fr</item><!--F-->
+        <item>Sa</item><!--SA-->
+    </string-array>
+</resources>

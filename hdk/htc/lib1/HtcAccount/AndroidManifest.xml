@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib1.cs.auth"
+    android:versionCode="20303"
+    android:versionName="2.3.3">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <!-- Use permission to allow launch HTC Account authenticator page. -->
+    <uses-permission android:name="com.htc.cs.identity.permission.LAUNCH_AUTH_INTENT" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Use permission to allow access HTC Account authenticator's provider -->
+    <uses-permission android:name="com.htc.cs.identity.permission.SIGNED_IN_APP" />
+
+    <!--
+    ********************************************************************************
+    Permissions declarations.
+    ********************************************************************************
+    -->
+
+    <!-- Allows applications to open network sockets. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Allows applications to access information about networks. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+    It's suggested not to allow backup and clear user data since user credentials
+    are stored in application data folder.
+    -->
+    <application>
+
+        <!--
+        ********************************************************************************
+        Activity declarations.
+        ********************************************************************************
+        -->
+
+
+        <!-- Wrapper of AddAccountActivity for authenticator. -->
+        <activity
+            android:name=".web.AddAccountAuthenticatorActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/HTCAccountTranslucentTheme">
+            <intent-filter>
+                <action android:name="com.htc.cs.identity.webauth.AUTHENTICATOR_ADD_ACCOUNT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main entry activity for sign-in / sign-up flows. -->
+        <activity
+            android:name=".web.AddAccountActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:label="@string/label_htc_account"
+            android:theme="@style/HTCAccountTheme">
+            <intent-filter>
+                <action android:name="com.htc.cs.identity.webauth.ADD_ACCOUNT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.htc.lib1.cs.app.ConfirmAccountActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_set_up_account"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:exported="false" />
+
+        <activity
+            android:name="com.htc.lib1.cs.app.TermActivity"
+            android:configChanges="orientation|screenSize"
+            android:permission="android.permission.GET_ACCOUNTS"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.htc.lib1.cs.action.SHOW_TOS" />
+                <action android:name="com.htc.lib1.cs.action.SHOW_PRIVACY_POLICY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.htc.lib1.cs.app.EmailNotificationActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- Intermediate activity to handle application sign-in result. -->
+        <activity android:name="com.htc.lib1.cs.account.SignInHelperActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTranslucentThemeStyle"
+            android:exported="false" />
+
+        <!-- Intermediate activity to handle remove system account result. -->
+        <activity android:name="com.htc.lib1.cs.account.RemoveAccountHelperActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTranslucentThemeStyle"
+            android:exported="false" />
+
+        <!--
+        ********************************************************************************
+        Service declarations.
+        ********************************************************************************
+        -->
+
+
+        <!-- Main entry service for HTC Identity. -->
+        <service
+            android:name=".web.IdentityService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.htc.cs.HtcAccountAuthenticator" />
+            </intent-filter>
+        </service>
+
+        <!--
+        ********************************************************************************
+        Service declarations. 
+        ********************************************************************************
+        -->
+
+
+        <!-- Service to operate on data source for local HTC Account implementation. -->
+        <service android:name="com.htc.lib1.cs.account.LocalHtcAccountManagerDataService" />
+
+        <!-- Simple service which sends broadcasts through LocalBroadcastManager on main process. -->
+        <service android:name="com.htc.lib1.cs.app.LocalBroadcastService" />
+    </application>
+
+</manifest>

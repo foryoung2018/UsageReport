@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >هر یکشنبه اول</item><!--on every first Sunday-->
+        <item >هر یکشنبه دوم</item><!--on every second Sunday-->
+        <item >هر یکشنبه سوم</item><!--on every third Sunday-->
+        <item >هر یکشنبه چهارم</item><!--on every fourth Sunday-->
+        <item >هر یکشنبه آخر</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >هر دوشنبه اول</item><!--on every first Monday-->
+        <item >هر دوشنبه دوم</item><!--on every second Monday-->
+        <item >هر دوشنبه سوم</item><!--on every third Monday-->
+        <item >هر دوشنبه چهارم</item><!--on every fourth Monday-->
+        <item >هر دوشنبه آخر</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >هر سه شنبه اول</item><!--on every first Tuesday-->
+        <item >هر سه شنبه دوم</item><!--on every second Tuesday-->
+        <item >هر سه شنبه سوم</item><!--on every third Tuesday-->
+        <item >هر سه شنبه چهارم</item><!--on every fourth Tuesday-->
+        <item >هر سه شنبه آخر</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >هر چهارشنبه اول</item><!--on every first Wednesday-->
+        <item >هر چهارشنبه دوم</item><!--on every second Wednesday-->
+        <item >هر چهارشنبه سوم</item><!--on every third Wednesday-->
+        <item >هر چهارشنبه چهارم</item><!--on every fourth Wednesday-->
+        <item >هر چهارشنبه آخر</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >هر پنجشنبه اول</item><!--on every first Thursday-->
+        <item >هر پنجشنبه دوم</item><!--on every second Thursday-->
+        <item >هر پنجشنبه سوم</item><!--on every third Thursday-->
+        <item >هر پنجشنبه چهارم</item><!--on every fourth Thursday-->
+        <item >هر پنجشنبه آخر</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >هر جمعه اول</item><!--on every first Friday-->
+        <item >هر جمعه دوم</item><!--on every second Friday-->
+        <item >هر جمعه سوم</item><!--on every third Friday-->
+        <item >هر جمعه چهارم</item><!--on every fourth Friday-->
+        <item >هر جمعه آخر</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >هر شنبه اول</item><!--on every first Saturday-->
+        <item >هر شنبه دوم</item><!--on every second Saturday-->
+        <item >هر شنبه سوم</item><!--on every third Saturday-->
+        <item >هر شنبه چهارم</item><!--on every fourth Saturday-->
+        <item >هر شنبه آخر</item><!--on every last Saturday-->
+    </string-array>
+</resources>

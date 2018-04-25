@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/Polaris_Office_PhoneStd/5.1/api20/sense70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/Polaris_Office_PhoneStd" path="app/packages/3amapps/Polaris_Office_PhoneStd" revision="app/3amapps/Polaris_Office_PhoneStd/5.1/api20/sense70"/>
+</manifest>

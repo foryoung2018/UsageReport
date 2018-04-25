@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.ListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto" >
+
+    <com.htc.lib1.cc.widget.HtcListItem1LineCenteredText
+        android:id="@+id/centered_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        htc:layout_type="size_auto_2_3_rest|center_vertical" />
+
+    <com.htc.lib1.cc.widget.HtcListItem1LineCenteredStamp
+        android:id="@+id/centered_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        htc:layout_type="size_auto_1_3_rest|center_vertical|secondary_line" />
+
+</com.htc.lib1.cc.widget.ListItem>

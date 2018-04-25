@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- These resources are used by RailingLayout (HD) -->
+    <dimen name="railing_layout_height">70px</dimen>
+    <dimen name="railing_layout_large_height">110px</dimen>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECECEC"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_m" >
+
+        <CheckBox
+            android:id="@+id/showToasts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Show toast on interaction"
+            android:textColor="#A9A9A9" />
+
+        <Button
+            android:id="@+id/alert_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/all_alert_dialogs" />
+
+        <Button
+            android:id="@+id/list_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/all_list_dialogs" />
+
+        <Button
+            android:id="@+id/progress_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/all_progress_dialogs" />
+
+        <Button
+            android:id="@+id/automotive_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/all_automotive_dialogs" />
+
+        <Button
+            android:id="@+id/ringtone_picker_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Start the ringtone picker alert activity" />
+
+        <Button
+            android:id="@+id/category_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/all_themed_dialogs" />
+
+        <Button
+            android:id="@+id/tie_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/all_tie_dialogs" />
+    </LinearLayout>
+
+</ScrollView>

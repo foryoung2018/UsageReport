@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:htc="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Footer button text mode begin -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FooterButtonTextMode"
+                android:textSize="20sp"
+                style="@style/separator_primary_m" />
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:id="@+id/getheighttest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/longstring" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/d_d_d_d" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:id="@+id/footerbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                htc:backgroundMode="dark">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/longstring"
+                    htc:backgroundMode="dark" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/d_d_d_d"
+                    htc:backgroundMode="dark" />
+
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enable &amp; Disalbe sample"
+                android:textSize="20sp"
+                style="@style/separator_primary_m" />
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enable" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/disable"
+                    htc:backgroundMode="light"/>
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                htc:backgroundMode="dark">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enable"
+                    htc:backgroundMode="dark" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/disable"
+                    htc:backgroundMode="dark" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+            <!-- Footer button text mode end -->
+
+
+            <!-- Footer button icon mode begin -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HtcFooterButton set attribute oandroid:drawableTop to set icon "
+                android:textSize="20sp"
+                style="@style/separator_primary_m" />
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:id="@+id/nodiv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/showhideicon"
+                    android:text="@string/htcfooterbuttonlightstyle" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_btn_phone_light"
+                    android:id="@android:id/icon"
+                    android:text="@string/htcfooterbuttonlightstyle" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+
+            <com.htc.lib1.cc.widget.HtcFooter
+                android:id="@id/nodiv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                htc:backgroundMode="dark">
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    htc:backgroundMode="dark"
+                    android:id="@+id/showhidedarkicon"
+                    android:text="@string/htcfooterbuttondarkstyle" />
+
+                <com.htc.lib1.cc.widget.HtcFooterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_btn_phone_dark"
+                    htc:backgroundMode="dark"
+                    android:id="@+id/darkicon"
+                    android:text="@string/htcfooterbuttondarkstyle" />
+            </com.htc.lib1.cc.widget.HtcFooter>
+            <!-- Footer button icon mode end -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

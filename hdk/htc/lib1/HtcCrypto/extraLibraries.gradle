@@ -1,0 +1,5 @@
+ext {
+    extraLibrary = [
+        "com.google.android.gms:play-services-base:6.5.87"
+    ]
+}

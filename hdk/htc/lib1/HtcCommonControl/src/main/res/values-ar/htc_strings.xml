@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">البحث في الأشخاص</string><!--Search People-->
+    <string name="common_string_share_title">المشاركة عبر</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">حفظ إلى جهة اتصال موجودة</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">حفظ إلى أشخاص</string><!--Save to People-->
+    <string name="label_year">السنة</string><!--Year-->
+    <string name="label_month">شهر</string><!--Month-->
+    <string name="label_day">يوم</string><!--Day-->
+    <string name="label_hour">ساعة</string><!--Hour-->
+    <string name="label_minute">دقيقة</string><!--Minute-->
+    <string name="label_second">ثانية</string><!--Second-->
+    <string name="common_string_open_contact">فتح جهة اتصال</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">لديك علامة تبويب واحدة متبقية. لإضافة المزيد من علامات التبويب لهذا التطبيق، اختر &quot;تحرير علامات التبويب/عوامل التصفية&quot; في القائمة.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">إلغاء</string><!--Cancel-->
+    <string name="va_ok">موافق</string><!--OK-->
+    <string name="va_next">التالي</string><!--Next-->
+    <string name="va_back">السابق</string><!--Back-->
+    <string name="va_call">مكالمة</string><!--Call-->
+    <string name="st_loading">جاري التحميل...</string><!--Loading...-->
+    <string name="va_close">إغلاق</string><!--Close-->
+    <string name="va_open">فتح</string><!--Open-->
+    <string name="va_clear">مسح</string><!--Clear-->
+    <string name="va_send_mail">إرسال بريد</string><!--Send mail-->
+    <string name="va_send_message">إرسال رسالة</string><!--Send message-->
+    <string name="va_download">تنزيل</string><!--Download-->
+    <string name="st_more">المزيد</string><!--More-->
+    <string name="nn_unknown_error">خطأ غير معروف</string><!--Unknown error-->
+    <string name="va_downloading">جاري التنزيل</string><!--Downloading-->
+    <string name="va_finish">إنهاء</string><!--Finish-->
+    <string name="va_reset">إعادة تعيين</string><!--Reset-->
+    <string name="va_hide">إخفاء</string><!--Hide-->
+    <string name="ls_tablet_storage_error">حدث خطأ في وحدة تخزين الكمبيوتر اللوحي. الرجاء إعادة تشغيل جهازك أو تهيئة وحدة التخزين.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">تحرير للتحديث</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">جارٍ التحديث...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">انقر نقرًا مزدوجًا واسحب للضبط</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">عنصر قابل للسحب</string><!--Draggable item-->
+    <string name="va_move_above">تحريك لأعلى</string><!--Move above-->
+    <string name="va_move_below">تحريك لأسفل</string><!--Move below-->
+    <string name="st_pull_down_refresh">اسحب لأسفل للتحديث</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">تحرير الرقم قبل الطلب</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">فتح في خريطة</string><!--Open in map-->
+    <string name="va_copy">نسخ</string><!--Copy-->
+    <string name="va_show_all">عرض الكل</string><!--Show all-->
+</resources>

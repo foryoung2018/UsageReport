@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC atrašanās vietas pakalpojumi</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC atrašanās vietas pakalpojumi</string><!--HTC Location Services-->
+    <string name="home_label">Mājas</string><!--Home-->
+    <string name="work_label">Darbs</string><!--Work-->
+    <string name="location_picker">atrašanās vietas atlasītājs</string><!--location picker-->
+    <string name="clear_label">Notīrīt</string><!--Clear-->
+    <string name="description_label">Manuāli savienojot adreses vai Wi-Fi tīklus ar mājām vai atrašanās vietām, jūs piekrītat koplietot jūsu %1$s un %2$s ar HTC Sense Sākums.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">precīzā atrašanās vieta</string><!--precise location-->
+    <string name="precise_location_upper">Precīzā atrašanās vieta</string><!--Precise location-->
+    <string name="personal_usage_data">personiskā lietojuma dati</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Personiskā lietojuma dati</string><!--Personal usage data-->
+    <string name="precise_location_description">Koplietojiet savu %s, lai saņemtu tuvāko restorānu un citu vietu ieteikumus.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Koplietojiet savu %s kā lietojumprogrammas, kuras es izmantoju, tīmekļa vietnes un multividi, kuru klausos vai skatos, lai saņemtu lietojumprogrammu, ziņu un satura ieteikumus.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Savienojiet adreses ar Wi-Fi tīkliem</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Savienojiet adreses ar Wi-Fi tīkliem</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">pievienot</string><!--add-->
+    <string name="no_content">Piesitiet &quot;+&quot;, lai pievienotu adresi vai Wi-Fi tīklu</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi TĪKLI</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESES</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi tīkls</string><!--Wi-/Fi network-->
+    <string name="address_label">Adrese</string><!--Address-->
+    <string name="select_wifi_title">Atlasiet vienu vai vairākus tīklus</string><!--Select one or more networks-->
+    <string name="remove_label">Noņemt</string><!--Remove-->
+    <string name="edit_label">Rediģēt</string><!--Edit-->
+    <string name="alert_dialog_ok">LABI</string><!--OK-->
+    <string name="alert_dialog_cancel">ATCELT</string><!--CANCEL-->
+    <string name="lib_app_name">HTC atrašanās vietas pakalpojumi</string><!--HTC location services-->
+    <string name="switch_mode_title">Adreses atrašanās vietas maiņa</string><!--Address location change-->
+    <string name="switch_mode_home">Jūs iepriekš pievienojāt šo adresi kā darba atrašanās vietu. Adresi var pievienot tikai vienai atrašanās vietai. Vai vēlaties šobrīd padarīt to par mājas atrašanās vietu?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Jūsu iepriekš pievienojāt šo adresi kā mājas atrašanās vietu. Adresi var pievienot tikai vienai atrašanās vietai. Vai vēlaties šobrīd padarīt to par darba atrašanās vietu?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi ir izslēgts</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Lai savienotu Wi-Fi tīklu ar šo atrašanās vietu, jums nepieciešams iestatījumos ieslēgt Wi-Fi.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">IESTATĪJUMI</string><!--SETTINGS-->
+    <string name="duplicate_address">Šī adrese jau ir pievienota.</string><!--This address has already been added.-->
+    <string name="unknown_address">nezināma adrese</string><!--unknown address-->
+    <string name="too_much_item">Jūs esat pievienojis maksimālo atrašanās vietu skaitu.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Savienots</string><!--Connected-->
+    <string name="saved_label">Saglabāts</string><!--Saved-->
+    <string name="secured_label">Nodrošināts ar %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Lai pareizi darbotos, šai lietojumprogrammai nepieciešams piekļūt ierīces atrašanās vietai. Lūdzu, atļaut, kad jautāts.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Lai pareizi darbotos, šai lietojumprogrammai nepieciešams piekļūt jūsu atrašanās vietai. Jūs varat pārvaldīt %s atļaujas Iestatījumos.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">AIZVĒRT</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">IESTATĪJUMI</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC pakalpojumu pakotne</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Atrašanās vietas avoti ir atspējoti</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Lai darbotos pareizi, šai lietojumprogrammai ir jāzina jūsu atrašanās vieta. Lūdzu, iestatījumos ieslēdziet kādu atrašanās vietas avotu.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">IESTATĪŠANA</string><!--SETTING-->
+    <string name="no_wifi_available">Nav pieejamu Wi-Fi tīklu</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

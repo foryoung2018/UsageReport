@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/content_margin_left"
+            android:paddingRight="@dimen/content_margin_right">
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/reset_screen"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:layout_marginBottom="@dimen/content_margin_bottom"
+                android:text="Reset screen"
+                style="@style/normal_button"
+                android:layout_width="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:layout_marginBottom="@dimen/content_margin_bottom">
+
+                <com.htc.lib1.cc.widget.HtcRimButton
+                    android:id="@+id/progress_minus"
+                    android:text="-"
+                    android:layout_marginRight="@dimen/content_margin_right"
+                    style="@style/normal_button"
+                    android:layout_width="wrap_content"/>
+
+                <com.htc.lib1.cc.widget.HtcRimButton
+                    android:id="@+id/show_hide_progress"
+                    android:text="Show/Hide Progress bar"
+                    android:layout_marginRight="@dimen/content_margin_right"
+                    style="@style/normal_button"
+                    android:layout_width="wrap_content"/>
+
+                <com.htc.lib1.cc.widget.HtcRimButton
+                    android:id="@+id/progress_plus"
+                    android:text="+"
+                    android:layout_marginRight="@dimen/content_margin_right"
+                    style="@style/normal_button"
+                    android:layout_width="wrap_content"/>
+
+            </LinearLayout>
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/show_hide_back"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:layout_marginBottom="@dimen/content_margin_bottom"
+                android:text="Show/Hide BACK button"
+                style="@style/normal_button"
+                android:layout_width="wrap_content"/>
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/show_hide_next"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:layout_marginBottom="@dimen/content_margin_bottom"
+                android:text="Show/Hide NEXT button"
+                style="@style/normal_button"
+                android:layout_width="wrap_content"/>
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/enable_disable_next"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:layout_marginBottom="@dimen/content_margin_bottom"
+                android:text="Enable/Disable NEXT button"
+                style="@style/normal_button"
+                android:layout_width="wrap_content"/>
+
+            <com.htc.lib1.cc.widget.HtcRimButton
+                android:id="@+id/show_hide_footer"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:layout_marginBottom="@dimen/content_margin_bottom"
+                android:text="Show/Hide Footer"
+                style="@style/normal_button"
+                android:layout_width="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>

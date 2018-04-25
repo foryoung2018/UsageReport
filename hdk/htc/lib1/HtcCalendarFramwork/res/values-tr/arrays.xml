@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >her ilk Pazar gününde</item><!--on every first Sunday-->
+        <item >her ikinci Pazar gününde</item><!--on every second Sunday-->
+        <item >her üçüncü Pazar gününde</item><!--on every third Sunday-->
+        <item >her dördüncü Pazar gününde</item><!--on every fourth Sunday-->
+        <item >her son Pazar gününde</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >her ilk Pazartesi gününde</item><!--on every first Monday-->
+        <item >her ikinci Pazartesi gününde</item><!--on every second Monday-->
+        <item >her üçüncü Pazartesi gününde</item><!--on every third Monday-->
+        <item >her dördüncü Pazartesi gününde</item><!--on every fourth Monday-->
+        <item >her son Pazartesi gününde</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >her ilk Salı gününde</item><!--on every first Tuesday-->
+        <item >her ikinci Salı gününde</item><!--on every second Tuesday-->
+        <item >her üçüncü Salı gününde</item><!--on every third Tuesday-->
+        <item >her dördüncü Salı gününde</item><!--on every fourth Tuesday-->
+        <item >her son Salı gününde</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >her ilk Çarşamba gününde</item><!--on every first Wednesday-->
+        <item >her ikinci Çarşamba gününde</item><!--on every second Wednesday-->
+        <item >her üçüncü Çarşamba gününde</item><!--on every third Wednesday-->
+        <item >her dördüncü Çarşamba gününde</item><!--on every fourth Wednesday-->
+        <item >her son Çarşamba gününde</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >her ilk Perşembe gününde</item><!--on every first Thursday-->
+        <item >her ikinci Perşembe gününde</item><!--on every second Thursday-->
+        <item >her üçüncü Perşembe gününde</item><!--on every third Thursday-->
+        <item >her dördüncü Perşembe gününde</item><!--on every fourth Thursday-->
+        <item >her son Perşembe gününde</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >her ilk Cuma gününde</item><!--on every first Friday-->
+        <item >her ikinci Cuma gününde</item><!--on every second Friday-->
+        <item >her üçüncü Cuma gününde</item><!--on every third Friday-->
+        <item >her dördüncü Cuma gününde</item><!--on every fourth Friday-->
+        <item >her son Cuma gününde</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >her ilk Cumartesi gününde</item><!--on every first Saturday-->
+        <item >her ikinci Cumartesi gününde</item><!--on every second Saturday-->
+        <item >her üçüncü Cumartesi gününde</item><!--on every third Saturday-->
+        <item >her dördüncü Cumartesi gününde</item><!--on every fourth Saturday-->
+        <item >her son Cumartesi gününde</item><!--on every last Saturday-->
+    </string-array>
+</resources>

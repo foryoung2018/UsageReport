@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="skinProgressBarArray">
+        <item>@drawable/htcprogress</item>
+        <item>@drawable/htcprogress_b</item>
+    </array>
+    <array name="categoryOneProgressBarArray">
+        <item>@drawable/htcprogress_category_one</item>
+        <item>@drawable/htcprogress_b_category_one</item>
+    </array>
+    <array name="categoryTwoProgressBarArray">
+        <item>@drawable/htcprogress_category_two</item>
+        <item>@drawable/htcprogress_b_category_two</item>
+    </array>
+    <array name="categoryThreeProgressBarArray">
+        <item>@drawable/htcprogress_category_three</item>
+        <item>@drawable/htcprogress_b_category_three</item>
+    </array>
+    <array name="categoryFourProgressBarArray">
+        <item>@drawable/htcprogress_category_four</item>
+        <item>@drawable/htcprogress_b_category_four</item>
+    </array>
+</resources>

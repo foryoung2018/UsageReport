@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="autocompletetextview_backgrounds">
+        <!-- dark -->
+        <item>@drawable/common_b_inputfield_pressed</item>
+        <item>@drawable/common_b_inputfield_rest</item>
+        <!-- light -->
+        <item>@drawable/common_inputfield_pressed</item>
+        <item>@drawable/common_inputfield_rest</item>
+        <!-- light full -->
+        <item>@drawable/common_inputfield_full_pressed</item>
+        <item>@drawable/common_inputfield_full_rest</item>
+    </array>
+</resources>

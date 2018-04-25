@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.htc.sense.commoncontrol.demo.recipientblock.RecipientBlockSpecialDemo">
+
+    <com.htc.lib1.cc.widget.HtcOverlapLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/overlap_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <View
+                android:background="@color/category_color"
+                android:layout_width="25dp"
+                android:layout_height="fill_parent"/>
+
+            <com.htc.lib1.cc.widget.HtcAutoCompleteTextView
+                android:id="@+id/customizedInputField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:visibility="gone" >
+                <requestFocus />
+            </com.htc.lib1.cc.widget.HtcAutoCompleteTextView>
+            <!-- [Start] for Message style -->
+
+            <!-- android:visibility="gone" -->
+            <ScrollView
+                android:id="@+id/scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <!-- [Start] for xml init demo -->
+                <com.htc.lib1.cc.widget.recipientblock.RecipientBlock
+                    android:id="@+id/recipient_block"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+                <!-- [End] for xml init demo -->
+
+            </ScrollView>
+        </LinearLayout>
+
+        <com.htc.lib1.cc.widget.HtcFooter
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0">
+            <com.htc.lib1.cc.widget.HtcFooterButton
+                android:text="Enable Button"
+                footerButtonImage="@drawable/common_icon_action_contact" />
+            <com.htc.lib1.cc.widget.HtcFooterButton
+                footerButtonImage="@drawable/common_icon_action_contact"
+                android:onClick="hideShowActionBar"
+                android:text="Hide/Show ActionBar" />
+        </com.htc.lib1.cc.widget.HtcFooter>
+    </com.htc.lib1.cc.widget.HtcOverlapLayout>
+
+</RelativeLayout>

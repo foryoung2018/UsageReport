@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+   <LinearLayout
+       android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:paddingLeft="10dip">
+       <TextView
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_dialog_custom_title"
+            android:textSize="18dip"
+            android:textColor="#ffffff"/>
+       <CheckBox
+            style="?android:attr/starStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"/>
+   </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:background="#545454"/>
+</LinearLayout>

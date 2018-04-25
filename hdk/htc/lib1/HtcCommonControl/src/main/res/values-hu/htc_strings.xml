@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Emberek keresése</string><!--Search People-->
+    <string name="common_string_share_title">Megosztás a következőn keresztül</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Mentés már meglévő névjegyhez</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Mentés az Emberek közé</string><!--Save to People-->
+    <string name="label_year">Év</string><!--Year-->
+    <string name="label_month">Hónap</string><!--Month-->
+    <string name="label_day">Nap</string><!--Day-->
+    <string name="label_hour">Óra</string><!--Hour-->
+    <string name="label_minute">Perc</string><!--Minute-->
+    <string name="label_second">Másodperc</string><!--Second-->
+    <string name="common_string_open_contact">A névjegy megnyitása</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Egy lap maradt. Ha további lapokat kíván hozzáadni az alkalmazáshoz, a menüben válassza a Fülek szerkesztése/Szűrők menüpontot.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Mégse</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Tovább</string><!--Next-->
+    <string name="va_back">Vissza</string><!--Back-->
+    <string name="va_call">Tárcsázás</string><!--Call-->
+    <string name="st_loading">Betöltés...</string><!--Loading...-->
+    <string name="va_close">Bezár</string><!--Close-->
+    <string name="va_open">Megnyitás</string><!--Open-->
+    <string name="va_clear">Törlés</string><!--Clear-->
+    <string name="va_send_mail">Levél küldése</string><!--Send mail-->
+    <string name="va_send_message">Üzenet küldése</string><!--Send message-->
+    <string name="va_download">Letöltés</string><!--Download-->
+    <string name="st_more">Egyéb</string><!--More-->
+    <string name="nn_unknown_error">Ismeretlen hiba</string><!--Unknown error-->
+    <string name="va_downloading">Letöltés</string><!--Downloading-->
+    <string name="va_finish">Befejezés</string><!--Finish-->
+    <string name="va_reset">Visszaállítás</string><!--Reset-->
+    <string name="va_hide">Elrejtés</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Hibát észleltünk a táblagép tárolóhelyén. Indítsa újra az eszközt, vagy formázza újra a tárolót.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Elengedés a frissítéshez</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Frissítés...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">érintse meg duplán, majd húzza a beállításhoz</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Húzható elem</string><!--Draggable item-->
+    <string name="va_move_above">Áthelyezés fel</string><!--Move above-->
+    <string name="va_move_below">Áthelyezés le</string><!--Move below-->
+    <string name="st_pull_down_refresh">Húzza lefelé a frissítéshez</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Szám szerkesztése hívás előtt</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Megnyitás térképen</string><!--Open in map-->
+    <string name="va_copy">Másolás</string><!--Copy-->
+    <string name="va_show_all">Összes megjelenítése</string><!--Show all-->
+</resources>

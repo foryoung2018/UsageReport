@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/SipPresenceService/9.50/and8.0/main" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/SipPresenceService" path="app/packages/apps/SipPresenceService" revision="app/apps/SipPresenceService/9.50/and8.0/main"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="242e618969763f99c5912f9927e7681cffec5c94"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+</manifest>

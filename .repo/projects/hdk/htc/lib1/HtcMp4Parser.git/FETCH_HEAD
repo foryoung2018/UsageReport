@@ -1,0 +1,5 @@
+5c55f208917dc5e051e71fbcc824fb1a20f2c24c		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcmp4parser
+400684ef3de9610e99b6d53d433397f9c2fb3d40	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcmp4parser
+c56a30d3744ad82a3ed0e7f63e75c6831f93fa27	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcmp4parser
+3e2a932d0f707ffef852a64ebd2b4d4373eb6d38	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcmp4parser
+ece16b62b225cae033155d00a3d4d2ed2139d84c	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcmp4parser

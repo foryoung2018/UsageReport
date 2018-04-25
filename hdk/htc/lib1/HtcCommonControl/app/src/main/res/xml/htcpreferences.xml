@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory
+        android:title="@string/inline_preferences" >
+        <com.htc.lib1.cc.widget.preference.HtcSwitchPreference
+            android:key="checkbox_preference"
+            android:title="Switch preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcCheckBoxPreference
+            android:key="checkbox_preference"
+            android:summary="secondary description"
+            android:title="Two line checkbox preference" />
+
+        <SeekBarDialogPreference
+            android:defaultValue="5"
+            android:key="switch_preference_0"
+            android:max="10"
+            android:summary="This is SeekBar Dialog Preference"
+            android:title="SeekBar Dialog Preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory android:title="@string/dialog_based_preferences" >
+        <com.htc.lib1.cc.widget.preference.HtcEditTextPreference
+            android:dialogTitle="@string/dialog_title_edittext_preference"
+            android:key="edittext_preference"
+            android:summary="@string/summary_edittext_preference"
+            android:title="@string/title_edittext_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcListPreference
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="list_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="@string/title_list_preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory android:title="@string/launch_preferences" >
+
+        <!--
+             This PreferenceScreen tag serves as a screen break (similar to page break
+             in word processing). Like for other preference types, we assign a key
+             here so it is able to save and restore its instance state.
+        -->
+        <PreferenceScreen
+            android:key="@string/screen_preference"
+            android:summary="@string/summary_screen_preference"
+            android:title="Preference Screen" >
+
+            <!-- You can place more preferences here that will be shown on the next screen. -->
+            <com.htc.lib1.cc.widget.preference.HtcCheckBoxPreference
+                android:key="next_screen_checkbox_preference"
+                android:summary="@string/summary_next_screen_toggle_preference"
+                android:title="@string/title_next_screen_toggle_preference" />
+        </PreferenceScreen>
+
+        <!--
+             <PreferenceScreen
+                android:title="@string/title_intent_preference"
+                android:summary="@string/summary_intent_preference">
+
+            <intent
+                android:targetPackage="com.htc.preference.sample"
+                android:targetClass="com.htc.preference.sample.PreferencesFromXml"
+                android:action="android.intent.action.VIEW"
+                android:data="SecondLaunch" />
+
+        </PreferenceScreen>
+        -->
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/preference_attributes" >
+        <SeekBarDialogPreference
+            android:defaultValue="5"
+            android:key="switch_preference_0"
+            android:max="10"
+            android:summary="This is SeekBar Dialog Preference"
+            android:title="SeekBar Dialog Preference" />
+
+        <SeekBarPreference
+            android:defaultValue="5"
+            android:key="switch_preference_0"
+            android:max="10"
+            android:summary="@string/summary_switch_preference"
+            android:title="HtcSeekBarPreference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcMultiSelectListPreference
+            android:defaultValue="@array/default_array"
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_multilist_preference"
+            android:entryValues="@array/entryvalues_multilist_preference"
+            android:key="multiselect_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="MultiSelect ListPreference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcCheckBoxPreference
+            android:key="parent_checkbox_preference"
+            android:summary="@string/summary_parent_preference"
+            android:title="@string/title_parent_preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcContactsDialer/7.40/api22/mnc" sync-j="4" HDKLib3Name="HDK_Lib3_API19_4_Stable" HDKLib3Ver="19.4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcContactsDialer" path="app/packages/apps/HtcContactsDialer" revision="app/apps/HtcContactsDialer/7.40/api22/mnc"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HtcContactsDialer" path="app/customization/packages/apps/HtcContactsDialer" revision="app/apps/HtcContactsDialer/master"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcContacts" path="app/packages/apps/HtcContacts" revision="ca68aaba94540820ee671c62df921111575a0e91"/>
+  <project name="app/packages/apps/HtcDialer" path="app/packages/apps/HtcDialer" revision="74fa66b955d852608908cb35326eb5087a3f72e6"/>
+  <project name="app/packages/apps/PeopleChinaSense" path="app/packages/apps/PeopleChinaSense" revision="0bc3a9968df3358d8c3acdb3363a0201b01c0acd"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/HMS_PhotoEnhancer_Libs" path="app/hms_libs/HMS_PhotoEnhancer_Libs" revision="5b845af40f8383d2ac16d600b3609c1052bfc1c8"/>
+  <project name="app/hms_libs/HomeUtil" path="app/hms_libs/HomeUtil" revision="f8700b5516b7b72f43b0d8cbd945c0a29034c2ec"/>
+  <project name="app/hms_libs/HTCImageCodec_Lib" path="app/hms_libs/HTCImageCodec_Lib" revision="dbab2606084195af1b389ce773be48ac7436065d"/>
+  <project name="app/hms_libs/MosaicView" path="app/hms_libs/MosaicView" revision="3963011b1448a2a78919debfc4a1bc71e67cf65b"/>
+  <project name="app/hms_libs/Photo_Library" path="app/hms_libs/Photo_Library" revision="69b83580067444fb2aa5beac6bad8ebf07f57b86"/>
+  <project name="app/hms_libs/FeedFramework" path="app/hms_libs/FeedFramework" revision="c7faf643411da8b25105a831614a8d5029e38870"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib1/hfmclient" path="hdk/htc/lib1/HfmClient" revision="19fd35f9ce7b9858a85e2596e604d69cbc6d924a"/>
+  <project name="app/hdk/htc/lib1/htceaspim" path="hdk/htc/lib1/HtcEasPim" revision="41498ac55b429031a951c39376ea0693cf1e0c02"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="83f086c024223784b41807049051a21cffd2cac7"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="a8170aad9bfaaa9b046347372a66acad433b2e63"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="207f5a3e2bac78fea3579ff5bf6c52e10fc3185d"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="d1c4f578902533f221a82037e02973dbd8e7dc79"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="180cbcb0bee59643f403be776ab31ebdc950d319"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="c71e95ebe5185c0801b64e364e631bb2ab16c10c"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="f1187237bd47da45f09efdd1c55a50aa86f77f19"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="0617ae21d0392c58956f7e7e1a44d37e378f6d46"/>
+  <project name="app/hdk/htc/lib1/feedservice" path="hdk/htc/lib1/FeedService" revision="573bf42f8d34400934fd8a332cc3b3e1e6477b94"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="0a2b414ed1cb91dfc0cfd5436b8e0dc1b50af5d1"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="72c050dd7d9bbd57b82a1c42d489d161e22564e5"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="64c65ab430ee07428b8fcb021eb25c248dfca2e4"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="ae785904f3897f07efdb46d5d924bedfd83e64b4"/>
+  <project name="app/hdk/htc/lib3/htcintentlib3" path="hdk/htc/lib3/HtcIntentLib3" revision="faf2ac33d89f7f8bbbd0b121740429dc531ad422"/>
+</manifest>

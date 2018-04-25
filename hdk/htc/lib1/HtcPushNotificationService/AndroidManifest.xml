@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib1.cs.push"
+    android:versionCode="102170"
+    android:versionName="1.2.18" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <!--
+    ********************************************************************************
+    Used permissions declarations.
+    ********************************************************************************
+    -->
+
+
+    <!-- Allows access to the list of accounts in the Accounts Service. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Allows an application to request authtokens from the AccountManager. -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- Allows to receive identity broadcasts. -->
+    <uses-permission android:name="com.htc.cs.identity.permission.RECEIVE_BROADCAST" />
+
+    <!-- Allows to access identity client user data. -->
+    <uses-permission android:name="com.htc.cs.identity.permission.ACCESS_USER_DATA" />
+
+    <!-- Allows to register and receive messages from GCM. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Allows to send push notification messages to other apps. -->
+    <uses-permission android:name="com.htc.cs.pushclient.permission.SEND_MESSAGE" />
+
+    <application>
+
+        <!--
+        ********************************************************************************
+        Activity declarations.
+        ********************************************************************************
+        -->
+
+
+        <!-- Activity to show diagnostic information. -->
+        <activity
+            android:name="com.htc.lib1.cs.push.activity.DiagnosticActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+
+        <!--
+        ********************************************************************************
+        Service declarations.
+        ********************************************************************************
+        -->
+
+
+        <!-- Entry service to interact with integrated clients. -->
+        <service
+            android:name="com.htc.lib1.cs.push.service.PushNotificationService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.htc.cs.PnsAgent" />
+            </intent-filter>
+        </service>
+
+        <!--
+        	Service to register GCM and PNS in background. 
+        	Only used internally and by the privileged debugger.
+        -->
+        <service
+            android:name="com.htc.lib1.cs.push.service.RegistrationService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.htc.cs.pushclient.REGISTER" />
+            </intent-filter>
+        </service>
+
+        <!--
+			Service to unregister GCM and PNS in background.
+			Only used internally and by the privileged debugger.
+        -->
+        <service
+            android:name="com.htc.lib1.cs.push.service.UnregistrationService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.htc.cs.pushclient.UNREGISTER" />
+            </intent-filter>
+        </service>
+
+        <!--
+            Service to update registration to PNS in background.
+        	Only used internally and by the privileged debugger.
+        -->
+        <service
+            android:name="com.htc.lib1.cs.push.service.UpdateRegistrationService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.htc.cs.pushclient.UPDATE" />
+            </intent-filter>
+        </service>
+
+        <!-- Required for Baidu Push. -->
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:enabled="false"
+            android:process=":baidu" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <!-- Required for Baidu Push. -->
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true"
+            android:process=":baidu" />
+
+        <!-- Services to handle broadcasts. -->
+        <service android:name="com.htc.lib1.cs.push.receiver.BaiduMessageReceiver$HandleBroadcastServiceImpl" />
+        <service android:name="com.htc.lib1.cs.push.receiver.GCMMessageReceiver$HandleBroadcastServiceImpl" />
+        <service android:name="com.htc.lib1.cs.push.receiver.PackageUpdatedReceiver$HandleBroadcastServiceImpl" />
+        <service android:name="com.htc.lib1.cs.push.receiver.AlwaysRegisterIdentityBroadcastReceiver$HandleBroadcastServiceImpl" />
+        <service android:name="com.htc.lib1.cs.push.receiver.RegisterOnSignedInIdentityBroadcastReceiver$HandleBroadcastServiceImpl" />
+        <service android:name="com.htc.lib1.cs.push.receiver.OneTimeOnGooglePlayServicesPackageRecoveredReceiver$HandleBroadcastServiceImpl" />
+
+        <!--
+        ********************************************************************************
+        Receiver declarations. 
+        ********************************************************************************
+        -->
+
+
+        <!-- Receiver to deliver PNS messages come from Baidu Push. -->
+        <receiver android:name="com.htc.lib1.cs.push.receiver.BaiduMessageReceiver" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receiver to deliver PNS messages come from GCM. -->
+        <receiver
+            android:name="com.htc.lib1.cs.push.receiver.GCMMessageReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.htc.cs.pns" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receiver to update registration after package update. -->
+        <receiver android:name="com.htc.lib1.cs.push.receiver.PackageUpdatedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        One-time receiver to try register and disable itself once Google Play Services package 
+        is recovered.
+        -->
+        <receiver
+            android:name="com.htc.lib1.cs.push.receiver.OneTimeOnGooglePlayServicesPackageRecoveredReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <!-- android:ssp tags take effects only on Android 4.4+. -->
+                <data
+                    android:scheme="package"
+                    android:ssp="com.google.android.gms" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required for Baidu Push. -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:enabled="false"
+            android:process=":baidu" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required for Baidu Push. -->
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:enabled="false"
+            android:process=":baidu" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Force PNS Lib listen account related event -->
+        <receiver
+            android:name="com.htc.lib1.cs.push.receiver.RegisterOnSignedInIdentityBroadcastReceiver"
+            android:enabled="true"
+            android:permission="com.htc.cs.identity.permission.SEND_BROADCAST" >
+            <intent-filter>
+                <action android:name="com.htc.cs.identity.ADD_ACCOUNT_COMPLETED" />
+                <action android:name="com.htc.cs.identity.REMOVE_ACCOUNT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.htc.lib1.cs.push.receiver.AlwaysRegisterIdentityBroadcastReceiver"
+            android:enabled="true"
+            android:permission="com.htc.cs.identity.permission.SEND_BROADCAST" >
+            <intent-filter>
+                <action android:name="com.htc.cs.identity.ADD_ACCOUNT_COMPLETED" />
+                <action android:name="com.htc.cs.identity.REMOVE_ACCOUNT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.htc.lib1.cs.push.receiver.SimStateChangeReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <!--
+        ********************************************************************************
+        Metadata declarations.
+        ********************************************************************************
+        -->
+
+        <!-- Google Play Services version info. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

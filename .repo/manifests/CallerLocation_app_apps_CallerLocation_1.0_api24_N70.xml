@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/CallerLocation/1.0/api24/N70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/CallerLocation" path="app/packages/apps/CallerLocation" revision="app/apps/CallerLocation/1.0/api24/N70"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/CallerLocation" path="app/customization/packages/apps/CallerLocation" revision="app/apps/CallerLocation/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="c77977a76efe5c322d1f5721b6d371ac4d64cf8b"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="3d916eb16831825f714e300b77f7869d40d9fda0"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="509b39879a6823f768d647c4e9a2581f6f9de8ed"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="2a0893734136d3dd9e143970a2e960dac3c17a55"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="b87db02e7f1c1bb3ecad1b2ae17e3151fc21099a"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="84f7c8cbf412de4debc30bd5d9ccd58896c1c76e"/>
+</manifest>

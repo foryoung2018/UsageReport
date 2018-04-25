@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Tencent_Wechat_FSPlugin/4.00/api19/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Tencent_Wechat_FSPlugin" path="app/packages/apps/Tencent_Wechat_FSPlugin" revision="app/apps/Tencent_Wechat_FSPlugin/4.00/api19/mainline"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/Social_Library" path="app/hms_libs/Social_Library" revision="ad3c3ae563a903c20259e3b44bb1c6ee2852a405"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="ac6a49b4cb56c3a3c8cf9492285a03141f89e31b"/>
+</manifest>

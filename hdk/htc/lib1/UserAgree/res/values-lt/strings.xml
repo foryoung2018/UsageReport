@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Ši programėlė naudojasi mob. duomenų ryšiu arba „Wi-Fi“. Paklauskite savo vietinio ryšio operatoriaus, kokie duomenų perdavimo mokesčiai.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Neklausti daugiau</string><!--Don\'t ask me again-->
+
+</resources>

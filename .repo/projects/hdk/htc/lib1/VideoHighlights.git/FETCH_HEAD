@@ -1,0 +1,6 @@
+8d01e74650ea5722260b3fb4ed10cbacecfe656e		branch 'hdk/api19_sense6.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/videohighlights
+72d28cff2836f77e717581dd2853273e9cc7588f	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/videohighlights
+25cc655eadfdabdc30c92f17af8c154f5f268ad0	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/videohighlights
+324ee8fe1f8f64b13b0271e2120c610c514b52fe	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/videohighlights
+a087d85937bc4ad9a90012dbc784f89942ff9c6e	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Others_Porting_to_API_Level' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/videohighlights
+16321258e63f641b1aaf9cc7f9df0f07635fd3b5	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/videohighlights

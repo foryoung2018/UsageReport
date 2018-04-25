@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib1.masthead" >
+
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="htc.permission.weather.USE_DATA" />
+    <uses-permission android:name="com.htc.permission.APP_DEFAULT"/>
+	<uses-permission android:name="com.htc.sense.permission.APP_HSP"/>
+</manifest>

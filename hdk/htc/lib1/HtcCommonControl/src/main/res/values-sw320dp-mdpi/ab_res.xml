@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="ab_height">54dp</dimen>
+    <dimen name="ab_automotive_height">56dp</dimen>
+    <dimen name="ab_photoframe_size">34dp</dimen>
+    <dimen name="action_button_min_width">48dp</dimen>
+</resources>

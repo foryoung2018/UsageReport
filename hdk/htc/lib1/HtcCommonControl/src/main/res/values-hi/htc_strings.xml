@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">लोगों को खोजें</string><!--Search People-->
+    <string name="common_string_share_title">निम्न द्वारा साझा करें</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">मौजूदा संपर्क में सहेजें</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">लोग में सहेजें</string><!--Save to People-->
+    <string name="label_year">वर्ष</string><!--Year-->
+    <string name="label_month">महीना</string><!--Month-->
+    <string name="label_day">दिन</string><!--Day-->
+    <string name="label_hour">घंटा</string><!--Hour-->
+    <string name="label_minute">मिनट</string><!--Minute-->
+    <string name="label_second">सेकंड</string><!--Second-->
+    <string name="common_string_open_contact">संपर्क खोलें</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">आपके पास एक टैब शेष है। इस एप्लिकेशन के लिए और अधिक टैब जोड़ने के लिए, मेनू से टैब संपादित करें/फ़िल्टर चुनें।</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">रद्द करें</string><!--Cancel-->
+    <string name="va_ok">ठीक</string><!--OK-->
+    <string name="va_next">अगला</string><!--Next-->
+    <string name="va_back">वापस</string><!--Back-->
+    <string name="va_call">कॉल करें</string><!--Call-->
+    <string name="st_loading">लोड हो रहा है...</string><!--Loading...-->
+    <string name="va_close">बंद करें</string><!--Close-->
+    <string name="va_open">खोलें</string><!--Open-->
+    <string name="va_clear">खाली करें</string><!--Clear-->
+    <string name="va_send_mail">मेल भेजें</string><!--Send mail-->
+    <string name="va_send_message">संदेश भेजें</string><!--Send message-->
+    <string name="va_download">डाउनलोड करें</string><!--Download-->
+    <string name="st_more">अधिक</string><!--More-->
+    <string name="nn_unknown_error">अज्ञात त्रुटि</string><!--Unknown error-->
+    <string name="va_downloading">डाउनलोड करना</string><!--Downloading-->
+    <string name="va_finish">समाप्त</string><!--Finish-->
+    <string name="va_reset">रीसेट करें</string><!--Reset-->
+    <string name="va_hide">छिपाएं</string><!--Hide-->
+    <string name="ls_tablet_storage_error">आपके टेबलेट संग्रहण में एक त्रुटि हुई थी। कृपया अपने उपकरण को रीबूट करें या संग्रहण को फ़ॉर्मेट करें।</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">रीफ़्रेश करने के लिए छोड़ें</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">अपडेट कर रहा है...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">समायोजित करने के लिए डबल टैप करें और खींचें</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">खींचने योग्य आइटम</string><!--Draggable item-->
+    <string name="va_move_above">ऊपर ले जाएं</string><!--Move above-->
+    <string name="va_move_below">नीचे ले जाएं</string><!--Move below-->
+    <string name="st_pull_down_refresh">रीफ़्रेश करने के लिए नीचे खींचे</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">कॉल करने के पहले नंबर संपादित करें</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">मैप में खोलें</string><!--Open in map-->
+    <string name="va_copy">प्रतिलिपि बनाएं</string><!--Copy-->
+    <string name="va_show_all">सभी दिखाएं</string><!--Show all-->
+</resources>

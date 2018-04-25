@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Fet</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Compartir amb</string><!--Share via-->
+    <string name="carousel_title">Per tal de reorganitzar les icones, premeu-les i mantingueu-les premudes.</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">No es pot eliminar aquesta pestanya</string><!--Unable to remove this tab-->
+    <string name="yes">Sí</string><!--Yes-->
+    <string name="no"></string><!--No-->
+    <string name="menu_view_full">Visualitza</string><!--View-->
+    <string name="menu_view_video">Reprodueix</string><!--Play-->
+    <string name="menu_slideshow">Presentació</string><!--Slideshow-->
+    <string name="menu_share">Comparteix</string><!--Share-->
+    <string name="menu_set_as">Configura com</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Configura com a preferit</string><!--Set as favorite-->
+    <string name="menu_protect_info">Informació de protecció</string><!--Protection info-->
+    <string name="meun_rotate">Gira</string><!--Rotate-->
+    <string name="menu_delete">Suprimeix</string><!--Delete-->
+    <string name="menu_crop">Retall</string><!--Crop-->
+    <string name="menu_properties">Detalls</string><!--Details-->
+    <string name="menu_show_on_map">Mostra al mapa</string><!--Show on map-->
+    <string name="menu_settings">Configuració</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Comparteix enllaç a la foto</string><!--Share photo link-->
+    <string name="refresh">Actualitza</string><!--Refresh-->
+    <string name="add_comments">Afegeix comentari</string><!--Add comment-->
+    <string name="button_show_caption">Mostra el títol</string><!--Show caption-->
+    <string name="button_hide_caption">Amaga el títol</string><!--Hide caption-->
+    <string name="button_show_description">Mostra descripció</string><!--Show description-->
+    <string name="button_hide_description">Amaga la descripció</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Petita</item><!--Small-->
+        <item>Mitjana</item><!--Medium-->
+        <item>Gran</item><!--Large-->
+        <item>Extra gran</item><!--Extra large-->
+        <item>Enorme</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Toqueu dos cops per a fer l\'acció</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Tirar la icona cap amunt</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Estireu cap amunt per a desbloquejar</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>DG</item><!--SU-->
+        <item>DL</item><!--M-->
+        <item>DT</item><!--TU-->
+        <item>DC</item><!--W-->
+        <item>DJ</item><!--TH-->
+        <item>DV</item><!--F-->
+        <item>DS</item><!--SA-->
+    </string-array>
+</resources>

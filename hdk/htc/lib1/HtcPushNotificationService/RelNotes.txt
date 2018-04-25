@@ -1,0 +1,229 @@
+HTC Push Notification Service SDK 1.x Release Notes
+===================================================
+
+v1.2.20
+-------
+* Fix a backward compatibility issue since 1.2.19: App crash at RegistrationCredentials if it's upgraded from 1.2.12 or earlier version with state "unregistration failed".
+
+v1.2.20
+-------
+* Fix a bug since 1.2.18: Apps can't receive push message from built-in HTC Push Notification Service.
+
+v1.2.19
+-------
+* For China NEL, disable registration until the app calls PnsInitializer.init().
+
+v1.2.18
+-------
+* Use Baidu Push SDK 5.3.1.92 to reduce power consumption and improve stability.
+* Find tune registration delay and remove unnecessary workarounds.
+* Prevent from starting 2 processes for handling BOOT_COMPLETED.
+* Use local Baidu Push .jar to ensure it's aligned with .so files.
+* Send broadcast to every app in receiver list.
+
+v1.2.17
+-------
+* Delay perform register/update/unregister 48 hours for China region devices.
+
+v1.2.16
+-------
+* Provide 32-bit and 64-bit so files of Baidu push.
+
+v1.2.15
+-------
+* Override onDowngrade method for SQLite db.
+
+v1.2.14
+-------
+* Integrate with Baidu push 5.1.0.48 to fix Android N issues.
+* Declare a WriteInfoProvider used by Baidu push SDK
+
+v1.2.13
+-------
+* Fix Register/Update/Unregister service may use REGISTER_ON_SIGNED_IN as default value to make unexpected result.
+* Add event record for catched exception case.
+
+
+v1.2.12
+-------
+* Add null check for registration key while receive message via Baidu push
+* Re-register PNS if registration key is null
+
+v1.2.11
+-------
+* Fix broadcast from onBind cannot sent to other process
+* Remove Baidu api key and need to be defined by integrated apps
+* Fix typo.
+
+
+v1.2.10
+-------
+* Integrate with Baidu push 5.0.0.66 to fix Baidu pushclient cannot receive messages.
+* Fix warnings of Android studio.
+* Force Baidu push client re-register to repair the network connection between Baidu push client and Baidu push server.
+
+
+v1.2.9
+-------
+* Integrate with Baidu push 5.0.1 to fix power consumption issues and network traffic issues.
+* Support PNS server 503 error code with retry-after value enable server assign specific relative retry time.
+* Update coding style for exception handling.
+
+v1.2.8
+-------
+* Integrate with Baidu push 5.0.
+
+v1.2.7
+-------
+* Fine tune retry interval from minutes to hours (1 min, 2 mins, 4 mins...  1 day-> 1 hour, 2 hours, 4 hours ... 2 days)
+* Apply with distributed register at create time.
+* Fix retry update error that will update per 1 min.
+* Refactoring LibraryRetryPolicy
+* Add MCC/MNC into PNSRecord to avoid update the same information.
+* Replace e.printStackTrace() with mLogger.error(e)
+* Fix account info may have null info or index out of range in PnsInitializer.
+* Detect retry timestamps (nextRegistrationTimestamp, nextUpdateRegistrationTimestamp, nextUnregistrationTimestamp) and reset it while boot completed to ensure the relevant action triggered in 48 hours.
+* Add text verification for debugger property to avoid annoy exception messages.
+
+v1.2.6
+-------
+* Fix NPE exception if services restart in onHandleIntent method.
+* Fix lint check errors
+
+v1.2.5
+-------
+* Encrypt messages via Baidu push and triggered while register with Baidu push
+* Trigger encrypt messages via Baidu push while update with Baidu push. 
+
+v1.2.4
+-------
+* Prevent pass empty value of MCC/MNC to PNS server
+* Update PNS from SIM state IMSI to LOADED.
+* Ignore empty MCC/MNC info while SIM state is LOADED.
+
+v1.2.3
+-------
+* Add MCC/MNC field
+* Add China sense version field
+* Listen SIM state change event and update PNS.
+
+v1.2.2
+-------
+* Integrate with Baidu push v4.5.5.74.
+* Change registration from register_on_signed_in to always_register in China region.
+* Update/register PNS after requested dangerous permissions.
+
+v1.2.1
+-------
+* Add records to keep state of dangerous permissions
+* Update HtcCustomization jar file
+
+v1.2.0
+-------
+* Change Android target sdk version to 23 in order to be compliant with company policy.
+
+v1.1.19
+-------
+* Fix app crash if returning values of register Baidu are null and error but code is 0. 
+
+v1.1.18
+-------
+* Integrate with Baidu push v4.5
+* Disable CommandService while current push provider is not Baidu push.
+
+v1.1.17
+-------
+* Fix NullPointerException in BaiduMessageReceiver
+* Disable BaiduMessageReceiver while current push provider is not Baidu push.
+* Export Diagnostic Activity to simplify bug tracing in production device.
+
+v1.1.16
+-------
+* Fix Baidu message recording in Diagnostic page.
+
+v1.1.15
+-------
+* Before Android KK, add workaround for PNS library on initial time to check account state and do update/register/unregister actions.
+* Enable Baidu Push's debug flag in htc debug mode.
+* Check account id and handle switch account case.
+* Make htc account event receiver as static to ensure PNS library can always receive it.
+* Support htc's gradle build 
+
+v1.1.14
+-------
+* Downgrade Google play services lib back to 5.5 (same as v1.1.12).
+* Support dynamic security provider (Moved Google play service dependency to HtcAccount).
+
+v1.1.13
+-------
+* Temporary version. Upgrade Google play services lib to r22.
+
+v1.1.12
+-------
+* Upgrade Baidu SDK to v4.4.0.71.
+* Support Gradle build.
+* Support unregistration in KK devices. (latest relese of 1.1.12; 1.1.13 doesn't have it.)
+* Support retry when unregistration failed. (latest relese of 1.1.12; 1.1.13 doesn't have it.)
+* Fix random htc pns uuid. (latest relese of 1.1.12; 1.1.13 doesn't have it.)
+
+v1.1.11
+-------
+* Remove DeviceManagement dependency.
+
+v1.1.10
+-------
+* Fix database constraint issue. Update pns_records.db to v5.
+
+v1.1.9
+------
+* Fix a SQL query bug of PNS records which causes duplicated update events.
+
+v1.1.8
+------
+* Add HtcAccountAvailabilityException.
+* Update to Baidu Push SDK v4.3.0.
+* Remove outdated nanodm.
+* Remove Baidu Push specific and other unnecessary permissions.
+* Always use Baidu Push on China SKUs.
+* Fix a synchronization bug in PNS records database.
+
+v1.1.7
+------
+* Fix and simplify Google Play Services error recover handling.
+
+v1.1.6
+------
+* Update RetryPolicy interface.
+* Fix incorrect android_id.
+
+v1.1.5
+------
+* Fix DiagnosticActivity layout issue.
+* Change TimerRetry policy.
+
+v1.1.4
+------
+* Fix progress dialog issues.
+
+v1.1.3
+------
+* Remove common controls dependency.
+* Support down to api-15 on both HTC / non-HTC devices.
+
+v1.1.2
+------
+* Adapt andlog.
+* Update Baidu Push SDK v4.2.
+
+v1.1.1
+------
+* Replace android-support-v13 with android-support-v4.
+
+v1.1.0
+------
+* Support REGISTER_ON_SIGNED_IN policy.
+* Move all components to the package com.htc.lib1.cs in order to be compliant with company policy.
+
+v1.0.0
+------
+* First release.

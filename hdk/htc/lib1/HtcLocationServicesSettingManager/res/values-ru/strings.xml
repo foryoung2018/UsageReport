@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Служба HTC «Определение координат»</string><!--HTC location services-->
+    <string name="injected_setting_title">Служба HTC «Определение координат»</string><!--HTC Location Services-->
+    <string name="home_label">Дом</string><!--Home-->
+    <string name="work_label">Работа</string><!--Work-->
+    <string name="location_picker">выбор местоположения</string><!--location picker-->
+    <string name="clear_label">Очистить</string><!--Clear-->
+    <string name="description_label">Привязывая вручную адрес или сеть Wi-Fi к домашнему или рабочему местоположению, вы соглашаетесь сообщать службе HTC Sense Home свои %1$s и %2$s.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">точное местоположение</string><!--precise location-->
+    <string name="precise_location_upper">Точное местоположение</string><!--Precise location-->
+    <string name="personal_usage_data">сведения об использовании</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Сведения об использовании</string><!--Personal usage data-->
+    <string name="precise_location_description">Сообщите ваше %s, чтобы получать предложения по находящимся поблизости ресторанам и другим местам.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Сообщайте %s, например приложения, которые вы используете; веб-сайты, которые вы посещаете; и мультимедийные материалы, которые вы слушаете или просматриваете; чтобы получать предложения по приложениям, новостям и содержимому.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Привяжите адреса или сети Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Привяжите адреса или сети Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">добавить</string><!--add-->
+    <string name="no_content">Нажмите «+», чтобы добавить адрес или сеть Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">СЕТИ Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">АДРЕСА</string><!--ADDRESSES-->
+    <string name="wifi_label">Сеть Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">Адрес</string><!--Address-->
+    <string name="select_wifi_title">Выберите одну или несколько сетей</string><!--Select one or more networks-->
+    <string name="remove_label">Удалить</string><!--Remove-->
+    <string name="edit_label">Изменить</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">ОТМЕНА</string><!--CANCEL-->
+    <string name="lib_app_name">Служба HTC «Определение координат»</string><!--HTC location services-->
+    <string name="switch_mode_title">Изменить адрес</string><!--Address location change-->
+    <string name="switch_mode_home">Адрес может быть добавлен только к одному местоположению. Ранее этот адрес был добавлен к местоположению «Работа». Привязать его к местоположению «Дом»?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Адрес может быть добавлен только к одному местоположению. Ранее этот адрес был добавлен к местоположению «Дом». Привязать его к местоположению «Работа»?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Модуль Wi-Fi отключен</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Чтобы привязать сеть Wi-Fi к этому местоположению, включите Wi-Fi в настройках.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">НАСТРОЙКИ</string><!--SETTINGS-->
+    <string name="duplicate_address">Этот адрес уже добавлен.</string><!--This address has already been added.-->
+    <string name="unknown_address">неизвестный адрес</string><!--unknown address-->
+    <string name="too_much_item">Добавлено максимальное количество местоположений.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Подключено</string><!--Connected-->
+    <string name="saved_label">Сохранено</string><!--Saved-->
+    <string name="secured_label">Защищено с помощью %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Для правильной работы этому приложению требуется доступ к данным о текущих координатах. Предоставьте разрешение при поступлении запроса.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Для правильной работы  приложению %s требуется доступ к данным о текущих координатах. Настроить разрешения можно в разделе «Настройки».</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ЗАКРЫТЬ</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">НАСТРОЙКИ</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC «Пакет обновления»</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Источники данных о координатах отключены</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Для правильной работы этому приложению должны быть известны текущие координаты. Включите определение координат в разделе «Настройки».</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">НАСТРОЙКА</string><!--SETTING-->
+    <string name="no_wifi_available">Нет доступных сетей Wi-Fi</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

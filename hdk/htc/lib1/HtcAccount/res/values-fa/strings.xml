@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">حساب HTC</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">امكان اتصال وجود ندارد</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">برای استفاده از این برنامه به اتصال شبكه نیاز دارید. لطفاً به داده های همراه یا Wi-Fi متصل شوید.</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">لطفا منتظر بمانيد...</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">نمی‌توانیم به سرورهای HTC متصل شویم. لطفاً بعداً دوباره امتحان کنید.</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">برای استفاده از این برنامه به اتصال شبكه نیاز دارید.</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">یک حساب گوگل ایجاد کنید و با آن وارد سیستم شوید.</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">امكان اتصال وجود ندارد. لطفا دوباره تلاش كنید.</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">نمی توانیم به حساب گوگل شما دسترسی داشته باشیم. بررسی کنید این حساب فعال باشد.</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">به مجوز نیاز است</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">برای ورود به سیستم با حساب گوگل، لازم است این برنامه به حساب هایتان دسترسی داشته باشد. اگر از شما خواسته شد، اجازه بدهید.</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">\"برنامه به حساب های شما دسترسی داشته باشد. در قسمت تنظیمات می توانید مجوزهای %1$s را مدیریت کنید.\"</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">ایجاد حساب HTC</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">آدرس ايميل</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">یک حساب HTC با آدرس ایمیلتان قبلاً ایجاد شده است. برای ورود به سیستم یا ایجاد حسابی جدید، ضربه بزنید.</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">درباره پیشنهادها، اطلاعات محصول و خبرنامه های HTC برایم ایمیل ارسال شود.</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">استفاده از ایمیل از حساب %s:</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">ايجاد حساب</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">ایجاد حساب جدید</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">با ایجاد حساب، با %1$s حساب HTC موافقت می کنید و %2$s را می پذیرید. برای ثبت نام باید حداقل 14 ساله باشید.</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">شرایط و مقررات</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">سیاست حریم خصوصی</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">سیاست حریم خصوصی</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">شرایط و مقررات</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">اعتبار حساب را تأیید کنید</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">نامه را باز کنید</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">حالا نه</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">برای ورود به حساب HTC، لازم است آدرس ایمیلتان را با استفاده از لینکی که برای %1$s ارسال شده است تأیید کنید.\n\nاگر این ایمیل را دریافت نکرده اید، پوشه هرزنامه را بررسی کنید یا %2$s را انجام دهید.</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">ارسال مجدد</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">آدرس ایمیل لازم است.</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">لطفا يك آدرس ايميل معتبر وارد كنيد.</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">ایمیل ارسال شد برای: %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">تنظیمات</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">بستن</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">بازگشت</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">لغو</string><!--Cancel-->
+
+</resources>

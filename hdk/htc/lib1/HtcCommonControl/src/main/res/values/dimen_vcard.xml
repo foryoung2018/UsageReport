@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="quickcontact_smallphoto_size">60dp</dimen>
+    <dimen name="quickcontact_smallphoto_padding">1dp</dimen> <!-- follow measurement -->
+    <dimen name="quickcontact_namebar_height">42dp</dimen> <!-- follow measurement -->
+    <dimen name="quickcontact_namebar_icon_margin_lr">13dp</dimen> <!-- (FHD width 1080px *14.7% - icon_btn_** size 76px)/2 -->
+    <dimen name="quickcontact_namebar_icon_margin_tb">8dp</dimen> <!-- (quickcontact_namebar_height - icon_btn_** size 76px)/2 -->
+
+</resources>

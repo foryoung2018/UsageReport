@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Valmis</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Jaa</string><!--Share via-->
+    <string name="carousel_title">Paina kuvakkeita järjestääksesi ne uudelleen</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Välilehteä ei voida poistaa</string><!--Unable to remove this tab-->
+    <string name="yes">Kyllä</string><!--Yes-->
+    <string name="no">Ei</string><!--No-->
+    <string name="menu_view_full">Näytä</string><!--View-->
+    <string name="menu_view_video">Toista</string><!--Play-->
+    <string name="menu_slideshow">Diaesitys</string><!--Slideshow-->
+    <string name="menu_share">Jaa</string><!--Share-->
+    <string name="menu_set_as">Aseta</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Aseta suosikiksi</string><!--Set as favorite-->
+    <string name="menu_protect_info">Suojaustiedot</string><!--Protection info-->
+    <string name="meun_rotate">Kierrä</string><!--Rotate-->
+    <string name="menu_delete">Poista</string><!--Delete-->
+    <string name="menu_crop">Rajaa</string><!--Crop-->
+    <string name="menu_properties">Tiedot</string><!--Details-->
+    <string name="menu_show_on_map">Näytä kartalla</string><!--Show on map-->
+    <string name="menu_settings">Asetukset</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Jaa valokuvalinkki</string><!--Share photo link-->
+    <string name="refresh">Päivitä</string><!--Refresh-->
+    <string name="add_comments">Lisää kommentti</string><!--Add comment-->
+    <string name="button_show_caption">Näytä kuvateksti</string><!--Show caption-->
+    <string name="button_hide_caption">Piilota kuvateksti</string><!--Hide caption-->
+    <string name="button_show_description">Näytä kuvaus</string><!--Show description-->
+    <string name="button_hide_description">Piilota kuvaus</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Pieni</item><!--Small-->
+        <item>Normaali</item><!--Medium-->
+        <item>Suuri</item><!--Large-->
+        <item>Ekstra-suuri</item><!--Extra large-->
+        <item>Valtava</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Suorita kaksoisnapauttamalla</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Vedä kuvake ylös</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Avaa lukitus vetämällä ylös</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>su</item><!--SU-->
+        <item>ma</item><!--M-->
+        <item>ti</item><!--TU-->
+        <item>ke</item><!--W-->
+        <item>to</item><!--TH-->
+        <item>pe</item><!--F-->
+        <item>la</item><!--SA-->
+    </string-array>
+</resources>

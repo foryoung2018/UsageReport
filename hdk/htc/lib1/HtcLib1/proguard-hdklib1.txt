@@ -1,0 +1,102 @@
+# 2014.09.03 (SE1300 yumei_chen@htc.com) work around for 
+# Warning: com.google.android.gms.common.GooglePlayServicesUtil: can't find referenced class com.google.android.gms.R$string
+# Warning: com.google.android.gms.common.GooglePlayServicesUtil: can't find referenced class com.google.android.gms.R
+# ... 25 unresolved references to classes or interfaces & 1 unresolved references to program class members
+-dontwarn com.google.android.gms.**
+
+-keep class com.htc.lib1.GIFImageParser {*;}
+-keep class com.htc.lib1.media.HtcExifInterface {*;}
+-keep class com.htc.lib1.panoviewer.PanoSEGLSurfaceView {*;}
+-keep class com.htc.lib1.panoviewer.JNIFoos {*;}
+
+# Customize for HtcUPManager
+-keepattributes Signature
+-keep class com.squareup.** { *; }
+-keep class com.htc.studio.** { *; }
+-keep class com.htc.xps.** { *; }
+-dontwarn okio.**
+
+###############################################################################
+# HtcAccount
+###############################################################################
+
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+
+# Keep all logging properties
+-keep class * implements com.htc.lib1.cs.logging.Properties { *; }
+
+# Keep nanodm device profile json class
+-keep class com.htc.lib1.cs.comm.nanodm.DeviceProfile { *; }
+
+# Keep authenticator interface
+-keep class android.accounts.** { *; }
+
+# Keep PnsAgent interface
+-keep class com.htc.lib1.cs.comm.pns.IPnsAgent$* { *; }
+
+# Keep all webauth json classes
+-keep class com.htc.lib1.cs.identity.webauth.WebAuthJsonClasses$* { *; }
+
+###############################################################################
+# HtcPushNotificationService
+###############################################################################
+
+# Baidu Push SDK uses dynamic class loading
+-keep class com.baidu.android.pushservice.**  { *; }
+-keep class com.baidu.android.silentupdate.**  { *; }
+-keep class com.baidu.frontia.**  { *; }
+-dontwarn com.baidu.android.pushservice.**
+-dontwarn com.baidu.android.silentupdate.**
+-dontwarn com.baidu.frontia.**
+
+# com.htc.lib1.cs.slf4j.HtcLogger refers to the build flag but it's not mandatory
+-dontwarn com.htc.htcjavaflag.HtcBuildFlag
+
+# Keep all pns json classes
+-keep class com.htc.lib1.cs.push.PnsJsonClasses$* { *; }
+
+# dm-core-api referes to some generated classes but no mandatory.
+-dontwarn com.htc.cs.env.**
+
+###############################################################################
+# DeviceManagement
+###############################################################################
+
+# Keep biz objects for Json serialize/deserialize process
+-keep class com.htc.lib1.dm.bo.** {*;}
+-keep class com.htc.lib1.dm.solo.**
+-keep class com.htc.lib1.dm.exception.** {*;}
+
+## Gson SERIALIZER SETTINGS
+# See https://code.google.com/p/google-gson/source/browse/trunk/examples/android-proguard-example/proguard.cfg
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# Needed by google-api-client to keep generic types and @Key annotations accessed via reflection
+-keepattributes Signature,RuntimeVisibleAnnotations,AnnotationDefault
+-keepclassmembers class * {
+  @com.google.api.client.util.Key <fields>;
+}
+
+# Ignore SLF4J optional implementations
+-dontwarn org.slf4j.impl.**
+
+###############################################################################
+# HtcMp4Parser
+###############################################################################
+
+# Keep objects
+-keep class com.htc.lib1.htcmp4parser.** {*;}
+
+###############################################################################
+# HtcTestFramework
+###############################################################################
+
+# Keep all autotest middleware classes
+-keep class com.htc.lib1.autotest.middleware.** {*;}

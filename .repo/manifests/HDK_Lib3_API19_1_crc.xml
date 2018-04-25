@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  
+  <default remote="origin" revision="hdk/api19_1" sync-j="4"/>
+  
+  <project name="app/hdk/htc/lib3/htcir" path="hdk/htc/lib3/HtcIR" revision="221341e62d2c2a23bff8cfdf8c6044bc6f300dd6"/>
+  <project name="app/hdk/htc/lib3/htclib3" path="hdk/htc/lib3/HtcLib3" revision="90c85fdefa5c1173a71236db39976c6784eba8ad"/>
+  <project name="app/hdk/htc/lib3/htcreport" path="hdk/htc/lib3/HtcReport" revision="19b7b293201ff6623790c14383a20ca4ac852987"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="22399d7398f6cca38513788d258e3484b48bdc27"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidprovidersettings" path="hdk/htc/lib3/HtcWrapandroidprovidersettings" revision="56ec1f527576db84cee8f774c4fa1f4f4375f585"/>
+  <project name="app/hdk/htc/lib3/htcwrapdalviksystem" path="hdk/htc/lib3/HtcWrapdalviksystem" revision="023735f2f21ca99b5aec6d42db12456307682c74"/>
+  <project name="app/hdk/htc/lib3/media" path="hdk/htc/lib3/Media" revision="de145822dfaf186743a0394182be56e3e1a22058"/>
+  <project name="app/hdk/htc/lib3/medialinksharedmodule" path="hdk/htc/lib3/MediaLinkSharedModule" revision="3c5b44af6fb033e32114827c4cf5598a0d061a39"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="47f49b4fee8dea8c7bc93de35f2d918ef7544fc6"/>
+</manifest>

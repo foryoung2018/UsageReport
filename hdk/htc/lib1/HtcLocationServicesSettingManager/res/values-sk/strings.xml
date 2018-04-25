@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Služby určovania polohy HTC</string><!--HTC location services-->
+    <string name="injected_setting_title">Služby určovania polohy HTC</string><!--HTC Location Services-->
+    <string name="home_label">Domov</string><!--Home-->
+    <string name="work_label">Práca</string><!--Work-->
+    <string name="location_picker">výber umiestnenia</string><!--location picker-->
+    <string name="clear_label">Vymazať</string><!--Clear-->
+    <string name="description_label">Ručným prepojením adresy alebo siete Wi-Fi s polohou domova alebo práce súhlasíte so zdieľaním %1$s a %2$s aplikáciou HTC Domovská stránka Sense.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">presná poloha</string><!--precise location-->
+    <string name="precise_location_upper">Presná poloha</string><!--Precise location-->
+    <string name="personal_usage_data">údaje o osobnom využívaní</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Údaje o osobnom využívaní</string><!--Personal usage data-->
+    <string name="precise_location_description">Zdieľajte %s a získajte odporúčania na reštaurácie a ďalšie miesta v okolí.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Zdieľanie %s, napríklad mnou používané aplikácie, navštívené webové stránky, počúvané alebo pozerané médiá, na získanie odporúčaní na aplikácie, správy a obsah.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Prepojte adresy alebo siete Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Prepojte adresy alebo siete Wi-Fi</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">pridať</string><!--add-->
+    <string name="no_content">Klepnutím na &quot;+&quot; pridajte adresu alebo sieť Wi-Fi</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">SIETE Wi-Fi</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESY</string><!--ADDRESSES-->
+    <string name="wifi_label">Sieť Wi-Fi</string><!--Wi-/Fi network-->
+    <string name="address_label">Adresa</string><!--Address-->
+    <string name="select_wifi_title">Vyberte jednu alebo viac sietí</string><!--Select one or more networks-->
+    <string name="remove_label">Odstrániť</string><!--Remove-->
+    <string name="edit_label">Upraviť</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">ZRUŠIŤ</string><!--CANCEL-->
+    <string name="lib_app_name">Služby určovania polohy HTC</string><!--HTC location services-->
+    <string name="switch_mode_title">Zmeniť adresu miesta</string><!--Address location change-->
+    <string name="switch_mode_home">Túto adresu ste predtým pridali ako miesto práce. Adresu je možné pridať iba do jedného miesta. Chcete z nej teraz urobiť miesto domova?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Túto adresu ste predtým pridali ako miesto domova. Adresu je možné pridať iba do jedného miesta. Chcete z nej teraz urobiť miesto práce?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi je vypnuté</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Ak chcete s týmto miestom spojiť sieť Wi-Fi, je potrebné cez Nastavenie zapnúť Wi-Fi.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">NASTAVENIE</string><!--SETTINGS-->
+    <string name="duplicate_address">Táto adresa už bola pridaná.</string><!--This address has already been added.-->
+    <string name="unknown_address">neznáma adresa</string><!--unknown address-->
+    <string name="too_much_item">Pridali ste maximálny počet miest.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Pripojené</string><!--Connected-->
+    <string name="saved_label">Uložené</string><!--Saved-->
+    <string name="secured_label">Zabezpečené cez %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">Na správne fungovanie potrebuje táto aplikácia poznať polohu zariadenia. Keď sa objaví výzva, povoľte.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">Na správne fungovanie potrebuje táto aplikácia poznať vašu polohu. Povolenia %s môžete spravovať cez Nastavenie.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ZAVRIEŤ</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">NASTAVENIE</string><!--SETTINGS-->
+    <string name="hsp_app_name">Servisný balík HTC</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Zdroje umiestnenia zakázané</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Pre správne fungovanie potrebuje aplikácia poznať vašu polohu. Cez Nastavenie zapnite zdroj umiestnenia.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">NASTAVENIE</string><!--SETTING-->
+    <string name="no_wifi_available">Žiadne dostupné siete Wi-Fi</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

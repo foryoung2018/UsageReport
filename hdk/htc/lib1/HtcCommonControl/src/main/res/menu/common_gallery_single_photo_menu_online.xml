@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- orthogonal -->
+    <item
+        android:id="@+id/menu_view_photo"
+        android:title="@string/menu_view_full"
+        android:orderInCategory="0"/>
+    <item
+        android:id="@+id/menu_share_photo_link"
+        android:title="@string/menu_send_photo_link_by_email"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="@string/refresh"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/menu_comments"
+        android:title="@string/add_comments"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/menu_show_caption"
+        android:title="@string/button_show_caption"
+        android:orderInCategory="4"/>
+    <item
+        android:id="@+id/menu_hide_caption"
+        android:title="@string/button_hide_caption"
+        android:orderInCategory="4"/>
+    <item
+        android:id="@+id/menu_show_description"
+        android:title="@string/button_show_description"
+        android:orderInCategory="4"/>
+    <item
+        android:id="@+id/menu_hide_description"
+        android:title="@string/button_hide_description"
+        android:orderInCategory="4"/>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Etsi henkilöitä</string><!--Search People-->
+    <string name="common_string_share_title">Jaa</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Tallenna olemassa olevaan yhteystietoon</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Tallenna henkilöihin</string><!--Save to People-->
+    <string name="label_year">Vuosi</string><!--Year-->
+    <string name="label_month">Kuukausi</string><!--Month-->
+    <string name="label_day">Päivä</string><!--Day-->
+    <string name="label_hour">Tunti</string><!--Hour-->
+    <string name="label_minute">Minuutti</string><!--Minute-->
+    <string name="label_second">Sekunti</string><!--Second-->
+    <string name="common_string_open_contact">Avaa yhteystieto</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Jäljellä on vain yksi välilehti. Voit lisätä tähän sovellukseen lisää välilehtiä valitsemalla valikossa Muokkaa välilehtiä/suodattimia.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Peruuta</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Seuraava</string><!--Next-->
+    <string name="va_back">Edellinen</string><!--Back-->
+    <string name="va_call">Soita</string><!--Call-->
+    <string name="st_loading">Ladataan...</string><!--Loading...-->
+    <string name="va_close">Sulje</string><!--Close-->
+    <string name="va_open">Avaa</string><!--Open-->
+    <string name="va_clear">Tyhjennä</string><!--Clear-->
+    <string name="va_send_mail">Lähetä sähköposti</string><!--Send mail-->
+    <string name="va_send_message">Lähetä viesti</string><!--Send message-->
+    <string name="va_download">Lataa</string><!--Download-->
+    <string name="st_more">Lisää</string><!--More-->
+    <string name="nn_unknown_error">Tuntematon virhe</string><!--Unknown error-->
+    <string name="va_downloading">Ladataan</string><!--Downloading-->
+    <string name="va_finish">Valmis</string><!--Finish-->
+    <string name="va_reset">Palauta</string><!--Reset-->
+    <string name="va_hide">Piilota</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Virhe tabletti-tietokoneen tallennustilassa. Käynnistä laite uudelleen tai alusta tallennustila.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Vapauta virkistääksesi</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Päivitetään...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">kaksoisnapauta ja vedä asettaaksesi</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Vedettävissä oleva kohde</string><!--Draggable item-->
+    <string name="va_move_above">Siirrä yläpuolelle</string><!--Move above-->
+    <string name="va_move_below">Siirrä alapuolelle</string><!--Move below-->
+    <string name="st_pull_down_refresh">Virkistä vetämällä alas</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Muokkaa numeroa ennen soittamista</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Avaa kartalla</string><!--Open in map-->
+    <string name="va_copy">Kopioi</string><!--Copy-->
+    <string name="va_show_all">Näytä kaikki</string><!--Show all-->
+</resources>

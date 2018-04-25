@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcOMADM_KDDI/1.00/and6.0.1/Sense80" sync-j="4" HDKLib3Name="HDK_Lib3_API19_3_Stable" HDKLib3Ver="19.3"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcOMADM_KDDI" path="app/packages/apps/HtcOMADM_KDDI" revision="app/apps/HtcOMADM_KDDI/1.00/and6.0.1/Sense80"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HtcOMADM_KDDI" path="app/customization/packages/apps/HtcOMADM_KDDI" revision="app/apps/HtcOMADM_KDDI/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib3/htcwrapandroidnetwifi" path="hdk/htc/lib3/HtcWrapandroidnetwifi" revision="e2050f9307463f5c0706d2053e52692c8397cae2"/>
+</manifest>

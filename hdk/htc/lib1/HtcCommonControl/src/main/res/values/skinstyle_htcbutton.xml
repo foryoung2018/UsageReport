@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:htc="http://schemas.android.com/apk/res/com.htc">
+    <style name="HtcButton">
+        <!-- skinable attribute -->
+        <item name="android:drawable">@array/htcbutton_drawables</item>
+        <item name="overlay_color">?attr/category_color</item>
+    </style>
+    <style name="HtcButton.Dark">
+        <!-- skinable attribute -->
+        <item name="android:drawable">@array/htcbutton_drawables</item>
+        <item name="overlay_color">?attr/category_color</item>
+    </style>
+    <!-- Below button style used for Dialog -->
+    <style name="ButtonBarButtonStyle" parent="@android:style/Widget.Holo.Light.Button.Borderless.Small">
+        <item name="android:textAppearance">@style/fixed_separator_secondary_m</item>
+        <item name="android:paddingStart">@dimen/margin_s</item>
+        <item name="android:paddingEnd">@dimen/margin_s</item>
+        <item name="android:paddingTop">@dimen/margin_m</item>
+        <item name="android:paddingBottom">@dimen/margin_m</item>
+    </style>
+
+    <style name="ButtonBarStyle" parent="@android:style/Holo.ButtonBar">
+        <item name="android:background">@drawable/list_selector_light</item>
+        <item name="android:divider">@drawable/common_div</item>
+    </style>
+
+</resources>

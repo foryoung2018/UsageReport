@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.htc.lib1.cc.widget.preference.HtcPreferenceCategory
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/preference_attributes" >
+        <com.htc.lib1.cc.widget.preference.HtcListPreference
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="htc_list_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="@string/title_list_preference" />
+
+        <com.htc.lib1.cc.widget.preference.HtcMultiSelectListPreference
+            android:defaultValue="@array/default_array"
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_multilist_preference"
+            android:entryValues="@array/entryvalues_multilist_preference"
+            android:key="htc_multiselect_preference"
+            android:summary="@string/summary_list_preference"
+            android:title="@string/title_htcmultiselect_preference" />
+    </com.htc.lib1.cc.widget.preference.HtcPreferenceCategory>
+
+</PreferenceScreen>

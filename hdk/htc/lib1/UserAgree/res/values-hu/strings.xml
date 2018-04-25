@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Az alkalmazás mobil adatátvitelt vagy Wi-Fi-hálózatot használ. Az adatátviteli díjakat a szolgáltatótól tudhatja meg.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Többé ne kérdezzen rá</string><!--Don\'t ask me again-->
+
+</resources>

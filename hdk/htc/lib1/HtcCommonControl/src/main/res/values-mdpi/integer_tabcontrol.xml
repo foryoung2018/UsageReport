@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    /*
+
+    */
+-->
+<resources>
+    <integer name="hvga_width">64</integer>
+    <integer name="tab_switch_fade_in_duration">300</integer>
+    <integer name="tab_switch_fade_in_duration_move">200</integer>
+    <integer name="tab_switch_fade_out_duration">300</integer>
+    <integer name="tab_switch_item_width">102</integer>
+    <integer name="tab_switch_item_height">90</integer>
+    <integer name="tab_switch_item_padding_start">0</integer>
+    <integer name="tab_switch_item_padding_end">7</integer>
+    <integer name="tab_switch_text_small">36</integer>
+    <integer name="tab_switch_text_large">36</integer>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="showdate">Show Date Here</string>
+    <string name="datepickerdialog">Show Date Picker Dialog</string>
+    <string name="datepickerdemo">Date Picker Demo</string>
+</resources>

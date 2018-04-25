@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/dark_mode"
+          android:title="dark mode" />
+        <item android:id="@+id/pull_down"
+          android:title="enable pull down" />
+        <item android:id="@+id/add_button"
+          android:title="add button" />
+        <item android:id="@+id/automotive_mode"
+          android:title="automotive mode" />
+</menu>

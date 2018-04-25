@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Community/1.1/api19/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Community" path="app/packages/apps/Community" revision="app/apps/Community/1.1/api19/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="8d79dcc65b4797454fa95fd7769d65c0bfb562aa"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="659a851e7d10a6570b9b2762dbf9e21ecf855fd9"/>
+  <project name="app/hdk/htc/lib1/htcpushnotificationservice" path="hdk/htc/lib1/HtcPushNotificationService" revision="4c0a9b13a4792621190bebb069d89505bf8ca418"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="a78351835011711454a601c17e0788bb02da808f"/>
+</manifest>

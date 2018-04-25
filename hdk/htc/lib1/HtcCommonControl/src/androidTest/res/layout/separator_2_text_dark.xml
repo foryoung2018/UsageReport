@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItemSeparator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sep_0"
+    htc:textMode="darklist"
+    htc:leftText="this is left text!! "
+    htc:rightText="this is right text!!"
+    />

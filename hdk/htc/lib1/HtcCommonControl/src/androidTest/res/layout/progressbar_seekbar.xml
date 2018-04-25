@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Android ProgressBar" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:progress="40"
+            android:secondaryProgress="80" >
+        </ProgressBar>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcProgressBar displayMode light" />
+
+        <com.htc.lib1.cc.widget.HtcProgressBar
+            android:id="@+id/progressBar_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:progress="40"
+            android:secondaryProgress="80"
+            seekbar:displayMode="mode_light" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcProgressBar displayMode dark" />
+
+        <com.htc.lib1.cc.widget.HtcProgressBar
+            android:id="@+id/progressBar_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:progress="40"
+            android:secondaryProgress="80"
+            seekbar:displayMode="mode_dark" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcProgressBar with Htc Horizontal Full style" />
+
+        <com.htc.lib1.cc.widget.HtcProgressBar
+            style="?attr/htcProgressBarStyleHorizontalFull"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="3" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Default Style" />
+
+        <SeekBar
+            android:id="@+id/SeekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="40"
+            android:secondaryProgress="80" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcSeekBar Default Style" />
+
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:progress="40"
+            android:secondaryProgress="80" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcSeekBar dark Style" />
+
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="40"
+            android:secondaryProgress="80"
+            seekbar:displayMode="mode_dark" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcSeekBar light Style" />
+
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar_thick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:progress="40"
+            android:secondaryProgress="80"
+            seekbar:displayMode="mode_light" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcProgressBar with Htc Indeterminate Large style" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcProgressBar
+                android:id="@+id/ProgressBar_medium_light"
+                style="@style/HTCProgressBarStyle.Indeterminate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                seekbar:displayMode="mode_light" />
+
+            <com.htc.lib1.cc.widget.HtcProgressBar
+                android:id="@+id/ProgressBar_medium_dark"
+                style="@style/HTCProgressBarStyle.Indeterminate.Dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                seekbar:displayMode="mode_dark" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcProgressBar with Htc Indeterminate Small style" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcProgressBar
+                android:id="@+id/ProgressBar_small_light"
+                style="@style/HTCProgressBarStyle.Indeterminate.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                seekbar:displayMode="mode_light" />
+
+            <com.htc.lib1.cc.widget.HtcProgressBar
+                android:id="@+id/ProgressBar_small_dark"
+                style="@style/HTCProgressBarStyle.Indeterminate.Small.Dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                seekbar:displayMode="mode_dark" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

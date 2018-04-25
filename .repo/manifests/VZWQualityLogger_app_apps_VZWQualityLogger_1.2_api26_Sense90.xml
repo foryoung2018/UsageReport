@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/VZWQualityLogger/1.2/api26/Sense90" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/VZWQualityLogger" path="app/packages/apps/VZWQualityLogger" revision="app/apps/VZWQualityLogger/1.2/api26/Sense90"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a41003e430352d3937c9154d2f8856aac1d8abff"/>
+</manifest>

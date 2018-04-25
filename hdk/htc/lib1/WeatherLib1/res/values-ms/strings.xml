@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>Panas</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>Kebanyakannya Panas</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>Sebahagiannya Panas</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>Awan Tompok-tompok</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>Sinar Matahari Berjerebu</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>Kebanyakannya Mendung</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>Mendung</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>Redup</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>Kabus</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>Hujan Lebat</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Kebanyakannya Mendung dengan Hujan Lebat</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Sebahagiannya Panas dengan Hujan Lebat</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>Ribut Petir</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Kebanyakannya Mendung dengan Hujan dan Petir</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Sebahagiannya Panas dengan Hujan dan Petir</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>Hujan</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>Hujan Lari</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Kebanyakannya Mendung dengan Hujan Lari</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Sebahagiannya Panas dengan Hujan Lari</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>Salji</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Kebanyakannya Mendung dengan Salji</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>Ais</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>Hujan Beku</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>Hujan Sejuk Beku</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Hujan dan Salji Bercampur</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>Panas</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>Sejuk</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>Berangin</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>Cerah</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>Kebanyakannya Cerah</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>Sebahagiannya Mendung</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>Awan Tompok-tompok</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>Jerebu</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>Kebanyakannya Mendung</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Sebahagiannya Mendung dengan Hujan Lebat</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Kebanyakannya Mendung dengan Hujan Lebat</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Sebahagiannya Mendung dengan Hujan dan Petir</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Kebanyakannya Mendung dengan Hujan dan Petir</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Sebahagiannya Mendung dengan Hujan Lari</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Kebanyakannya Mendung dengan Hujan Lari</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>Ribut petir dengan hujan beku</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>Pasir</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>Debu</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>Puting beliung</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

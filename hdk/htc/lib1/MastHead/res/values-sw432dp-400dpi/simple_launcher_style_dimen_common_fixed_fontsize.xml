@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="fixed_simple_launcher_01">58px</dimen>
+    <dimen name="fixed_simple_launcher_02">50px</dimen>
+    <dimen name="fixed_simple_launcher_03">60px</dimen>
+    <dimen name="fixed_simple_launcher_04">35px</dimen>
+    <dimen name="fixed_simple_launcher_05">33px</dimen>
+</resources>

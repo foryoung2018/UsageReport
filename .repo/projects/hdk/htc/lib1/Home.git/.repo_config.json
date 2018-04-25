@@ -1,0 +1,23 @@
+{
+  "core.filemode": [
+    "true"
+  ], 
+  "remote.origin.projectname": [
+    "app/hdk/htc/lib1/home"
+  ], 
+  "core.repositoryformatversion": [
+    "0"
+  ], 
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ], 
+  "remote.origin.review": [
+    "git.htc.com:8081"
+  ], 
+  "remote.origin.url": [
+    "ssh://yang_hu@tpe.app.git.htc.com:29419/app/hdk/htc/lib1/home"
+  ], 
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ]
+}

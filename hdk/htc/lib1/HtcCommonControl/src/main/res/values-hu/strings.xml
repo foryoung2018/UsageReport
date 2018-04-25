@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Kész</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Megosztás a következőn keresztül</string><!--Share via-->
+    <string name="carousel_title">Az újrarendezéshez tartsa lenyomva az ikonokat</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Ez a fül nem távolítható el</string><!--Unable to remove this tab-->
+    <string name="yes">Igen</string><!--Yes-->
+    <string name="no">Nem</string><!--No-->
+    <string name="menu_view_full">Nézet</string><!--View-->
+    <string name="menu_view_video">Lejátszás</string><!--Play-->
+    <string name="menu_slideshow">Diavetítés</string><!--Slideshow-->
+    <string name="menu_share">Megosztás</string><!--Share-->
+    <string name="menu_set_as">Beállítás másként</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Beállítás kedvencként</string><!--Set as favorite-->
+    <string name="menu_protect_info">Védelmi Információ</string><!--Protection info-->
+    <string name="meun_rotate">Elforgatás</string><!--Rotate-->
+    <string name="menu_delete">Törlés</string><!--Delete-->
+    <string name="menu_crop">Körülvágás</string><!--Crop-->
+    <string name="menu_properties">Részletek</string><!--Details-->
+    <string name="menu_show_on_map">Megjelenítés térképen</string><!--Show on map-->
+    <string name="menu_settings">Beállítások</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Fénykép hivatkozás megosztása</string><!--Share photo link-->
+    <string name="refresh">Frissítés</string><!--Refresh-->
+    <string name="add_comments">Hozzászólok</string><!--Add comment-->
+    <string name="button_show_caption">Képaláírás megjelenítése</string><!--Show caption-->
+    <string name="button_hide_caption">Képaláírás elrejtése</string><!--Hide caption-->
+    <string name="button_show_description">Leírás megjelenítése</string><!--Show description-->
+    <string name="button_hide_description">Leírás elrejtése</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Kicsi</item><!--Small-->
+        <item>Közepes</item><!--Medium-->
+        <item>Nagy</item><!--Large-->
+        <item>Különösen nagy</item><!--Extra large-->
+        <item>Óriási</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Érintse meg duplán a művelet végrehajtásához</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Húzza az ikont felfelé</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Húzza fel a feloldásához</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Vas</item><!--SU-->
+        <item>H</item><!--M-->
+        <item>Ke</item><!--TU-->
+        <item>Sze</item><!--W-->
+        <item>Cs</item><!--TH-->
+        <item>P</item><!--F-->
+        <item>Szo</item><!--SA-->
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Ova aplikacija koristi mobilnu podatkovnu mrežu ili Wi-Fi. Provjerite kod vašeg operatera kolika je tarifa za prijenos podataka.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Ne pitaj ponovno</string><!--Don\'t ask me again-->
+
+</resources>

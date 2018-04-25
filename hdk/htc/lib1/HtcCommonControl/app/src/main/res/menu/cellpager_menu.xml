@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/changevertical"
+        android:title="VERTICAL"
+        android:showAsAction="never"
+         />
+
+    <item android:id="@+id/changehorizontal"
+        android:title="HORIZONTAL"
+        android:showAsAction="never"
+        />
+
+
+</menu>

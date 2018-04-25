@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The application name of FilePickerDemo -->
+    <string name="app_name_activity">File Picker Activity Demo</string>
+    <!-- FilePicker Demo -->
+    <!-- The radio button text. FilePicker will be launched with ListView mode -->
+    <string name="list_view_radio_bottom">List view</string>
+    <!-- The radio button text. FilePicker will be launched with GridView mode -->
+    <string name="grid_view_radio_bottom">Thumbnail view</string>
+    <!-- The radio button text. FilePicker will be launched with "No Grouping" mode -->
+    <string name="no_grouping_radio_bottom">No grouping</string>
+    <!-- The radio button text. FilePicker will be launched with "Group by Path" mode -->
+    <string name="path_grouping_radio_bottom">Group by path</string>
+    <!-- The radio button text. FilePicker will be launched with "Single Selection" mode -->
+    <string name="single_selection_radio_bottom">Single selection</string>
+    <!-- The radio button text. FilePicker will be launched with "Multiple Selection" mode -->
+    <string name="multiple_selection_radio_bottom">Multiple selection</string>
+    <!-- The text of button. User click this button to launch FilePicker -->
+    <string name="launch_filepicker">Launch FilePicker</string>
+    <!-- The text above the output text to tell user where is the output -->
+    <string name="output_selected_files">Output selected files</string>
+    <!-- Don't translate -->
+    <string name="search_hint_text">FilePickerDemo Search</string>
+
+</resources>

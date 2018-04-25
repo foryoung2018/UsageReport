@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/CMCC_139mail/5.86/api21/email" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/CMCC_139mail" path="app/packages/3amapps/CMCC_139mail" revision="app/3amapps/CMCC_139mail/5.86/api21/email"/>
+</manifest>

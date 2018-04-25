@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HtcAnimationButtonMode">
+        <attr name="backgroundMode">
+            <enum name="light" value="0" />
+            <enum name="dark" value="1" />
+            <enum name="automotiveDark" value="2" />
+            <enum name="automotiveLight" value="3" />
+            <!-- For HtcAutoCompleteTextView and HtcEditText -->
+            <enum name="lightFull" value="4" />
+            <!-- For HtcToggleButton in separators -->
+            <enum name="smallLight" value="5" />
+            <enum name="full" value="6" />
+            <!-- This is for HtcRimButton-Colorful mode (Color Button) -->
+            <enum name="colorful" value="7" />
+            <enum name="transparent" value="8" />
+            <enum name="pureLight" value="9" />
+        </attr>
+        <attr name="extAnimationMode">
+            <!-- no entend animation -->
+            <flag name="none" value="0x0000" />
+            <!-- disable rim multiply -->
+            <flag name="noRimMultiply" value="0x0001" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="HtcCompoundButtonMode">
+        <attr name="isContentMultiply" format="boolean" />
+        <attr name="hasOnState" format="boolean" />
+    </declare-styleable>
+</resources>
+

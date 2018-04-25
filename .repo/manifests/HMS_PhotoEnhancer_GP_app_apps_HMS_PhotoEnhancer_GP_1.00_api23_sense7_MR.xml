@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HMS_PhotoEnhancer_GP/1.00/api23/sense7_MR" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HMS_PhotoEnhancer_GP" path="app/packages/apps/HMS_PhotoEnhancer_GP" revision="app/apps/HMS_PhotoEnhancer_GP/1.00/api23/sense7_MR"/>
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>Slunečno</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>Převážně slunečno</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>Místy slunečno</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>Občasná oblačnost</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>Slunečno, opar</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>Převážně zataženo</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>Oblačno</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>Pošmourno</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>Mlha</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>Přeháňky</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Převážně zataženo, přeháňky</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Místy slunečno, přeháňky</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>Bouřky</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Převážně zataženo, bouřkové přeháňky</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Místy slunečno, bouřkové přeháňky</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>Déšť</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>Nárazový vítr</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Převážně zataženo, nárazový vítr</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Místy slunečno, nárazový vítr</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>Sněžení</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Převážně zataženo, sněžení</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>Náledí</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>Plískanice</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>Námraza</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Déšť se sněhem</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>Horko</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>Chladno</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>Větrno</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>Jasno</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>Polojasno</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>Místy zataženo</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>Občasná oblačnost</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>Opar</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>Převážně zataženo</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Místy zataženo, přeháňky</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Převážně zataženo, přeháňky</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Místy zataženo, bouřkové přeháňky</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Převážně zataženo, bouřkové přeháňky</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Místy zataženo, nárazový vítr</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Převážně zataženo, nárazový vítr</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>Bouřky s deštěm se sněhem</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>Písek</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>Prach</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>Tornádo</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

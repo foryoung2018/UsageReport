@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.htc.lib1.cc.widget.HtcFooter
+        android:id="@+id/htcfooter_one_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.htc.lib1.cc.widget.HtcFooterIconButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/icon_btn_search_light"
+            android:focusable="false"
+            android:text="Visible" />
+
+        <com.htc.lib1.cc.widget.HtcFooterIconButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:text="Invisible"
+            android:visibility="invisible" />
+    </com.htc.lib1.cc.widget.HtcFooter>
+
+</LinearLayout>

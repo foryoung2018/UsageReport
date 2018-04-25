@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.htc.lib1.cc.widget.HtcFooter
+        android:id="@+id/test_htcFooterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        htc:backgroundMode="light" >
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/test_htcFooterButton_left"
+            android:focusable="false"
+            htc:backgroundMode="light"
+            android:src="@drawable/icon_btn_search_light"
+            android:text="@string/footerbutton_longstring" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_light"
+            android:focusable="false"
+            htc:backgroundMode="light"
+            android:src="@drawable/icon_btn_search_light"
+            android:text="@string/footerbutton_shortstring" />
+    </com.htc.lib1.cc.widget.HtcFooter>
+
+</LinearLayout>

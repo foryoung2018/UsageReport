@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/CMCC_Sabrina/3.4.0/api21/Backup" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/CMCC_Sabrina" path="app/packages/3amapps/CMCC_Sabrina" revision="app/3amapps/CMCC_Sabrina/3.4.0/api21/Backup"/>
+</manifest>

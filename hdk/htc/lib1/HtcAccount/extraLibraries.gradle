@@ -1,0 +1,11 @@
+ext {
+    extraLibrary = [
+        "com.google.code.gson:gson:2.2.4@jar",
+        "net.grandcentrix.tray:tray:0.12.0",
+        //"org.andlog:andlog:1.0.5@jar",
+        // GMS lib has dependend on support v4.
+        "com.android.support:support-v13:25.0.1",
+        "com.google.android.gms:play-services-base:8.4.0",
+        "com.google.android.gms:play-services-plus:8.4.0",
+    ]
+}

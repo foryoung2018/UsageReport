@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- incoming call contact panel -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tile_min_height"
+    android:orientation="vertical" >
+
+    <!-- Line 1 -->
+    <TextView
+        android:id="@+id/text11"
+        style="@style/fixed_lockscreen_09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tile_line_1_margin_top"
+        android:layout_marginLeft="@dimen/common_dimen_m1"
+        android:layout_marginRight="@dimen/common_dimen_m1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <!-- Line 2 -->
+    <TextView
+        android:id="@+id/text2"
+        style="@style/fixed_lockscreen_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tile_line_2_margin_top"
+        android:layout_marginLeft="@dimen/common_dimen_m1"
+        android:layout_marginRight="@dimen/common_dimen_m1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <!-- Line 2 -->
+    <TextView
+        android:id="@+id/text3"
+        style="@style/fixed_lockscreen_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tile_line_3_margin_top"
+        android:layout_marginLeft="@dimen/common_dimen_m1"
+        android:layout_marginRight="@dimen/common_dimen_m1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true" />
+
+</LinearLayout>

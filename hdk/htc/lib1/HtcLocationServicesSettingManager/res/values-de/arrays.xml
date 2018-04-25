@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Used in ListItemActivity.java -->
+    <string-array name="choose_target">
+        <item>@string/address_label</item>
+        <item>@string/wifi_label</item>
+    </string-array>
+    <string-array name="address_action">
+        <item>@string/edit_label</item>
+        <item>@string/remove_label</item>
+    </string-array>
+    <string-array name="wifi_action">
+        <item>@string/remove_label</item>
+    </string-array>
+</resources>

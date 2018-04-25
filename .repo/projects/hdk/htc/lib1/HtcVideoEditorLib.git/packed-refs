@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled 
+27c18a21b76b74785bcc53bbb7690ce406a0bc0f refs/remotes/origin/hdk/api8_generic
+d53b96b12f73db1836c8d19f4ce37cb9c612cfc5 refs/tags/HDK_Lib1_API20_Sense70_Mainline
+^138803abe4b48de4abf9d188920cf31f0f3c1d3e
+6615adb7dccdaa05a23ecc529015d1d332cf43c4 refs/tags/HDK_Lib1_API23_Sense80_GP_Mainline
+^27c18a21b76b74785bcc53bbb7690ce406a0bc0f

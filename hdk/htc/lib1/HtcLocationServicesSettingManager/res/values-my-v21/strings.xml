@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC တည်နေရာဝန်ဆောင်မှုများ</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC တည်နေရာဝန်ဆောင်မှုများ</string><!--HTC Location Services-->
+    <string name="home_label">အိမ်</string><!--Home-->
+    <string name="work_label">အလုပ်</string><!--Work-->
+    <string name="location_picker">တည်နေရာ ကောက်ယူသူ</string><!--location picker-->
+    <string name="clear_label">ရှင်းလင်း</string><!--Clear-->
+    <string name="description_label">သင့်အိမ်နှင့် အလုပ်တည်နေရာဖြင့် လိပ်စာ သို့မဟုတ် Wi-Fi ကွန်ယက်ကို ကိုယ်တိုင်ချိတ်ခြင်းအားဖြင့် HTC Sense ပါဝင်သောနေရာဖြင့် သင့်%1$s နှင့် %2$s ကို မျှဝေရန် သဘောတူခြင်းဖြစ်သည်။</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">တိကျသော တည်နေရာ</string><!--precise location-->
+    <string name="precise_location_upper">တိကျသော တည်နေရာ</string><!--Precise location-->
+    <string name="personal_usage_data">ကိုယ်ပိုင်သုံးစွဲမှု ဒေတာ</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">ကိုယ်ပိုင်သုံးစွဲမှု ဒေတာ</string><!--Personal usage data-->
+    <string name="precise_location_description">အနီးနားရှိ စားသောက်ဆိုင်များနှင့် အခြားနေရာများအတွက် အကြံပြုချက်များရယူရန်%s</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">အက်ပ်များ၊ သတင်းနှင့် အကြောင်းအရာများအတွက် အကြံပြုချက်များရရန် ကျွန်ုပ်သုံးသော အက်ပ်၊ သွားသောဝက်ဘ်စာမျက်နှာနှင့် နားထောင်သော သို့မဟုတ် ကြည့်သော မြင်ကွင်းတို့ကို သင့် %s ကို မျှဝေပါ။</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">လိပ်စာ သို့မဟုတ် Wi-Fi ကွန်ယက်များကို ချိတ်ပါ</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">လိပ်စာ သို့မဟုတ် Wi-Fi ကွန်ယက်များကို ချိတ်ပါ</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">ထည့်ပါ</string><!--add-->
+    <string name="no_content">လိပ်စာ သို့မဟုတ် Wi-Fi ကွန်ယက် ထပ်ထည့်ရန် &quot;+&quot; ကို အသာပုတ်ပါ</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi ကွန်ယက်များ</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">လိပ်စာ</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi ကွန်ယက်</string><!--Wi-/Fi network-->
+    <string name="address_label">လိပ်စာ</string><!--Address-->
+    <string name="select_wifi_title">တစ်ခုနှင့်အထက် ကွန်ယက်ကို ရွေးချယ်ပါ</string><!--Select one or more networks-->
+    <string name="remove_label">ဖယ်ရှား</string><!--Remove-->
+    <string name="edit_label">တည်းဖြတ်</string><!--Edit-->
+    <string name="alert_dialog_ok">အိုကေ</string><!--OK-->
+    <string name="alert_dialog_cancel">ဖျက်သိမ်း</string><!--CANCEL-->
+    <string name="lib_app_name">HTC တည်နေရာဝန်ဆောင်မှုများ</string><!--HTC location services-->
+    <string name="switch_mode_title">လိပ်စာတည်နေရာပြောင်းသည်</string><!--Address location change-->
+    <string name="switch_mode_home">သင်သည် ဤလိပ်စာကို အလုပ်တည်နေရာအဖြစ် ယခင်ကထည့်ထားသည်။ လိပ်စာတစ်ခုကို တည်နေရာတစ်ခုသို့သာ ထည့်နိုင်သည်။ ၎င်းကို အိမ်တည်နေရာအဖြစ် ယခုပြုလုပ်လိုသလား။</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">သင်သည် ဤလိပ်စာကို အိမ်တည်နေရာအဖြစ် ယခင်ကထည့်ထားသည်။ လိပ်စာတစ်ခုကို တည်နေရာတစ်ခုသို့သာ ထည့်နိုင်သည်။ ၎င်းကို အလုပ်တည်နေရာအဖြစ် ယခုပြုလုပ်လိုသလား။</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi ပိတ်ထားသည်</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">ဤတည်နေရာဖြင့် Wi-Fi ကွန်ယက်ချိတ်ဆက်ရန်၊ Wi-Fi ချိန်ညှိချက်များတွင် ဖွင့်ရန်လိုအပ်သည်။</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">ချိန်ညှိမှုများ</string><!--SETTINGS-->
+    <string name="duplicate_address">ဤလိပ်စာကို ထည့်ပြီးပြီ။</string><!--This address has already been added.-->
+    <string name="unknown_address">မသိသောလိပ်စာ</string><!--unknown address-->
+    <string name="too_much_item">သင်သည် အများဆုံးတည်နေရာအရေအတွက်ကို ထည့်ပြီးပြီ။</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">ချိတ်ဆက်ထားပြီး</string><!--Connected-->
+    <string name="saved_label">သိမ်းဆည်းပြီး</string><!--Saved-->
+    <string name="secured_label">%s နှင့် လုံခြုံစေပြီး</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">သင့်တင့်စွာလုပ်ဆောင်ရန်၊ ဤအက်ပ်သည် သင့်ကိရိယာ၏ တည်နေရာကို ရယူသုံးစွဲရန်လိုအပ်သည်။ ခွင့်ပြုချက်ကို မေးမြန်းလာပါက ခွင့်ပြုပါ။</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">သင့်တင့်စွာလုပ်ဆောင်ရန် ဤအက်ပ်သည် သင့်တည်နေရာကို ရယူသုံးစွဲရန်လိုအပ်သည်။ %s ၏ ခွင့်ပြုချက်များကို ချိန်ညှိချက်များတွင် စီမံခန့်ခွဲနိုင်သည်။</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">ပိတ်</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">ချိန်ညှိချက်များ</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC ဝန်ဆောင်မှု ပက်ကေ့ချ်</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">တည်နေရာမူရင်းဒေတာပိတ်</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">ကောင်းမွန်မှန်ကန်စွာ အလုပ်လုပ်နိုင်ရန် ဤအက်ပ်မှ သင့်တည်နေရာ ကိုသိဖို့လိုအပ်ပါသည်။ ချိန်ညှိခြင်းတွင် တည်နေရာအရင်းအမြစ်ကို ဖွင့်ပေးပါ။</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">ချိန်ညှိချက်</string><!--SETTING-->
+    <string name="no_wifi_available">Wi-Fi ကွန်ယက်များမရနိုင်</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

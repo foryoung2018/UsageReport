@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="htcaccount_all_hyperlink_color">#0066cc</color>
+
+    <color name="htcaccount_icon_facebook_bkg">#3b579d</color>
+    <color name="htcaccount_icon_google_bkg">#dc4b39</color>
+    <color name="htcaccount_icon_sina_bkg">#eccb67</color>
+    <color name="htcaccount_icon_qq_bkg">#17a0e9</color>
+    <color name="htcaccount_icon_htc_bkg">#7dbe32</color>
+    <color name="htcaccount_light_primaryfont_color">#4b4b4b</color>
+    <color name="htcaccount_light_primaryfont_disable_color">#684b4b4b</color>
+</resources>

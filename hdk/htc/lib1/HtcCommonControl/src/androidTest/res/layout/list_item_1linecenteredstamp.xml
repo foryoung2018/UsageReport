@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItem xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.htc.lib1.cc.widget.HtcListItem1LineCenteredText android:id="@+id/centered_text" />
+
+    <com.htc.lib1.cc.widget.HtcListItem1LineCenteredStamp android:id="@+id/centered_stamp" />
+
+</com.htc.lib1.cc.widget.HtcListItem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/no_weather_text"
+    style="@style/custom_fixed_masthead_08"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:ellipsize="end"
+    android:maxLines="6"
+    android:visibility="gone" />
+

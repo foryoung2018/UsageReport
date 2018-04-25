@@ -1,0 +1,3 @@
+34cc0c60b78d29084892829aa9d50de56f0c6317		branch 'hdk/buildsdk_latest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcstoragehelper
+190dc5cda597db875aacfdad640cfe6723290492	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcstoragehelper
+f7c81a69b31b4ad7702e931f30b3a65127d3267c	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htcstoragehelper

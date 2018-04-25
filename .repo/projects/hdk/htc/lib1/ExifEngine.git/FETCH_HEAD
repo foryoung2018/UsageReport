@@ -1,0 +1,3 @@
+e6d4f9098946a919933bbe882f064279d420ce3a		branch 'hdk/buildsdk_latest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/exifengine
+acd2605dba37b552f432f721b54a8279916b16bd	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/exifengine
+41637cce5ebedf1ef6fc48a53f9b0949f05de139	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/exifengine

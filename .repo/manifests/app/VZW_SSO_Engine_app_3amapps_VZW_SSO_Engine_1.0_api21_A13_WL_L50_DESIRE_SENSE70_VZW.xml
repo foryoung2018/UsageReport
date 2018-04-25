@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/VZW_SSO_Engine/1.0/api21/A13_WL_L50_DESIRE_SENSE70_VZW" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/VZW_SSO_Engine" path="app/packages/3amapps/VZW_SSO_Engine" revision="app/3amapps/VZW_SSO_Engine/1.0/api21/A13_WL_L50_DESIRE_SENSE70_VZW"/>
+</manifest>

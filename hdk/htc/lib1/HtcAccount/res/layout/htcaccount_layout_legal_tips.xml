@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cs.widget.LinkableTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txt_legal_tips"
+    style="@style/TextAppearance.HtcAccountDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:bufferType="spannable"
+    android:gravity="center_vertical"
+    android:textColorLink="@color/htcaccount_all_hyperlink_color"
+    android:textIsSelectable="false" />

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">完成</string><!--Done-->
+    <string name="am">上午</string><!--AM-->
+    <string name="pm">下午</string><!--PM-->
+    <string name="quickselection_share">分享媒介</string><!--Share via-->
+    <string name="carousel_title">長按圖示以重新排列</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">無法移除此標籤</string><!--Unable to remove this tab-->
+    <string name="yes">是</string><!--Yes-->
+    <string name="no">否</string><!--No-->
+    <string name="menu_view_full">檢視</string><!--View-->
+    <string name="menu_view_video">播放</string><!--Play-->
+    <string name="menu_slideshow">投影片放映</string><!--Slideshow-->
+    <string name="menu_share">分享</string><!--Share-->
+    <string name="menu_set_as">設成</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">設為我的最愛</string><!--Set as favorite-->
+    <string name="menu_protect_info">保護資訊</string><!--Protection info-->
+    <string name="meun_rotate">旋轉</string><!--Rotate-->
+    <string name="menu_delete">刪除</string><!--Delete-->
+    <string name="menu_crop">裁剪</string><!--Crop-->
+    <string name="menu_properties">詳細資料</string><!--Details-->
+    <string name="menu_show_on_map">在地圖上顯示</string><!--Show on map-->
+    <string name="menu_settings">設定</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">分享相片連結</string><!--Share photo link-->
+    <string name="refresh">重新整理</string><!--Refresh-->
+    <string name="add_comments">新增留言</string><!--Add comment-->
+    <string name="button_show_caption">顯示標題</string><!--Show caption-->
+    <string name="button_hide_caption">隱藏標題</string><!--Hide caption-->
+    <string name="button_show_description">顯示說明</string><!--Show description-->
+    <string name="button_hide_description">隱藏說明</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>小</item><!--Small-->
+        <item>中</item><!--Medium-->
+        <item>大</item><!--Large-->
+        <item>特大</item><!--Extra large-->
+        <item>最大</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">點兩下以執行動作</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">將圖示上拉</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">向上拉以解鎖</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>日</item><!--SU-->
+        <item>一</item><!--M-->
+        <item>二</item><!--TU-->
+        <item>三</item><!--W-->
+        <item>四</item><!--TH-->
+        <item>五</item><!--F-->
+        <item>六</item><!--SA-->
+    </string-array>
+</resources>

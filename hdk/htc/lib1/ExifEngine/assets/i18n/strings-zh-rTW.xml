@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="unit_second">秒</string>
+	<string name="unit_mm">公釐</string>
+</resources>

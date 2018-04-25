@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC placeringstjenester</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC Placeringstjenester</string><!--HTC Location Services-->
+    <string name="home_label">Startside</string><!--Home-->
+    <string name="work_label">Arbejde</string><!--Work-->
+    <string name="location_picker">placeringsvælger</string><!--location picker-->
+    <string name="clear_label">Ryd</string><!--Clear-->
+    <string name="description_label">Ved manuelt at sammenkæde en adresse eller et Wi-Fi-netværk med din hjemme- eller arbejdsadresse, accepterer du at dele din %1$s og din %2$s med HTC Sense home.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">nøjagtig placering</string><!--precise location-->
+    <string name="precise_location_upper">Nøjagtig placering</string><!--Precise location-->
+    <string name="personal_usage_data">personlige forbrugsdata</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Personlige forbrugsdata</string><!--Personal usage data-->
+    <string name="precise_location_description">Del din %s for at få forslag til restauranter og andre steder i nærheden.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Del dine %s som fx programmer jeg bruger, websteder jeg besøger og medier jeg lytter til eller ser, for at få forslag til programmer, nyheder og indhold.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Sammenkæd adresser eller Wi-Fi-netværk</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Sammenkæd adresser eller Wi-Fi-netværk</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">tilføj</string><!--add-->
+    <string name="no_content">Tryk på \"+\" for at tilføje en adresse eller et Wi-Fi-netværk</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">WI-FI-NETVÆRK</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESSER</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi-netværk</string><!--Wi-/Fi network-->
+    <string name="address_label">Adresse</string><!--Address-->
+    <string name="select_wifi_title">Vælg et eller flere netværk</string><!--Select one or more networks-->
+    <string name="remove_label">Fjern</string><!--Remove-->
+    <string name="edit_label">Rediger</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">ANNULLER</string><!--CANCEL-->
+    <string name="lib_app_name">HTC placeringstjenester</string><!--HTC location services-->
+    <string name="switch_mode_title">Skift adresse</string><!--Address location change-->
+    <string name="switch_mode_home">Du har tidligere tilføjet denne adresse som arbejdsplacering. En adresse kan kun tilføjes én placering. Vil du gøre den til hjemmeplacering nu?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Du har tidligere tilføjet denne adresse som hjemmeplacering. En adresse kan kun tilføjes én placering. Vil du gøre den til arbejdsplacering nu?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi er slukket</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Hvis du vil linke et Wi-Fi-netværk til denne placering, skal du aktivere Wi-Fi i Indstillinger.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">INDSTILLINGER</string><!--SETTINGS-->
+    <string name="duplicate_address">Denne adresse er allerede tilføjet.</string><!--This address has already been added.-->
+    <string name="unknown_address">ukendt adresse</string><!--unknown address-->
+    <string name="too_much_item">Du har tilføjet det maksimale antal placeringer.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Forbundet</string><!--Connected-->
+    <string name="saved_label">Gemt</string><!--Saved-->
+    <string name="secured_label">Sikret med %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">For at kunne fungere korrekt, skal dette program have adgang til enhedens placering. Giv tilladelse, når du bliver bedt om det.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">For at kunne fungere korrekt, skal dette program have adgang til din placering. Du kan administrere %s\'s tilladelser in Indstillinger.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">LUK</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">INDSTILLINGER</string><!--SETTINGS-->
+    <string name="hsp_app_name">Htc Service Pack</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Placeringskilder deaktiveret</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">Dette program skal kende din placering for at fungere korrekt. Slå en placeringskilde til i Indstillinger.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">INDSTILLING</string><!--SETTING-->
+    <string name="no_wifi_available">Ingen tilgængelige Wi-Fi-netværk</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

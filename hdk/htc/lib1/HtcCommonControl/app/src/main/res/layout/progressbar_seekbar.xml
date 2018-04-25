@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Android ProgressBar" />
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:progress="40"
+            android:secondaryProgress="80" >
+        </ProgressBar>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcProgressBar" />
+        <com.htc.lib1.cc.widget.HtcProgressBar
+            android:id="@+id/progressBar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:progress="40"
+            android:secondaryProgress="80" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcProgressBar black mode" />
+        <com.htc.lib1.cc.widget.HtcProgressBar
+            android:id="@+id/progressBar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:progress="40"
+            android:secondaryProgress="80"
+            seekbar:displayMode="mode_dark" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Default Style" />
+        <SeekBar
+            android:id="@+id/SeekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="40"
+            android:secondaryProgress="80" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcSeekBar Default Style" />
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:progress="40"
+            android:secondaryProgress="80" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcSeekBar black Style" />
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="40"
+            android:secondaryProgress="80"
+            seekbar:displayMode="mode_dark" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcSeekBar white Style" />
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar_thick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:progress="40"
+            android:secondaryProgress="80"
+            seekbar:displayMode="mode_light" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Total height = 100" />
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar2_1"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="#ffffff"
+            android:progress="40"
+            android:secondaryProgress="80" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtcSeekBar with Padding: top 70px/bottom 30px/left 70px/right 0px" />
+        <com.htc.lib1.cc.widget.HtcSeekBar
+            android:id="@+id/HtcSeekBar2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingBottom="30px"
+            android:paddingLeft="70px"
+            android:paddingRight="0px"
+            android:paddingTop="70px"
+            android:progress="40"
+            android:secondaryProgress="80" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar with Htc Indeterminate Large style" />
+        <ProgressBar
+            style="?attr/htcProgressBarStyleIndeterminate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar with Htc Indeterminate Small style" />
+        <ProgressBar
+            style="?attr/htcProgressBarStyleIndeterminateSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar with Htc Horizontal Full style" />
+        <com.htc.lib1.cc.widget.HtcProgressBar
+            style="?attr/htcProgressBarStyleHorizontalFull"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="3" />
+    </LinearLayout>
+</ScrollView>

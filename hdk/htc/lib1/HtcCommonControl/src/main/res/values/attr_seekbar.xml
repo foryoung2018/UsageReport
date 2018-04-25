@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HtcSeekBar">
+        <attr name="android:entries" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingRight" />
+        <attr name="android:thumb" />
+        <attr name="android:thumbOffset" />
+        <attr name="displayMode" />
+    </declare-styleable>
+    <declare-styleable name="HtcProgressBar">
+        <attr name="android:entries" />
+        <attr name="displayMode" />
+    </declare-styleable>
+</resources>

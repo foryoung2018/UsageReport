@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >în fiecare primă duminică</item><!--on every first Sunday-->
+        <item >în fiecare a doua duminică</item><!--on every second Sunday-->
+        <item >în fiecare a treia duminică</item><!--on every third Sunday-->
+        <item >în fiecare a patra duminică</item><!--on every fourth Sunday-->
+        <item >în fiecare ultimă duminică</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >în fiecare primă luni</item><!--on every first Monday-->
+        <item >în fiecare a doua luni</item><!--on every second Monday-->
+        <item >în fiecare a treia luni</item><!--on every third Monday-->
+        <item >în fiecare a patra luni</item><!--on every fourth Monday-->
+        <item >în fiecare ultimă luni</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >în fiecare primă marţi</item><!--on every first Tuesday-->
+        <item >în fiecare a doua marţi</item><!--on every second Tuesday-->
+        <item >în fiecare a treia marţi</item><!--on every third Tuesday-->
+        <item >în fiecare a patra marţi</item><!--on every fourth Tuesday-->
+        <item >în fiecare ultimă marţi</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >în fiecare primă miercuri</item><!--on every first Wednesday-->
+        <item >în fiecare a doua miercuri</item><!--on every second Wednesday-->
+        <item >în fiecare a treia miercuri</item><!--on every third Wednesday-->
+        <item >în fiecare a patra miercuri</item><!--on every fourth Wednesday-->
+        <item >în fiecare ultimă miercuri</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >în fiecare primă joi</item><!--on every first Thursday-->
+        <item >în fiecare a doua joi</item><!--on every second Thursday-->
+        <item >în fiecare a treia joi</item><!--on every third Thursday-->
+        <item >în fiecare a patra joi</item><!--on every fourth Thursday-->
+        <item >în fiecare ultimă joi</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >în fiecare primă vineri</item><!--on every first Friday-->
+        <item >în fiecare a doua vineri</item><!--on every second Friday-->
+        <item >în fiecare a treia vineri</item><!--on every third Friday-->
+        <item >în fiecare a patra vineri</item><!--on every fourth Friday-->
+        <item >în fiecare ultimă vineri</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >în fiecare primă sâmbătă</item><!--on every first Saturday-->
+        <item >în fiecare a doua sâmbătă</item><!--on every second Saturday-->
+        <item >în fiecare a treia sâmbătă</item><!--on every third Saturday-->
+        <item >în fiecare a patra sâmbătă</item><!--on every fourth Saturday-->
+        <item >în fiecare ultimă sâmbătă</item><!--on every last Saturday-->
+    </string-array>
+</resources>

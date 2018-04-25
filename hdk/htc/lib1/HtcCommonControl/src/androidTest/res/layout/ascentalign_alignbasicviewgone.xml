@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.AscentAlignLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/alignbasicviewgone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_s"
+    android:background="#FFFFFF" >
+
+    <TextView
+        android:id="@+id/text1"
+        style="@style/fixed_list_primary_xxs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:layout_marginRight="@dimen/margin_m"
+        android:layout_weight="1"
+        htc:layout_alignType="basic"
+        htc:layout_alignView="@id/text1"
+        android:paddingTop="@dimen/margin_l"
+        android:singleLine="true"
+        android:text="BASIC TEXT" />
+
+    <TextView
+        android:id="@+id/text2"
+        style="@style/fixed_list_primary_m"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_m"
+        android:layout_weight="1"
+        htc:layout_alignType="align_basic"
+        htc:layout_alignView="@id/text2"
+        android:singleLine="true"
+        android:text="ALIGN BASIC"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text3"
+        style="@style/fixed_list_primary_xl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_l"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:text="OTHER" />
+
+</com.htc.lib1.cc.widget.AscentAlignLayout>

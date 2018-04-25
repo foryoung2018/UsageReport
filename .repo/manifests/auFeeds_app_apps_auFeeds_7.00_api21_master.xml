@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/auFeeds/7.00/api21/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/auFeeds" path="app/packages/apps/auFeeds" revision="app/apps/auFeeds/7.00/api21/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib1/feedservice" path="hdk/htc/lib1/FeedService" revision="7ef37a11e24c5cd3c8d70de489559e11abbc618d"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="20cccf26f9a0cb733ebef4820857cdc24f5e82bf"/>
+</manifest>

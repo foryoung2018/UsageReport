@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HMS_Gallery_HMSTest/9.10/api19/sense8_10_20" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HMS_Gallery_HMSTest" path="app/packages/apps/HMS_Gallery_HMSTest" revision="app/apps/HMS_Gallery_HMSTest/9.10/api19/sense8_10_20"/>
+</manifest>

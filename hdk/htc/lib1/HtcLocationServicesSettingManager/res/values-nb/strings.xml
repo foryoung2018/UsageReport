@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC-plasseringstjenester</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC-plasseringstjenester</string><!--HTC Location Services-->
+    <string name="home_label">Hjemme</string><!--Home-->
+    <string name="work_label">Arbeid</string><!--Work-->
+    <string name="location_picker">plasseringsvelger</string><!--location picker-->
+    <string name="clear_label">Fjern</string><!--Clear-->
+    <string name="description_label">Ved å koble sammen en adresse eller et Wi-Fi-nettverk med hjemme- eller arbeidsplasseringen din godtar du å dele %1$s og %2$s med HTC Sense Home.</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">nøyaktig plassering</string><!--precise location-->
+    <string name="precise_location_upper">Nøyaktig plassering</string><!--Precise location-->
+    <string name="personal_usage_data">personlige bruksdata</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">Personlige bruksdata</string><!--Personal usage data-->
+    <string name="precise_location_description">Del din %s for å få forslag om restauranter og andre ting i nærheten.</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">Del din %s, for eksempel apper jeg bruker, webområder og medier jeg lytter på eller viser, for å få forslag om apper, nyheter og innhold.</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">Koble sammen adresser eller Wi-Fi-nettverk</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">Koble sammen adresser eller Wi-Fi-nettverk</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">legge til</string><!--add-->
+    <string name="no_content">Klikk på &quot;+&quot; for å legge til en adresse i Wi-Fi-nettverket</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi-NETTVERK</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">ADRESSER</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi-nettverk</string><!--Wi-/Fi network-->
+    <string name="address_label">Adresse</string><!--Address-->
+    <string name="select_wifi_title">Velg ett eller flere nettverk</string><!--Select one or more networks-->
+    <string name="remove_label">Fjern</string><!--Remove-->
+    <string name="edit_label">Rediger</string><!--Edit-->
+    <string name="alert_dialog_ok">OK</string><!--OK-->
+    <string name="alert_dialog_cancel">AVBRYT</string><!--CANCEL-->
+    <string name="lib_app_name">HTC-plasseringstjenester</string><!--HTC location services-->
+    <string name="switch_mode_title">Endring av adresseplassering</string><!--Address location change-->
+    <string name="switch_mode_home">Du har tidligere lagt til denne adressen som en arbeidsplassering. En adresse kan bare legges til én plassering. Vil du gjøre den til en hjemmeplassering nå?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">Du har tidligere lagt til denne adressen som en hjemmeplassering. En adresse kan bare legges til én plassering. Vil du gjøre den til en arbeidsplassering nå?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi er av</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">Hvis du vil koble til et Wi-Fi-nettverk med denne plasseringen, må du slå på Wi-Fi i Innstillinger.</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">INNSTILLINGER</string><!--SETTINGS-->
+    <string name="duplicate_address">Denne adressen er allerede lagt til.</string><!--This address has already been added.-->
+    <string name="unknown_address">ukjent adresse</string><!--unknown address-->
+    <string name="too_much_item">Du har lagt til maksimalt antall plasseringer.</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">Tilkoblet</string><!--Connected-->
+    <string name="saved_label">Lagret</string><!--Saved-->
+    <string name="secured_label">Sikret med %s</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">For å fungere riktig må denne appen kjenne enhetens posisjon. Gi tillatelse når du blir bedt om det.</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">For å fungere riktig må denne appen kjenne posisjonen din. Du kan administrere %ss tillatelser i Innstillinger.</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">LUKK</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">INNSTILLINGER</string><!--SETTINGS-->
+    <string name="hsp_app_name">HTC oppdateringspakke</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">Posisjonskilder deaktivert</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">For å fungere riktig, må denne applikasjonen kjenne posisjonen din. Slå på en plasseringskilde i Innstillinger.</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">INNSTILLING</string><!--SETTING-->
+    <string name="no_wifi_available">Ingen Wi-Fi-nettverk tilgjengelig</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

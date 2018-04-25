@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Tämä sovellus käyttää mobiilidata- tai Wi-Fi-yhteyttä. Tarkista paikalliselta palveluntarjoajalta täsmälliset datankäytön hinnat.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Älä kysy uudelleen</string><!--Don\'t ask me again-->
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimension in reminderview.xml -->
+    <dimen name="hint_view_margin_bottom">55px</dimen> <!-- 55px -->
+    <dimen name="hint_view_margin_left">@dimen/common_dimen_m1</dimen> <!-- M1 -->
+    <dimen name="hint_view_margin_right">@dimen/common_dimen_m1</dimen> <!-- M1 -->
+    <dimen name="hint_view_height">58px</dimen> <!-- 58px -->
+    <!-- Background Height -->
+    <dimen name="background_color_status_bar_height">150px</dimen> <!-- 150px -->
+    <dimen name="background_color_widget_height">570px</dimen> <!-- 570px -->
+
+    <!-- Dimension in buttonpanel_2/4.xml-->
+    <dimen name="button_panel_height">276px</dimen> <!-- 276px -->
+    <dimen name="button_panel_button_icon_width">108px</dimen> <!-- 108px -->
+    <dimen name="button_panel_button_icon_height">108px</dimen> <!-- 108px -->
+    <dimen name="button_panel_button_icon_margin_bottom">11px</dimen> <!-- 11px -->
+    <dimen name="button_panel_button_title_height">112px</dimen> <!-- 112px -->
+
+    <!-- Dimension in buttonpanel_2.xml-->
+    <dimen name="button_panel_two_button_width">540px</dimen> <!-- 540px -->
+    <dimen name="button_panel_two_button_title_margin_left">@dimen/common_dimen_m1_2</dimen> <!-- 2*M1 -->
+    <dimen name="button_panel_two_button_title_margin_right">@dimen/common_dimen_m1_2</dimen> <!-- 2*M1 -->
+
+    <!-- Dimension in buttonpanel_4.xml-->
+    <dimen name="button_panel_four_button_width">270px</dimen> <!-- 270px -->
+    <dimen name="button_panel_four_button_title_margin_left">@dimen/common_dimen_m2</dimen> <!-- M2 -->
+    <dimen name="button_panel_four_button_title_margin_right">@dimen/common_dimen_m2</dimen> <!-- M2 -->
+
+    <!-- Dimension in buttonpanel_3.xml -->
+    <dimen name="button_panel_three_button_height">283px</dimen> <!-- 283px -->
+    <dimen name="button_panel_three_button_width">338px</dimen> <!-- 1014/3 = 338px -->
+    <dimen name="button_panel_three_button_margin_left">33px</dimen> <!-- 33px -->
+    <dimen name="button_panel_three_button_margin_right">33px</dimen> <!-- 33px -->
+    <dimen name="button_panel_three_button_icon_margin_bottom">17px</dimen> <!-- 17px -->
+    <dimen name="button_panel_three_button_title_height">141px</dimen> <!-- 141px -->
+    <dimen name="button_panel_three_button_title_margin_left">@dimen/common_dimen_m2</dimen> <!-- M2 -->
+    <dimen name="button_panel_three_button_title_margin_right">@dimen/common_dimen_m2</dimen> <!-- M2 -->
+
+    <!-- Dimension in buttonpanel_4.xml-->
+    <!-- Divider at the middle of two Tile -->
+    <dimen name="two_tile_middle_gap_width">2px</dimen>
+    <dimen name="two_tile_middle_gap_height">931px</dimen> <!-- 1207 - 276 = 931px -->
+</resources>

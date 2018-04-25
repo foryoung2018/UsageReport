@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Concluído</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Compartilhar via</string><!--Share via-->
+    <string name="carousel_title">Pressione e segure os ícones para reorganizá-los</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Não é possível remover essa guia</string><!--Unable to remove this tab-->
+    <string name="yes">Sim</string><!--Yes-->
+    <string name="no">Não</string><!--No-->
+    <string name="menu_view_full">Exibir</string><!--View-->
+    <string name="menu_view_video">Reproduzir</string><!--Play-->
+    <string name="menu_slideshow">Apresentação de slides</string><!--Slideshow-->
+    <string name="menu_share">Compartilhar</string><!--Share-->
+    <string name="menu_set_as">Definir como</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Definir como favorito</string><!--Set as favorite-->
+    <string name="menu_protect_info">Informações de proteção</string><!--Protection info-->
+    <string name="meun_rotate">Girar</string><!--Rotate-->
+    <string name="menu_delete">Excluir</string><!--Delete-->
+    <string name="menu_crop">Aparar</string><!--Crop-->
+    <string name="menu_properties">Detalhes</string><!--Details-->
+    <string name="menu_show_on_map">Mostrar no mapa</string><!--Show on map-->
+    <string name="menu_settings">Configurações</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Compartilhar link de foto</string><!--Share photo link-->
+    <string name="refresh">Atualizar</string><!--Refresh-->
+    <string name="add_comments">Adicionar comentário</string><!--Add comment-->
+    <string name="button_show_caption">Mostrar legenda</string><!--Show caption-->
+    <string name="button_hide_caption">Ocultar legenda</string><!--Hide caption-->
+    <string name="button_show_description">Mostrar descrição</string><!--Show description-->
+    <string name="button_hide_description">Ocultar descrição</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Pequeno</item><!--Small-->
+        <item>Médio</item><!--Medium-->
+        <item>Grande</item><!--Large-->
+        <item>Extra grande</item><!--Extra large-->
+        <item>Enorme</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Toque duas vezes para agir</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Puxar ícone para cima</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Puxar para cima para desbloquear</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Do</item><!--SU-->
+        <item>S</item><!--M-->
+        <item>Te</item><!--TU-->
+        <item>Q</item><!--W-->
+        <item>Qi</item><!--TH-->
+        <item>Se</item><!--F-->
+        <item>Sá</item><!--SA-->
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Length limit: 1. Abbreviation lable for phone number type: Mobile number -->
+    <string name="phone_type_mobile_short">M</string><!--M-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Home number -->
+    <string name="phone_type_home_short">H</string><!--H-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Office number -->
+    <string name="phone_type_work_short">W</string><!--W-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Fax number -->
+    <string name="phone_type_fax_short">F</string><!--F-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Pager number -->
+    <string name="phone_type_pager_short">P</string><!--P-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Other number -->
+    <string name="phone_type_other_short">O</string><!--O-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Custom number -->
+    <string name="phone_type_custom_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Callback number -->
+    <string name="phone_type_callback_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: car number -->
+    <string name="phone_type_car_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: ISDN number -->
+    <string name="phone_type_isdn_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Main number -->
+    <string name="phone_type_main_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Radio number -->
+    <string name="phone_type_radio_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Telex number -->
+    <string name="phone_type_telex_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: TTY TDD number -->
+    <string name="phone_type_tty_tdd_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: Assistant number -->
+    <string name="phone_type_assistant_short">C</string><!--C-->
+<!-- Length limit: 1. Abbreviation lable for phone number type: MMS number -->
+    <string name="phone_type_mms_short">C</string><!--C-->
+  
+<!-- People: Byron 20091125 Begin -->
+<!-- My Favorite Group name -->
+    <string name="favorite_group">รายการโปรด</string><!--Favorites-->
+<!-- VIP Group name -->
+<!-- Do not translate -->
+	<!--<string name="vip_group">VIP</string>-->
+<!-- Family Group name -->
+    <string name="family_group">ครอบครัว</string><!--Family-->
+<!-- Friends Mail Group name -->
+    <string name="friends_group">เพื่อน</string><!--Friends-->
+<!-- Coworkers Mail Group name -->
+    <string name="coworkers_group">เพื่อนร่วมงาน</string><!--Co-/workers-->   
+<!-- Coworkers Mail Group name -->
+    <string name="frequent_group">ใช้บ่อย</string><!--Frequent-->
+   
+</resources>

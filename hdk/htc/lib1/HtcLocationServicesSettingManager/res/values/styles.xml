@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="theme_app" parent="@style/HtcDeviceDefault" > 
+		<item name="android:windowBackground">@drawable/common_app_bkg</item>   <!-- For application start window -->
+	</style>
+    	<style name="Theme_No_Transition_Anim">
+    	 <!-- For Sense60
+	     <item name="fakescreenFooterEnable">false</item>
+ 		 -->
+	 </style>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always|withText"
+        android:title="item1">
+        <menu>
+            <item
+                android:id="@+id/subitem3"
+                android:icon="@android:drawable/ic_menu_add"
+                android:showAsAction="ifRoom|withText"
+                android:title="subitem3"/>
+            <item
+                android:id="@+id/subitem4"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:showAsAction="ifRoom|withText"
+                android:title="subitem4"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:showAsAction="always|withText"
+        android:title="item2"/>
+    <item
+        android:id="@+id/item3"
+        android:icon="@android:drawable/ic_menu_call"
+        android:showAsAction="never|withText"
+        android:title="item3"/>
+    <item
+        android:id="@+id/item4"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:showAsAction="never|withText"
+        android:title="item4"/>
+    <item
+        android:id="@+id/itme5_with_submenu"
+        android:icon="@android:drawable/ic_menu_help"
+        android:showAsAction="never|withText"
+        android:title="itme5 with submenu">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:icon="@android:drawable/ic_menu_save"
+                android:showAsAction="ifRoom|withText"
+                android:title="subitem1"/>
+            <item
+                android:id="@+id/subitem2"
+                android:icon="@android:drawable/ic_menu_search"
+                android:showAsAction="ifRoom|withText"
+                android:title="subitem2"/>
+        </menu>
+    </item>
+</menu>

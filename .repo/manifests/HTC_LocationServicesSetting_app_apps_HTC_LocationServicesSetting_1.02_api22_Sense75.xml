@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTC_LocationServicesSetting/1.02/api22/Sense75" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTC_LocationServicesSetting" path="app/packages/apps/HTC_LocationServicesSetting" revision="app/apps/HTC_LocationServicesSetting/1.02/api22/Sense75"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+  <project name="app/hdk/htc/lib2/htclocationservicessettingmodule" path="hdk/htc/lib2/HtcLocationServicesSettingModule" revision="2642473c1386d715f795648b5f9ee8a69ce6a862"/>
+</manifest>

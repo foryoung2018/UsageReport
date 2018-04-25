@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.htc.lib1.cc.widget.HtcListItemColorIcon
+        android:id="@+id/photo" />
+    <com.htc.lib1.cc.widget.HtcListItem1LineTextProgressBar
+        android:id="@+id/progress" />
+    <com.htc.lib1.cc.widget.HtcImageButton
+        android:id="@+id/imgButton"
+    />
+</com.htc.lib1.cc.widget.HtcListItem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Dialog when user want to set as ringtone: Label for title -->
+    <string name="dialog_set_as_title">Définir comme sonnerie</string><!--Set as ringtone-->
+    
+<!-- Dialog when user want to set as ringtone: Label for button text -->
+    <string name="dialog_btn_set_default_text">Sonnerie du téléphone</string><!--Phone ringtone-->
+    
+<!-- Dialog when user want to set as ringtone: Label for button text -->
+    <string name="dialog_btn_set_contact_text">Sonnerie de contact</string><!--Contact ringtone-->
+    
+<!-- Dialog when user want to set as ringtone: Label for button text -->
+    <string name="dialog_btn_trimmer_text">Découper la sonnerie</string><!--Trim the ringtone-->
+    
+<!-- Toast message when trimming audio length is less than 3 seconds: Label for message -->
+    <string name="toast_minimum_length_error">La durée minimale d\'une sonnerie est 3 secondes</string><!--Minimum length for a ringtone is 3 seconds-->
+    
+<!-- Toast message when No contacts selected: Label for message -->
+    <string name="toast_contact_picker_failed">Aucun contact n\'est sélectionné</string><!--No people selected-->
+    
+<!-- Toast message when seting as default ringtone successfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_default_ok">Cette musique a été définie comme sonnerie du téléphone</string><!--This music has been set as phone ringtone-->
+    
+<!-- Toast message when seting as default ringtone unsuccessfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_default_fail">Impossible de définir cette musique comme sonnerie par défaut</string><!--Unable to set this music as default ringtone-->
+    
+<!-- Toast message when seting as contact ringtone successfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_contact_ok">Cette musique a été définie comme sonnerie de contact</string><!--This music has been set as contact ringtone-->
+    
+<!-- Toast message when seting as contact ringtone unsuccessfully: Label for message -->
+    <string name="ringtone_trimmer_set_as_contact_fail">Impossible de définir cette musique comme sonnerie de contact</string><!--Unable to set this music as contact ringtone-->
+    
+<!-- Add for dual SIM projects, application need to identify slot 1/2 -->
+    <string name="nn_slot_number">Connecteur %d</string><!--Slot %d-->
+    
+<!-- Dual mode dialog item "Both" for phone type rintone choose -->
+    <string name="dual_mode_dialog_both_slots">Les deux</string><!--Both-->
+    
+<!-- Dual mode dialog title for phone type rintone choose -->
+    <string name="dual_mode_dialog_title">Définir comme sonnerie du téléphone</string><!--Set as phone ringtone-->
+    
+<!-- Toast message when sd card is not available: Label for message -->
+    <string name="toast_sdcard_not_available">Carte SD indisponible</string><!--SD card is not available-->
+
+<!-- Toast message when phone storage is not available: Label for message -->
+    <string name="toast_phonestorage_not_available">Mémoire du téléphone indisponible</string><!--Phone storage is not available-->
+    
+<!-- Toast message when sd card is low: Label for message -->
+    <string name="toast_sdcard_is_low">Espace mémoire faible sur votre carte SD</string><!--Storage on your SD card is low-->
+
+<!-- Toast message when phone storage is low: Label for message -->
+    <string name="toast_phonestorage_is_low">L\'espace mémoire disponible sur votre téléphone est faible.</string><!--Your phone storage is low on free space-->
+</resources>

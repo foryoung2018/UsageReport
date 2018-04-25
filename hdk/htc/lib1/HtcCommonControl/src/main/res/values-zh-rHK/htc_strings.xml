@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">搜尋聯絡人</string><!--Search People-->
+    <string name="common_string_share_title">分享媒介</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">儲存至現有的聯絡人</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">儲存至聯絡人</string><!--Save to People-->
+    <string name="label_year">年</string><!--Year-->
+    <string name="label_month">月</string><!--Month-->
+    <string name="label_day">日</string><!--Day-->
+    <string name="label_hour">時</string><!--Hour-->
+    <string name="label_minute">分</string><!--Minute-->
+    <string name="label_second">秒</string><!--Second-->
+    <string name="common_string_open_contact">開啟聯絡人</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">您尚有一個標籤頁。若要新增更多標籤頁到此應用程式，請在功能表中選擇編輯標籤頁/篩選條件。</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">取消</string><!--Cancel-->
+    <string name="va_ok">確定</string><!--OK-->
+    <string name="va_next">下一步</string><!--Next-->
+    <string name="va_back">上一步</string><!--Back-->
+    <string name="va_call">撥號</string><!--Call-->
+    <string name="st_loading">正在載入...</string><!--Loading...-->
+    <string name="va_close">關閉</string><!--Close-->
+    <string name="va_open">開啟</string><!--Open-->
+    <string name="va_clear">清除</string><!--Clear-->
+    <string name="va_send_mail">傳送郵件</string><!--Send mail-->
+    <string name="va_send_message">傳送訊息</string><!--Send message-->
+    <string name="va_download">下載</string><!--Download-->
+    <string name="st_more">更多</string><!--More-->
+    <string name="nn_unknown_error">未知的錯誤</string><!--Unknown error-->
+    <string name="va_downloading">正在下載</string><!--Downloading-->
+    <string name="va_finish">完成</string><!--Finish-->
+    <string name="va_reset">重設</string><!--Reset-->
+    <string name="va_hide">隱藏</string><!--Hide-->
+    <string name="ls_tablet_storage_error">平板電腦儲存空間發生錯誤。請重新啟動裝置或格式化儲存空間。</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">放開以重新整理</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">正在更新...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">點兩下並拖曳以進行調整</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">可拖曳項目</string><!--Draggable item-->
+    <string name="va_move_above">向上移動</string><!--Move above-->
+    <string name="va_move_below">向下移動</string><!--Move below-->
+    <string name="st_pull_down_refresh">往下拉以重新整理</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">撥號之前編輯號碼</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">在地圖中開啟</string><!--Open in map-->
+    <string name="va_copy">複製</string><!--Copy-->
+    <string name="va_show_all">全部顯示</string><!--Show all-->
+</resources>

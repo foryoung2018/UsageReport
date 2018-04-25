@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="time_stamp_format">yyyy/mm/dd hh:MM:ss</string>
+	<string name="date_stamp_format">yyyy/mm/dd</string>
+	<string name="exposure_value">%.02f EV, %.02f EV</string>
+	<string name="exposure_time">%d sec.</string>
+	<string name="exposure_time_fraction_style">1/%d sec.</string>
+	<string name="shutter_speed">%d sec.</string>
+	<string name="shutter_speed_fraction_style">1/%d sec.</string>
+	<string name="aperture">f/%.01f</string>
+	<string name="focal_length">%.1f mm</string>
+	<string name="gps_timestamp">%02d:%02d:%05.2f</string>
+
+</resources>

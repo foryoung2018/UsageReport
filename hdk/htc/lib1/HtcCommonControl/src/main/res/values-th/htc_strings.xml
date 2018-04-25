@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">ค้นหารายชื่อ</string><!--Search People-->
+    <string name="common_string_share_title">แบ่งปันผ่าน</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">บันทึกไปยังรายชื่อที่มีอยู่</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">บันทึกไปยังรายชื่อ</string><!--Save to People-->
+    <string name="label_year">ปี</string><!--Year-->
+    <string name="label_month">เดือน</string><!--Month-->
+    <string name="label_day">วัน</string><!--Day-->
+    <string name="label_hour">ชั่วโมง</string><!--Hour-->
+    <string name="label_minute">นาที</string><!--Minute-->
+    <string name="label_second">วินาที</string><!--Second-->
+    <string name="common_string_open_contact">เปิดรายชื่อ</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">คุณมีแท็บเหลือหนึ่งแท็บ เพื่อเพิ่มแท็บให้แอพพลิเคชั่นนี้ โปรดเลือกแท็บแก้ไข/ตัวกรองบนเมนู</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">ยกเลิก</string><!--Cancel-->
+    <string name="va_ok">ตกลง</string><!--OK-->
+    <string name="va_next">ถัดไป</string><!--Next-->
+    <string name="va_back">กลับ</string><!--Back-->
+    <string name="va_call">โทร</string><!--Call-->
+    <string name="st_loading">กำลังโหลด...</string><!--Loading...-->
+    <string name="va_close">ปิด</string><!--Close-->
+    <string name="va_open">เปิด</string><!--Open-->
+    <string name="va_clear">ลบ</string><!--Clear-->
+    <string name="va_send_mail">ส่งเมล</string><!--Send mail-->
+    <string name="va_send_message">ส่งข้อความ</string><!--Send message-->
+    <string name="va_download">ดาวน์โหลด</string><!--Download-->
+    <string name="st_more">เพิ่มเติม</string><!--More-->
+    <string name="nn_unknown_error">ความผิดพลาดที่ไม่ทราบสาเหตุ</string><!--Unknown error-->
+    <string name="va_downloading">กำลังดาวน์โหลด</string><!--Downloading-->
+    <string name="va_finish">เสร็จสิ้น</string><!--Finish-->
+    <string name="va_reset">รีเซ็ต</string><!--Reset-->
+    <string name="va_hide">ซ่อน</string><!--Hide-->
+    <string name="ls_tablet_storage_error">เกิดข้อผิดพลาดขึ้นบนอุปกรณ์เก็บข้อมูลบนแท็บเล็ตของคุณ โปรดรีบูทอุปกรณ์ของคุณหรือฟอร์แมตพื้นที่เก็บข้อมูล</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">ปล่อยเพื่อรีเฟรช</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">กำลังอัพเดต...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">แตะสองครั้งและลากเพื่อปรับค่า</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">รายการที่ลากได้</string><!--Draggable item-->
+    <string name="va_move_above">ย้ายด้านบน</string><!--Move above-->
+    <string name="va_move_below">ย้ายด้านล่าง</string><!--Move below-->
+    <string name="st_pull_down_refresh">เลื่อนลงเพื่อรีเฟรช</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">แก้ไขหมายเลขก่อนโทร</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">เปิดในแผนที่</string><!--Open in map-->
+    <string name="va_copy">สำเนา</string><!--Copy-->
+    <string name="va_show_all">แสดงทั้งหมด</string><!--Show all-->
+</resources>

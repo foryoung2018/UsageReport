@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib1.cc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <!-- following 2 permissions are needed by HtcShareActivity to
+         1. read ShareVia activity priority related info (update: not needed anymore)
+         2. access deep theme
+    -->
+    <!--<uses-permission android:name="com.htc.permission.APP_DEFAULT" />-->
+
+    <application>
+        <activity
+            android:theme="@style/ThemeHtcShareActivity"
+            android:name="com.htc.lib1.cc.app.HtcShareActivity"
+            />
+    </application>
+</manifest>

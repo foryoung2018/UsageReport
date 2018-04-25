@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_m"
+        android:layout_marginRight="@dimen/margin_m"
+        android:src="@drawable/icon_indicator_scroll_up_dark_s" />
+    <com.htc.lib1.cc.widget.ActionBarProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:layout_marginRight="@dimen/margin_s"
+        android:indeterminateDrawable="@drawable/action_bar_progress_spinner"
+        android:indeterminateDuration="1000"
+        android:visibility="invisible" />
+    <com.htc.lib1.cc.widget.ActionBarTextView
+        android:id="@+id/primary"
+        style="@style/fixed_info_primary_xl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ellipsize="marquee"
+        android:singleLine="true" />
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing"
+        android:layout_marginLeft="@dimen/spacing"
+        android:clickable="false"
+        android:scaleType="center"
+        android:src="@drawable/common_arrow_down"
+        android:visibility="gone" />
+    <com.htc.lib1.cc.widget.ActionBarTextView
+        android:id="@+id/secondary"
+        style="@style/fixed_info_primary_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:visibility="gone" />
+</merge>

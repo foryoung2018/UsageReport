@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverlayDrawable">
+        <attr name="category_color" />
+        <attr name="light_category_color" />
+        <attr name="dark_category_color" />
+        <attr name="multiply_color" />
+        <attr name="overlay_color" />
+        <attr name="android:drawable" />
+        <attr name="android:color" />
+        <attr name="android:key" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonTexture">
+        <attr name="android:headerBackground" />
+        <attr name="android:windowBackground" />
+        <attr name="android:panelBackground" />
+    </declare-styleable>
+
+    <attr name="themeTexture" format="reference" />
+</resources>
+

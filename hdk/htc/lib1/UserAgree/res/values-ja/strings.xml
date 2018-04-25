@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">このアプリはモバイルデータか Wi-Fi を使用します。データ使用にかかる追加料金については、お近くのモバイル通信会社にお尋ねください。</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">今後表示しない</string><!--Don\'t ask me again-->
+
+</resources>

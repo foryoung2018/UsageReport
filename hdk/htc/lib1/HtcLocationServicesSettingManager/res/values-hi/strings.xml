@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">HTC स्थान सेवाएँ</string><!--HTC location services-->
+    <string name="injected_setting_title">HTC स्थान सेवाएँ</string><!--HTC Location Services-->
+    <string name="home_label">घर</string><!--Home-->
+    <string name="work_label">कार्यालय</string><!--Work-->
+    <string name="location_picker">स्थान चयनकर्ता</string><!--location picker-->
+    <string name="clear_label">खाली करें</string><!--Clear-->
+    <string name="description_label">किसी पते या Wi-Fi नेटवर्क को आवास या कार्यस्थल के साथ मैन्युअल रूप से लिंक करके, आप अपना %1$s और %2$s HTC Sense होम के साथ साझा करने के लिए सहमति जताते हैं।</string><!--By manually linking an address or Wi-/Fi network with the home or work location, you agree to share your %1$s and %2$s with HTC Sense Home.-->
+    <string name="precise_location">सटीक स्थान</string><!--precise location-->
+    <string name="precise_location_upper">सटीक स्थान</string><!--Precise location-->
+    <string name="personal_usage_data">निजी उपयोग डेटा</string><!--personal usage data-->
+    <string name="personal_usage_data_upper">निजी उपयोग डेटा</string><!--Personal usage data-->
+    <string name="precise_location_description">समीप के रेस्तरां और अन्य स्थानों के सुझाव पाने के लिए अपना %s साझा करें।</string><!--Share your %s to get suggestions for nearby restaurants and other places.-->
+    <string name="personal_usage_data_description">एप्लिकेशन, समाचार और सामग्री के लिए सुझाव पाने हेतु अपना %s साझा करें जैसे कि एप्लिकेशन जिनका मैं उपयोग करता हूँ, वेबसाइटें जिन पर मैं जाता हूँ और मीडिया जिन्हें मैं सुनता या देखता हूँ।</string><!--Share your %s such as apps I use, websites I visit and media that I listen to or view, to get suggestions for apps, news and content.-->
+    <string name="home_description">पतों या Wi-Fi नेटवर्कों को लिंक करें</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="work_description">पतों या Wi-Fi नेटवर्कों को लिंक करें</string><!--Link addresses or Wi-/Fi networks-->
+    <string name="menu_add">जोड़ें</string><!--add-->
+    <string name="no_content">कोई पता या Wi-Fi नेटवर्क जोड़ने के लिए \"+\" टैप करें</string><!--Tap &quot;+&quot; to add an address or Wi-/Fi network-->
+    <string name="wifi_title_label">Wi-Fi नेटवर्क</string><!--Wi-/Fi NETWORKS-->
+    <string name="address_title_label">पता</string><!--ADDRESSES-->
+    <string name="wifi_label">Wi-Fi नेटवर्क</string><!--Wi-/Fi network-->
+    <string name="address_label">पता</string><!--Address-->
+    <string name="select_wifi_title">एक या अधिक नेटवर्क चुनें</string><!--Select one or more networks-->
+    <string name="remove_label">निकालें</string><!--Remove-->
+    <string name="edit_label">संपादित करें</string><!--Edit-->
+    <string name="alert_dialog_ok">ठीक</string><!--OK-->
+    <string name="alert_dialog_cancel">रद्द करें</string><!--CANCEL-->
+    <string name="lib_app_name">HTC स्थान सेवाएँ</string><!--HTC location services-->
+    <string name="switch_mode_title">पता स्थान परिवर्तन</string><!--Address location change-->
+    <string name="switch_mode_home">आपने पहले यह पता कार्य स्थान के रूप में जोड़ा था। कोई पता केवल एक स्थान से जोड़ा जा सकता है। क्या आप अब इसे घर स्थान बनाना चाहते हैं?</string><!--You previously added this address as a work location. An address can only be added to one location. Do you want to make it a home location now?-->
+    <string name="switch_mode_work">आपने पहले यह पता घर स्थान के रूप में जोड़ा था। कोई पता केवल एक स्थान से जोड़ा जा सकता है। क्या आप अब इसे कार्य स्थान बनाना चाहते हैं?</string><!--You previously added this address as a home location. An address can only be added to one location. Do you want to make it a work location now?-->
+    <string name="turn_on_wifi_title">Wi-Fi बंद है</string><!--Wi-/Fi is off-->
+    <string name="turn_on_wifi_message">किसी Wi-Fi नेटवर्क को इस स्थान से जोड़ने के लिए, आपको सेटिंग में Wi-Fi चालू करने की जरूरत है।</string><!--To link a Wi-/Fi network with this location, you need to turn on Wi-/Fi in Settings.-->
+    <string name="turn_on_wifi_positive">सेटिंग</string><!--SETTINGS-->
+    <string name="duplicate_address">यह पता पहले से ही जोड़ दिया गया है।</string><!--This address has already been added.-->
+    <string name="unknown_address">अज्ञात पता</string><!--unknown address-->
+    <string name="too_much_item">आपने अधिकतम स्थान जोड़ दिए हैं।</string><!--You’ve added the maximum number of locations.-->
+    <string name="connected_label">कनेक्ट किया गया</string><!--Connected-->
+    <string name="saved_label">सहेजा गया</string><!--Saved-->
+    <string name="secured_label">%s द्वारा सुरक्षित</string><!--Secured with %s-->
+    <string name="alert_dialog_first_permission_content">उचित ढंग से काम करने के लिए, इस एप्लिकेशन को इस उपकरण के स्थान तक पहुँचने की आवश्यकता है। कृपया पूछे जाने पर अनुमति प्रदान करें।</string><!--To work properly, this app needs to access this device\'s location. Please allow permission when asked.-->
+    <string name="alert_dialog_second_permission_content">उचित ढंग से काम करने के लिए, इस एप्लिकेशन को आपके स्थान तक पहुँचने की आवश्यकता है। आप सेटिंग में %s की अनुमतियाँ प्रबंधित कर सकते हैं।</string><!--To work properly, this app needs to access your location. You can manage %s\'s permissions in Settings.-->
+    <string name="alert_dialog_permission_close">बंद करें</string><!--CLOSE-->
+    <string name="alert_dialog_permission_settings">सेटिंग</string><!--SETTINGS-->
+    <string name="hsp_app_name">Htc सेवा पैक</string><!--Htc Service Pack-->
+    <string name="dialog_title_location_src_disable">स्थान स्रोत अक्षम</string><!--Location sources disabled-->
+    <string name="dialog_message_location_src_disable">ठीक से काम करने के लिए, इस एप्लिकेशन के लिए आपका स्थान जानना आवश्यक है। कृपया सेटिंग में स्थान स्रोत चालू करें।</string><!--To work properly, this application needs to know your location. Please turn on a location source in Settings.-->
+    <string name="alert_dialog_setting">सेटिंग</string><!--SETTING-->
+    <string name="no_wifi_available">कोई Wi-Fi नेटवर्क उपलब्ध नहीं</string><!--No Wi-/Fi networks available-->
+
+
+</resources>

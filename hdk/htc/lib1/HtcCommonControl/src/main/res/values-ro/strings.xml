@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Efectuat</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Partajare prin</string><!--Share via-->
+    <string name="carousel_title">Apasă şi menţine apăsate pictogramele pentru a le rearanja</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Nu se poate elimina această filă</string><!--Unable to remove this tab-->
+    <string name="yes">Da</string><!--Yes-->
+    <string name="no">Nu</string><!--No-->
+    <string name="menu_view_full">Vizualizare</string><!--View-->
+    <string name="menu_view_video">Redare</string><!--Play-->
+    <string name="menu_slideshow">Slideshow</string><!--Slideshow-->
+    <string name="menu_share">Partajare</string><!--Share-->
+    <string name="menu_set_as">Setare ca</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Setare ca preferinţă</string><!--Set as favorite-->
+    <string name="menu_protect_info">Informaţii protecţie</string><!--Protection info-->
+    <string name="meun_rotate">Rotire</string><!--Rotate-->
+    <string name="menu_delete">Ştergere</string><!--Delete-->
+    <string name="menu_crop">Trunchiere</string><!--Crop-->
+    <string name="menu_properties">Detalii</string><!--Details-->
+    <string name="menu_show_on_map">Indică pe hartă</string><!--Show on map-->
+    <string name="menu_settings">Setări</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Partajare legătură fotografie</string><!--Share photo link-->
+    <string name="refresh">Refresh</string><!--Refresh-->
+    <string name="add_comments">Adăugare comentariu</string><!--Add comment-->
+    <string name="button_show_caption">Afişare legendă</string><!--Show caption-->
+    <string name="button_hide_caption">Ascundere legendă</string><!--Hide caption-->
+    <string name="button_show_description">Afişare descriere</string><!--Show description-->
+    <string name="button_hide_description">Ascundere descriere</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Mică</item><!--Small-->
+        <item>Mediu</item><!--Medium-->
+        <item>Mare</item><!--Large-->
+        <item>Extra mare</item><!--Extra large-->
+        <item>Foarte mare</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Apăsaţi de două ori pentru acţiune</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Trageţi pictograma în sus</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Trageţi în sus pentru deblocare</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Du</item><!--SU-->
+        <item>L</item><!--M-->
+        <item>Ma</item><!--TU-->
+        <item>M</item><!--W-->
+        <item>Jo</item><!--TH-->
+        <item>V</item><!--F-->
+        <item>Sâ</item><!--SA-->
+    </string-array>
+</resources>

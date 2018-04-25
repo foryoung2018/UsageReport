@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/providers/CalendarProvider/6.1/andL/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/providers/CalendarProvider" path="app/packages/providers/CalendarProvider" revision="app/providers/CalendarProvider/6.1/andL/master"/>
+</manifest>

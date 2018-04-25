@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Valmis</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Jaga:</string><!--Share via-->
+    <string name="carousel_title">Ümber korraldamiseks vajutage ja hoidke sõrme ikoonidel</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Seda silti ei saa eemaldada</string><!--Unable to remove this tab-->
+    <string name="yes">Jah</string><!--Yes-->
+    <string name="no">Ei</string><!--No-->
+    <string name="menu_view_full">Kuva</string><!--View-->
+    <string name="menu_view_video">Esita</string><!--Play-->
+    <string name="menu_slideshow">Slaidiseanss</string><!--Slideshow-->
+    <string name="menu_share">Jaga</string><!--Share-->
+    <string name="menu_set_as">Määra</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Määra lemmikuks</string><!--Set as favorite-->
+    <string name="menu_protect_info">Kaitse teave</string><!--Protection info-->
+    <string name="meun_rotate">Pööra</string><!--Rotate-->
+    <string name="menu_delete">Kustuta</string><!--Delete-->
+    <string name="menu_crop">Kärbi</string><!--Crop-->
+    <string name="menu_properties">Üksikasjad</string><!--Details-->
+    <string name="menu_show_on_map">Näita kaardil</string><!--Show on map-->
+    <string name="menu_settings">Seaded</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Jaga fotolinki</string><!--Share photo link-->
+    <string name="refresh">Värskenda</string><!--Refresh-->
+    <string name="add_comments">Lisa kommentaar</string><!--Add comment-->
+    <string name="button_show_caption">Näita pealkirja</string><!--Show caption-->
+    <string name="button_hide_caption">Peida pealkiri</string><!--Hide caption-->
+    <string name="button_show_description">Näita kirjeldust</string><!--Show description-->
+    <string name="button_hide_description">Peida kirjeldus</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Väike</item><!--Small-->
+        <item>Keskmine</item><!--Medium-->
+        <item>Suur</item><!--Large-->
+        <item>Eriti suur</item><!--Extra large-->
+        <item>Tohutu</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Toimingu sooritamiseks topelttoksake</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Tõmmake ikooni üles</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Avamiseks tõmmake üles</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>P</item><!--SU-->
+        <item>E</item><!--M-->
+        <item>T</item><!--TU-->
+        <item>K</item><!--W-->
+        <item>N</item><!--TH-->
+        <item>R</item><!--F-->
+        <item>L</item><!--SA-->
+    </string-array>
+</resources>

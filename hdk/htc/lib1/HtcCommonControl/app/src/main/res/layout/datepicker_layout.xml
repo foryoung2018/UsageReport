@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.htc.lib1.cc.widget.HtcDatePicker
+        android:id="@+id/datePicker"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         android:layout_centerHorizontal="true"
+         android:selectable="false"
+         android:layout_marginTop="@dimen/margin_l"
+         android:layout_marginLeft="@dimen/margin_m_2"
+         android:layout_marginRight="@dimen/margin_m_2"
+         android:layout_marginBottom="@dimen/spacing_2"
+         />
+
+    <TextView
+        android:id="@+id/showDate"
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:textSize="26px"
+         android:text="@string/showdate"
+         />
+
+     <Button
+         android:id="@+id/datepickerdialog"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textSize="26px"
+         android:text="@string/datepickerdialog"
+     />
+     <Button
+         android:id="@+id/datepickerdialog2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textSize="26px"
+         android:text="Show DatePickerDialog for Credit Card"
+     />
+
+</LinearLayout>

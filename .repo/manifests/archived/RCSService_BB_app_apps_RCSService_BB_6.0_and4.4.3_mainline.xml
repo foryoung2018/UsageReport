@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/RCSService_BB/6.0/and4.4.3/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/RCSService_BB" path="app/packages/apps/RCSService_BB" revision="app/apps/RCSService_BB/6.0/and4.4.3/mainline"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/RCSService_BB" path="app/customization/packages/apps/RCSService_BB" revision="app/apps/RCSService_BB/master"/>
+</manifest>

@@ -1,0 +1,5 @@
+7376e791979837ad85275158cde4ca3c7f93e981		branch 'hdk/api19_1' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/lockscreenlib2
+3c8905d65fa4e0c7ea3d5b6e4652435110f2a0cd	not-for-merge	tag 'HDK_Lib1_API19_Sense60_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/lockscreenlib2
+d98f73115952f7dd8368dfd956404d47a6da7480	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/lockscreenlib2
+e2496c0d2f358470c7628169e3fdc6ebeda751f4	not-for-merge	tag 'HDK_Lib1_API21_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/lockscreenlib2
+c78e2509ba6fd4f206ded33e13af32819d7ec0cc	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib2/lockscreenlib2

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="HtcWidget">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material</item>
+        <item name="android:listSelector">@drawable/list_selector_light</item>
+    </style>
+
+    <style name="HtcWidget.AbsListView" parent="@android:style/Widget.Material.ListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+
+    <style name="HtcWidget.ListView" parent="HtcWidget.AbsListView">
+        <item name="android:listSelector">@drawable/list_selector_light</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">@drawable/inset_list_divider</item>
+    </style>
+
+    <style name="HtcWidget.PopupBubbleWindow">
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+    </style>
+
+    <style name="HtcWidget.ListPopupBubbleWindow">
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_dark</item>
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+        <item name="android:dropDownVerticalOffset">-10dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+
+    <style name="HtcWidget.CompoundButton" parent="@android:style/Widget.Material.Button">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <style name="HtcWidget.CompoundButton.Switch">
+        <item name="android:textOn">@string/switch_on</item>
+        <item name="android:textOff">@string/switch_off</item>
+    </style>
+
+    <style name="HtcListView" parent="android:style/Widget.Material.ExpandableListView">
+        <item name="android:divider">@drawable/inset_list_divider</item>
+        <item name="android:childDivider">@drawable/inset_list_divider</item>
+        <item name="android:listSelector">@drawable/list_selector_light</item>
+    </style>
+
+    <style name="HtcListView.Dark">
+        <item name="android:divider">@drawable/inset_list_divider_dark</item>
+        <item name="android:childDivider">@drawable/inset_list_divider_dark</item>
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+    </style>
+
+    <style name="HtcWidget.ExpandableListView.DropDown" parent="HtcListView.Dark">
+    </style>
+
+    <style name="HtcWidget.ListView.DropDown" parent="HtcListView.Dark">
+    </style>
+
+    <style name="PopupBubbleWindow" parent="@android:style/Widget.Material.ListPopupWindow">
+        <item name="android:windowEnterAnimation">@anim/popup_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_fade_out</item>
+    </style>
+    <style name="HtcWidget.SpinnerStyle" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:background">@drawable/htcspinner</item>
+    </style>
+
+    <style name="HtcSwitchPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+    </style>
+
+</resources>

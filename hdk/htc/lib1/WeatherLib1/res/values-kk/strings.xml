@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>Күн шуақ</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>Көбінесе күн шуақ</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>Жартылай күн шуақ</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>Өткінші жаңбыр</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>Бұлыңғыр, күн шығып тұр</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>Көбінесе бұлтты</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>Бұлтты</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>Бұлыңғыр</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>Тұман</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>Қатты жаңбыр</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Жартылай күн шуақ, қатты жаңбыр жауады</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>Найзағай</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады, найзағай ойнайды</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Жартылай күн шуақ, қатты жаңбыр жауады, найзағай ойнайды</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>Жаңбыр</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>Аздаған жауын</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Көбінесе бұлтты, аздап жауын жауады</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Жартылай күн шуақ, аздап жауын жауады</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>Қар</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Көбінесе бұлтты, қар жауады</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>Мұз</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>Көксоқта қар</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>Суық жаңбыр</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Қар аралас жаңбыр</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>Ыстық</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>Салқын</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>Жел тұрады</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>Ашық</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>Көбінесе ашық</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>Жартылай бұлтты</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>Өткінші жаңбыр</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>Тұманды</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>Көбінесе бұлтты</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Жартылай бұлтты, қатты жаңбыр жауады</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Жартылай бұлтты, қатты жаңбыр жауады, найзағай ойнайды</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады, найзағай ойнайды</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Жартылай бұлтты, аздап жауын жауады</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Көбінесе бұлтты, аздап жауын жауады</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>Көксоқта қар мен найзағай</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>Құм</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>Шаң</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>Дауыл</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >minden első vasárnapon</item><!--on every first Sunday-->
+        <item >minden második vasárnapon</item><!--on every second Sunday-->
+        <item >minden harmadik vasárnapon</item><!--on every third Sunday-->
+        <item >minden negyedik vasárnapon</item><!--on every fourth Sunday-->
+        <item >minden utolsó vasárnapon</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >minden első hétfőn</item><!--on every first Monday-->
+        <item >minden második hétfőn</item><!--on every second Monday-->
+        <item >minden harmadik hétfőn</item><!--on every third Monday-->
+        <item >minden negyedik hétfőn</item><!--on every fourth Monday-->
+        <item >minden utolsó hétfőn</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >minden első kedden</item><!--on every first Tuesday-->
+        <item >minden második kedden</item><!--on every second Tuesday-->
+        <item >minden harmadik kedden</item><!--on every third Tuesday-->
+        <item >minden negyedik kedden</item><!--on every fourth Tuesday-->
+        <item >minden utolsó kedden</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >minden első szerdán</item><!--on every first Wednesday-->
+        <item >minden második szerdán</item><!--on every second Wednesday-->
+        <item >minden harmadik szerdán</item><!--on every third Wednesday-->
+        <item >minden negyedik szerdán</item><!--on every fourth Wednesday-->
+        <item >minden utolsó szerdán</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >minden első csütörtökön</item><!--on every first Thursday-->
+        <item >minden második csütörtökön</item><!--on every second Thursday-->
+        <item >minden harmadik csütörtökön</item><!--on every third Thursday-->
+        <item >minden negyedik csütörtökön</item><!--on every fourth Thursday-->
+        <item >minden utolsó csütörtökön</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >minden első pénteken</item><!--on every first Friday-->
+        <item >minden második pénteken</item><!--on every second Friday-->
+        <item >minden harmadik pénteken</item><!--on every third Friday-->
+        <item >minden negyedik pénteken</item><!--on every fourth Friday-->
+        <item >minden utolsó pénteken</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >minden első szombaton</item><!--on every first Saturday-->
+        <item >minden második szombaton</item><!--on every second Saturday-->
+        <item >minden harmadik szombaton</item><!--on every third Saturday-->
+        <item >minden negyedik szombaton</item><!--on every fourth Saturday-->
+        <item >minden utolsó szombaton</item><!--on every last Saturday-->
+    </string-array>
+</resources>

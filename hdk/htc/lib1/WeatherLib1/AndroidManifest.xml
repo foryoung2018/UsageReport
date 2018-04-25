@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2011 HTC Corp. All Rights Reserved. -->
+
+
+<!-- Package of HTC framework common resources. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.lib1.weather" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <application >
+    </application>
+
+</manifest>

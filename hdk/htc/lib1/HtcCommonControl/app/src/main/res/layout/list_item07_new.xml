@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.ListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.htc.lib1.cc.widget.HtcListItem2LineText
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        htc:layout_type="size_rest" />
+
+    <com.htc.lib1.cc.widget.HtcListItemBubbleCount
+        android:id="@+id/bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        htc:layout_type="size_wrap_content|center_vertical" />
+
+    <com.htc.lib1.cc.widget.HtcImageButton
+        android:id="@+id/imgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        htc:layout_type="size_147|center_vertical|align_end_edge" />
+
+</com.htc.lib1.cc.widget.ListItem>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >בכל יום ראשון הראשון בחודש</item><!--on every first Sunday-->
+        <item >בכל יום ראשון השני בחודש</item><!--on every second Sunday-->
+        <item >בכל יום ראשון השלישי בחודש</item><!--on every third Sunday-->
+        <item >בכל יום ראשון הרביעי בחודש</item><!--on every fourth Sunday-->
+        <item >בכל יום ראשון האחרון בחודש</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >בכל יום שני הראשון בחודש</item><!--on every first Monday-->
+        <item >בכל יום שני השני בחודש</item><!--on every second Monday-->
+        <item >בכל יום שני השלישי בחודש</item><!--on every third Monday-->
+        <item >בכל יום שני הרביעי בחודש</item><!--on every fourth Monday-->
+        <item >בכל יום שני האחרון בחודש</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >בכל יום שלישי הראשון בחודש</item><!--on every first Tuesday-->
+        <item >בכל יום שלישי השני בחודש</item><!--on every second Tuesday-->
+        <item >בכל יום שלישי השלישי בחודש</item><!--on every third Tuesday-->
+        <item >בכל יום שלישי הרביעי בחודש</item><!--on every fourth Tuesday-->
+        <item >בכל יום שלישי האחרון בחודש</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >בכל יום רביעי הראשון בחודש</item><!--on every first Wednesday-->
+        <item >בכל יום רביעי השני בחודש</item><!--on every second Wednesday-->
+        <item >בכל יום רביעי השלישי בחודש</item><!--on every third Wednesday-->
+        <item >בכל יום רביעי הרביעי בחודש</item><!--on every fourth Wednesday-->
+        <item >בכל יום רביעי האחרון בחודש</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >בכל יום חמישי הראשון בחודש</item><!--on every first Thursday-->
+        <item >בכל יום חמישי השני בחודש</item><!--on every second Thursday-->
+        <item >בכל יום חמישי השלישי בחודש</item><!--on every third Thursday-->
+        <item >בכל יום חמישי הרביעי בחודש</item><!--on every fourth Thursday-->
+        <item >בכל יום חמישי האחרון בחודש</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >בכל יום שישי הראשון בחודש</item><!--on every first Friday-->
+        <item >בכל יום שישי השני בחודש</item><!--on every second Friday-->
+        <item >בכל יום שישי השלישי בחודש</item><!--on every third Friday-->
+        <item >בכל יום שישי הרביעי בחודש</item><!--on every fourth Friday-->
+        <item >בכל יום שישי האחרון בחודש</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >בכל יום שבת הראשון בחודש</item><!--on every first Saturday-->
+        <item >בכל יום שבת השני בחודש</item><!--on every second Saturday-->
+        <item >בכל יום שבת השלישי בחודש</item><!--on every third Saturday-->
+        <item >בכל יום שבת הרביעי בחודש</item><!--on every fourth Saturday-->
+        <item >בכל יום שבת האחרון בחודש</item><!--on every last Saturday-->
+    </string-array>
+</resources>

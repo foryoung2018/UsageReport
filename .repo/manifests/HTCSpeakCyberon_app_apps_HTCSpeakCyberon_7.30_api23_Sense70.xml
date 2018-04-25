@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTCSpeakCyberon/7.30/api23/Sense70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTCSpeakCyberon" path="app/packages/apps/HTCSpeakCyberon" revision="app/apps/HTCSpeakCyberon/7.30/api23/Sense70"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcSpeakUI" path="app/packages/apps/HtcSpeakUI" revision="9c29fba3d799e842b40c7f84c6b03ee04a5f5a7b"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/HtcSpeak_Library" path="app/hms_libs/HtcSpeak_Library" revision="64ea73f8e17829d05086f8c8081b4d47ff04cd63"/>
+  <project name="app/hms_libs/HtcSpeak_HFM" path="app/hms_libs/HtcSpeak_HFM" revision="7d76ed5d43f31ff07443f5ad1ee677b186569fdd"/>
+  <project name="app/hms_libs/HtcSpeak_VoiceInputLib" path="app/hms_libs/HtcSpeak_VoiceInputLib" revision="0167d2c9b37a3ca05e6f47aab1be3ab3ae681544"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="b2b3de3127b010386b8e19e71181448c836ba047"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="58cbb1adeca1a8bdd15971382ec3ea4d9f13913b"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="528e20d19812e29b36b412a0ef6425b718f222c9"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="d1c4f578902533f221a82037e02973dbd8e7dc79"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="03f5da7349115c6dc1372252a7b104daa225493a"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="6ca43108ba3565d037ffb498e2ad63b2d5069b3f"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="337cd7df64e6d77737b1f7e8bd08fa7fd06c06ad"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="04d9d30908442e4cd09092d51c765b4ec852939b"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="6d96801a81dbd8ecba2f456fad123bd1e3329916"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="bfab811c6a3538acb202a36e84b4ac2e9e4c8f13"/>
+</manifest>

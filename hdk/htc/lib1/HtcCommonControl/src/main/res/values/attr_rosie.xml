@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2006 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <!-- Added by John Lin for Rosie 3.0 widgets -->
+    <declare-styleable name="HtcRosieWidget">
+        <!-- Identity/Name of the widget. -->
+        <attr name="id" format="string" />
+        <!-- Information to be displayed in picker UI. -->
+        <!-- Display Name of the widget. -->
+        <attr name="label" format="reference|string" />
+        <!--
+            Release date string.
+            TBD: should it be formatted by user setting?
+        -->
+        <attr name="date" format="reference" />
+    </declare-styleable>
+</resources>

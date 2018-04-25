@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">هذا التطبيق يستخدم البيانات المتنقلة أو Wi-Fi. تحقق مع الناقل المحلي الخاص بك لمعرفة المعدلات المضبوطة لاستخدام البيانات.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">لا تسألني مرة أخرى</string><!--Don\'t ask me again-->
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="masthead_01">13sp</dimen>
+    <dimen name="masthead_02">11sp</dimen>
+    <dimen name="masthead_03">14sp</dimen>
+    <dimen name="masthead_04">7sp</dimen>
+    <dimen name="masthead_05">10sp</dimen>
+    <dimen name="masthead_06">6sp</dimen>
+    <dimen name="masthead_07">12sp</dimen>
+    <dimen name="masthead_08">12sp</dimen>
+    <dimen name="masthead_09">0sp</dimen>
+    <dimen name="masthead_10">0sp</dimen>
+</resources>

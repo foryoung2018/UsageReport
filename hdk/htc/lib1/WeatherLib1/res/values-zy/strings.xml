@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>ေနသာ</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>အမ်ားအားျဖင့္ ေနသာ</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>တစ္ေဒသ ေနသာ</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>ျပတ္ေတာင္းတိမ္</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>ျမဴႏွင္းၾကားမွ ေနေရာင္</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>အမ်ားအားျဖင့္ တိမ္ထူ</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>တိမ္ထူ</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>စိတ္ဓာတ္က်ေစ</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>ျမဴဆိုင္း</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>မိုးဖြဲက်ေနသည္</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>အျမဲတန္း တိမ္ထူထပ္ၿပီး မိုးမ်ား</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>ေဖာ္ျပထားေသာအပိုင္း ေနသာ</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>လွ်ပ္စီးမိုးႀကိဳး</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>အျမဲတမ္း မိုးရြာ မိုးၿခိမ္းၿပီး တိမ္ထူထပ္</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>မိုးၿခိမ္းသံႏွင့္အတူ ေနသာ</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>မိုးရြာ</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>ေလတိုက္</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>အျမဲတမ္း တိမ္ထူထပ္ၿပီးေလတိုက္</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>ေလႏွင့္အတူ တစ္ေဒသ ေနသာ</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>ႏွင္းက်</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>အျမဲတမ္းႏွင္းက်ၿပီးတိမ္ထူထပ္</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>ေရခဲ</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>မိုးသီး</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>ေအးျမေသာမိုး</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>မိုးႏွင့္ႏွင္းေရာ</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>ပူသည္</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>ေအးသည္</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>ေလတိုက္</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>သာယာ</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>အမ်ားအားျဖင့္ သာယာ</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>တစ္ေဒသ တိမ္ထူ</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>ျပတ္ေတာင္းတိမ္</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>ျမဴႏွင္းက်</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>အမ်ားအားျဖင့္ တိမ္ထူ</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>ေဖာ္ျပထားေသာအပိုင္း တိမ္ထူ</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>အျမဲတန္း တိမ္ထူထပ္ၿပီး မိုးမ်ား</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>မိုးၿခိမ္းသံႏွင့္အတူ တိမ္ထူ</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>အျမဲတမ္း မိုးရြာ မိုးၿခိမ္းၿပီး တိမ္ထူထပ္</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>ေလႏွင့္အတူ တစ္ေဒသ တိမ္ထူ</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>အျမဲတမ္း တိမ္ထူထပ္ၿပီးေလတိုက္</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>လွ်ပ္စီးမိုးႀကိဳးပစ္ မိုးသီးက်</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>သဲ</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>ဖုန္မႈန္႔</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>တိုနာဒို</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

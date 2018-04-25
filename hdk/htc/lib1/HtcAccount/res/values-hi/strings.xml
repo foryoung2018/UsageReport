@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application label shows in Account & Sync. -->
+    <string name="label_htc_account">HTC खाता</string><!--HTC Account-->
+
+<!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">कनेक्ट करने में असमर्थ</string><!--Unable to connect-->
+
+<!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">इस एप्लिकेशन के उपयोग हेतु आपको एक नेटवर्क कनेक्शन की आवश्यकता होगी। कृपया मोबाइल डेटा या Wi-Fi से कनेक्ट करें।</string><!--You need a network connection to use this application. Please connect to mobile data or Wi-/Fi.-->
+
+<!-- Progress dialog message to show when working. -->
+    <string name="dialog_msg_please_wait">कृपया प्रतीक्षा करें...</string><!--Please wait…-->
+
+<!-- General sign-in/sign-up error. -->
+    <string name="toast_txt_error_general_failure">हम HTC सर्वर से कनेक्ट करने में असमर्थ हैं। कृपया बाद में पुनः प्रयास करें।</string><!--We are unable to connect to the HTC servers. Please try again later.-->
+
+<!-- Data network unavailable -->
+    <string name="toast_txt_error_network_unavailable">इस एप्लिकेशन के उपयोग हेतु आपको एक नेटवर्क कनेक्शन की आवश्यकता होगी।</string><!--You need a network connection to use this application.-->
+
+<!-- Unable to access Google account. -->
+    <string name="toast_txt_no_google_account">कृपया साइन करने के लिए एक Google खाता बनाएँ।</string><!--Please create a Google Account to sign in with.-->
+
+<!-- Accessing integrated social networks failed. -->
+    <string name="toast_txt_error_access_social_networks_failed">कनेक्ट करने में असमर्थ। कृपया पुनः प्रयास करें।</string><!--Unable to connect. Please try again.-->
+
+<!-- General Google account sign-in/sign-up error. -->
+    <string name="toast_txt_error_signing_in_google_account">हम आपके Google खाते तक पहुँचने में असमर्थ हैं। कृपया सुनिश्चित करें कि खाता सक्रिय है।</string><!--We are unable to access your Google Account. Please make sure the account is active.-->
+
+<!-- Request permission dialog title -->
+    <string name="dialog_msg_account_permission_title">अनुमतियाँ आवश्यक हैं</string><!--Require permissions-->
+
+<!-- Request permission dialog message -->
+    <string name="dialog_msg_account_permission_rationale">Google खाते में साइन इन करने के लिए, इस एप्लिकेशन को आपके खाते तक पहुँचने की जरूरत है। कृपया पूछे जाने पर अनुमति प्रदान करें।</string><!--To sign in with Google Account, this app needs to access your account. Please allow permission when asked.-->
+
+<!-- Request permission dialog message, which direct user to app detailed Settings -->
+    <string name="dialog_msg_account_permission_settings">\"उचित ढंग से काम करने के लिए, इस एप्लिकेशन को आपके खाते तक पहुँचने की जरूरत है। आप सेटिंग में %1$s की अनुमतियाँ प्रबंधित कर सकते हैं।\"</string><!--"To work properly, this app needs to access your accounts. You can manage %1$s’s permissions in Settings."-->
+
+<!-- ******************************************************************************** Wizard Activity ******************************************************************************** -->
+
+<!-- Title -->
+    <string name="title_set_up_account">एक HTC खाता बनाएं</string><!--Create an HTC Account-->
+
+<!-- Email field hint. -->
+    <string name="hint_email">ईमेल पता</string><!--Email address-->
+
+<!-- Text tips for associated account  -->
+    <string name="txt_other_accounts_tips">आपके ईमेल खाते का उपयोग करके एक HTC खाता पहले से ही बना हुआ है। साइन इन करने के लिए किसी खाते को टैप करें, या एक नया खाता बनाएँ।</string><!--An HTC Account with your email address has already been created. Tap an account to sign in, or create a new account.-->
+
+<!-- Subscribe news letter. -->
+    <string name="txt_subscribe_newsletter">मुझे HTC के ऑफ़र, उत्पाद जानकारी और न्यूज़लेटर ईमेल करें।</string><!--Email me offers, product info and newsletters from HTC.-->
+
+<!-- Text tips for the email retrieved from social account. The parameter %s will be replaced by a string. -->
+    <string name="txt_social_email_tips">%s खाते से ईमेल का उपयोग करना:</string><!--Using email from %s account:-->
+
+<!-- Sign up button. -->
+    <string name="btn_create_account">खाता बनाएं</string><!--Create account-->
+
+<!-- Create new account button. -->
+    <string name="btn_create_new_account">नया खाता बनाएँ</string><!--Create new account-->
+
+<!-- Legal tips in create account page. The parameter %1$s will be replaced by the txt_sign_up_legal_tips_tos_link, and %2$s will be replaced by txt_sign_up_legal_tips_privacy_link. Example: "By creating an account, you agree to HTC Account's Terms and Conditions and acknowledge the Privacy Policy. You must be at least 14 years old to sign up." -->
+    <string name="txt_sign_up_legal_tips">खाता बना करके, आप HTC खाता की %1$s से सहमति जताते हैं और %2$s को स्वीकारते हैं। साइन अप करने के लिए आपको कम से कम 14 वर्ष का होना चाहिए।</string><!--By creating an account, you agree to HTC Account\'s %1$s and acknowledge the %2$s. You must be at least 14 years old to sign up.-->
+
+<!-- Facebook legal tips. Terms and conditions hyper link. -->
+    <string name="txt_sign_in_legal_tips_tos_link">नियम और शर्तें</string><!--Terms and Conditions-->
+
+<!-- Facebook legal tips. Privacy hyper link. -->
+    <string name="txt_sign_in_legal_tips_privacy_link">गोपनीयता नीति</string><!--Privacy Policy-->
+
+<!-- HTC's Privacy policy -->
+    <string name="dialog_title_privacy_policy">गोपनीयता नीति</string><!--Privacy policy-->
+
+<!-- HTC terms and conditions dialog. Title. -->
+    <string name="dialog_title_term_of_service">नियम और शर्तें</string><!--Terms and conditions-->
+
+<!-- Email verification dialog. Title for dialog box -->
+    <string name="dialog_title_email_verification">अपने खाते का सत्यापन करें</string><!--Verify your account-->
+
+<!-- Open mail button text -->
+    <string name="dialog_btn_open_mail">मेल खोलें</string><!--Open mail-->
+
+<!-- Later button text. -->
+    <string name="dialog_btn_later">अभी नहीं</string><!--Not now-->
+
+<!-- Email verification dialog. Message for dialog box. The parameter %1$s will be replaced by email address, and %2$s will be replaced by dialog_link_resend. Example: "To sign in to HTC Account, you need to verify your email address using the link sent to email@domain.com.\n\nIf you didn't get the email, check your spam folder or resend it now." -->
+    <string name="dialog_msg_email_verification">HTC खाते में साइन इन करने के लिए, आपको %1$s को भेजे गए लिंक का उपयोग करके अपना ईमेल पता सत्यापित करने की जरूरत है।\n\nयदि आप ईमेल प्राप्त नहीं करते हैं, तो अब अपने स्पैम फ़ोल्डर या %2$s की जाँच करें।</string><!--To sign in to HTC Account, you need to verify your email address using the link sent to %1$s.\n\nIf you didn\'t get the email, check your spam folder or %2$s it now.-->
+
+<!-- Email verification dialog. Resend link text. -->
+    <string name="dialog_link_resend">पुनः भेजें</string><!--resend-->
+
+<!-- Toast to ask user to provide email address -->
+    <string name="toast_txt_provide_email">ईमेल पता आवश्यक है।</string><!--Email address required.-->
+
+<!-- Toast to tell user that the email is incorrect. -->
+    <string name="toast_txt_error_email_incorrect">कृपया एक मान्य ईमेल पता डालें।</string><!--Please enter a valid email address.-->
+
+<!-- Toast to show email address. For example, Email sent to: someone@domain.com -->
+    <string name="toast_txt_email_sent_to_tip">ईमेल निम्न को भेजा गया: %s</string><!--Email sent to: %s-->
+
+<!-- ******************************************************************************** Common string replacements. ******************************************************************************** -->
+    <eat-comment />
+
+<!-- Maps to common string "nn_settings" -->
+    <string name="nn_settings">सेटिंग</string><!--Settings-->
+
+<!-- Maps to common string "va_close" -->
+    <string name="va_close">बंद करें</string><!--Close-->
+
+<!-- Maps to common string "va_back" -->
+    <string name="va_back">वापस</string><!--Back-->
+
+<!-- Maps to common string "va_cancel" -->
+    <string name="va_cancel">रद्द करें</string><!--Cancel-->
+
+</resources>

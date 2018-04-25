@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCFF"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="(1) EditText is always selectable"
+                android:textColor="#FFFFFF"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <EditText
+                android:id="@+id/EditText_default"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:hint="This is a default EditText."
+                android:inputType="text|textAutoComplete"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/TextView_NonSelectable"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCFF"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="(2) Use Google API or Google XML attribute to let non-editable TextView selectable. "
+                android:textColor="#FFFFFF"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/TextView_GoogleXML"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip"
+                android:text="Use XML attribute."
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="18dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/TextView_GoogleAPI"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip"
+                android:text="Use Google API."
+                android:textColor="#000000"
+                android:textSize="18dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCFF"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="(3) Use HTC API to let non-editable TextView selectable. "
+                android:textColor="#FFFFFF"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/TextView_NonEditableSelection"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="Use HTC API."
+                android:textColor="#000000"
+                android:textSize="18dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCFF"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="(4) If you want to stop text selection by out side touch , please set flag FLAG_END_BY_OUTSIDE_TOUCH"
+                android:textColor="#FFFFFF"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/TextView_outside"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip"
+                android:text="Use HTC API, and add flag FLAG_END_BY_OUTSIDE_TOUCH"
+                android:textColor="#000000"
+                android:textSize="18dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <EditText
+                android:id="@+id/EditText_outside"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:hint="(EditText)Use the HTC API, and add flag FLAG_SHOW_QUICK_ACTION."
+                android:inputType="text|textAutoComplete"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/TextView_NonSelectable"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCFF"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="(5) If apps don&apos;t want to trigger text selection by long click. apps can control the text selection by themselves. "
+                android:textColor="#FFFFFF"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/tv_findword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="This is an selectable TextView which uses the HTC API, and not triggered by longclick"
+                android:textColor="#000000"
+                android:textSize="18dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCFF"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="The following case is for STE testing"
+                android:textColor="#FFFFFF"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/tv_test1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="enableHtcTextSelection (T, T) + selection watcher "
+                android:textColor="#000000"
+                android:textSize="18dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:id="@+id/tv_test2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="enableHtcTextSelection (F, F) "
+                android:textColor="#000000"
+                android:textSize="18dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCFF"
+                android:paddingBottom="5dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:text="Htc quick selection wrapper demo"
+                android:textColor="#FFFFFF"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+
+            <Button
+                android:id="@+id/btn_showQuickAction2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Quick Action2"
+                android:textColor="#FFFFFF"
+                android:textSize="24dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#DADADA" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

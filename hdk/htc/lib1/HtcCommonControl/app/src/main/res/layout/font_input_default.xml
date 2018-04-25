@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/font_list"
+     >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="ToggleButton" />
+
+    </LinearLayout>
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/input_default_xl"
+        style="@style/input_default_xl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:text="input_default_xl" >
+
+        <requestFocus />
+    </android.widget.AutoCompleteTextView>
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/input_default_l"
+        style="@style/input_default_l"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:text="input_default_l" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/input_default_m"
+        style="@style/input_default_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:text="input_default_m" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/input_default_s"
+        style="@style/input_default_s"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:text="input_default_s" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/input_default_xs"
+        style="@style/input_default_xs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:text="input_default_xs" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/hint_input_default_xl"
+        style="@style/input_default_xl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:hint="input_default_xl" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/hint_input_default_l"
+        style="@style/input_default_l"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:hint="input_default_l" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/hint_input_default_m"
+        style="@style/input_default_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:hint="input_default_m" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/hint_input_default_s"
+        style="@style/input_default_s"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:hint="input_default_s" />
+
+    <android.widget.AutoCompleteTextView
+        android:id="@+id/hint_input_default_xs"
+        style="@style/input_default_xs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_b_inputfield_rest"
+        android:hint="input_default_xs" />
+</LinearLayout>
+
+</ScrollView>

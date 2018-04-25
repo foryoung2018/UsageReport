@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#10100c"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_app_bkg_top_src"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher" />
+
+            <Button
+                style="@style/label_on_m"
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                android:layout_gravity="center"
+                android:background="@drawable/common_app_bkg_top_src"
+                android:text="label_on_m" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_app_bkg_top_src"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher" />
+
+            <Button
+                style="@style/label_off_m"
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                android:layout_gravity="center"
+                android:background="@drawable/common_app_bkg_top_src"
+                android:text="label_off_m" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/section_divider_top"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher" />
+
+            <Button
+                style="@style/toggle_primary_m"
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                android:layout_gravity="center"
+                android:background="@drawable/section_divider_top"
+                android:text="toggle_primary_m" />
+        </LinearLayout>
+        <!-- ndroid:src="@drawable/toggle_on" -->
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/section_b_divider_top"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher" />
+
+            <Button
+                style="@style/b_toggle_primary_m"
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                android:layout_gravity="center"
+                android:background="@drawable/common_app_bkg_top_src"
+                android:text="b_toggle_primary_m" />
+        </LinearLayout>
+
+        <Button
+            style="@style/notification_info_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nm" />
+
+        <Button
+            style="@style/notification_info_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ns" />
+
+        <TextView
+            style="@style/random_access_l"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="random_access_l" />
+
+        <TextView
+            style="@style/random_access_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="random_access_m" />
+
+        <TextView
+            style="@style/time_info_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="time_info_m" />
+
+        <TextView
+            style="@style/list_secondary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:text="list_secondary" />
+
+        <TextView
+            style="@style/darklist_secondary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="darklist_secondary" />
+
+        <TextView
+            style="@style/time_pick_primary_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_timer_tumblers"
+            android:paddingLeft="70px"
+            android:paddingRight="0px"
+            android:text="time_pick_p_m" />
+    </LinearLayout>
+
+</ScrollView>

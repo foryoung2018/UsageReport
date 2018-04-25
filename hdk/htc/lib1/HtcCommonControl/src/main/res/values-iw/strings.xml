@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">בוצע</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">שתף באמצעות</string><!--Share via-->
+    <string name="carousel_title">לחיצה ממושכת על לשוניות לסידור מחדש</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">לא ניתן להסיר לשונית זו</string><!--Unable to remove this tab-->
+    <string name="yes">כן</string><!--Yes-->
+    <string name="no">לא</string><!--No-->
+    <string name="menu_view_full">הצג</string><!--View-->
+    <string name="menu_view_video">הפעל</string><!--Play-->
+    <string name="menu_slideshow">מצגת</string><!--Slideshow-->
+    <string name="menu_share">שתף</string><!--Share-->
+    <string name="menu_set_as">הגדר כ</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">הגדר כמועדף</string><!--Set as favorite-->
+    <string name="menu_protect_info">נתוני הגנה</string><!--Protection info-->
+    <string name="meun_rotate">סובב</string><!--Rotate-->
+    <string name="menu_delete">מחק</string><!--Delete-->
+    <string name="menu_crop">חתוך</string><!--Crop-->
+    <string name="menu_properties">פרטים</string><!--Details-->
+    <string name="menu_show_on_map">הצג במפה</string><!--Show on map-->
+    <string name="menu_settings">הגדרות</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">שתף קישור לתמונה</string><!--Share photo link-->
+    <string name="refresh">רענן</string><!--Refresh-->
+    <string name="add_comments">הוסף תגובה</string><!--Add comment-->
+    <string name="button_show_caption">הצג כיתוב</string><!--Show caption-->
+    <string name="button_hide_caption">הסתר כיתוב</string><!--Hide caption-->
+    <string name="button_show_description">הצג תיאור</string><!--Show description-->
+    <string name="button_hide_description">הסתר תיאור</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>קטן</item><!--Small-->
+        <item>בינוני</item><!--Medium-->
+        <item>גדול</item><!--Large-->
+        <item>גדול מאוד</item><!--Extra large-->
+        <item>ענק</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">הקש פעמיים כדי להפעיל</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">משוך את הסמל למעלה</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">משוך למעלה כדי לבטל נעילה</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>א</item><!--SU-->
+        <item>ב</item><!--M-->
+        <item>ג</item><!--TU-->
+        <item>ד</item><!--W-->
+        <item>ה</item><!--TH-->
+        <item>ו</item><!--F-->
+        <item>ש</item><!--SA-->
+    </string-array>
+</resources>

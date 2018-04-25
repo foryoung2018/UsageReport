@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- picker margin, always use on HtcDate/TimePickerDailog, not pickers -->
+    <dimen name="time_pick_top_margin">@dimen/margin_l</dimen>
+    <dimen name="time_pick_bottom_margin">@dimen/margin_xs_2</dimen>
+    <dimen name="time_pick_left_margin">@dimen/margin_m_2</dimen>
+    <dimen name="time_pick_right_margin">@dimen/margin_m_2</dimen>
+    <dimen name="time_pick_title_margin">@dimen/margin_xs</dimen>
+    <!-- picker margin -->
+</resources>

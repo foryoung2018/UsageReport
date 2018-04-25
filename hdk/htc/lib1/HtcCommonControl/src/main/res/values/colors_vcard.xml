@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mask_bitmap_background">#66000000</color> <!-- 256*0.4 = 0x66 -->
+    <color name="small_photo_background">#888888</color>
+    <color name="name_bar_background">#99000000</color>
+
+</resources>

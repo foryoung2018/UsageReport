@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/usb_connection_disable"
+        android:id="@+id/usb_connection_radio_box">
+        <RadioButton
+            android:text="usb_disable"
+            android:id="@id/usb_connection_disable"
+            />
+        <RadioButton
+            android:text="usb_src"
+            android:id="@+id/usb_connection_mode_0" />
+        <RadioButton
+            android:text="usb_dist"
+            android:id="@+id/usb_connection_mode_1" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/radio_button_single_selection"
+        android:id="@+id/selection_type_radio_box">
+        <RadioButton
+            android:text="@string/single_selection_radio_bottom"
+            android:id="@id/radio_button_single_selection"
+            />
+        <RadioButton
+            android:text="@string/multiple_selection_radio_bottom"
+            android:id="@+id/radio_button_multiple_selection" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/cloud_enabled_true"
+        android:id="@+id/cloud_enabled_radio_box">
+        <RadioButton
+            android:text="cloud_enabled"
+            android:id="@id/cloud_enabled_true"
+            />
+        <RadioButton
+            android:text="cloud_disable"
+            android:id="@+id/cloud_enabled_false"
+            />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/shareLink_enabled_false"
+        android:id="@+id/shareLink_enabled_radio_box">
+        <RadioButton
+            android:text="shareLink_disable"
+            android:id="@id/shareLink_enabled_false"
+            />
+        <RadioButton
+            android:text="shareLink_enabled"
+            android:id="@+id/shareLink_enabled_true"
+            />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/file_picker_enabled"
+        android:visibility="gone"
+        android:id="@+id/file_picker_radio_box">
+        <RadioButton
+            android:text="file_picker_disable"
+            android:id="@+id/file_picker_disable" />
+        <RadioButton
+            android:text="file_picker_enabled"
+            android:id="@id/file_picker_enabled" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:checkedButton="@+id/folder_picker_disable"
+        android:id="@+id/folder_picker_radio_box">
+        <RadioButton
+            android:text="folder_picker_disable"
+            android:id="@id/folder_picker_disable"
+            />
+        <RadioButton
+            android:text="folder_picker_enabled"
+            android:id="@+id/folder_picker_enabled" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_filepicker"
+        android:id="@+id/launch_file_picker"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output_selected_files"
+        android:id="@+id/output_selected_files"
+    />
+
+</LinearLayout>

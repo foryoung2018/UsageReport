@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>Ensoleillé</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>Principalement ensoleillé</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>Partiellement ensoleillé</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>Nuages intermittents</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>Soleil voilé</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>Principalement nuageux</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>Nuageux</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>Morne</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>Brouillard</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>Averses</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>Principalement nuageux avec averses</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>Partiellement ensoleillé avec averses</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>Orages</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>Principalement nuageux avec averses orageuses</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>Partiellement ensoleillé avec averses orageuses</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>Pluie</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>Bourrasques</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>Principalement nuageux avec bourrasques</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>Partiellement ensoleillé avec bourrasques</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>Neige</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>Principalement nuageux avec neige</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>Verglas</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>Neige mouillée</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>Pluie verglaçante</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>Pluie et neige mélangées</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>Chaud</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>Froid</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>Venteux</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>Clair</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>Principalement clair</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>Partiellement nuageux</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>Nuages intermittents</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>Voilé</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>Principalement nuageux</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>Partiellement nuageux avec averses</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>Principalement nuageux avec averses</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>Partiellement nuageux avec averses orageuses</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>Principalement nuageux avec averses orageuses</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>Partiellement nuageux avec bourrasques</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>Principalement nuageux avec bourrasques</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>Orages et legère neige</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>Sable</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>Poussière</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>Tornade</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

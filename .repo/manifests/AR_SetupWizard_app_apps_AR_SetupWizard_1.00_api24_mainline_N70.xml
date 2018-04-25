@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/AR_SetupWizard/1.00/api24/mainline_N70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/AR_SetupWizard" path="app/packages/apps/AR_SetupWizard" revision="app/apps/AR_SetupWizard/1.00/api24/mainline_N70"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/AR_SetupWizard" path="app/customization/packages/apps/AR_SetupWizard" revision="app/apps/AR_SetupWizard/master"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/SetupWizardLib" path="app/hms_libs/SetupWizardLib" revision="339c994228b6e4176b2621f0fc29236931d5eb6a"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a41003e430352d3937c9154d2f8856aac1d8abff"/>
+</manifest>

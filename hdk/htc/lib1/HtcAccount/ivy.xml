@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ================================================== -->
+<!-- Identity Client for non-HTC Android Devices        -->
+<!-- ================================================== -->
+
+<ivy-module version="2.0"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd"
+            xmlns:e="http://ant.apache.org/ivy/extra">
+
+    <info module="libauth" organisation="com.htc.cs" revision="dev" status="integration">
+      <description>HMS-ready HTC Account Android SDK</description>
+    </info>
+
+    <configurations>
+      <conf name="default"
+            extends="runtime,master"
+            description="runtime dependencies and master artifact" />
+      <conf name="master"
+            description="contains only the artifact published by this module itself, with no transitive dependencies" />
+      <conf name="compile"
+            description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." />
+      <conf name="runtime"
+            extends="compile"
+            description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." />
+
+      <conf name="debug"
+            description="Debug artifacts." />
+      <conf name="release"
+            description="Release artifacts." />
+
+      <conf name="sources"
+            description="this configuration contains the source artifact of this module, if any." />
+      <conf name="javadoc"
+            description="this configuration contains the javadoc artifact of this module, if any." />
+
+      <conf name="android-build"
+            description="Dependencies for the Android SDK build."
+            visibility="private" />
+      <conf name="eclipse-build"
+            description="Dependencies for Eclipse Android build."
+            visibility="private" />
+    </configurations>
+
+    <publications>
+      <artifact conf="master" type="jar" />
+      <artifact conf="sources" ext="jar" type="source" e:classifier="sources" />
+      <artifact conf="javadoc" ext="jar" type="javadoc" e:classifier="javadoc" />
+      <artifact conf="master" type="pom" />
+    </publications>
+
+    <dependencies>
+
+      <!-- Build info.
+           Eclipse and Android SDK build dependency resolved via external artifact.
+           Published artifact retains compile and runtime configuration mapping to dependencies.
+      -->
+      <!--<dependency org="com.htc.cs"
+                  name="build-info"
+                  rev="1.1.+"
+                  conf="android-build,eclipse-build->default;compile->compile;runtime->runtime;master->master;default->default;javadoc->javadoc;sources->sources" />-->
+
+    </dependencies>
+
+</ivy-module>

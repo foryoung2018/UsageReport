@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled 
+1218cabd8d95361be6aadaf36f31d5ce76ac2ef2 refs/remotes/origin/hdk/api19_sense6.0
+af9c78075d7ecf379a41cea6f615cfb241577849 refs/remotes/origin/hdk/api23_sense8.0_gp
+721cf603adef7255c8c261c18197aa232b9fd2cf refs/tags/HDK_Lib1_API19_Sense60_Mainline
+^0617ae21d0392c58956f7e7e1a44d37e378f6d46
+2760014a91fb47decd233d6836cd4be0911e3cbc refs/tags/HDK_Lib1_API20_Sense70_Mainline
+^0617ae21d0392c58956f7e7e1a44d37e378f6d46
+a934a44a1dd2c4af030474c892e33a9109a37275 refs/tags/HDK_Lib1_API23_Sense80_GP_Mainline
+^0617ae21d0392c58956f7e7e1a44d37e378f6d46

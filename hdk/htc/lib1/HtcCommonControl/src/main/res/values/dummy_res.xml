@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="zero_dummy_style">
+        <item name="android:background">@drawable/zero_dummy_asset</item>
+    </style>
+    <item type="id" name="zero_dummy_id"/>
+    <string name="zero_dummy_string" translatable="false">Dummy!!!</string>
+    <dimen type="dimen" name="zero_dummy_dimen">1px</dimen>
+    <item type="layout" name="zero_dummy_layout">@layout/alert_dialog</item>
+</resources>

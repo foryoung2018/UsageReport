@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled 
+397b03e04ea85afe1c7e14c1a6f349d04abb1546 refs/remotes/origin/hdk/api19_1
+51bac3177a4e38489c7ea78bf3d5c0f4b1f6e5ea refs/tags/HDK_Lib0_API19_1_Mainline
+^397b03e04ea85afe1c7e14c1a6f349d04abb1546

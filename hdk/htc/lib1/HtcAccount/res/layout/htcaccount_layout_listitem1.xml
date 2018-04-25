@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/htcaccount_other_acount_listitem_height">
+    <ImageView
+        android:id="@+id/icon_view"
+        android:layout_width="@dimen/htcaccount_other_acount_icon_wh"
+        android:layout_height="@dimen/htcaccount_other_acount_icon_wh"
+        android:layout_marginLeft="@dimen/htcaccount_margin_m"
+        android:layout_marginRight="@dimen/htcaccount_margin_m_2"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@+id/text_line1"
+        style="@style/TextAppearance.HtcAccountDescription"
+        android:layout_width="1px"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_view"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:maxLines="1" />
+</RelativeLayout>

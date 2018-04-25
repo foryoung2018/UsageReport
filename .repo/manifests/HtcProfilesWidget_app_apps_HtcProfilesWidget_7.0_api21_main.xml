@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcProfilesWidget/7.0/api21/main" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcProfilesWidget" path="app/packages/apps/HtcProfilesWidget" revision="app/apps/HtcProfilesWidget/7.0/api21/main"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/HtcProfilesWidget" path="app/customization/packages/apps/HtcProfilesWidget" revision="app/apps/HtcProfilesWidget/master"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcSettingWidgetsUIModule" path="app/packages/apps/HtcSettingWidgetsUIModule" revision="54936fc2f5f68f97a05db59b5dd854278c668052"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="8958a2203a044b5cc568f11c69b97150d016e5d0"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="f6a21c5830fc7693e00c99571ad5ea5fe26c54ed"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="a78351835011711454a601c17e0788bb02da808f"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="1d6f55300d8bd97cd22e02e955306e3a9ae7be72"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="c7e3ee5b90d83701172ca9386f8cf497f762ab42"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="5c218660e2ce9b86cc54d934c0d5a0e5821829df"/>
+</manifest>

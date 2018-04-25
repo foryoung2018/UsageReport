@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Sense 4.0 start -->
+    <dimen name="htc_list_item_height_popup_menu">120px</dimen>
+    <dimen name="htc_list_item_vertical_divider_width">1px</dimen>
+    <dimen name="htc_list_item_color_bar_width">8px</dimen>
+    <dimen name="htc_list_item_color_bar_bold_width">16px</dimen>
+    <dimen name="htc_list_item_color_icon_size">86px</dimen>
+    <!-- Sense 4.0 end -->
+</resources>

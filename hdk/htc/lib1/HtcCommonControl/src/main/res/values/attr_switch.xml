@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="htcSwitchStyle" format="reference" />
+
+    <declare-styleable name="HtcSwitch">
+        <attr name="android:textOn" />
+        <attr name="android:textOff" />
+        <attr name="android:thumb" />
+        <attr name="android:checked" />
+        <attr name="backgroundMode" />
+    </declare-styleable>
+
+</resources>

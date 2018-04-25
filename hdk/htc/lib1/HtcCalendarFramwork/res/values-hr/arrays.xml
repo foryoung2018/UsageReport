@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >svake prve nedjelje u mjesecu</item><!--on every first Sunday-->
+        <item >svake druge nedjelje u mjesecu</item><!--on every second Sunday-->
+        <item >svake treće nedjelje u mjesecu</item><!--on every third Sunday-->
+        <item >svake četvrte nedjelje u mjesecu</item><!--on every fourth Sunday-->
+        <item >svake zadnje nedjelje u mjesecu</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >svakog prvog ponedjeljka u mj.</item><!--on every first Monday-->
+        <item >svakog drugog ponedjeljka u mj.</item><!--on every second Monday-->
+        <item >svakog trećeg ponedjeljka u mj.</item><!--on every third Monday-->
+        <item >svakog četvrtog ponedjeljka u mj.</item><!--on every fourth Monday-->
+        <item >svakog zadnjeg ponedjeljka u mj.</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >svakog prvog utorka u mjesecu</item><!--on every first Tuesday-->
+        <item >svakog drugog utorka u mjesecu</item><!--on every second Tuesday-->
+        <item >svakog trećeg utorka u mjesecu</item><!--on every third Tuesday-->
+        <item >svakog četvrtog utorka u mjesecu</item><!--on every fourth Tuesday-->
+        <item >svakog zadnjeg utorka u mjesecu</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >svaku prvu srijedu u mjesecu</item><!--on every first Wednesday-->
+        <item >svaku drugu srijedu u mjesecu</item><!--on every second Wednesday-->
+        <item >svaku treću srijedu u mjesecu</item><!--on every third Wednesday-->
+        <item >svaku četvrtu srijedu u mjesecu</item><!--on every fourth Wednesday-->
+        <item >svaku zadnju srijedu u mjesecu</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >svakog prvog četvrtka u mj.</item><!--on every first Thursday-->
+        <item >svakog drugog četvrtka u mj.</item><!--on every second Thursday-->
+        <item >svakog trećeg četvrtka u mj.</item><!--on every third Thursday-->
+        <item >svakog četvrtog četvrtka u mj.</item><!--on every fourth Thursday-->
+        <item >svakog zadnjeg četvrtka u mj.</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >svakog prvog petka u mjesecu</item><!--on every first Friday-->
+        <item >svakog drugog petka u mjesecu</item><!--on every second Friday-->
+        <item >svakog trećeg petka u mjesecu</item><!--on every third Friday-->
+        <item >svakog četvrtog petka u mjesecu</item><!--on every fourth Friday-->
+        <item >svakog zadnjeg petka u mjesecu</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >svaku prvu subotu u mjesecu</item><!--on every first Saturday-->
+        <item >svaku drugu subotu u mjesecu</item><!--on every second Saturday-->
+        <item >svaku treću subotu u mjesecu</item><!--on every third Saturday-->
+        <item >svaku četvrtu subotu u mjesecu</item><!--on every fourth Saturday-->
+        <item >svaku zadnju subotu u mjesecu</item><!--on every last Saturday-->
+    </string-array>
+</resources>

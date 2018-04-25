@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Готово</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Отправить в</string><!--Share via-->
+    <string name="carousel_title">Удерживайте и перемещайте значок</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Не удалось удалить эту вкладку</string><!--Unable to remove this tab-->
+    <string name="yes">Да</string><!--Yes-->
+    <string name="no">Нет</string><!--No-->
+    <string name="menu_view_full">Вид</string><!--View-->
+    <string name="menu_view_video">Воспроизвести</string><!--Play-->
+    <string name="menu_slideshow">Слайд-шоу</string><!--Slideshow-->
+    <string name="menu_share">Отправить</string><!--Share-->
+    <string name="menu_set_as">Установить как</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Установить как избранное</string><!--Set as favorite-->
+    <string name="menu_protect_info">Сведения о защите</string><!--Protection info-->
+    <string name="meun_rotate">Поворот</string><!--Rotate-->
+    <string name="menu_delete">Удалить</string><!--Delete-->
+    <string name="menu_crop">Обрезать</string><!--Crop-->
+    <string name="menu_properties">Сведения</string><!--Details-->
+    <string name="menu_show_on_map">Показать на карте</string><!--Show on map-->
+    <string name="menu_settings">Настройки</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Отправить ссылку на фотографию</string><!--Share photo link-->
+    <string name="refresh">Обновить</string><!--Refresh-->
+    <string name="add_comments">Добавить комментарий</string><!--Add comment-->
+    <string name="button_show_caption">Показать заголовок</string><!--Show caption-->
+    <string name="button_hide_caption">Скрыть заголовок</string><!--Hide caption-->
+    <string name="button_show_description">Показать описание</string><!--Show description-->
+    <string name="button_hide_description">Скрыть описание</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Мелкий</item><!--Small-->
+        <item>Средний</item><!--Medium-->
+        <item>Крупный</item><!--Large-->
+        <item>Самый крупный</item><!--Extra large-->
+        <item>Очень крупный</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Для выполнения действия нажмите дважды</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Потяните значок вверх</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Потяните вверх для разблокировки</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Вс</item><!--SU-->
+        <item>Пн</item><!--M-->
+        <item>Вт</item><!--TU-->
+        <item>Ср</item><!--W-->
+        <item>Чт</item><!--TH-->
+        <item>Пт</item><!--F-->
+        <item>Сб</item><!--SA-->
+    </string-array>
+</resources>

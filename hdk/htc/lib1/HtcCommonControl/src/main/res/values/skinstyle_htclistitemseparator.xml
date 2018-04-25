@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="HtcListItemSeparatorStyle">
+        <!-- skinable attribute -->
+        <item name="android:drawable">@drawable/htclistitemseparator</item>
+        <item name="android:layout_height">@dimen/htc_list_item_separator_with_actionbutton_height</item>
+    </style>
+    <style name="HtcListItemSeparatorStyle.Dark">
+        <!-- skinable attribute -->
+        <item name="android:drawable">@drawable/htclistitemseparator</item>
+    </style>
+</resources>

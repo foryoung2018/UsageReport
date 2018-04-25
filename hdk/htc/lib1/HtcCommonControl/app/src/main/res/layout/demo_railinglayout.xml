@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:railingLayout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/common_app_bkg" >
+        <com.htc.lib1.cc.widget.RailingLayout
+            android:id="@+id/light_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="text"
+                android:textAppearance="@style/button_primary_l" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="text"
+                android:textAppearance="@style/button_primary_l" />
+        </com.htc.lib1.cc.widget.RailingLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF161616" >
+        <com.htc.lib1.cc.widget.RailingLayout
+            android:id="@+id/dark_rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            railingLayout:displayMode="mode_dark" >
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/list_selector_dark"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="text1"
+                android:textAppearance="@style/b_button_primary_l" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/list_selector_dark"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="text1"
+                android:textAppearance="@style/b_button_primary_l" />
+        </com.htc.lib1.cc.widget.RailingLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF161616" >
+        <com.htc.lib1.cc.widget.RailingLayout
+            android:id="@+id/dark_rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            railingLayout:displayMode="mode_dark" >
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/list_selector_dark"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icon_btn_search_dark" />
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/list_selector_dark"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icon_btn_search_dark" />
+        </com.htc.lib1.cc.widget.RailingLayout>
+    </RelativeLayout>
+</LinearLayout>

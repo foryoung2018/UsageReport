@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Do not translate. -->
+	<!--<string name="htc_private_app_weather">Weather Resource</string>-->
+<!-- +Chun Ko for Weather condition -->
+    <string-array name="htc_weather_conditions">
+<!-- weather condition 1 : Sunny -->
+        <item>มีแสงแดดมาก</item><!--Sunny-->
+<!-- weather condition 2 : Mostly Sunny -->
+        <item>ส่วนใหญ่มีแสงแดด</item><!--Mostly Sunny-->
+<!-- weather condition 3 : Partly Sunny -->
+        <item>มีแสงแดดบางพื้นที่</item><!--Partly Sunny-->
+<!-- weather condition 4 : Intermittent Clouds -->
+        <item>มีเมฆไม่สม่ำเสมอ</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 5 : Hazy Sunshine -->
+        <item>แสงแดดสลัว</item><!--Hazy Sunshine-->
+<!-- weather condition 6 : Mostly Cloudy -->
+        <item>มีเมฆเป็นส่วนมาก</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 7 : Cloudy -->
+        <item>มีเมฆมาก</item><!--Cloudy-->
+<!-- weather condition 8 : Dreary -->
+        <item>มืดครึ้ม</item><!--Dreary-->
+<!-- weather condition 11 : Fog -->
+        <item>มีหมอก</item><!--Fog-->
+<!-- weather condition 12 : Showers -->
+        <item>มีฝนตกปรอยๆ</item><!--Showers-->
+<!-- weather condition 13 : Mostly Cloudy with Showers -->
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 14 : Partly Sunny with Showers -->
+        <item>มีแดดและฝนตกเล็กน้อยบางพื้นที่</item><!--Partly Sunny with Showers-->
+<!-- weather condition 15 : Thunderstorms -->
+        <item>มีพายุ</item><!--Thunderstorms-->
+<!-- weather condition 16 : Mostly Cloudy with Thunder Showers -->
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 17 : Partly Sunny with Thunder Showers -->
+        <item>มีแดดบางส่วนและฝนฟ้าคะนอง</item><!--Partly Sunny with Thunder Showers-->
+<!-- weather condition 18 : Rain -->
+        <item>มีฝนตก</item><!--Rain-->
+<!-- weather condition 19 : Flurries -->
+        <item>มีฝนตกปรอยๆ</item><!--Flurries-->
+<!-- weather condition 20 : Mostly Cloudy with Flurries -->
+        <item>มีเมฆมากและฝนตกปรอยๆ</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- weather condition 21 : Partly Sunny with Flurries -->
+        <item>มีแดดบางส่วนและฝนตกปรอยๆ</item><!--Partly Sunny with Flurries-->
+<!-- weather condition 22 : Snow -->
+        <item>มีหิมะตก</item><!--Snow-->
+<!-- weather condition 23 : Mostly Cloudy with Snow -->
+        <item>มีเมฆมากและหิมะตก</item><!--Mostly Cloudy with Snow-->
+<!-- weather condition 24 : Ice -->
+        <item>มีน้ำแข็งเกาะ</item><!--Ice-->
+<!-- weather condition 25 : Sleet -->
+        <item>มีฝนลูกเห็บ</item><!--Sleet-->
+<!-- weather condition 26 : Freezing Rain -->
+        <item>มีฝนตกเป็นน้ำแข็ง</item><!--Freezing Rain-->
+<!-- weather condition 29 : Rain and Snow Mixed -->
+        <item>มีฝนปนหิมะตก</item><!--Rain and Snow Mixed-->
+<!-- weather condition 30 : Hot -->
+        <item>อากาศร้อน</item><!--Hot-->
+<!-- weather condition 31 : Cold -->
+        <item>อากาศเย็น</item><!--Cold-->
+<!-- weather condition 32 : Windy -->
+        <item>มีลมกระโชกแรง</item><!--Windy-->
+<!-- weather condition 33 : Clear -->
+        <item>อากาศปลอดโปร่ง</item><!--Clear-->
+<!-- weather condition 34 : Mostly Clear -->
+        <item>ท้องฟ้าโปร่ง</item><!--Mostly Clear-->
+<!-- weather condition 35 : Partly Cloudy -->
+        <item>มีเมฆบางส่วน</item><!--Partly Cloudy-->
+<!-- weather condition 36 : Intermittent Clouds -->
+        <item>มีเมฆไม่สม่ำเสมอ</item><!--Intermittent Clouds--><!--Intermittent Clouds-->
+<!-- weather condition 37 : Hazy -->
+        <item>มีหมอกมาก</item><!--Hazy-->
+<!-- weather condition 38 : Mostly Cloudy -->
+        <item>มีเมฆเป็นส่วนมาก</item><!--Mostly Cloudy--><!--Mostly Cloudy-->
+<!-- weather condition 39 : Partly Cloudy with Showers -->
+        <item>มีเมฆบางส่วนและฝนตกโปรยปราย</item><!--Partly Cloudy with Showers-->
+<!-- weather condition 40 : Mostly Cloudy with Showers -->
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item><!--Mostly Cloudy with Showers--><!--Mostly Cloudy with Showers-->
+<!-- weather condition 41 : Partly Cloudy with Thunder Showers -->
+        <item>มีเมฆบางส่วนและฝนฟ้าคะนอง</item><!--Partly Cloudy with Thunder Showers-->
+<!-- weather condition 42 : Mostly Cloudy with Thunder Showers -->
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item><!--Mostly Cloudy with Thunder Showers--><!--Mostly Cloudy with Thunder Showers-->
+<!-- weather condition 43 : Partly Cloudy with Flurries -->
+        <item>มีเมฆบางส่วนและฝนตกปรอยๆ</item><!--Partly Cloudy with Flurries-->
+<!-- weather condition 44 : Mostly Cloudy with Flurries -->
+        <item>มีเมฆมากและฝนตกปรอยๆ</item><!--Mostly Cloudy with Flurries--><!--Mostly Cloudy with Flurries-->
+<!-- _For Huafeng -->
+<!-- weather condition 51 : -->
+        <item>พายุฟ้าคะนองและมีลูกเห็บ</item><!--Thunderstorms with sleet-->
+<!-- weather condition 52 : -->
+        <item>หาดทราย</item><!--Sand-->
+<!-- weather condition 53 : -->
+        <item>ฝุ่นละออง</item><!--Dust-->
+<!-- weather condition 54 : -->
+        <item>พายุทอร์นาโด</item><!--Tornado-->
+    </string-array>
+<!-- -Chun Ko for Weather condition -->
+</resources>

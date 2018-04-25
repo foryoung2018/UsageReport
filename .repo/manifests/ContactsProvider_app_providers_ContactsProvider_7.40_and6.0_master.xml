@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/providers/ContactsProvider/7.40/and6.0/master" sync-j="4" HDKLib3Name="HDK_Lib3_API19_3_Stable" HDKLib3Ver="19.3"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/providers/ContactsProvider" path="app/packages/providers/ContactsProvider" revision="app/providers/ContactsProvider/7.40/and6.0/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="refs/tags/HDK_Lib3_API19_3_Mainline"/>
+</manifest>

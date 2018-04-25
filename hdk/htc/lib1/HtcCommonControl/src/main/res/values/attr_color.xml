@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThemeColor">
+        <attr name="text_selection_opacity_color" format="reference|color" />
+        <attr name="text_selection_color" format="reference|color" />
+        <attr name="progress_track_start_color" format="reference|color" />
+        <attr name="progress_track_center_color" format="reference|color" />
+        <attr name="progress_track_end_color" format="reference|color" />
+        <attr name="light_category_color" format="reference|color" />
+        <attr name="category_color" format="reference|color" />
+        <attr name="dark_category_color" format="reference|color" />
+        <attr name="multiply_color" format="reference|color" />
+        <attr name="all_hyperlink_color" format="reference|color" />
+        <attr name="overlay_color" format="reference|color" />
+        <attr name="light_primaryfont_color" format="reference|color" />
+        <attr name="light_primaryfont_disable_color" format="reference|color" />
+        <attr name="light_secondaryfont_color" format="reference|color" />
+        <attr name="dark_primaryfont_color" format="reference|color" />
+        <attr name="dark_primaryfont_disable_color" format="reference|color" />
+        <attr name="dark_secondaryfont_color" format="reference|color" />
+        <attr name="tabfont_color" format="reference|color" />
+        <attr name="light_separatorfont_color" format="reference|color" />
+        <attr name="list_item_bg_center_color" format="reference|color" />
+        <attr name="list_item_bg_top_color" format="reference|color" />
+        <attr name="list_item_bg_bottom_color" format="reference|color" />
+        <attr name="highlight_color" format="reference|color" />
+        <attr name="ap_background_color" format="reference|color" />
+        <attr name="dark_ap_background_color" format="reference|color" />
+        <attr name="focused_color" format="reference|color" />
+        <attr name="standard_color" format="reference|color" />
+        <attr name="active_color" format="reference|color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:id="@+id/tumblers"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="@dimen/time_pick_picker_height_portrait"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" />
+    <com.htc.lib1.cc.widget.MyTableView
+        android:id="@+id/my_table_view"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="@dimen/time_pick_picker_height_portrait"
+        android:paddingTop="1px"
+        android:paddingBottom="1px"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:selectable="false" />
+    <LinearLayout
+        android:id="@+id/shadow"
+        android:layout_width="@dimen/time_pick_picker_width"
+        android:layout_height="@dimen/time_pick_picker_height_portrait"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" />
+</merge>

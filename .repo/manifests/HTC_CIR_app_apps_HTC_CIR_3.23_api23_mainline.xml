@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HTC_CIR/3.23/api23/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HTC_CIR" path="app/packages/apps/HTC_CIR" revision="app/apps/HTC_CIR/3.23/api23/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="a73cbd95d5b54873a7c3807515989105ba2047da"/>
+</manifest>

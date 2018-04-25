@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Klart</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Dela via</string><!--Share via-->
+    <string name="carousel_title">Tryck och håll ned ikoner för att ordna om</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Denna flik kan inte tas bort</string><!--Unable to remove this tab-->
+    <string name="yes">Ja</string><!--Yes-->
+    <string name="no">Nej</string><!--No-->
+    <string name="menu_view_full">Visa</string><!--View-->
+    <string name="menu_view_video">Spela</string><!--Play-->
+    <string name="menu_slideshow">Bildspel</string><!--Slideshow-->
+    <string name="menu_share">Dela</string><!--Share-->
+    <string name="menu_set_as">Ange som</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Ange som favorit</string><!--Set as favorite-->
+    <string name="menu_protect_info">Skyddsinformation</string><!--Protection info-->
+    <string name="meun_rotate">Rotera</string><!--Rotate-->
+    <string name="menu_delete">Radera</string><!--Delete-->
+    <string name="menu_crop">Beskär</string><!--Crop-->
+    <string name="menu_properties">Information</string><!--Details-->
+    <string name="menu_show_on_map">Visa på karta</string><!--Show on map-->
+    <string name="menu_settings">Inställningar</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Dela länk till bilden</string><!--Share photo link-->
+    <string name="refresh">Uppdatera</string><!--Refresh-->
+    <string name="add_comments">Lägg till kommentar</string><!--Add comment-->
+    <string name="button_show_caption">Visa bildtext</string><!--Show caption-->
+    <string name="button_hide_caption">Dölj bildtext</string><!--Hide caption-->
+    <string name="button_show_description">Visa beskrivning</string><!--Show description-->
+    <string name="button_hide_description">Dölj beskrivning</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Liten</item><!--Small-->
+        <item>Medium</item><!--Medium-->
+        <item>Stor</item><!--Large-->
+        <item>Extra stor</item><!--Extra large-->
+        <item>Mycket stor</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Dubbeltryck för åtgärd</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Dra ikonen upp</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Dra uppåt för att låsa upp</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Sö</item><!--SU-->
+        <item>M</item><!--M-->
+        <item>Ti</item><!--TU-->
+        <item>O</item><!--W-->
+        <item>To</item><!--TH-->
+        <item>F</item><!--F-->
+        <item>Lö</item><!--SA-->
+    </string-array>
+</resources>

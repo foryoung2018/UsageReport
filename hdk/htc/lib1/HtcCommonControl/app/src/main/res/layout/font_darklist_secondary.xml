@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#10100c"
+    android:id="@+id/font_list"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/darklist_secondary_xl"
+        android:text="darklist_secondary_xl" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/darklist_secondary_l"
+        android:text="darklist_secondary_l" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/darklist_secondary_m"
+        android:text="darklist_secondary_m" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/darklist_secondary_s"
+        android:text="darklist_secondary_s" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/darklist_secondary_xs"
+        android:text="darklist_secondary_xs" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/darklist_secondary_xxs"
+        android:text="darklist_secondary_xxs" />
+
+
+</LinearLayout>
+</ScrollView>

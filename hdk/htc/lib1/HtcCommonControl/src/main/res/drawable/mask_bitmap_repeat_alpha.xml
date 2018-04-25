@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@color/mask_bitmap_background"/>
+    <item android:drawable="@drawable/mask_bitmap_repeat"/>
+
+</layer-list>

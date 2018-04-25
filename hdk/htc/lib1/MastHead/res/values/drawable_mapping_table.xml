@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <!-- common -->
+  <drawable name="weather_icon_no_info_code">@drawable/weather_icon_no_info_dark</drawable>
+  <!-- default -->
+  <drawable name="weather_clock_hour_0_code">@drawable/weather_clock_default_0_dark</drawable>
+  <drawable name="weather_clock_hour_1_code">@drawable/weather_clock_default_1_dark</drawable>
+  <drawable name="weather_clock_hour_2_code">@drawable/weather_clock_default_2_dark</drawable>
+  <drawable name="weather_clock_hour_3_code">@drawable/weather_clock_default_3_dark</drawable>
+  <drawable name="weather_clock_hour_4_code">@drawable/weather_clock_default_4_dark</drawable>
+  <drawable name="weather_clock_hour_5_code">@drawable/weather_clock_default_5_dark</drawable>
+  <drawable name="weather_clock_hour_6_code">@drawable/weather_clock_default_6_dark</drawable>
+  <drawable name="weather_clock_hour_7_code">@drawable/weather_clock_default_7_dark</drawable>
+  <drawable name="weather_clock_hour_8_code">@drawable/weather_clock_default_8_dark</drawable>
+  <drawable name="weather_clock_hour_9_code">@drawable/weather_clock_default_9_dark</drawable>
+  <drawable name="weather_clock_point_code">@drawable/weather_clock_default_colon_dark</drawable>
+  <drawable name="weather_clock_minute_0_code">@drawable/weather_clock_default_0_dark</drawable>
+  <drawable name="weather_clock_minute_1_code">@drawable/weather_clock_default_1_dark</drawable>
+  <drawable name="weather_clock_minute_2_code">@drawable/weather_clock_default_2_dark</drawable>
+  <drawable name="weather_clock_minute_3_code">@drawable/weather_clock_default_3_dark</drawable>
+  <drawable name="weather_clock_minute_4_code">@drawable/weather_clock_default_4_dark</drawable>
+  <drawable name="weather_clock_minute_5_code">@drawable/weather_clock_default_5_dark</drawable>
+  <drawable name="weather_clock_minute_6_code">@drawable/weather_clock_default_6_dark</drawable>
+  <drawable name="weather_clock_minute_7_code">@drawable/weather_clock_default_7_dark</drawable>
+  <drawable name="weather_clock_minute_8_code">@drawable/weather_clock_default_8_dark</drawable>
+  <drawable name="weather_clock_minute_9_code">@drawable/weather_clock_default_9_dark</drawable>           
+  
+  <!-- theme1 -->
+  <drawable name="theme1_weather_clock_hour_0_code">@drawable/weather_clock_centered_0</drawable>
+  <drawable name="theme1_weather_clock_hour_1_code">@drawable/weather_clock_centered_1</drawable>
+  <drawable name="theme1_weather_clock_hour_2_code">@drawable/weather_clock_centered_2</drawable>
+  <drawable name="theme1_weather_clock_hour_3_code">@drawable/weather_clock_centered_3</drawable>
+  <drawable name="theme1_weather_clock_hour_4_code">@drawable/weather_clock_centered_4</drawable>
+  <drawable name="theme1_weather_clock_hour_5_code">@drawable/weather_clock_centered_5</drawable>
+  <drawable name="theme1_weather_clock_hour_6_code">@drawable/weather_clock_centered_6</drawable>
+  <drawable name="theme1_weather_clock_hour_7_code">@drawable/weather_clock_centered_7</drawable>
+  <drawable name="theme1_weather_clock_hour_8_code">@drawable/weather_clock_centered_8</drawable>
+  <drawable name="theme1_weather_clock_hour_9_code">@drawable/weather_clock_centered_9</drawable>
+  <drawable name="theme1_weather_clock_point_code">@drawable/weather_clock_centered_colon</drawable>
+  <drawable name="theme1_weather_clock_minute_0_code">@drawable/weather_clock_centered_0</drawable>
+  <drawable name="theme1_weather_clock_minute_1_code">@drawable/weather_clock_centered_1</drawable>
+  <drawable name="theme1_weather_clock_minute_2_code">@drawable/weather_clock_centered_2</drawable>
+  <drawable name="theme1_weather_clock_minute_3_code">@drawable/weather_clock_centered_3</drawable>
+  <drawable name="theme1_weather_clock_minute_4_code">@drawable/weather_clock_centered_4</drawable>
+  <drawable name="theme1_weather_clock_minute_5_code">@drawable/weather_clock_centered_5</drawable>
+  <drawable name="theme1_weather_clock_minute_6_code">@drawable/weather_clock_centered_6</drawable>
+  <drawable name="theme1_weather_clock_minute_7_code">@drawable/weather_clock_centered_7</drawable>
+  <drawable name="theme1_weather_clock_minute_8_code">@drawable/weather_clock_centered_8</drawable>
+  <drawable name="theme1_weather_clock_minute_9_code">@drawable/weather_clock_centered_9</drawable>
+  
+  <!-- theme2 -->
+  <drawable name="theme2_weather_clock_hour_0_code">@drawable/weather_clock_slash_hour_0</drawable>
+  <drawable name="theme2_weather_clock_hour_1_code">@drawable/weather_clock_slash_hour_1</drawable>
+  <drawable name="theme2_weather_clock_hour_2_code">@drawable/weather_clock_slash_hour_2</drawable>
+  <drawable name="theme2_weather_clock_hour_3_code">@drawable/weather_clock_slash_hour_3</drawable>
+  <drawable name="theme2_weather_clock_hour_4_code">@drawable/weather_clock_slash_hour_4</drawable>
+  <drawable name="theme2_weather_clock_hour_5_code">@drawable/weather_clock_slash_hour_5</drawable>
+  <drawable name="theme2_weather_clock_hour_6_code">@drawable/weather_clock_slash_hour_6</drawable>
+  <drawable name="theme2_weather_clock_hour_7_code">@drawable/weather_clock_slash_hour_7</drawable>
+  <drawable name="theme2_weather_clock_hour_8_code">@drawable/weather_clock_slash_hour_8</drawable>
+  <drawable name="theme2_weather_clock_hour_9_code">@drawable/weather_clock_slash_hour_9</drawable>
+  <drawable name="theme2_weather_clock_point_code">@drawable/weather_clock_slash_slash</drawable>
+  <drawable name="theme2_weather_clock_minute_0_code">@drawable/weather_clock_default_0_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_1_code">@drawable/weather_clock_default_1_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_2_code">@drawable/weather_clock_default_2_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_3_code">@drawable/weather_clock_default_3_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_4_code">@drawable/weather_clock_default_4_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_5_code">@drawable/weather_clock_default_5_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_6_code">@drawable/weather_clock_default_6_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_7_code">@drawable/weather_clock_default_7_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_8_code">@drawable/weather_clock_default_8_dark</drawable>
+  <drawable name="theme2_weather_clock_minute_9_code">@drawable/weather_clock_default_9_dark</drawable>
+  
+  
+  <drawable name="theme2_weather_clock_hour_mask_code">@drawable/weather_clock_slash_mask_01</drawable>
+  <drawable name="theme2_weather_clock_minute_mask_code">@drawable/weather_clock_slash_mask_02</drawable>  
+</resources>

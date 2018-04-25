@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/KDDIExtControlDevice/2.00/and6.0.1/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/KDDIExtControlDevice" path="app/packages/apps/KDDIExtControlDevice" revision="app/apps/KDDIExtControlDevice/2.00/and6.0.1/mainline"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="3ed1516943f88e1d4ec3a8d6fbe296ed9688a18a"/>
+</manifest>

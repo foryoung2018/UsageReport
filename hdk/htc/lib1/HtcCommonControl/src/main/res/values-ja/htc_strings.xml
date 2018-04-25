@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">連絡先を検索</string><!--Search People-->
+    <string name="common_string_share_title">共有方法</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">既存の連絡先に保存</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">連絡先を保存</string><!--Save to People-->
+    <string name="label_year">年</string><!--Year-->
+    <string name="label_month">月</string><!--Month-->
+    <string name="label_day">日</string><!--Day-->
+    <string name="label_hour">時</string><!--Hour-->
+    <string name="label_minute">分</string><!--Minute-->
+    <string name="label_second">秒</string><!--Second-->
+    <string name="common_string_open_contact">連絡先を開く</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">1 個のタブが残っています。このアプリに別のタブを追加するには、メニューから [タブを編集/フィルタ] を選択してください。</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">キャンセル</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">次へ</string><!--Next-->
+    <string name="va_back">戻る</string><!--Back-->
+    <string name="va_call">ダイヤル</string><!--Call-->
+    <string name="st_loading">読み込んでいます...</string><!--Loading...-->
+    <string name="va_close">閉じる</string><!--Close-->
+    <string name="va_open">開く</string><!--Open-->
+    <string name="va_clear">"消去"</string><!--Clear-->
+    <string name="va_send_mail">メールを送信する</string><!--Send mail-->
+    <string name="va_send_message">メッセージを送信する</string><!--Send message-->
+    <string name="va_download">ダウンロード</string><!--Download-->
+    <string name="st_more">詳細</string><!--More-->
+    <string name="nn_unknown_error">"不明なエラー"</string><!--Unknown error-->
+    <string name="va_downloading">ダウンロード中</string><!--Downloading-->
+    <string name="va_finish">完了</string><!--Finish-->
+    <string name="va_reset">リセット</string><!--Reset-->
+    <string name="va_hide">"表示しない"</string><!--Hide-->
+    <string name="ls_tablet_storage_error">タブレット PC のメモリでエラーが発生しました。デバイスをリブートするか、メモリをフォーマットしてください。</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">離すと更新します</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">更新中...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">ダブルタップしてドラッグすると調整できます</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">ドラッグ可能なアイテム</string><!--Draggable item-->
+    <string name="va_move_above">上へ移動</string><!--Move above-->
+    <string name="va_move_below">下へ移動</string><!--Move below-->
+    <string name="st_pull_down_refresh">下に引くと更新します</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">通話の前に番号を編集</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">マップで開く</string><!--Open in map-->
+    <string name="va_copy">コピー</string><!--Copy-->
+    <string name="va_show_all">すべて表示</string><!--Show all-->
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <array name="tabbar_drawables">
+                <item>@drawable/common_app_bkg</item>
+                <item>@drawable/common_app_bkg_down_src</item>
+                <item>@drawable/common_app_bkg_down_land_src</item>
+                <item>@drawable/common_app_bkg_top_src</item>
+                <item>@drawable/zero_dummy_asset</item> <!-- <item>@drawable/common_bubble</item> -->
+                <item>@drawable/common_b_div</item>
+                <item>@drawable/common_b_div_land</item>
+                <item>@drawable/common_popupmenu</item>
+                <item>@drawable/zero_dummy_asset</item> <!-- <item>@drawable/common_subnav_selector_tab</item> -->
+                <item>@drawable/zero_dummy_asset</item> <!-- <item>@drawable/common_subnav_tab_rearrange</item> -->
+                <item>@drawable/zero_dummy_asset</item> <!-- <item>@drawable/common_subnav_tab_rearrange_tile</item> -->
+                <item>@drawable/zero_dummy_asset</item> <!-- <item>@drawable/common_subnav_tab_rearrange_removeable</item> -->
+                <item>@drawable/zero_dummy_asset</item> <!-- <item>@drawable/common_subnav_tab_rearrange_unremoveable</item> -->
+        </array>
+        <array name="tabbar_colors">
+                <item>@color/overlay_color</item>
+        </array>
+
+</resources>

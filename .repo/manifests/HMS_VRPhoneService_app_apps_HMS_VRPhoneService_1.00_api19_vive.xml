@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HMS_VRPhoneService/1.00/api19/vive" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HMS_VRPhoneService" path="app/packages/apps/HMS_VRPhoneService" revision="app/apps/HMS_VRPhoneService/1.00/api19/vive"/>
+</manifest>

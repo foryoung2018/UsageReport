@@ -1,0 +1,4 @@
+73190031e2155f0b3ebc1df0ce532b43d65add03		branch 'hdk/api23_sense8.0_gp' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htclocationservicessettingmanager
+20a5c94ab24889d199707d489cdf89009e50b9f1		branch 'hdk/buildsdk_latest_sense7.0' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htclocationservicessettingmanager
+cca335e4aa38d1e34bb6bf2598d250b5379a47fb	not-for-merge	tag 'HDK_Lib1_API20_Sense70_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htclocationservicessettingmanager
+05dc84813ea98f4ec854c2735c22922ea6e3e80c	not-for-merge	tag 'HDK_Lib1_API23_Sense80_GP_Mainline' of ssh://tpe.app.git.htc.com:29419/app/hdk/htc/lib1/htclocationservicessettingmanager

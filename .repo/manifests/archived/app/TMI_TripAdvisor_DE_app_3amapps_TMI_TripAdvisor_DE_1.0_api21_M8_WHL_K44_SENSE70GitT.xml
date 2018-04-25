@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/3amapps/TMI_TripAdvisor_DE/1.0/api21/M8_WHL_K44_SENSE70GitT" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/3amapps/TMI_TripAdvisor_DE" path="app/packages/3amapps/TMI_TripAdvisor_DE" revision="app/3amapps/TMI_TripAdvisor_DE/1.0/api21/M8_WHL_K44_SENSE70GitT"/>
+</manifest>

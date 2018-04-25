@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >joka ensimmäinen sunnuntai</item><!--on every first Sunday-->
+        <item >joka toinen sunnuntai</item><!--on every second Sunday-->
+        <item >joka kolmas sunnuntai</item><!--on every third Sunday-->
+        <item >joka neljäs sunnuntai</item><!--on every fourth Sunday-->
+        <item >joka viimeinen sunnuntai</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >joka ensimmäinen maanantai</item><!--on every first Monday-->
+        <item >joka toinen maanantai</item><!--on every second Monday-->
+        <item >joka kolmas maanantai</item><!--on every third Monday-->
+        <item >joka neljäs maanantai</item><!--on every fourth Monday-->
+        <item >joka viimeinen maanantai</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >joka ensimmäinen tiistai</item><!--on every first Tuesday-->
+        <item >joka toinen tiistai</item><!--on every second Tuesday-->
+        <item >joka kolmas tiistai</item><!--on every third Tuesday-->
+        <item >joka neljäs tiistai</item><!--on every fourth Tuesday-->
+        <item >joka viimeinen tiistai</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >joka ensimmäinen keskiviikko</item><!--on every first Wednesday-->
+        <item >joka toinen keskiviikko</item><!--on every second Wednesday-->
+        <item >joka kolmas keskiviikko</item><!--on every third Wednesday-->
+        <item >joka neljäs keskiviikko</item><!--on every fourth Wednesday-->
+        <item >joka viimeinen keskiviikko</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >joka ensimmäinen torstai</item><!--on every first Thursday-->
+        <item >joka toinen torstai</item><!--on every second Thursday-->
+        <item >joka kolmas torstai</item><!--on every third Thursday-->
+        <item >joka neljäs torstai</item><!--on every fourth Thursday-->
+        <item >joka viimeinen torstai</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >joka ensimmäinen perjantai</item><!--on every first Friday-->
+        <item >joka toinen perjantai</item><!--on every second Friday-->
+        <item >joka kolmas perjantai</item><!--on every third Friday-->
+        <item >joka neljäs perjantai</item><!--on every fourth Friday-->
+        <item >joka viimeinen perjantai</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >joka ensimmäinen lauantai</item><!--on every first Saturday-->
+        <item >joka toinen lauantai</item><!--on every second Saturday-->
+        <item >joka kolmas lauantai</item><!--on every third Saturday-->
+        <item >joka neljäs lauantai</item><!--on every fourth Saturday-->
+        <item >joka viimeinen lauantai</item><!--on every last Saturday-->
+    </string-array>
+</resources>

@@ -1,0 +1,1 @@
+-keep class com.htc.lib1.theme.ThemeFileUtil$* { *;}

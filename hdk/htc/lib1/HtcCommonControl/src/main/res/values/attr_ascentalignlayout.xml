@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AscentAlignLayout_Layout">
+        <attr name="layout_alignType">
+            <enum name="basic" value="0" />
+            <enum name="align_basic" value="1" />
+        </attr>
+        <attr name="layout_alignView" format="reference" />
+    </declare-styleable>
+
+</resources>

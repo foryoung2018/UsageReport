@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/SMSBackup/3.0/api23/master" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/SMSBackup" path="app/packages/apps/SMSBackup" revision="app/apps/SMSBackup/3.0/api23/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="5d76aeaef8a39f3763ebbd0aa71dac71fb864df4"/>
+</manifest>

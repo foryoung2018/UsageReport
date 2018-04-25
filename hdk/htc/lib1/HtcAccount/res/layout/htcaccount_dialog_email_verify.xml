@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/htcaccount_margin_m"
+    android:paddingBottom="@dimen/htcaccount_margin_m"
+    android:background="@android:color/background_light"
+    android:orientation="vertical" >
+
+    <com.htc.lib1.cs.widget.LinkableTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/txt_verify_email"
+        style="@style/list_body_primary_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/htcaccount_margin_m"
+        android:layout_marginLeft="@dimen/htcaccount_margin_l"
+        android:layout_marginRight="@dimen/htcaccount_margin_l"
+        android:layout_marginTop="@dimen/htcaccount_margin_m"
+        android:bufferType="spannable"
+        android:focusable="false"
+        android:selectAllOnFocus="false"
+        android:textColorLink="@color/htcaccount_all_hyperlink_color"
+        android:textIsSelectable="false" />
+</ScrollView>

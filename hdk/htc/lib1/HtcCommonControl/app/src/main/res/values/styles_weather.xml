@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="weather_01" parent="@style/regular">
+        <item name="android:textColor">?attr/category_color</item>
+        <item name="android:textSize">@dimen/weather_01</item>
+    </style>
+
+    <style name="weather_02" parent="@style/regular">
+        <item name="android:textColor">?attr/category_color</item>
+        <item name="android:textSize">@dimen/weather_02</item>
+    </style>
+
+    <style name="weather_03" parent="@style/light">
+        <item name="android:textColor">?attr/category_color</item>
+        <item name="android:textSize">@dimen/weather_03</item>
+    </style>
+
+    <style name="weather_04" parent="@style/light">
+        <item name="android:textColor">?attr/category_color</item>
+        <item name="android:textSize">@dimen/weather_04</item>
+    </style>
+
+    <style name="weather_05" parent="@style/regular">
+        <item name="android:textColor">?attr/category_color</item>
+        <item name="android:textSize">@dimen/weather_05</item>
+    </style>
+
+    <style name="weather_06" parent="@style/regular">
+        <item name="android:textColor">?attr/category_color</item>
+        <item name="android:textSize">@dimen/weather_06</item>
+    </style>
+
+    <style name="weather_07" parent="@style/light">
+        <item name="android:textColor">?attr/light_primaryfont_color</item>
+        <item name="android:textSize">@dimen/weather_07</item>
+    </style>
+
+    <style name="weather_08" parent="@style/light">
+        <item name="android:textColor">?attr/light_primaryfont_color</item>
+        <item name="android:textSize">@dimen/weather_08</item>
+    </style>
+
+    <style name="weather_09" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">"sans-serif-thin"</item>
+        <item name="android:textColor">?attr/light_primaryfont_color</item>
+        <item name="android:textSize">@dimen/weather_09</item>
+    </style>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/PeopleChinaSense/9.00/api25/gradle" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/PeopleChinaSense" path="app/packages/apps/PeopleChinaSense" revision="app/apps/PeopleChinaSense/9.00/api25/gradle"/>
+  
+  <!-- Sub App List -->
+  <project name="app/packages/apps/HtcContacts" path="app/packages/apps/HtcContacts" revision="81bbda0eb49ea43b652f3c83c318c96c79e36ade"/>
+</manifest>

@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.sense.commoncontrol.demo"
+    android:versionCode="1"
+    android:versionName="Sense70" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="com.htc.permission.APP_DEFAULT" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!-- for DataActionPicker -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- For MastHead -->
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="htc.permission.weather.USE_DATA" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        allowSkinChange="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/HtcDeviceDefault" >
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.DemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="CommonControl Api Demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.screeninfo.ScreenInfo"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/screen_info_label" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcbutton.HtcCompoundButtons"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcButton/HtcCompoundButton Series" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcbutton.HtcButtons"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcButton/HtcButton Series" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcbutton.HtcImageButtons"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcButton/HtcImageButton Series" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <!-- HtcButton Demos -->
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcspinner.HtcSpinnerDemo"
+            android:label="HtcSpinner" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.gridview.HtcGridViewDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcGridView" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.HtcEmptyViewDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcEmptyView" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.HtcListViewMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListView" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.HtcListViewDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListView" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.HtcListViewExpandableDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcExpandableListView" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.HtcListViewFastScrollerDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListView FastScroller" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.MoreExpandableHtcListViewDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="MoreExpandableHtcListView" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.HtcListViewReorderDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListView Reorder" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.actionbar.ActionBarDemoApActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="ActionBar (Phone)"
+            android:theme="@style/HtcDeviceDefault.CategoryTwo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.actionbar.ActionBarAutomotiveDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="ActionBar (Automotive)" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.alertdialog.AlertDialogDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcAlertDialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.alertdialog.TestAlertActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:label="HtcAlertActivity(Message)"
+            android:theme="@style/HtcAlertActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.alertdialog.ListAlertActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:label="HtcAlertActivity(List)"
+            android:theme="@style/HtcAlertActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcautocompletetextview.HtcAutoCompleteTextViewDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcAutoCompleteTextView" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcedittext.HtcEditTextDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcEditText" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.progressbar.HtcMultiSeekBarDialogDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcMultiSeekBarDialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.popupmenu.PopupMenuDemo"
+            android:configChanges="screenSize|orientation"
+            android:label="PopupMenu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.popupmenu.ListPopupMenuDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="ListPopupMenu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.popupmenu.ExpandableListPopupMenuDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="ExpandableListPopupMenu + HtcPopupWindowWrapper" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.progressbar.ProgressBarSeekBarDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="ProgressBar + SeekBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.progressbar.TrimSeekBarDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="TrimSeekBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_S70" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.progressbar.HtcSeekBarPopupWindowDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="SeekBar + PopupWindow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.footerbar.FooterBarDemoApActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcFooterBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.footerbar.FooterBarPortrait"
+            android:configChanges="orientation|screenSize"
+            android:label="FooterBarPortrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.footerbar.FooterBarLandscape"
+            android:configChanges="orientation|screenSize"
+            android:label="FooterBarLandscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.footerbar.FooterbarSpeical"
+            android:configChanges="orientation|screenSize"
+            android:label="FooterbarSpeical" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.footerbar.FooterbarOverlay"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:label="FooterbarOverlay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".quicktips.QuickTipsDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="QuickTips" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htclistitem.HtcListItemSeparatorDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="Seperator" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.recipientblock.RecipientBlockDemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_recipient_block_demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.recipientblock.RecipientBlockDemo"
+            android:configChanges="orientation|screenSize"
+            android:icon="@drawable/blue_mail_icon"
+            android:label="RecipientBlock" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.recipientblock.RecipientBlockSpecialDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_recipient_block_special_demo" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcpreference.HtcPreferenceDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcPreference" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcpreference.ActivtyPreferences"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="ActvityPreferences" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.activitypreferences" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcpreference.PreferencesFromCode"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcPreferences From Code" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.preferencesfromcode" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcpreference.FragmentPreferences"
+            android:configChanges="orientation|screenSize"
+            android:label="FragmentPreferences" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.fragmentpreferences" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcpreference.PreferenceWithHeaders"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcPreference with headers" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.preferencewithheaders" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcpreference.DefaultValues"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcPreference with Default Values" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.DefaultValues" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcpreference.HtcDialogPreferenceDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcPreference with Default Values" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.preferencesdialog" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.carousel.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="CarouselFragment" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.tabfragment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- HtcListItem -->
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htclistitem.DemoListActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListItem" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htclistitem.HtcListItemActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListItem" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.htclistitem.defaultwhite" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htclistitem.HtcListItemActivity1"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListItem Demos"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htclistitem.HtcListItemActivity3"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListItemMessageBody" />
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htclistitem.HtcListItemActivity12"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListItem with ProgressBar" />
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htclistitem.HtcListItemActivity13"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcListItemLabeledLayout" />
+        <!-- HtcListItem -->
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcsharevia.AUTHtcShareViaDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcShareVia" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.htcsharevia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:label="HtcStatusViewDemo"
+            android:name=".htcstatusview.HtcStatusViewDemo" >
+            <intent-filter >
+                <action android:name="com.htc.sense.intent.action.custom.htcstatusview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.layout.RailingLayoutDemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="RailingLayout" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.AUTItemClickActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.AUTListViewOverFlingActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.gridview.AUTGridViewOverFlingActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.griditem.GridItemMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcGridItem and HtcOverlayGridItem" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.griditem.HtcGridItemActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcGridItem Demo" />
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.griditem.HtcOverlayGridItemActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcOverlayGridItem Demo" />
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcviewpager.HtcViewPagerCombineTabbar"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcViewPager with TabBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <!-- HtcSpecificInputField -->
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcspecificinputfield.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcSpecificInputField" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.htcspecificinputfield" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcspecificinputfield.DetailsListCustom1"
+            android:configChanges="orientation|screenSize"
+            android:label="DetailsCustom1"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.htcspecificinputfield.DetailsListCustom1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcspecificinputfield.DetailsListCustom2"
+            android:configChanges="orientation|screenSize"
+            android:label="DetailsCustom2"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.htcspecificinputfield.DetailsListCustom2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcspecificinputfield.DetailsListDefault"
+            android:configChanges="orientation|screenSize"
+            android:label="DetailsDefault"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.htcspecificinputfield.DetailsListDefault" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.dataactionpicker.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="DataActionPicker" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="SetupWizard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.DemoActivity1"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcWizardActivity Demo 1(normal)" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.demoactivity1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.DemoPreferenceActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcWizardPreferenceActivity Demo" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.demopreferenceactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.DemoRadioListActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcRadioListWizardActivity Demo" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.demoradiolistactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.DemoButtonActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcButtonWizardActivity Demo" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.demobuttonactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.DemoSpecialActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcSpecialWizardActivity Demo" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.demospecialactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.multipage.MultiPageMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Multi-Page Demo" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.multipagemainactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.multipage.MultiPageActivity1"
+            android:configChanges="orientation|screenSize"
+            android:label="MultiPageActivity1" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.multipageactivity1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.multipage.MultiPageActivity2"
+            android:configChanges="orientation|screenSize"
+            android:label="MultiPageActivity2" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.multipageactivity2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.multipage.MultiPageActivity3"
+            android:configChanges="orientation|screenSize"
+            android:label="MultiPageActivity3" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.multipageactivity3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.multipage.MultiPageActivity4"
+            android:configChanges="orientation|screenSize"
+            android:label="MultiPageActivity4" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.multipageactivity4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.multipage.MultiPageActivity5"
+            android:configChanges="orientation|screenSize"
+            android:label="MultiPageActivity5" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.multipageactivity5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.setupwizard.multipage.MultiPageActivity6"
+            android:configChanges="orientation|screenSize"
+            android:label="MultiPageActivity6" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.setupwizard.multipageactivity6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.listview.PullToRefreshActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Pull Down To Refresh" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.fontstyle.FontStyleDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_common_font_style" >
+            <intent-filter>
+                <action android:name="com.htc.intent.action.custom.publicfontstyle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.fontstyle.PreviewMainPackageSelection"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_common_font_style" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.fontstyle.PreviewStyleActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_common_font_style"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.fontstyle.preview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.tabbar.TabBarDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="TabBar" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.tabbar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcviewpager.HtcPagerFragmentDemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcPagerFragment" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.layout.HtcOverLapDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcOverLapLayout" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.colortable.ThemeColorTable"
+            android:configChanges="orientation|screenSize"
+            android:label="ThemeColorTable" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.theme.ThemeInfo"
+            android:configChanges="orientation|screenSize"
+            android:label="Theme Info" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.reminder.activity.ReminderViewDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="ReminderView" >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:screenOrientation="portrait" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.reminder.activity.TestActivityVoiceCall"
+            android:configChanges="orientation|screenSize"
+            android:label="One Tile With 2 Buttons" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.onetiletwobuttons" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.reminder.activity.TestActivityVideoCall"
+            android:configChanges="orientation|screenSize"
+            android:label="One Tile With 3 Buttons" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.onetilethreebuttons" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.reminder.activity.TestActivityDualCall"
+            android:configChanges="orientation|screenSize"
+            android:label="One Tile With 4 Buttons" >
+            <intent-filter>
+                <action android:name="com.htc.sense.intent.action.custom.onetilefourbuttons" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".alertdialog.StyledAndroidDialogDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="Styled Android Dialog"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".htcsharevia.ShareBottomSheetDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="Share Bottom Sheet"
+            android:launchMode="singleTask"
+            android:taskAffinity=".htcsharevia.ShareBottomSheetDemo"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.lib1.cc.app.HtcShareActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ThemeHtcShareActivity" />
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcswitch.HtcSwitchDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_htc_switch" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcdatetimepicker.HtcDateTimePicker"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_htc_datetimepicker_demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.slidingmenu.SlidingMenuActivity"
+            android:label="@string/title_activity_slidingmenu_demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.androidpreference.AndroidPreferenceDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="Android Preference" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.androidpreference.AndroidActivityPreference"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Add Preference From Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.androidactivitypreferences" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.androidpreference.AndroidFragmentPreferences"
+            android:configChanges="orientation|screenSize"
+            android:label="Add Preference From Fragment" >
+            <intent-filter>
+                <action android:name="android.intent.action.custom.androidfragmentpreferences" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.actionmodecustom.ActionModeDemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="ActionMode Custom" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.crabwalkview.CrabWalkViewDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="CrabWalkView" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.htcdrawer.HtcDrawerDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="HtcDrawer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.alertdialog.ColorPickerDialogDemo"
+            android:configChanges="orientation|screenSize"
+            android:label="ColorPickerDialog"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.layout.LayoutMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Layouts" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.layout.AscentAlignLayoutActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="AscentAlignLayout" >
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.graphics.ThermometerDrawableDemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="ThermometerDrawable" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.sense.commoncontrol.demo.view.VCardDemoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="VCard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.htc.sense.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

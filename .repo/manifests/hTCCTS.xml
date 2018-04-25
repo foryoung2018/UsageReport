@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/htccts/master" sync-j="4"/>
+
+  <project name="app/htccts" path="htccts_kk-mr2-rel" revision="app/htccts/master-kk-mr2-rel" />
+  <project name="app/htccts" path="htccts_l-rel" revision="app/htccts/master-l-rel" />
+  <project name="app/htccts" path="htccts_m-rel" revision="app/htccts/master-m-rel" />
+  <project name="app/htccts" path="htccts_n-rel" revision="app/htccts/master-n-rel" />
+  <project name="app/htccts" path="htccts_o-rel" revision="app/htccts/master-o-rel" />
+</manifest>

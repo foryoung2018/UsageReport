@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.htc.lib1.cc.widget.HtcFooter
+        android:id="@+id/htcfooter_uigl_purelight_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        htc:backgroundMode="pureLight" >
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_1"
+            android:focusable="false"
+            android:text="@string/footerbutton_shortstring"
+            htc:backgroundMode="light" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_2"
+            android:focusable="false"
+            android:text="@string/footerbutton_shortstring"
+            htc:backgroundMode="light" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_3"
+            android:focusable="false"
+            android:text="@string/footerbutton_shortstring"
+            htc:backgroundMode="light" />
+
+        <com.htc.lib1.cc.widget.HtcFooterButton
+            android:id="@+id/hfb_4"
+            android:focusable="false"
+            android:text="@string/footerbutton_shortstring"
+            htc:backgroundMode="light" />
+    </com.htc.lib1.cc.widget.HtcFooter>
+
+</LinearLayout>

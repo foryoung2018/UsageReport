@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="hdk/api20_sense7.0" sync-j="4"/>
+  
+  <!-- START of HDK Lib0 git -->
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/htclib0" path="hdk/htc/lib0/HtcLib0" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/media" path="hdk/htc/lib0/Media" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+
+  <!-- START of HDK Lib1 git -->
+  <project name="app/hdk/htc/lib1/htclib1" path="hdk/htc/lib1/HtcLib1" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/devicemanagement" path="hdk/htc/lib1/DeviceManagement" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htcpushnotificationservice" path="hdk/htc/lib1/HtcPushNotificationService" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htcaccount" path="hdk/htc/lib1/HtcAccount" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/feedservice" path="hdk/htc/lib1/FeedService" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/frisbee" path="hdk/htc/lib1/Frisbee" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/gifmodule" path="hdk/htc/lib1/GIFModule" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/hfmclient" path="hdk/htc/lib1/HfmClient" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/home" path="hdk/htc/lib1/Home" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htccrypto" path="hdk/htc/lib1/HtcCrypto" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htceaspim" path="hdk/htc/lib1/HtcEasPim" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htcmp4parser" path="hdk/htc/lib1/HtcMp4Parser" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htcupmanager" path="hdk/htc/lib1/HtcUPManager" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htczero" path="hdk/htc/lib1/HtcZero" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/lockscreenlib1" path="hdk/htc/lib1/LockScreenLib1" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/media" path="hdk/htc/lib1/Media" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/mediamanager" path="hdk/htc/lib1/MediaManager" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/panoviewer" path="hdk/htc/lib1/PanoViewer" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/phonecontacts" path="hdk/htc/lib1/PhoneContacts" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/videohighlights" path="hdk/htc/lib1/VideoHighlights" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htctheme" path="hdk/htc/lib1/HtcTheme" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htccalendarframwork" path="hdk/htc/lib1/HtcCalendarFramwork" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/masthead" path="hdk/htc/lib1/MastHead" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/weatherlib1" path="hdk/htc/lib1/WeatherLib1" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/useragree" path="hdk/htc/lib1/UserAgree" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htcsetasringtone" path="hdk/htc/lib1/HtcSetAsRingtone" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htcstoragehelper" path="hdk/htc/lib1/HtcStorageHelper" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htclocationservicessettingmanager" path="hdk/htc/lib1/HtcLocationServicesSettingManager" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/exifengine" path="hdk/htc/lib1/ExifEngine" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/exoplayer" path="hdk/htc/lib1/ExoPlayer" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib1/htcvideoeditorlib" path="hdk/htc/lib1/HtcVideoEditorLib" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  
+  <!-- START of HDK Lib2 git -->
+  <project name="app/hdk/htc/lib2/htcactiveservice" path="hdk/htc/lib2/HtcActiveService" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/htcupserviceclient" path="hdk/htc/lib2/HtcUPServiceClient" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/lockscreenlib2" path="hdk/htc/lib2/LockScreenLib2" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/opensense" path="hdk/htc/lib2/OpenSense" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/weatherlib2" path="hdk/htc/lib2/WeatherLib2" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/photoplatformcachemanager" path="hdk/htc/lib2/PhotoPlatformCacheManager" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/htclib2" path="hdk/htc/lib2/HtcLib2" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  <project name="app/hdk/htc/lib2/htclocationservicessettingmodule" path="hdk/htc/lib2/HtcLocationServicesSettingModule" revision="refs/tags/HDK_Lib1_API20_Sense70_Mainline"/>
+  
+  <hdk libtype="Lib1" hdkversion="20_sense7.0"/>
+</manifest>

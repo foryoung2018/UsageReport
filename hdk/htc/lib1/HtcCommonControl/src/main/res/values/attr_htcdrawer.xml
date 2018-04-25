@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="htcDrawerStyle" format="reference" />
+
+    <declare-styleable name="HtcDrawer">
+        <attr name="android:divider" />
+        <attr name="android:background" />
+        <attr name="android:scrollbarSize" />
+        <attr name="android:verticalGap" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:childIndicator" />
+    </declare-styleable>
+
+</resources>

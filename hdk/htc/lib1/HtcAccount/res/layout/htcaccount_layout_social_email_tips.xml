@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_social_email_tips"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/htcaccount_margin_xs_2"
+    android:layout_marginLeft="@dimen/htcaccount_layout_margin_sides"
+    android:layout_marginRight="@dimen/htcaccount_layout_margin_sides"
+    android:layout_marginTop="@dimen/htcaccount_spacing_2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_social_email_tips"
+        style="@style/TextAppearance.HtcAccountDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_social_email"
+        style="@style/TextAppearance.HtcAccountDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/htcaccount_all_hyperlink_color" />
+
+</LinearLayout>

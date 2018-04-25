@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">ဤအက်ပ်သည် မိုဘိုင်းဒေတာ သို့မဟုတ် Wi-Fi သုံးသည်။ ဒေတာသုံးစွဲမှုအတွက် တိကျသောနှုန်းကို ရှာရန် သင့်ဒေသတွင်း သယ်ဆောင်သူနှင့် စစ်ဆေးပါ။</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">မိမိအား ထပ်မမေးပါနှင့်</string><!--Don\'t ask me again-->
+
+</resources>

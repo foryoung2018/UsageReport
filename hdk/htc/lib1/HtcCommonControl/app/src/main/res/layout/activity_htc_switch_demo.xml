@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.htc.sense.commoncontrol.demo.htcswitch.HtcSwitchDemo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/htcSwitchDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Light Style HtcSwitch:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_primary_l_bold"/>
+
+        <com.htc.lib1.cc.widget.HtcSwitch
+            android:id="@+id/mySwitchLight"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            htc:backgroundMode="light"/>
+
+        <TextView
+            android:text="Light Style Google Material Switch:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_primary_l_bold"/>
+
+        <Switch
+            android:id="@+id/myGoogleSwitchLight"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/htcSwitchDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Dark Style HtcSwitch:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/darklist_primary_l_bold"/>
+
+        <com.htc.lib1.cc.widget.HtcSwitch
+            android:id="@+id/mySwitchDark"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            htc:backgroundMode="dark"/>
+
+        <TextView
+            android:text="Dark Style Google Material Switch:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/darklist_primary_l_bold"/>
+
+        <Switch
+            android:id="@+id/myGoogleSwitchDark"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <com.htc.lib1.cc.widget.HtcListView
+        style="@style/HtcListView"
+        android:id="@+id/switch_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"/>
+
+</LinearLayout>

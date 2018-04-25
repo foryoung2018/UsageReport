@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="masthead_01">
+        <item name="android:textSize">@dimen/masthead_01</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_01_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_01_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_02">
+        <item name="android:textSize">@dimen/masthead_02</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_02_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_02_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_03">
+        <item name="android:textSize">@dimen/masthead_03</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_03_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_03_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_04">
+        <item name="android:textSize">@dimen/masthead_04</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_04_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_04_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_05">
+        <item name="android:textSize">@dimen/masthead_05</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_05_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_05_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_06">
+        <item name="android:textSize">@dimen/masthead_06</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_06_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_06_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_07">
+        <item name="android:textSize">@dimen/masthead_07</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_07_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_07_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_08">
+        <item name="android:textSize">@dimen/masthead_08</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowRadius">@dimen/masthead_08_shadowSize</item>
+        <item name="android:shadowDy">@dimen/masthead_08_shadowDy</item>
+        <item name="android:shadowColor">#4C000000</item>
+    </style>
+    <style name="masthead_09">
+        <item name="android:textSize">@dimen/masthead_09</item>
+    </style>
+    <style name="masthead_10">
+        <item name="android:textSize">@dimen/masthead_10</item>
+    </style>
+</resources>

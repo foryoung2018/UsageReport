@@ -1,0 +1,175 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myns="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <!-- Light mode -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff4567"
+            android:gravity="center"
+            android:text="HtcCompoundButtons Light mode" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcCheckBox
+                android:id="@+id/chk_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.htc.lib1.cc.widget.HtcCheckBox
+                android:id="@+id/chk_light_part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.htc.lib1.cc.widget.HtcRadioButton
+                android:id="@+id/radio_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.htc.lib1.cc.widget.HtcDeleteButton
+                android:id="@+id/delete_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.htc.lib1.cc.widget.HtcLoveButton
+                android:id="@+id/love_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.htc.lib1.cc.widget.HtcFlagButton
+                android:id="@+id/flag_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.htc.lib1.cc.widget.HtcStarButton
+                android:id="@+id/str_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Dark mode -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff4567"
+            android:gravity="center"
+            android:text="HtcCompoundButtons Dark mode" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcCheckBox
+                android:id="@+id/chk_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="dark" />
+
+            <com.htc.lib1.cc.widget.HtcCheckBox
+                android:id="@+id/chk_dark_part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="dark" />
+
+            <com.htc.lib1.cc.widget.HtcRadioButton
+                android:id="@+id/radio_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="dark" />
+        </LinearLayout>
+
+        <!-- Automotive Light mode -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff4567"
+            android:gravity="center"
+            android:text="HtcCompoundButtons AutoMotive Light mode" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcCheckBox
+                android:id="@+id/chk_autolight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="automotiveLight" />
+
+            <com.htc.lib1.cc.widget.HtcRadioButton
+                android:id="@+id/radio_autolight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="automotiveLight" />
+
+            <com.htc.lib1.cc.widget.HtcDeleteButton
+                android:id="@+id/delete_autolight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="automotiveLight" />
+        </LinearLayout>
+
+        <!-- Automotive Dark mode -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff4567"
+            android:gravity="center"
+            android:text="HtcCompoundButtons AutoMotive Dark mode" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.htc.lib1.cc.widget.HtcCheckBox
+                android:id="@+id/chk_autodark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="automotiveDark" />
+
+            <com.htc.lib1.cc.widget.HtcRadioButton
+                android:id="@+id/radio_autodark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="automotiveDark" />
+
+            <com.htc.lib1.cc.widget.HtcDeleteButton
+                android:id="@+id/delete_autodark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="automotiveDark" />
+
+            <com.htc.lib1.cc.widget.HtcLoveButton
+                android:id="@+id/love_autodark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                myns:backgroundMode="automotiveDark" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

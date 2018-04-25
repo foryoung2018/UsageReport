@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/SenseHomeTest/7.0/api16/none_htc" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/SenseHomeTest" path="app/packages/apps/SenseHomeTest" revision="app/apps/SenseHomeTest/7.0/api16/none_htc"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/SenseHomeTest" path="app/customization/packages/apps/SenseHomeTest" revision="app/apps/SenseHomeTest/master"/>
+  
+  <!-- HMS Library List -->
+  <project name="app/hms_libs/Corridor" path="app/hms_libs/Corridor" revision="ade3cbfd3b758449ba341963c85c694a97edc599"/>
+  <project name="app/hms_libs/Social_Library" path="app/hms_libs/Social_Library" revision="a632acba98682ade5f5239609311a3f887e7527e"/>
+  <project name="app/hms_libs/HTCImageCodec_Lib" path="app/hms_libs/HTCImageCodec_Lib" revision="581594eeadcb32b0f006d7e30cc1aae6f029397c"/>
+</manifest>

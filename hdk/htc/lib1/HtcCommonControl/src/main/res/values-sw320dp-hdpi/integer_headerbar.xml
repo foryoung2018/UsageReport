@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- define header bar environment -->
+    <integer name="header_bar_sheight">80</integer>
+    <integer name="header_bar_mheight">80</integer>
+    <integer name="header_bar_theight">80</integer>
+    <integer name="header_bar_unit_width">82</integer>
+    <integer name="header_bar_rpadding">0</integer>
+    <integer name="header_bar_lpadding">0</integer>
+    <integer name="header_bar_bubble_size">38</integer>
+    <integer name="header_bar_progress_size">20</integer>
+    <integer name="header_bar_bubble_offset">16</integer>
+    <integer name="header_bar_progress_offset">16</integer>
+    <!-- define header bar image environment -->
+    <integer name="header_bar_image_label_size">44</integer>
+    <integer name="header_bar_image_frame_size">72</integer>
+    <integer name="header_bar_image_button_size">72</integer>
+    <integer name="header_bar_image_frame_button_size">1</integer>
+    <integer name="header_bar_image_select_width">80</integer>
+    <integer name="header_bar_image_select_height">72</integer>
+    <integer name="header_bar_image_label_uoffset">9</integer>
+    <integer name="header_bar_image_label_rmargin">2</integer>
+    <integer name="header_bar_image_frame_ipadding">11</integer>
+    <integer name="header_bar_image_frame_lpadding">16</integer>
+    <!-- define header bar text environment -->
+    <integer name="header_bar_text_rpadding">16</integer>
+    <integer name="header_bar_text_lpadding">16</integer>
+    <integer name="header_bar_text_2text_gap">8</integer>
+    <!-- define header bar input environment -->
+    <integer name="header_bar_input_height">48</integer>
+    <integer name="header_bar_input_ipadding">12</integer>
+    <integer name="header_bar_input_rpadding">16</integer>
+    <integer name="header_bar_input_lpadding">16</integer>
+    <integer name="header_bar_input_close_size">50</integer>
+    <integer name="header_bar_input_progress_size">20</integer>
+    <!-- define header bar drop down environment -->
+    <integer name="header_bar_dropdown_text_rpadding">16</integer>
+    <integer name="header_bar_dropdown_text_lpadding">16</integer>
+    <integer name="header_bar_dropdown_bubble_size">38</integer>
+    <integer name="header_bar_dropdown_progress_size">20</integer>
+    <integer name="header_bar_dropdown_progress_offset">16</integer>
+    <integer name="header_bar_dropdown_indicator_offset">16</integer>
+</resources>

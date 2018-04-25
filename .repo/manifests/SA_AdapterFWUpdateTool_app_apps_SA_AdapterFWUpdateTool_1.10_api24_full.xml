@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/SA_AdapterFWUpdateTool/1.10/api24/full" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/SA_AdapterFWUpdateTool" path="app/packages/apps/SA_AdapterFWUpdateTool" revision="app/apps/SA_AdapterFWUpdateTool/1.10/api24/full"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="8c115e02bd910c7111a2127972e118b85475e7fa"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="53f05cd2cfa1e44e34c9b5acfbe1d7eb1df4c120"/>
+</manifest>

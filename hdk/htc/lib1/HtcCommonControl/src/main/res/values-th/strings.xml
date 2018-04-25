@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">เสร็จ</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">แบ่งปันผ่าน</string><!--Share via-->
+    <string name="carousel_title">กดไอคอนค้างไว้เพื่อจัดเรียง</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">ไม่สามารถลบแท็บนี้</string><!--Unable to remove this tab-->
+    <string name="yes">ใช่</string><!--Yes-->
+    <string name="no">ไม่</string><!--No-->
+    <string name="menu_view_full">ดู</string><!--View-->
+    <string name="menu_view_video">เล่น</string><!--Play-->
+    <string name="menu_slideshow">สไลด์โชว์</string><!--Slideshow-->
+    <string name="menu_share">แชร์</string><!--Share-->
+    <string name="menu_set_as">ตั้งเป็น</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">ตั้งเป็นรายการโปรด</string><!--Set as favorite-->
+    <string name="menu_protect_info">การป้องกันข้อมูล</string><!--Protection info-->
+    <string name="meun_rotate">หมุน</string><!--Rotate-->
+    <string name="menu_delete">ลบ</string><!--Delete-->
+    <string name="menu_crop">ตัดส่วนที่เลือก</string><!--Crop-->
+    <string name="menu_properties">รายละเอียด</string><!--Details-->
+    <string name="menu_show_on_map">แสดงบนแผนที่</string><!--Show on map-->
+    <string name="menu_settings">ตั้งค่า</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">แบ่งปันลิงค์รูปภาพ</string><!--Share photo link-->
+    <string name="refresh">รีเฟรช</string><!--Refresh-->
+    <string name="add_comments">เพิ่มความเห็น</string><!--Add comment-->
+    <string name="button_show_caption">แสดงคำบรรยายภาพ</string><!--Show caption-->
+    <string name="button_hide_caption">ซ่อนคำบรรยายภาพ</string><!--Hide caption-->
+    <string name="button_show_description">แสดงคำอธิบาย</string><!--Show description-->
+    <string name="button_hide_description">ซ่อนคำอธิบาย</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>เล็ก</item><!--Small-->
+        <item>กลาง</item><!--Medium-->
+        <item>ใหญ่</item><!--Large-->
+        <item>ใหญ่พิเศษ</item><!--Extra large-->
+        <item>ขนาดใหญ่</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">แตะสองครั้งเพื่อทำงาน</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">ดึงไอคอนขึ้น</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">ดึงขึ้นเพื่อปลดล็อก</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>อา.</item><!--SU-->
+        <item>จ.</item><!--M-->
+        <item>อ.</item><!--TU-->
+        <item>พ.</item><!--W-->
+        <item>พฤ.</item><!--TH-->
+        <item>ศ.</item><!--F-->
+        <item>ส.</item><!--SA-->
+    </string-array>
+</resources>

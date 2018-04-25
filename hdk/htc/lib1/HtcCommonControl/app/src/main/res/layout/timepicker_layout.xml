@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.htc.lib1.cc.widget.HtcTimePicker
+        android:id="@+id/timerPicker"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         android:layout_centerHorizontal="true"
+         android:selectable="false"
+         android:layout_marginTop="@dimen/margin_l"
+         android:layout_marginLeft="@dimen/margin_m_2"
+         android:layout_marginRight="@dimen/margin_m_2"
+         android:layout_marginBottom="@dimen/spacing_2"
+         />
+
+    <TextView
+        android:id="@+id/showTime"
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:textSize="26px"
+         android:text="@string/showtime"
+         />
+
+     <Button
+         android:id="@+id/timepickerdialog"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textSize="26px"
+         android:text="@string/timepickerdialog"
+     />
+
+
+
+</LinearLayout>

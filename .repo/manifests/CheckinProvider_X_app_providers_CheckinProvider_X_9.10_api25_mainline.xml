@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/providers/CheckinProvider_X/9.10/api25/mainline" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/providers/CheckinProvider_X" path="app/packages/providers/CheckinProvider_X" revision="app/providers/CheckinProvider_X/9.10/api25/mainline"/>
+</manifest>

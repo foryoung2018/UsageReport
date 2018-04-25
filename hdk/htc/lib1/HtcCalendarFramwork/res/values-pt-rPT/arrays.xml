@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >a cada primeiro Domingo</item><!--on every first Sunday-->
+        <item >a cada segundo Domingo</item><!--on every second Sunday-->
+        <item >a cada terceiro Domingo</item><!--on every third Sunday-->
+        <item >a cada quarto Domingo</item><!--on every fourth Sunday-->
+        <item >a cada último Domingo</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >a cada primeira Segunda-Feira</item><!--on every first Monday-->
+        <item >a cada segunda Segunda-Feira</item><!--on every second Monday-->
+        <item >a cada terceira Segunda-Feira</item><!--on every third Monday-->
+        <item >a cada quarta Segunda-Feira</item><!--on every fourth Monday-->
+        <item >a cada última Segunda-Feira</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >a cada primeira Terça-Feira</item><!--on every first Tuesday-->
+        <item >a cada segunda Terça-Feira</item><!--on every second Tuesday-->
+        <item >a cada terceira Terça-Feira</item><!--on every third Tuesday-->
+        <item >a cada quarta Terça-Feira</item><!--on every fourth Tuesday-->
+        <item >a cada última Terça-Feira</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >a cada primeira Quarta-Feira</item><!--on every first Wednesday-->
+        <item >a cada segunda Quarta-Feira</item><!--on every second Wednesday-->
+        <item >a cada terceira Quarta-Feira</item><!--on every third Wednesday-->
+        <item >a cada quarta Quarta-Feira</item><!--on every fourth Wednesday-->
+        <item >a cada última Quarta-Feira</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >a cada primeira Quinta-Feira</item><!--on every first Thursday-->
+        <item >a cada segunda Quinta-Feira</item><!--on every second Thursday-->
+        <item >a cada terceira Quinta-Feira</item><!--on every third Thursday-->
+        <item >a cada quarta Quinta-Feira</item><!--on every fourth Thursday-->
+        <item >a cada última Quinta-Feira</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >a cada primeira Sexta-Feira</item><!--on every first Friday-->
+        <item >a cada segunda Sexta-Feira</item><!--on every second Friday-->
+        <item >a cada terceira Sexta-Feira</item><!--on every third Friday-->
+        <item >a cada quarta Sexta-Feira</item><!--on every fourth Friday-->
+        <item >a cada última Sexta-Feira</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >a cada primeiro Sábado</item><!--on every first Saturday-->
+        <item >a cada segundo Sábado</item><!--on every second Saturday-->
+        <item >a cada terceiro Sábado</item><!--on every third Saturday-->
+        <item >a cada quarto Sábado</item><!--on every fourth Saturday-->
+        <item >a cada último Sábado</item><!--on every last Saturday-->
+    </string-array>
+</resources>

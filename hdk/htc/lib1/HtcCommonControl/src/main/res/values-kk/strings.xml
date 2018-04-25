@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Дайын</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">Ортақтастыру әдісі</string><!--Share via-->
+    <string name="carousel_title">Қайта реттеу үшін белгішелерді басып тұрыңыз</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Бұл қойындыны жою мүмкін емес</string><!--Unable to remove this tab-->
+    <string name="yes">Иә</string><!--Yes-->
+    <string name="no">Жоқ</string><!--No-->
+    <string name="menu_view_full">Көру</string><!--View-->
+    <string name="menu_view_video">Ойнату</string><!--Play-->
+    <string name="menu_slideshow">Слайд көрсетілімі</string><!--Slideshow-->
+    <string name="menu_share">Ортақтастыру</string><!--Share-->
+    <string name="menu_set_as">Келесі ретінде орнату</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Таңдаулы ретінде орнату</string><!--Set as favorite-->
+    <string name="menu_protect_info">Қорғау туралы ақпарат</string><!--Protection info-->
+    <string name="meun_rotate">Бұру</string><!--Rotate-->
+    <string name="menu_delete">Жою</string><!--Delete-->
+    <string name="menu_crop">Қиып алу</string><!--Crop-->
+    <string name="menu_properties">Мәлімет</string><!--Details-->
+    <string name="menu_show_on_map">Картада көрсету</string><!--Show on map-->
+    <string name="menu_settings">Параметрлер</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Фотосурет сілтемесін ортақтастыру</string><!--Share photo link-->
+    <string name="refresh">Жаңарту</string><!--Refresh-->
+    <string name="add_comments">Пікір қосу</string><!--Add comment-->
+    <string name="button_show_caption">Тақырыпты көрсету</string><!--Show caption-->
+    <string name="button_hide_caption">Тақырыпты жасыру</string><!--Hide caption-->
+    <string name="button_show_description">Сипаттаманы көрсету</string><!--Show description-->
+    <string name="button_hide_description">Сипаттаманы жасыру</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Кіші</item><!--Small-->
+        <item>Орташа</item><!--Medium-->
+        <item>Үлкен</item><!--Large-->
+        <item>Аса үлкен</item><!--Extra large-->
+        <item>Алып</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Әрекет жасау үшін екі рет басыңыз</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Белгішені жоғары тартыңыз</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Құлыпты ашу үшін жоғары тартыңыз</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Жс</item><!--SU-->
+        <item>Дс</item><!--M-->
+        <item>Сс</item><!--TU-->
+        <item>Ср</item><!--W-->
+        <item>Бс</item><!--TH-->
+        <item>Жм</item><!--F-->
+        <item>Сб</item><!--SA-->
+    </string-array>
+</resources>

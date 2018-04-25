@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="htc_list_item_separator_with_text_height">30dp</dimen>
+    <dimen name="htc_list_item_separator_automotive_dark_height">30dp</dimen>
+</resources>

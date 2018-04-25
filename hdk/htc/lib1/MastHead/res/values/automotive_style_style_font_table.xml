@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="automotive_01">
+        <item name="android:textSize">@dimen/automotive_01</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    <style name="automotive_02">
+        <item name="android:textSize">@dimen/automotive_02</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    <style name="automotive_03">
+        <item name="android:textSize">@dimen/automotive_03</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="automotive_04" parent="@style/automotive_title_primary_m">
+        <item name="android:textColor">#FFed1c24</item>
+    </style>
+    <style name="automotive_05" parent="@style/automotive_title_primary_m">
+        <item name="android:textColor">#FF37ad70</item>
+    </style>
+    <style name="automotive_07">
+        <item name="android:textSize">@dimen/automotive_07</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFfaf7ee</item>
+    </style>
+    <style name="automotive_08">
+        <item name="android:textSize">@dimen/automotive_08</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    <style name="automotive_09" parent="@style/automotive_darklist_primary_s">
+        <item name="android:textColor">@color/tabfont_color</item>
+    </style>
+    <style name="automotive_10" parent="@style/automotive_darklist_primary_s">
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    <style name="automotive_11">
+        <item name="android:textSize">@dimen/automotive_11</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="automotive_12" parent="@style/automotive_title_primary_m">
+        <item name="android:textColor">#FF33b5e5</item>
+    </style>
+    <style name="automotive_13">
+        <item name="android:textSize">@dimen/automotive_13</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    <style name="automotive_14">
+        <item name="android:textSize">@dimen/automotive_14</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    <style name="automotive_15">
+        <item name="android:textSize">@dimen/automotive_15</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    <style name="automotive_16">
+        <item name="android:textSize">@dimen/automotive_16</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+</resources>

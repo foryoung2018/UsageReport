@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Cerca persones</string><!--Search People-->
+    <string name="common_string_share_title">Compartir amb</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Desa a un contacte existent</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Desar a Persones</string><!--Save to People-->
+    <string name="label_year">Any</string><!--Year-->
+    <string name="label_month">Mes</string><!--Month-->
+    <string name="label_day">Dia</string><!--Day-->
+    <string name="label_hour">Hora</string><!--Hour-->
+    <string name="label_minute">Minut</string><!--Minute-->
+    <string name="label_second">Segon</string><!--Second-->
+    <string name="common_string_open_contact">Obre contacte</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">Us queda una pestanya. Per tal d\'afegir més pestanyes per a aquesta aplicació, seleccioneu Edita pestanyes/Filtres al menú.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Cancel·la</string><!--Cancel-->
+    <string name="va_ok">D\'acord</string><!--OK-->
+    <string name="va_next">Següent</string><!--Next-->
+    <string name="va_back">Enrere</string><!--Back-->
+    <string name="va_call">Truca</string><!--Call-->
+    <string name="st_loading">S\'està carregant...</string><!--Loading...-->
+    <string name="va_close">Tanca</string><!--Close-->
+    <string name="va_open">Obre</string><!--Open-->
+    <string name="va_clear">Esborra</string><!--Clear-->
+    <string name="va_send_mail">Envia correu electrònic</string><!--Send mail-->
+    <string name="va_send_message">Envia missatge</string><!--Send message-->
+    <string name="va_download">Descarrega</string><!--Download-->
+    <string name="st_more">Més</string><!--More-->
+    <string name="nn_unknown_error">Error desconegut</string><!--Unknown error-->
+    <string name="va_downloading">S\'està descarregant</string><!--Downloading-->
+    <string name="va_finish">Finalitza</string><!--Finish-->
+    <string name="va_reset">Reinicialitza</string><!--Reset-->
+    <string name="va_hide">Amaga</string><!--Hide-->
+    <string name="ls_tablet_storage_error">S\'ha produït un error a l\'emmagatzematge del tablet. Torneu a iniciar el dispositiu o formategeu l\'emmagatzematge.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Deixeu anar per a actualitzar</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">S\'està actualitzant...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">feu doble toc i arrossegueu per ajustar</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Element arrossegable</string><!--Draggable item-->
+    <string name="va_move_above">Mou cap amunt</string><!--Move above-->
+    <string name="va_move_below">Mou cap a sota</string><!--Move below-->
+    <string name="st_pull_down_refresh">Estireu cap avall per a actualitzar</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Edita el número abans de trucar</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Obre al mapa</string><!--Open in map-->
+    <string name="va_copy">Copia</string><!--Copy-->
+    <string name="va_show_all">Mostra tot</string><!--Show all-->
+</resources>

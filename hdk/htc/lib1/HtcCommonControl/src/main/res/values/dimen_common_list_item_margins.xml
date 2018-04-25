@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="htc_list_item_left_indent_space">@dimen/margin_m_3</dimen>
+</resources>

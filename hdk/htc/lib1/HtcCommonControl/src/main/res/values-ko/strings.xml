@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">완료</string><!--Done-->
+    <string name="am">오전</string><!--AM-->
+    <string name="pm">오후</string><!--PM-->
+    <string name="quickselection_share">공유 경로</string><!--Share via-->
+    <string name="carousel_title">다시 정렬하려면 아이콘 길게 누름</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">이 탭을 삭제할 수 없음</string><!--Unable to remove this tab-->
+    <string name="yes">예</string><!--Yes-->
+    <string name="no">아니오</string><!--No-->
+    <string name="menu_view_full">보기</string><!--View-->
+    <string name="menu_view_video">재생</string><!--Play-->
+    <string name="menu_slideshow">슬라이드쇼</string><!--Slideshow-->
+    <string name="menu_share">공유</string><!--Share-->
+    <string name="menu_set_as">적용하기</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">즐겨찾기로 설정</string><!--Set as favorite-->
+    <string name="menu_protect_info">보호 정보</string><!--Protection info-->
+    <string name="meun_rotate">회전</string><!--Rotate-->
+    <string name="menu_delete">삭제</string><!--Delete-->
+    <string name="menu_crop">자르기</string><!--Crop-->
+    <string name="menu_properties">세부 정보</string><!--Details-->
+    <string name="menu_show_on_map">지도에 표시</string><!--Show on map-->
+    <string name="menu_settings">설정</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">사진 링크 공유</string><!--Share photo link-->
+    <string name="refresh">새로 고침</string><!--Refresh-->
+    <string name="add_comments">댓글 추가</string><!--Add comment-->
+    <string name="button_show_caption">캡션 표시</string><!--Show caption-->
+    <string name="button_hide_caption">캡션 숨기기</string><!--Hide caption-->
+    <string name="button_show_description">설명 표시</string><!--Show description-->
+    <string name="button_hide_description">설명 숨기기</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>작게</item><!--Small-->
+        <item>보통</item><!--Medium-->
+        <item>크게</item><!--Large-->
+        <item>아주 크게</item><!--Extra large-->
+        <item>아주 크게</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">두 번 눌러서 작동</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">아이콘 위로 끌기</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">위로 당겨서 잠금 해제</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>일</item><!--SU-->
+        <item>월</item><!--M-->
+        <item>화</item><!--TU-->
+        <item>수</item><!--W-->
+        <item>목</item><!--TH-->
+        <item>금</item><!--F-->
+        <item>토</item><!--SA-->
+    </string-array>
+</resources>

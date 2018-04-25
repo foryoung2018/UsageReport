@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/Browser/7.0/api19/test_1" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Browser" path="app/packages/apps/Browser" revision="app/Browser/7.0/api19/test_1"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Browser" path="app/customization/packages/apps/Browser" revision="app/Browser/master"/>
+  
+  <!-- HDK Library List -->
+  <project name="app/hdk/htc/lib0/hdkutil" path="hdk/htc/lib0/HDKUtil" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib1/htccommoncontrol" path="hdk/htc/lib1/HtcCommonControl" revision="refs/tags/HDK_Lib1_API19_Sense60_Mainline"/>
+  <project name="app/hdk/htc/lib1/providersettings" path="hdk/htc/lib1/ProviderSettings" revision="refs/tags/HDK_Lib1_API19_Sense60_Mainline"/>
+  <project name="app/hdk/htc/lib1/htctestframework" path="hdk/htc/lib1/HtcTestFramework" revision="refs/tags/HDK_Lib1_API19_Sense60_Mainline"/>
+  <project name="app/hdk/htc/lib0/customization" path="hdk/htc/lib0/Customization" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib0/htcdebugflag" path="hdk/htc/lib0/HtcDebugFlag" revision="refs/tags/HDK_Lib0_API19_1_Mainline"/>
+  <project name="app/hdk/htc/lib2/htcconfiguration" path="hdk/htc/lib2/HtcConfiguration" revision="refs/tags/HDK_Lib1_API19_Sense60_Mainline"/>
+  <project name="app/hdk/htc/lib3/htcwrapandroidos" path="hdk/htc/lib3/HtcWrapandroidos" revision="refs/tags/HDK_Lib3_API19_2_Mainline"/>
+  <project name="app/hdk/htc/lib3/htcreport" path="hdk/htc/lib3/HtcReport" revision="refs/tags/HDK_Lib3_API19_2_Mainline"/>
+  <project name="app/hdk/htc/lib3/phonecontacts" path="hdk/htc/lib3/PhoneContacts" revision="refs/tags/HDK_Lib3_API19_2_Mainline"/>
+</manifest>

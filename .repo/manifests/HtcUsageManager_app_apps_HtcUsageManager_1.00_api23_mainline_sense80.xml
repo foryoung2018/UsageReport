@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/HtcUsageManager/1.00/api23/mainline_sense80" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/HtcUsageManager" path="app/packages/apps/HtcUsageManager" revision="app/apps/HtcUsageManager/1.00/api23/mainline_sense80"/>
+</manifest>

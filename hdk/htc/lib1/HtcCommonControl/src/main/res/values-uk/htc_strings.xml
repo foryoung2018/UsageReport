@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_string_hint_search_people">Пошук контактів</string><!--Search People-->
+    <string name="common_string_share_title">Відправити через</string><!--Share via-->
+    <string name="common_string_save_to_existing_contact">Зберегти в існуючий контакт</string><!--Save to existing contact-->
+    <string name="common_string_save_to_people">Зберегти в програму "Контакти"</string><!--Save to People-->
+    <string name="label_year">Рік</string><!--Year-->
+    <string name="label_month">Місяць</string><!--Month-->
+    <string name="label_day">День</string><!--Day-->
+    <string name="label_hour">Година</string><!--Hour-->
+    <string name="label_minute">Хвилина</string><!--Minute-->
+    <string name="label_second">Секунда</string><!--Second-->
+    <string name="common_string_open_contact">Відкрити контакт</string><!--Open contact-->
+    <string name="tab_remove_dialog_message">У вас залишилася одна вкладка. Щоб додати до цієї програми інші вкладки, виберіть &quot;Змінити вкладки/фільтри&quot; у меню.</string><!--You have one tab left. To add more tabs for this app, choose Edit tabs/Filters on the menu.-->
+    <string name="va_cancel">Скасувати</string><!--Cancel-->
+    <string name="va_ok">OK</string><!--OK-->
+    <string name="va_next">Далі</string><!--Next-->
+    <string name="va_back">Назад</string><!--Back-->
+    <string name="va_call">Виклик</string><!--Call-->
+    <string name="st_loading">Завантаження...</string><!--Loading...-->
+    <string name="va_close">Закрити</string><!--Close-->
+    <string name="va_open">Відкрити</string><!--Open-->
+    <string name="va_clear">Очищення</string><!--Clear-->
+    <string name="va_send_mail">Надіслати повідомлення ел. пошти</string><!--Send mail-->
+    <string name="va_send_message">Надіслати повідомлення</string><!--Send message-->
+    <string name="va_download">Завантаження</string><!--Download-->
+    <string name="st_more">Більше</string><!--More-->
+    <string name="nn_unknown_error">Невідома помилка</string><!--Unknown error-->
+    <string name="va_downloading">Завантаження</string><!--Downloading-->
+    <string name="va_finish">Завершити</string><!--Finish-->
+    <string name="va_reset">Відновлення</string><!--Reset-->
+    <string name="va_hide">Приховати</string><!--Hide-->
+    <string name="ls_tablet_storage_error">Сталася помилка пам\'яті планшетного ПК. Перезавантажте пристрій або відформатуйте пам\'ять.</string><!--An error was encountered on your tablet storage. Please reboot your device or format the storage.-->
+    <string name="st_action_bar_pull_down">Відпустіть, щоб оновити</string><!--Release to refresh-->
+    <string name="st_action_bar_updating">Оновлення...</string><!--Updating...-->
+    <string name="ls_doubletap_drag">двічі натисніть та перетягніть, щоб налаштувати</string><!--double tap and drag to adjust-->
+    <string name="st_draggable_item">Перетягуваний елемент</string><!--Draggable item-->
+    <string name="va_move_above">Перемістити вище</string><!--Move above-->
+    <string name="va_move_below">Перемістити нижче</string><!--Move below-->
+    <string name="st_pull_down_refresh">Потягніть униз, щоб оновити</string><!--Pull down to refresh-->
+    <string name="ls_edit_number_before_calling">Редагувати номер до здійснення виклику</string><!--Edit number before calling-->
+    <string name="ls_open_in_map">Відкрити в карті</string><!--Open in map-->
+    <string name="va_copy">Копіювати</string><!--Copy-->
+    <string name="va_show_all">Показати всі</string><!--Show all-->
+</resources>

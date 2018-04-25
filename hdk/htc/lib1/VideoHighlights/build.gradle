@@ -1,0 +1,39 @@
+apply plugin: 'android-library'
+apply from: "${project.projectDir}/extraLibraries.gradle"
+
+dependencies {
+    //compile fileTree(dir: 'libs', include: '*.jar')
+    compile project(":..:..:..:..:hdk:htc:lib0:Customization")
+
+    //commonLibrary.each{compile it}
+    extraLibrary.each{compile it}
+}
+
+android {
+    compileSdkVersion "${project.ext.sdkVersion}"
+    buildToolsVersion "${project.ext.toolVersion}"
+
+    defaultConfig {
+
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            jniLibs.srcDirs = ["libs"]
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+}

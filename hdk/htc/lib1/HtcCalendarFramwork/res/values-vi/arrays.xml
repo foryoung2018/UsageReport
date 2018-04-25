@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+
+<resources>
+<!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sun">
+        <item >vào các chủ nhật đầu tiên</item><!--on every first Sunday-->
+        <item >vào các chủ nhật lần thứ hai</item><!--on every second Sunday-->
+        <item >vào các chủ nhật lần thứ ba</item><!--on every third Sunday-->
+        <item >vào các chủ nhật lần thứ tư</item><!--on every fourth Sunday-->
+        <item >vào các chủ nhật cuối cùng</item><!--on every last Sunday-->
+    </string-array>
+
+<!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_mon">
+        <item >vào các thứ hai đầu tiên</item><!--on every first Monday-->
+        <item >vào các thứ hai lần thứ hai</item><!--on every second Monday-->
+        <item >vào các thứ hai lần thứ ba</item><!--on every third Monday-->
+        <item >vào các thứ hai lần thứ tư</item><!--on every fourth Monday-->
+        <item >vào các thứ hai cuối cùng</item><!--on every last Monday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_tues">
+        <item >vào các thứ ba lần đầu tiên</item><!--on every first Tuesday-->
+        <item >vào các thứ ba lần thứ hai</item><!--on every second Tuesday-->
+        <item >vào các thứ ba lần thứ ba</item><!--on every third Tuesday-->
+        <item >vào các thứ ba lần thứ tư</item><!--on every fourth Tuesday-->
+        <item >vào các thứ ba cuối cùng</item><!--on every last Tuesday-->
+    </string-array>
+    
+<!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_wed">
+        <item >vào các thứ tư đầu tiên</item><!--on every first Wednesday-->
+        <item >vào các thứ tư lần thứ hai</item><!--on every second Wednesday-->
+        <item >vào các thứ tư lần thứ ba</item><!--on every third Wednesday-->
+        <item >vào các thứ tư lần thứ tư</item><!--on every fourth Wednesday-->
+        <item >vào các thứ tư cuối cùng</item><!--on every last Wednesday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_thurs">
+        <item >vào các thứ năm đầu tiên</item><!--on every first Thursday-->
+        <item >vào các thứ năm lần thứ hai</item><!--on every second Thursday-->
+        <item >vào các thứ năm lần thứ ba</item><!--on every third Thursday-->
+        <item >vào các thứ năm lần thứ tư</item><!--on every fourth Thursday-->
+        <item >vào các thứ năm cuối cùng</item><!--on every last Thursday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_fri">
+        <item >vào các thứ sáu đầu tiên</item><!--on every first Friday-->
+        <item >vào các thứ sáu lần thứ hai</item><!--on every second Friday-->
+        <item >vào các thứ sáu lần thứ ba</item><!--on every third Friday-->
+        <item >vào các thứ sáu lần thứ tư</item><!--on every fourth Friday-->
+        <item >vào các thứ sáu cuối cùng</item><!--on every last Friday-->
+    </string-array>
+<!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
+    <string-array name="repeat_by_nth_sat">
+        <item >vào các thứ bảy đầu tiên</item><!--on every first Saturday-->
+        <item >vào các thứ bảy lần thứ hai</item><!--on every second Saturday-->
+        <item >vào các thứ bảy lần thứ ba</item><!--on every third Saturday-->
+        <item >vào các thứ bảy lần thứ tư</item><!--on every fourth Saturday-->
+        <item >vào các thứ bảy cuối cùng</item><!--on every last Saturday-->
+    </string-array>
+</resources>

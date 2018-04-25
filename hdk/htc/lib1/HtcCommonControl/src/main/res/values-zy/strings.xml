@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">ၿပီးၿပီ</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">မွတဆင့္မွ်ေဝ</string><!--Share via-->
+    <string name="carousel_title">သေကၤတ ၃ စကၠန္႔ႏွိပ္၍ ေနရာေရႊ႕</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">သေကၤတ ဖယ္ရွား၍မရ</string><!--Unable to remove this tab-->
+    <string name="yes">မွန္</string><!--Yes-->
+    <string name="no">မရွိ</string><!--No-->
+    <string name="menu_view_full">ျမင္ကြင္း</string><!--View-->
+    <string name="menu_view_video">ဖြင့္</string><!--Play-->
+    <string name="menu_slideshow">ဆလိုက္႐ႈိး</string><!--Slideshow-->
+    <string name="menu_share">မွ်ေဝ</string><!--Share-->
+    <string name="menu_set_as">သတ္မွတ္</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">စိတ္ႀကိဳက္သတ္မွတ္</string><!--Set as favorite-->
+    <string name="menu_protect_info">ကာကြယ္ျခင္း အခ်က္အလက္</string><!--Protection info-->
+    <string name="meun_rotate">လွည့္</string><!--Rotate-->
+    <string name="menu_delete">ပယ္ဖ်က္</string><!--Delete-->
+    <string name="menu_crop">ေဘးသားျဖတ္</string><!--Crop-->
+    <string name="menu_properties">အေသးစိတ္</string><!--Details-->
+    <string name="menu_show_on_map">ေျမပံုေပၚမွာေဖာ္ျပ</string><!--Show on map-->
+    <string name="menu_settings">ခ်ိန္ညႇိခ်က္မ်ား</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">ဓာတ္ပံုကြန္ယက္မွ်ေဝ</string><!--Share photo link-->
+    <string name="refresh">အသစ္တင္</string><!--Refresh-->
+    <string name="add_comments">မွတ္ခ်က္ထည့္</string><!--Add comment-->
+    <string name="button_show_caption">ေခါင္းစဥ္ ေဖာ္ျပ</string><!--Show caption-->
+    <string name="button_hide_caption">ေခါင္းစဥ္ေဖ်ာက္ထား</string><!--Hide caption-->
+    <string name="button_show_description">ရည္ၫႊန္းခ်က္ေဖာ္ျပ</string><!--Show description-->
+    <string name="button_hide_description">ေဖာ္ျပခ်က္ကိုေဖ်ာက္ထား</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>ေသးငယ္</item><!--Small-->
+        <item>အလယ္အလတ္</item><!--Medium-->
+        <item>ႀကီးမား</item><!--Large-->
+        <item>အလြန္ႀကီးမား</item><!--Extra large-->
+        <item>ဧရာမႀကီးမား</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">အလုပ္စရန္ႏွစ္ခ်က္ႏွိပ္လိုက္ပါ</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">အိုင္ကြန္ကို ဆြဲ၍ တင္ပါ</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">ေသာ့ဖြင့္ရန္အေပၚသို႕ဆြဲပါ။</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>Su</item><!--SU-->
+        <item>M</item><!--M-->
+        <item>Tu</item><!--TU-->
+        <item>W</item><!--W-->
+        <item>Th</item><!--TH-->
+        <item>F</item><!--F-->
+        <item>Sa</item><!--SA-->
+    </string-array>
+</resources>

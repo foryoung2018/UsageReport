@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_margin_bottom">0dip</dimen>
+    <dimen name="bubble_max_width">630px</dimen>
+    <dimen name="bubble_min_width">480px</dimen>
+    <dimen name="triangle_edge_limit">16px</dimen>
+    <dimen name="bubble_vertical_offset">@dimen/margin_m</dimen>
+    <dimen name="bubble_herizontal_offset">@dimen/margin_m</dimen>
+    <dimen name="bubble_land_vertical_offset">@dimen/margin_m</dimen>
+    <dimen name="bubble_land_herizontal_offset">@dimen/margin_m</dimen>
+</resources>

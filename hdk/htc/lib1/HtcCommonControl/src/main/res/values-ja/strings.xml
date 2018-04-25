@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">完了</string><!--Done-->
+    <string name="am">午前</string><!--AM-->
+    <string name="pm">午後</string><!--PM-->
+    <string name="quickselection_share">共有方法</string><!--Share via-->
+    <string name="carousel_title">アイコンをドラッグして並べ替え</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">このタブは削除できません</string><!--Unable to remove this tab-->
+    <string name="yes">はい</string><!--Yes-->
+    <string name="no">いいえ</string><!--No-->
+    <string name="menu_view_full">表示</string><!--View-->
+    <string name="menu_view_video">再生</string><!--Play-->
+    <string name="menu_slideshow">スライドショー</string><!--Slideshow-->
+    <string name="menu_share">共有</string><!--Share-->
+    <string name="menu_set_as">設定内容</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">お気に入りに設定</string><!--Set as favorite-->
+    <string name="menu_protect_info">保護情報</string><!--Protection info-->
+    <string name="meun_rotate">回転</string><!--Rotate-->
+    <string name="menu_delete">削除</string><!--Delete-->
+    <string name="menu_crop">トリミング</string><!--Crop-->
+    <string name="menu_properties">詳細</string><!--Details-->
+    <string name="menu_show_on_map">マップに表示</string><!--Show on map-->
+    <string name="menu_settings">設定</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">写真のリンクを共有</string><!--Share photo link-->
+    <string name="refresh">更新</string><!--Refresh-->
+    <string name="add_comments">コメントを追加</string><!--Add comment-->
+    <string name="button_show_caption">タイトルを表示</string><!--Show caption-->
+    <string name="button_hide_caption">タイトルを表示しない</string><!--Hide caption-->
+    <string name="button_show_description">説明を表示</string><!--Show description-->
+    <string name="button_hide_description">説明を非表示</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>小</item><!--Small-->
+        <item>中</item><!--Medium-->
+        <item>大</item><!--Large-->
+        <item>特大</item><!--Extra large-->
+        <item>極大</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">ダブルタップで実行</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">アイコンを上にプルします</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">上に引いてロックを解除</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>日</item><!--SU-->
+        <item>月</item><!--M-->
+        <item>火</item><!--TU-->
+        <item>水</item><!--W-->
+        <item>木</item><!--TH-->
+        <item>金</item><!--F-->
+        <item>土</item><!--SA-->
+    </string-array>
+</resources>

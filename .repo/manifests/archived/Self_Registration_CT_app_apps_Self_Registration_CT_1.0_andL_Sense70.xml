@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch=".." name="origin" review="git.htc.com:8081"/>
+  <default remote="origin" revision="app/apps/Self_Registration_CT/1.0/andL/Sense70" sync-j="4"/>
+  
+  <!-- Main App -->
+  <project name="app/packages/apps/Self_Registration_CT" path="app/packages/apps/Self_Registration_CT" revision="app/apps/Self_Registration_CT/1.0/andL/Sense70"/>
+  
+  <!-- Customization List -->
+  <project name="app/customization/packages/apps/Self_Registration_CT" path="app/customization/packages/apps/Self_Registration_CT" revision="app/apps/Self_Registration_CT/master"/>
+</manifest>

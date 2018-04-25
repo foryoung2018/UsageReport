@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        This values is for MIN_DROPDOWN_WIDTH
+        It defines the minimum width for dropdown of HtcAutoCompleteTextView.
+        When the width of HtcAutoCompleteTextView is smaller than this,
+        we will set the dropdown width to this value.
+        HD: 615px, QHD: 465px, WVGA: 405px, HVGA: 200px, WXGA: 260px
+    -->
+    <integer name="min_dropdown_width">200</integer>
+</resources>

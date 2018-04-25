@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.masthead.view.DigitalClock xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+	<include
+	    layout="@layout/specific_theme1_weather_clock_4x1_digital_body"/>
+</com.htc.lib1.masthead.view.DigitalClock>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_message">Denne appen bruker mobildata eller Wi-Fi. Forhør deg med den lokale operatøren for å finne eksakte satser for databruk.</string><!--This app uses mobile data or Wi-/Fi. Check with your local carrier to find out exact rates for data usage.-->
+    <string name="default_checkbox">Ikke spør meg igjen</string><!--Don\'t ask me again-->
+
+</resources>

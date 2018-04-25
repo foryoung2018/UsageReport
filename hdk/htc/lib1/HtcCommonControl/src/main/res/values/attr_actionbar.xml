@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ActionBarTextView">
+        <attr name="android:textAppearance" />
+        <attr name="android:maxLines" />
+    </declare-styleable>
+    <declare-styleable name="ActionBarSize">
+        <attr name="android:actionBarSize" />
+    </declare-styleable>
+    <declare-styleable name="HtcActionBarBackup">
+        <attr name="android:src" />
+        <attr name="android:drawable" />
+    </declare-styleable>
+    <declare-styleable name="HtcActionBarSearch">
+        <attr name="android:src" />
+    </declare-styleable>
+    <declare-styleable name="HtcActionBarRefresh">
+        <attr name="android:src" />
+    </declare-styleable>
+    <declare-styleable name="HtcActionBar">
+        <attr name="android:background" />
+        <attr name="android:panelFullBackground" />
+        <attr name="android:drawable" />
+    </declare-styleable>
+    <declare-styleable name="HtcActionBarDropDown">
+        <attr name="android:src" />
+        <attr name="android:drawable" />
+    </declare-styleable>
+    <attr name="htcActionBarProgressBarStyle" format="reference" />
+</resources>

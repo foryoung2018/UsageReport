@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.htc.libfeedframework">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23"/>
+
+</manifest>

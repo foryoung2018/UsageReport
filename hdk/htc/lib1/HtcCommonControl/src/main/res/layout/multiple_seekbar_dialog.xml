@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="86px"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                />
+        <ImageView
+                android:id="@+id/vertical_divider"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_s"
+                android:layout_marginBottom="@dimen/margin_s"
+                android:background="@drawable/common_b_div"
+                />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:singleLine="true"
+                        android:layout_marginTop="@dimen/margin_xs"
+                        android:layout_marginBottom="@dimen/leading"
+                        android:paddingLeft="@dimen/margin_l"
+                        android:paddingRight="@dimen/margin_l"
+                        style="@style/b_button_primary_m"
+                        />
+                <com.htc.lib1.cc.widget.HtcSeekBar
+                        android:id="@+id/seekbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:layout_marginBottom="@dimen/spacing_3"
+                        android:paddingLeft="@dimen/margin_l"
+                        android:paddingRight="@dimen/margin_l"
+                        android:focusable="true"
+                        />
+        </LinearLayout>
+</LinearLayout>

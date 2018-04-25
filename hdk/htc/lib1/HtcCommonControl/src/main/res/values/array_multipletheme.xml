@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="multipleColorThemes">
+        <item>@array/HtcDeviceDefault</item>
+    </array>
+    <array name="HtcDeviceDefault">
+        <item>@style/HtcDeviceDefault</item>
+        <item>@style/HtcDeviceDefault.CategoryOne</item>
+        <item>@style/HtcDeviceDefault.CategoryTwo</item>
+        <item>@style/HtcDeviceDefault.CategoryThree</item>
+    </array>
+</resources>

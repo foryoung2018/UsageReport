@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">Hoàn tất</string><!--Done-->
+    <string name="am">SA</string><!--AM-->
+    <string name="pm">CH</string><!--PM-->
+    <string name="quickselection_share">Chia sẻ qua</string><!--Share via-->
+    <string name="carousel_title">Bấm và giữ các biểu tượng để sắp xếp lại</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">Không thể gỡ bỏ tab này</string><!--Unable to remove this tab-->
+    <string name="yes">Đồng ý</string><!--Yes-->
+    <string name="no">Không</string><!--No-->
+    <string name="menu_view_full">Xem</string><!--View-->
+    <string name="menu_view_video">Phát</string><!--Play-->
+    <string name="menu_slideshow">Slide trình chiếu</string><!--Slideshow-->
+    <string name="menu_share">Chia sẻ</string><!--Share-->
+    <string name="menu_set_as">Cài làm</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">Cài làm yêu thích</string><!--Set as favorite-->
+    <string name="menu_protect_info">Thông tin bảo vệ</string><!--Protection info-->
+    <string name="meun_rotate">Xoay</string><!--Rotate-->
+    <string name="menu_delete">Xóa</string><!--Delete-->
+    <string name="menu_crop">Cắt</string><!--Crop-->
+    <string name="menu_properties">Chi tiết</string><!--Details-->
+    <string name="menu_show_on_map">Hiển thị trên bản đồ</string><!--Show on map-->
+    <string name="menu_settings">Cài đặt</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">Chia sẻ link ảnh</string><!--Share photo link-->
+    <string name="refresh">Cập nhật mới</string><!--Refresh-->
+    <string name="add_comments">Thêm bình luận</string><!--Add comment-->
+    <string name="button_show_caption">Hiện chú thích</string><!--Show caption-->
+    <string name="button_hide_caption">Ẩn chú thích</string><!--Hide caption-->
+    <string name="button_show_description">Hiện mô tả</string><!--Show description-->
+    <string name="button_hide_description">Ẩn mô tả</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>Nhỏ</item><!--Small-->
+        <item>Trung bình</item><!--Medium-->
+        <item>Lớn</item><!--Large-->
+        <item>Quá lớn</item><!--Extra large-->
+        <item>Rất lớn</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">Nhấp chọn 2 lần để thực hiện hành động</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">Kéo biểu tượng lên</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">Kéo lên để mở khóa</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>CN</item><!--SU-->
+        <item>T2</item><!--M-->
+        <item>T3</item><!--TU-->
+        <item>T4</item><!--W-->
+        <item>T5</item><!--TH-->
+        <item>T6</item><!--F-->
+        <item>T7</item><!--SA-->
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/reorder_items"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+          <com.htc.lib1.cc.widget.HtcCheckBox
+              android:id="@+id/checkbox"
+              android:focusable="false" />
+        <com.htc.lib1.cc.widget.HtcListItem2LineText
+             android:id="@+id/label" />
+        <ImageView
+            android:id="@+id/my_dragger" />
+</com.htc.lib1.cc.widget.HtcListItem>

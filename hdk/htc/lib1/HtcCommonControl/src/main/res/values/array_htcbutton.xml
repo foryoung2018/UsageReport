@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="htcbutton_drawables">
+        <!-- HtcButton/HtcImageButton series background -->
+        <item>@drawable/common_button_rest</item> <!-- 0 -->
+        <item>@drawable/common_b_button_rest</item> <!-- 1 -->
+        <!-- HtcCompoundButton series background -->
+        <item>@drawable/common_circle_outer</item> <!-- 2 -->
+        <item>@drawable/common_b_circle_outer</item> <!-- 3 -->
+        <item>@drawable/common_circle_pressed</item> <!-- 4 -->
+        <!-- HtcCheckBox -->
+        <item>@drawable/common_checkbox_on</item> <!-- 5 -->
+        <item>@drawable/common_checkbox_rest</item> <!-- 6 -->
+        <item>@drawable/common_checkbox_rest</item> <!-- 7 -->
+        <!-- HtcRadioButton -->
+        <item>@drawable/common_radio_rest_light</item> <!-- 8 -->
+        <item>@drawable/common_radio_rest_dark</item> <!-- 9 -->
+        <!-- HtcDeleteButton -->
+        <item>@drawable/common_delete_on</item> <!-- 10 -->
+        <item>@drawable/common_delete_on</item> <!-- 11 -->
+        <!-- HtcLoveButton -->
+        <item>@drawable/common_collect_rest</item> <!-- 12 -->
+        <!-- HtcStarButton -->
+        <item>@drawable/common_rating_rest</item> <!-- 13 -->
+        <!-- HtcFlagButton -->
+        <item>@drawable/common_flag_rest</item> <!-- 14 -->
+        <item>@drawable/common_flag_on</item> <!-- 15 -->
+        <!-- HtcCheckBox addded 2012/11/08 -->
+        <item>@drawable/common_b_checkbox_rest</item> <!-- 16 -->
+    </array>
+</resources>

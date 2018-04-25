@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">ပြီးပြီ</string><!--Done-->
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="quickselection_share">မှတဆင့်မျှဝေ</string><!--Share via-->
+    <string name="carousel_title">သင်္ကေတ ၃ စက္ကန့်နှိပ်၍ နေရာရွှေ့</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">သင်္ကေတ ဖယ်ရှား၍မရ</string><!--Unable to remove this tab-->
+    <string name="yes">မှန်</string><!--Yes-->
+    <string name="no">မရှိ</string><!--No-->
+    <string name="menu_view_full">မြင်ကွင်း</string><!--View-->
+    <string name="menu_view_video">ဖွင့်</string><!--Play-->
+    <string name="menu_slideshow">ဆလိုက်ရှိုး</string><!--Slideshow-->
+    <string name="menu_share">မျှဝေ</string><!--Share-->
+    <string name="menu_set_as">သတ်မှတ်</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">စိတ်ကြိုက်သတ်မှတ်</string><!--Set as favorite-->
+    <string name="menu_protect_info">ကာကွယ်ခြင်း အချက်အလက်</string><!--Protection info-->
+    <string name="meun_rotate">လှည့်</string><!--Rotate-->
+    <string name="menu_delete">ပယ်ဖျက်</string><!--Delete-->
+    <string name="menu_crop">ဘေးသားဖြတ်</string><!--Crop-->
+    <string name="menu_properties">အသေးစိတ်</string><!--Details-->
+    <string name="menu_show_on_map">မြေပုံပေါ်မှာဖော်ပြ</string><!--Show on map-->
+    <string name="menu_settings">ချိန်ညှိချက်များ</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">ဓာတ်ပုံကွန်ယက်မျှဝေ</string><!--Share photo link-->
+    <string name="refresh">အသစ်တင်</string><!--Refresh-->
+    <string name="add_comments">မှတ်ချက်ထည့်</string><!--Add comment-->
+    <string name="button_show_caption">ခေါင်းစဉ် ဖော်ပြ</string><!--Show caption-->
+    <string name="button_hide_caption">ခေါင်းစဉ်ဖျောက်ထား</string><!--Hide caption-->
+    <string name="button_show_description">ရည်ညွှန်းချက်ဖော်ပြ</string><!--Show description-->
+    <string name="button_hide_description">ဖော်ပြချက်ကိုဖျောက်ထား</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>သေးငယ်</item><!--Small-->
+        <item>အလယ်အလတ်</item><!--Medium-->
+        <item>ကြီးမား</item><!--Large-->
+        <item>အလွန်ကြီးမား</item><!--Extra large-->
+        <item>ဧရာမကြီးမား</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">အလုပ်စရန်နှစ်ချက်နှိပ်လိုက်ပါ</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">အိုင်ကွန်ကို ဆွဲ၍ တင်ပါ</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">သော့ဖွင့်ရန်အပေါ်သို့ဆွဲပါ။</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>SU</item>
+        <item>M</item>
+        <item>TU</item>
+        <item>W</item>
+        <item>TH</item>
+        <item>F</item>
+        <item>SA</item>
+    </string-array>
+</resources>

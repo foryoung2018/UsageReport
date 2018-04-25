@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="done">संपन्न</string><!--Done-->
+    <string name="am">AM</string><!--AM-->
+    <string name="pm">PM</string><!--PM-->
+    <string name="quickselection_share">निम्न द्वारा साझा करें</string><!--Share via-->
+    <string name="carousel_title">पुनर्व्यवस्थित करने के लिए आइकनों को दबाएं और रोक कर रखें</string><!--Press and hold icons to rearrange-->
+    <string name="unremovable_warning_text">इस टैब को निकालने में असमर्थ</string><!--Unable to remove this tab-->
+    <string name="yes">हाँ</string><!--Yes-->
+    <string name="no">नहीं</string><!--No-->
+    <string name="menu_view_full">देखें</string><!--View-->
+    <string name="menu_view_video">चलाएं</string><!--Play-->
+    <string name="menu_slideshow">स्लाइडशो</string><!--Slideshow-->
+    <string name="menu_share">साझा करें</string><!--Share-->
+    <string name="menu_set_as">निम्न के रूप में सेट करें</string><!--Set as-->
+    <string name="menu_save_to_my_favorite">पसंदीदा के रूप में सहेजें</string><!--Set as favorite-->
+    <string name="menu_protect_info">सुरक्षा जानकारी</string><!--Protection info-->
+    <string name="meun_rotate">घुमाएं</string><!--Rotate-->
+    <string name="menu_delete">हटाएं</string><!--Delete-->
+    <string name="menu_crop">क्रॉप करें</string><!--Crop-->
+    <string name="menu_properties">विवरण</string><!--Details-->
+    <string name="menu_show_on_map">मैप पर दिखाएं</string><!--Show on map-->
+    <string name="menu_settings">सेटिंग</string><!--Settings-->
+    <string name="menu_send_photo_link_by_email">फ़ोटो लिंक साझा करें</string><!--Share photo link-->
+    <string name="refresh">रीफ़्रेश करें</string><!--Refresh-->
+    <string name="add_comments">टिप्पणी जोड़ें</string><!--Add comment-->
+    <string name="button_show_caption">कैप्शन दिखाएं</string><!--Show caption-->
+    <string name="button_hide_caption">कैप्शन छिपाएं</string><!--Hide caption-->
+    <string name="button_show_description">विवरण दिखाएं</string><!--Show description-->
+    <string name="button_hide_description">विवरण छिपाएं</string><!--Hide description-->
+    <string-array name="st_font_size_levels">
+        <item>छोटा</item><!--Small-->
+        <item>मध्यम</item><!--Medium-->
+        <item>बड़ा</item><!--Large-->
+        <item>असाधारण रूप से बड़ा</item><!--Extra large-->
+        <item>बहुत बड़ा</item><!--Huge-->
+    </string-array>
+    <string name="accessibility_tap_action">कार्य के लिए डबल टैप करें</string><!--Double tap to action-->
+    <string name="reminderview_common_unlock_hint_icon">आइकन ऊपर खींचें</string><!--Pull icon up-->
+    <string name="reminderview_common_unlock_hint_up">अनलॉक करने के लिए ऊपर खींचें</string><!--Pull up to unlock-->
+    <string-array name="weeklayout_secondary_text">
+        <item>रवि</item><!--SU-->
+        <item>M</item><!--M-->
+        <item>मंगल</item><!--TU-->
+        <item>बुध</item><!--W-->
+        <item>गुरू</item><!--TH-->
+        <item>शुक्र</item><!--F-->
+        <item>शनि</item><!--SA-->
+    </string-array>
+</resources>

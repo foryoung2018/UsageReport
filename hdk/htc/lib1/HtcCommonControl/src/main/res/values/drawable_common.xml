@@ -1,0 +1,8 @@
+<resources>
+    <!-- U16 Bill Lin Used for all Application Background -->
+    <drawable name="common_app_bkg">@color/ap_background_color</drawable>
+    <drawable name="common_app_bkg_dark">@color/dark_ap_background_color</drawable>
+    <drawable name="common_app_bkg_top_src">@color/multiply_color</drawable>
+    <drawable name="common_app_bkg_down_src_dark">@android:color/black</drawable>
+    <!-- U16 Bill Lin Used for all Application Background -->
+</resources>

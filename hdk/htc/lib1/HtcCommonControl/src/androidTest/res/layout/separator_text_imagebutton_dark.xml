@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.lib1.cc.widget.HtcListItemSeparator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sep_0"
+    htc:textMode="darklist"
+    htc:leftText="text and imagebutton">
+
+    <com.htc.lib1.cc.widget.HtcImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/icon_btn_add_dark"
+        />
+
+</com.htc.lib1.cc.widget.HtcListItemSeparator>
